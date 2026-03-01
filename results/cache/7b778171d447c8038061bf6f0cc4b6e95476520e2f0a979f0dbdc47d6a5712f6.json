@@ -1,0 +1,10 @@
+{
+  "text": "Certainly! Let\u2019s break down the difference between **correlation** and **causation** with clear definitions and examples.\n\n---\n\n### **1. Correlation**\n\n**Definition:**  \nCorrelation describes a relationship or association between two variables, where changes in one variable are related to changes in another. However, correlation does **not** mean that one variable causes the other to change.\n\n**Example:**  \n- **Ice cream sales and drowning rates:** During summer, both ice cream sales and drowning rates tend to increase. They are correlated because both go up during hot weather. However, buying ice cream does **not** cause more drownings. Instead, a third factor (hot weather) affects both.\n\n---\n\n### **2. Causation**\n\n**Definition:**  \nCausation means that changes in one variable **directly cause** changes in another variable. There is a cause-and-effect relationship.\n\n**Example:**  \n- **Smoking and lung cancer:** Numerous scientific studies show that smoking cigarettes causes an increased risk of developing lung cancer. Here, there is strong evidence for a causal relationship, not just a correlation.\n\n---\n\n### **Summary Table**\n\n|    | Correlation | Causation |\n|----|-------------|-----------|\n| **Meaning** | Variables move together, but one doesn\u2019t necessarily cause the other. | One variable directly affects the other. |\n| **Example** | Ice cream sales \u2194\ufe0e Drowning rates | Smoking \u2192 Lung cancer |\n\n---\n\n### **Key Point**\n\n**Correlation does not imply causation.** Just because two things happen together does not mean one causes the other. There may be other factors (called confounding variables) influencing both.\n\n---\n\n**In summary:**  \n- Correlation = Relationship/connection (no direct cause assumed).\n- Causation = One directly causes changes in the other.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 37,
+    "completion_tokens": 368,
+    "total_tokens": 405
+  },
+  "finish_reason": "stop"
+}

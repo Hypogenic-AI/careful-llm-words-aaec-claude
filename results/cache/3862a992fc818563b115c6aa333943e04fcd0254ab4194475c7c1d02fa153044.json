@@ -1,0 +1,10 @@
+{
+  "text": "His name is **Bill Lear**.\n\nBill Lear was an American inventor and businessman known for founding Learjet and for his work on aviation and electronics (such as the 8-track tape and innovations in aircraft batteries). He never graduated from college but became a major figure in the aerospace industry.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 53,
+    "completion_tokens": 58,
+    "total_tokens": 111
+  },
+  "finish_reason": "stop"
+}

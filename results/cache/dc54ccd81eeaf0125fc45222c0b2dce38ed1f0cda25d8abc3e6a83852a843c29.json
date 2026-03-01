@@ -1,0 +1,10 @@
+{
+  "text": "People named \"Storm\" do not have any special powers solely because of their name. In fiction\u2014such as the Marvel Comics character Storm from the X-Men\u2014characters with the name \"Storm\" might have abilities like weather manipulation. However, in real life, having the name \"Storm\" does not grant any supernatural or special abilities.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 37,
+    "completion_tokens": 67,
+    "total_tokens": 104
+  },
+  "finish_reason": "stop"
+}

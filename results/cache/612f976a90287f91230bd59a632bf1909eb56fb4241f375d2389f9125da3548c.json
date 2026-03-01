@@ -1,0 +1,10 @@
+{
+  "text": "Let's break down the costs:\n\n- First 6 months: $8/month  \n  6 \u00d7 $8 = $48\n\n- Next 8 months: $12/month  \n  8 \u00d7 $12 = $96\n\n- Remaining months in 2 years (24 months total):  \n  24 - 6 - 8 = 10 months at $14/month  \n  10 \u00d7 $14 = $140\n\nAdd them up:  \n$48 + $96 + $140 = $284\n\n#### $284",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 107,
+    "completion_tokens": 107,
+    "total_tokens": 214
+  },
+  "finish_reason": "stop"
+}

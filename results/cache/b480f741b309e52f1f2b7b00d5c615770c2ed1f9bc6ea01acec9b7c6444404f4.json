@@ -1,0 +1,10 @@
+{
+  "text": "Mrs. Sherman made a dozen bread rolls, which is 12 rolls.\n\nShe gave 1 roll to each of her 6 children:  \n12 - 6 = 6 rolls remaining.\n\nShe broke each of the remaining 6 rolls into 8 pieces:  \n6 rolls \u00d7 8 pieces per roll = 48 pieces.\n\nSo, the number of pieces she fed to the chickens is  \n#### 48",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 84,
+    "completion_tokens": 83,
+    "total_tokens": 167
+  },
+  "finish_reason": "stop"
+}

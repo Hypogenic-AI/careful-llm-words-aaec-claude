@@ -1,0 +1,10 @@
+{
+  "text": "WINNER: B\nREASON: Response B is more coherent and well-structured, with clear step-by-step explanations, labeled sections, and a concise summary that enhances logical flow and readability. It also anticipates further questions, making it more engaging and complete.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 1050,
+    "completion_tokens": 53,
+    "total_tokens": 1103
+  },
+  "finish_reason": "stop"
+}

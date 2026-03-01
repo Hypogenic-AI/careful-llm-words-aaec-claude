@@ -1,0 +1,10 @@
+{
+  "text": "The placebo effect occurs when a person experiences real improvements in their symptoms after receiving a treatment that is inactive or has no therapeutic value, such as a sugar pill or saline injection. This happens because the person believes the treatment is real and expects it to work. The expectation of benefit can trigger actual physiological changes in the body, such as the release of endorphins or alterations in brain activity related to pain, mood, and other functions.\n\nThe placebo effect demonstrates the powerful connection between the mind and the body. It shows that thoughts, beliefs, and expectations can significantly influence physical health and well-being. This mind-body connection suggests that psychological factors can affect biological processes, highlighting the importance of considering both mental and physical aspects in healthcare and healing.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 44,
+    "completion_tokens": 147,
+    "total_tokens": 191
+  },
+  "finish_reason": "stop"
+}

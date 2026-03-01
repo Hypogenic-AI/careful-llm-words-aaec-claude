@@ -1,0 +1,10 @@
+{
+  "text": "First, calculate the total number of pails Baldur gets each day:\n\nMorning: 5 pails  \nAfternoon: 6 pails  \nTotal pails per day = 5 + 6 = 11 pails\n\nEach pail contains 5 liters of water:\n\nTotal liters per day = 11 pails \u00d7 5 liters/pail = 55 liters\n\n#### 55",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 84,
+    "completion_tokens": 80,
+    "total_tokens": 164
+  },
+  "finish_reason": "stop"
+}

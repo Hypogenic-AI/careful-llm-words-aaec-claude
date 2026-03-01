@@ -1,0 +1,10 @@
+{
+  "text": "Sleep plays a crucial role in memory consolidation, which is the process by which newly acquired information is stabilized and stored in the brain for long-term use. During sleep\u2014particularly during specific stages such as slow-wave (deep) sleep and rapid eye movement (REM) sleep\u2014the brain actively reorganizes and strengthens connections between neurons that are involved in learning and memory.\n\nSlow-wave sleep is primarily associated with consolidating declarative memories (facts and events), while REM sleep is linked to consolidating procedural memories (skills and tasks) and emotional memories. During these stages, the brain replays and processes information learned during the day, transferring it from short-term storage in the hippocampus to long-term storage in the cortex.\n\nOverall, getting adequate, good-quality sleep after learning enhances memory retention, while sleep deprivation or poor-quality sleep impairs the consolidation process and makes it harder to recall information later.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 34,
+    "completion_tokens": 176,
+    "total_tokens": 210
+  },
+  "finish_reason": "stop"
+}

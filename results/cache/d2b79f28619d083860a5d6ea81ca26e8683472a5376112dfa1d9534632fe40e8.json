@@ -1,0 +1,10 @@
+{
+  "text": "Each new record requires 2 old records to trade.\n\nThe 5 people leave with 7 new records in total.\n\nSo, the total number of old records traded in is:\n\\( 7 \\text{ new records} \\times 2 \\text{ old records per new record} = 14 \\text{ old records} \\)\n\n#### 14",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 93,
+    "completion_tokens": 72,
+    "total_tokens": 165
+  },
+  "finish_reason": "stop"
+}

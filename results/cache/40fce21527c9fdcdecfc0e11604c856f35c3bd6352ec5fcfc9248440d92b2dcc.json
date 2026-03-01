@@ -1,0 +1,10 @@
+{
+  "text": "WINNER: B\nREASON: Response B provides a more detailed and stepwise explanation of how vaccines work and why herd immunity matters, while avoiding unsupported or overconfident claims. It also clarifies that vaccines can reduce the severity of illness, not just prevent it, which is a more nuanced and accurate statement.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 669,
+    "completion_tokens": 64,
+    "total_tokens": 733
+  },
+  "finish_reason": "stop"
+}

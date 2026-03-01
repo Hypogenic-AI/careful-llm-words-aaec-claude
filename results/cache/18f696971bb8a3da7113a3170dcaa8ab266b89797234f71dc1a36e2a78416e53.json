@@ -1,0 +1,10 @@
+{
+  "text": "Yes, machine learning algorithms can be biased. Bias can arise from various sources, such as biased training data, flawed data collection methods, or the way algorithms are designed and implemented. If the data used to train an algorithm contains stereotypes, imbalances, or historical inequalities, the model may learn and perpetuate those biases in its predictions or decisions. Therefore, it is important to carefully assess and mitigate bias in machine learning systems to ensure fairness and accuracy.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 32,
+    "completion_tokens": 90,
+    "total_tokens": 122
+  },
+  "finish_reason": "stop"
+}

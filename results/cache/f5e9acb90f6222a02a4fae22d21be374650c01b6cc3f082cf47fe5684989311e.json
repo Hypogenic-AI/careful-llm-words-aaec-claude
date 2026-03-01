@@ -1,0 +1,10 @@
+{
+  "text": "Let's break down the problem step by step:\n\n### 1. Assign Variables\n\n- Let the amount Ronnie was given = \\( R \\)\n- Let the amount Rissa was given = \\( S \\)\n- Let the amount each gave to their little sister = \\( x \\)\n\nGiven:\n- \\( R = \\$5 \\)\n- \\( S = 3 \\times R = 3 \\times 5 = \\$15 \\)\n\n### 2. After Giving Away \\( x \\)\n\n- Ronnie has \\( R - x \\) left.\n- Rissa has \\( S - x \\) left.\n\n### 3. Rissa is Left with \\( \\frac{4}{5} \\) of Her Money\n\nSo,\n\\[\nS - x = \\frac{4}{5}S\n\\]\n\nPlug in \\( S = 15 \\):\n\n\\[\n15 - x = \\frac{4}{5} \\times 15\n\\]\n\\[\n15 - x = 12\n\\]\n\\[\nx = 15 - 12 = 3\n\\]\n\n### 4. How Much is Left in Ronnie's Money?\n\nRonnie has \\( R - x = 5 - 3 = 2 \\)\n\n---\n\n**Final Answer:**\n\n#### 2",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 93,
+    "completion_tokens": 258,
+    "total_tokens": 351
+  },
+  "finish_reason": "stop"
+}

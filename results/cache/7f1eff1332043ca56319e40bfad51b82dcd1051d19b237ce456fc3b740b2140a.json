@@ -1,0 +1,10 @@
+{
+  "text": "WINNER: B\nREASON: Response B provides more depth and nuance by detailing specific sentencing options, the role of judicial discretion, and how the balance between punishment and rehabilitation varies by offense type and offender history. It also offers concrete examples and a clearer explanation of how the system operates in practice.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 590,
+    "completion_tokens": 60,
+    "total_tokens": 650
+  },
+  "finish_reason": "stop"
+}

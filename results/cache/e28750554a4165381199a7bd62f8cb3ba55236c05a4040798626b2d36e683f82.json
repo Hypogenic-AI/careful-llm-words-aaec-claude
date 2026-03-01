@@ -1,0 +1,10 @@
+{
+  "text": "Let's solve step by step:\n\n1. **Total plants:** 100\n\n2. **Indoor plants:**  \n   One-fourth of 100 = \\( \\frac{1}{4} \\times 100 = 25 \\)\n\n3. **Remaining plants after indoor:**  \n   \\( 100 - 25 = 75 \\)\n\n4. **Outdoor plants:**  \n   Two-thirds of 75 = \\( \\frac{2}{3} \\times 75 = 50 \\)\n\n5. **Flowering plants:**  \n   Remaining after indoor and outdoor = \\( 75 - 50 = 25 \\)\n\n6. **Percent of flowering plants:**  \n   \\( \\frac{25}{100} \\times 100\\% = 25\\% \\)\n\n**Final answer:**\n\n#### 25",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 79,
+    "completion_tokens": 164,
+    "total_tokens": 243
+  },
+  "finish_reason": "stop"
+}

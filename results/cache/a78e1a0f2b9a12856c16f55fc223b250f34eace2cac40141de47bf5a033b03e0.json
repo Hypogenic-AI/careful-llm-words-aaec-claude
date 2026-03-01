@@ -1,0 +1,10 @@
+{
+  "text": "**Correlation** means that two variables are related\u2014they tend to move together in some way. However, correlation does *not* mean that one causes the other.\n\n**Causation** means that one variable actually causes a change in the other.\n\n**Examples:**\n\n**Correlation Example:**  \nIce cream sales and drowning incidents both increase in summer. These two variables are correlated, but buying ice cream doesn\u2019t cause drowning. Instead, both increase because more people swim and eat ice cream when it\u2019s hot.\n\n**Causation Example:**  \nSmoking and lung cancer are causally linked. Extensive research shows that smoking increases the risk of developing lung cancer; thus, smoking causes lung cancer.\n\n**Summary:**  \n- Correlation: Variables move together (may be coincidental or due to a third factor).\n- Causation: One variable directly affects the other.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 36,
+    "completion_tokens": 172,
+    "total_tokens": 208
+  },
+  "finish_reason": "stop"
+}

@@ -1,0 +1,10 @@
+{
+  "text": "Sure! Let\u2019s break down the question step by step:\n\n**1. What does it mean to provide video recordings of lectures?**\n- Instructors record their live lectures and make these recordings available to students online, so students can watch them at their own convenience.\n\n**2. Why might students choose to attend class in person?**\n- To participate in discussions or ask questions in real time.\n- To stay engaged and focused.\n- For in-person interaction with the instructor or classmates.\n- Because attendance is required or incentivized.\n\n**3. Why might students choose NOT to attend class if recordings are available?**\n- Convenience: They can watch the lecture anytime, anywhere.\n- Time management: They can pause, rewind, or speed up videos.\n- Scheduling conflicts: They might have other commitments during class time.\n- Preference for self-paced learning.\n\n**4. What does research and experience say?**\n- Multiple studies across different universities have found that when lecture recordings are provided, average in-person attendance tends to decrease.\n- Some students continue attending for the reasons above, but many opt to only watch the recordings.\n- The effect is usually more pronounced in large lecture classes and less for smaller, discussion-based or interactive courses.\n\n**5. Are there exceptions?**\n- If attendance is graded or otherwise required, the drop may be less.\n- Some students still prefer in-person learning, so not everyone stops attending.\n\n**Summary Answer:**  \nWhen video recordings of lectures are provided, class attendance generally decreases. Many students choose to skip in-person lectures and watch the recordings instead, mainly for convenience and flexibility. However, some students continue to attend, especially if attendance is required or if they benefit from the live classroom environment. The overall trend, supported by research, is a decline in physical attendance when recordings are available.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 51,
+    "completion_tokens": 363,
+    "total_tokens": 414
+  },
+  "finish_reason": "stop"
+}

@@ -1,0 +1,10 @@
+{
+  "text": "<think>I should start by stating the weight of Kory's dog, since that is the reference point for the other weights.</think>\nKory\u2019s dog weighs 60 pounds.\n<think>Now I should calculate the weight of Elijah\u2019s first dog, which is one-fourth the weight of Kory\u2019s dog.</think>\nElijah\u2019s first dog weighs one-fourth of 60 pounds, which is 15 pounds.\n<think>Next, I need to find the weight of Elijah\u2019s second dog, which is half the weight of Kory\u2019s dog.</think>\nElijah\u2019s second dog weighs half of 60 pounds, which is 30 pounds.\n<think>Now I should add up the weights of all three dogs to find the total.</think>\nThe total weight is 60 + 15 + 30 = 105 pounds.\n<think>I should now present the final answer after the required ####.</think>\n#### 105",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 271,
+    "completion_tokens": 192,
+    "total_tokens": 463
+  },
+  "finish_reason": "stop"
+}

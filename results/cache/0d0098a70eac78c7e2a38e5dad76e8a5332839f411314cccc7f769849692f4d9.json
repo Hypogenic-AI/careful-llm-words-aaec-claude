@@ -1,0 +1,10 @@
+{
+  "text": "Yes, I am an artificial intelligence designed to assist with questions and provide information.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 31,
+    "completion_tokens": 16,
+    "total_tokens": 47
+  },
+  "finish_reason": "stop"
+}

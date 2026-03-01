@@ -1,0 +1,10 @@
+{
+  "text": "First, add up the total number of guns:\n\nDJ: 8  \nNick: 10  \nRJ: 1  \nRichard: 5  \n\nTotal = 8 + 10 + 1 + 5 = 24\n\nThere are 4 people.\n\nDivide the total number of guns by the number of people:\n\n24 \u00f7 4 = 6\n\n#### 6",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 88,
+    "completion_tokens": 77,
+    "total_tokens": 165
+  },
+  "finish_reason": "stop"
+}

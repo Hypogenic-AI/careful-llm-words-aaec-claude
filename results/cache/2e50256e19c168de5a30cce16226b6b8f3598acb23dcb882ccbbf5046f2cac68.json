@@ -1,0 +1,10 @@
+{
+  "text": "<think>I should start by stating the total number of books and the fractions written in English and German.</think>\nThere are 50 books in the library, with half written in English and 10% in German.\n<think>Now, I should calculate the number of English books by taking half of 50.</think>\nHalf of 50 is 25, so there are 25 English books.\n<think>Next, I need to find the number of German books by calculating 10% of 50.</think>\nTen percent of 50 is 5, so there are 5 German books.\n<think>Now, I should explain that the remaining books are in Spanish, and calculate that number.</think>\nThe remaining books are written in Spanish, so I subtract the English and German books from the total: 50 - 25 - 5 = 20.\n<think>Finally, I should present the answer in the required format.</think>\n#### 20",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 254,
+    "completion_tokens": 199,
+    "total_tokens": 453
+  },
+  "finish_reason": "stop"
+}

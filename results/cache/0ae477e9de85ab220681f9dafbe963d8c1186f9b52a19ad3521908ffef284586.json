@@ -1,0 +1,10 @@
+{
+  "text": "WINNER: A  \nREASON: Response A provides more depth and nuance by explaining the process of resistance development, the consequences for public health, and mentioning the lack of new antibiotics as a contributing factor, making its analysis more comprehensive and insightful than Response B.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 423,
+    "completion_tokens": 52,
+    "total_tokens": 475
+  },
+  "finish_reason": "stop"
+}

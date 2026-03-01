@@ -1,0 +1,10 @@
+{
+  "text": "Let\u2019s break down the problem:\n\n- Sean has 56 marbles.\n- Carl has four times as many marbles as Sean:  \n  Carl = 4 \u00d7 56 = 224 marbles.\n- Sean has half as many marbles as Cal, so Cal has twice as many as Sean:  \n  Cal = 2 \u00d7 56 = 112 marbles.\n\nCombined, Carl and Cal have:  \n224 + 112 = 336 marbles.\n\nFinal answer:\n#### 336",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 73,
+    "completion_tokens": 101,
+    "total_tokens": 174
+  },
+  "finish_reason": "stop"
+}

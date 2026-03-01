@@ -1,0 +1,10 @@
+{
+  "text": "Let's break down the problem step by step:\n\n1. **Middle Shelves:**\n   - Each middle shelf holds 10 books.\n   - There are 2 middle shelves.\n   - Total books on middle shelves = \\(2 \\times 10 = 20\\) books.\n\n2. **Bottom Shelf:**\n   - The bottom shelf holds twice as many books as a middle shelf.\n   - Each middle shelf holds 10 books, so bottom shelf holds \\(2 \\times 10 = 20\\) books.\n\n3. **Top Shelf:**\n   - The top shelf holds 5 fewer books than the bottom shelf.\n   - Bottom shelf holds 20 books, so top shelf holds \\(20 - 5 = 15\\) books.\n\n4. **Total Capacity of One Bookcase:**\n   - Add up the books each shelf can hold:\n   \\[\n   \\text{Top shelf} + \\text{2 Middle shelves} + \\text{Bottom shelf} = 15 + 10 + 10 + 20 = 55\n   \\]\n   So, one bookcase can hold 55 books.\n\n5. **Total Books Elly Has:**\n   - Elly has 110 books.\n\n6. **Number of Bookcases Needed:**\n   - Divide the total number of books by the capacity of one bookcase:\n   \\[\n   \\frac{110}{55} = 2\n   \\]\n\n#### 2",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 116,
+    "completion_tokens": 297,
+    "total_tokens": 413
+  },
+  "finish_reason": "stop"
+}

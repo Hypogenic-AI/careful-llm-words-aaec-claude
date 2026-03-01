@@ -1,0 +1,27 @@
+{
+  "success": true,
+  "stages": {
+    "resource_finder": {
+      "success": true,
+      "completion_marker": "/workspaces/careful-llm-words-aaec-claude/.resource_finder_complete",
+      "outputs": {
+        "literature_review": "/workspaces/careful-llm-words-aaec-claude/literature_review.md",
+        "resources_catalog": "/workspaces/careful-llm-words-aaec-claude/resources.md",
+        "papers_dir": "/workspaces/careful-llm-words-aaec-claude/papers",
+        "datasets_dir": "/workspaces/careful-llm-words-aaec-claude/datasets",
+        "code_dir": "/workspaces/careful-llm-words-aaec-claude/code"
+      },
+      "log_file": "/workspaces/careful-llm-words-aaec-claude/logs/resource_finder_claude.log",
+      "transcript_file": "/workspaces/careful-llm-words-aaec-claude/logs/resource_finder_claude_transcript.jsonl",
+      "elapsed_time": 1917.8451869487762
+    },
+    "experiment_runner": {
+      "success": true,
+      "return_code": 0,
+      "elapsed_time": 2783.2784180641174,
+      "log_file": "/workspaces/careful-llm-words-aaec-claude/logs/execution_claude.log",
+      "transcript_file": "/workspaces/careful-llm-words-aaec-claude/logs/execution_claude_transcript.jsonl"
+    }
+  },
+  "work_dir": "/workspaces/careful-llm-words-aaec-claude"
+}

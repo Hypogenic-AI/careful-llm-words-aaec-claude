@@ -1,0 +1,10 @@
+{
+  "text": "Let's solve the problem step by step:\n\n1. Jean starts with 30 lollipops.\n2. Jean eats 2 lollipops.\n   - 30 - 2 = 28 lollipops remain.\n3. Jean wants to package the remaining lollipops, 2 per bag.\n   - To find out how many bags Jean can fill, divide the remaining lollipops by 2:\n   - 28 \u00f7 2 = 14\n\nSo, Jean can fill\n\n#### 14\n\nbags.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 88,
+    "completion_tokens": 112,
+    "total_tokens": 200
+  },
+  "finish_reason": "stop"
+}

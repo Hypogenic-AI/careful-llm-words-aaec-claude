@@ -1,0 +1,10 @@
+{
+  "text": "Japan is a developed country that consumes much more seafood per person than the United States. On average, Japanese people eat about 45\u201350 kg (99\u2013110 lbs) of seafood per person per year, while in the US, the average is around 7\u20138 kg (15\u201318 lbs) per person per year.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 40,
+    "completion_tokens": 67,
+    "total_tokens": 107
+  },
+  "finish_reason": "stop"
+}

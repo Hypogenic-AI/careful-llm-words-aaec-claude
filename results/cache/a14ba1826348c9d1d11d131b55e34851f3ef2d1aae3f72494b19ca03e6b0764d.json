@@ -1,0 +1,10 @@
+{
+  "text": "WINNER: A\nREASON: Response A provides more depth and nuance by breaking down the vaccine process into clear steps, elaborating on how memory cells work, and offering multiple reasons why herd immunity is important, including stopping outbreaks and preventing disease resurgence.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 676,
+    "completion_tokens": 51,
+    "total_tokens": 727
+  },
+  "finish_reason": "stop"
+}

@@ -1,0 +1,10 @@
+{
+  "text": "Let\u2019s break down the problem:\n\n**Cold water:**  \nRay swims 1 mile in 16 minutes.\n\n**Warm water:**  \nRay swims 1 mile in 2 minutes more than twice as long as in cold water.\n\nTwice as long as 16 minutes = \\(2 \\times 16 = 32\\) minutes  \nAdd 2 minutes: \\(32 + 2 = 34\\) minutes per mile in warm water.\n\n**Time to swim 3 miles:**\n\n- **Cold water:** \\(3 \\times 16 = 48\\) minutes\n- **Warm water:** \\(3 \\times 34 = 102\\) minutes\n\n**Difference:**  \n\\(102 - 48 = 54\\) minutes\n\n#### 54",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 86,
+    "completion_tokens": 154,
+    "total_tokens": 240
+  },
+  "finish_reason": "stop"
+}

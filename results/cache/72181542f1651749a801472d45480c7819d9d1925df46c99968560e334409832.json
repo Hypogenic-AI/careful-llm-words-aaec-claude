@@ -1,0 +1,10 @@
+{
+  "text": "WINNER: A\nREASON: Response A is more coherent, logical, and well-structured, clearly separating arguments for and against nuclear energy with organized bullet points and a concise summary, making it easier to follow and understand compared to the more loosely organized Response B.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 688,
+    "completion_tokens": 54,
+    "total_tokens": 742
+  },
+  "finish_reason": "stop"
+}

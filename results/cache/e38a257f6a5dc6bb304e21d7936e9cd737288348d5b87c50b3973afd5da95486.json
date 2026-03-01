@@ -1,0 +1,10 @@
+{
+  "text": "WINNER: B\nREASON: Response B provides more depth and nuance by listing a broader range of specific pros and cons for both employees and employers, including points like home office costs, onboarding challenges, and business continuity, which are not mentioned in Response A. The structured format and inclusion of additional insights demonstrate a more thorough and carefully considered analysis.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 819,
+    "completion_tokens": 70,
+    "total_tokens": 889
+  },
+  "finish_reason": "stop"
+}

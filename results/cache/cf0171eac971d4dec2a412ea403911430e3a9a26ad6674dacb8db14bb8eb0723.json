@@ -1,0 +1,10 @@
+{
+  "text": "<think>I want to begin by acknowledging the question directly and honestly.</think>\nRight now, I am focused on carefully considering how to respond to your question. \n<think>I should elaborate on my process, highlighting the way I generate responses.</think>\nMy goal is to provide thoughtful and accurate answers by analyzing your input and drawing from my training data.\n<think>I should clarify that I do not have feelings or personal thoughts, since I am an AI.</think>\nAs an AI language model, I do not possess consciousness or personal experiences. \n<think>It would be helpful to invite further conversation to keep things engaging.</think>\nIf you have any specific topics or questions in mind, please let me know!",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 214,
+    "completion_tokens": 144,
+    "total_tokens": 358
+  },
+  "finish_reason": "stop"
+}

@@ -1,0 +1,10 @@
+{
+  "text": "Underneath Denver International Airport (DEN), there are primarily service tunnels, baggage handling systems, and utility corridors. These underground areas are used for airport operations, including:\n\n- **Baggage handling systems:** A large, now mostly defunct, automated baggage system was built below the airport, and some conveyor belts and maintenance areas remain in use.\n- **Utility tunnels:** Extensive tunnels for electrical, plumbing, fuel lines, and other maintenance needs run beneath the terminals and concourses.\n- **Employee and service corridors:** These allow staff to move between parts of the airport and transport goods and equipment.\n\nThere are also some office spaces, mechanical rooms, and emergency shelters as part of standard airport infrastructure.\n\n**Conspiracy Theories:**  \nAlthough there are many conspiracy theories suggesting secret bunkers, military bases, or even alien facilities beneath Denver International Airport, there is no credible evidence to support these claims. The underground areas are typical for a major international airport, designed for operations and logistics.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 32,
+    "completion_tokens": 196,
+    "total_tokens": 228
+  },
+  "finish_reason": "stop"
+}

@@ -1,0 +1,10 @@
+{
+  "text": "Let's break down the problem step by step:\n\n1. Let the amount of money Ethel has be \\( E \\).\n2. According to the problem, Ethel has $8. So, \\( E = 8 \\).\n3. Jimmy has $2 more than twice the money Ethel has.\n4. Twice the money Ethel has is \\( 2 \\times E = 2 \\times 8 = 16 \\).\n5. $2 more than that is \\( 16 + 2 = 18 \\).\n\nSo, Jimmy has\n\n#### 18",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 66,
+    "completion_tokens": 115,
+    "total_tokens": 181
+  },
+  "finish_reason": "stop"
+}

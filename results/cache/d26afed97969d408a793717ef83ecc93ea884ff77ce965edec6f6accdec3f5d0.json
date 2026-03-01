@@ -1,0 +1,10 @@
+{
+  "text": "Let's break down the problem step by step:\n\n1. **Let the total land Mr. Ruther had at first be \\( x \\) hectares.**\n\n2. **He sold \\( \\frac{3}{5} \\) of his land.**\n   - So, the land he sold = \\( \\frac{3}{5}x \\)\n\n3. **The land he had left = Total land - Land sold**\n   - Land left = \\( x - \\frac{3}{5}x \\)\n\n4. **Simplify the expression:**\n   - \\( x - \\frac{3}{5}x = \\frac{5}{5}x - \\frac{3}{5}x = \\frac{2}{5}x \\)\n\n5. **We are told he had 12.8 hectares left:**\n   - \\( \\frac{2}{5}x = 12.8 \\)\n\n6. **Solve for \\( x \\):**\n   - Multiply both sides by 5: \\( 2x = 12.8 \\times 5 \\)\n   - \\( 2x = 64 \\)\n   - Divide both sides by 2: \\( x = \\frac{64}{2} \\)\n   - \\( x = 32 \\)\n\n#### 32 hectares",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 69,
+    "completion_tokens": 268,
+    "total_tokens": 337
+  },
+  "finish_reason": "stop"
+}

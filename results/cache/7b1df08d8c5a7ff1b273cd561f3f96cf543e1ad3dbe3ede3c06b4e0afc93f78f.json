@@ -1,0 +1,10 @@
+{
+  "text": "WINNER: A\nREASON: Response A provides a more detailed and structured list of factors, all of which are well-supported by historical evidence and avoid overconfident or unsupported claims, making it more likely to be factually accurate.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 712,
+    "completion_tokens": 48,
+    "total_tokens": 760
+  },
+  "finish_reason": "stop"
+}

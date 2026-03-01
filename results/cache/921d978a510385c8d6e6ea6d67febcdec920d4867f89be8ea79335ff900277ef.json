@@ -1,0 +1,10 @@
+{
+  "text": "WINNER: A\nREASON: Response A provides a more detailed and nuanced explanation, citing multiple mechanisms (resilience, functional complementarity, genetic diversity, food web stability, and ecosystem services) and avoids overconfident or unsupported claims, making it more factually accurate and comprehensive.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 570,
+    "completion_tokens": 58,
+    "total_tokens": 628
+  },
+  "finish_reason": "stop"
+}

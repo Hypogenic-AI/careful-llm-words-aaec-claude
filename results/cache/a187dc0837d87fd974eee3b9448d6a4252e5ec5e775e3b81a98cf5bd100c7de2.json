@@ -1,0 +1,10 @@
+{
+  "text": "Science suggests that dreams can reveal important insights about our emotions, memories, and subconscious thoughts. Research indicates that dreams often reflect our daily experiences, unresolved feelings, worries, and desires. They can serve as a way for the brain to process emotions, consolidate memories, and work through problems or stress. In essence, dreams offer a window into our inner psychological world and can help us better understand our mental and emotional state.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 43,
+    "completion_tokens": 83,
+    "total_tokens": 126
+  },
+  "finish_reason": "stop"
+}

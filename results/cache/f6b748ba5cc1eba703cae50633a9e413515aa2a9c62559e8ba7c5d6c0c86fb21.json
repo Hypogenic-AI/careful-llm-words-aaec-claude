@@ -1,0 +1,10 @@
+{
+  "text": "Gerrymandering significantly affects democratic representation in several ways:\n\n**1. Distorts Electoral Outcomes:**  \nGerrymandering is the manipulation of electoral district boundaries to favor a particular political party or group. This can lead to a situation where the distribution of elected representatives does not accurately reflect the voters\u2019 preferences. For example, a party can win a majority of seats even if it receives fewer votes overall.\n\n**2. Reduces Electoral Competition:**  \nBy drawing districts to include more supporters of one party, incumbents or parties can create \u201csafe\u201d seats. This reduces competition, discourages challengers, and can lead to less responsive and less accountable representatives.\n\n**3. Dilutes Minority Representation:**  \nGerrymandering can be used to dilute the voting power of racial, ethnic, or political minorities. This is done either by \u201ccracking\u201d (spreading a group thinly across many districts) or \u201cpacking\u201d (concentrating them in a single district), minimizing their influence in other districts.\n\n**4. Decreases Voter Engagement:**  \nWhen voters feel their votes do not matter due to predetermined outcomes, turnout and civic engagement can decline. People may feel disillusioned or powerless, further weakening the democratic process.\n\n**5. Undermines the Principle of \u201cOne Person, One Vote\u201d:**  \nGerrymandering can make some votes count more than others, undermining the fundamental democratic principle that every vote should have equal weight.\n\n**In summary:**  \nGerrymandering undermines fair representation, weakens electoral competition, and can erode trust in democracy. It allows politicians to choose their voters, rather than voters choosing their representatives, distorting the foundations of representative government.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 36,
+    "completion_tokens": 343,
+    "total_tokens": 379
+  },
+  "finish_reason": "stop"
+}

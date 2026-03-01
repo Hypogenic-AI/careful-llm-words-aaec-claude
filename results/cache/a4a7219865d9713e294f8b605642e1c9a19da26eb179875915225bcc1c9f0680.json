@@ -1,0 +1,10 @@
+{
+  "text": "WINNER: B\nREASON: Response B provides a more detailed and nuanced explanation of how inflation affects ordinary people, including specific examples and distinctions (such as the impact on borrowers vs. savers), while maintaining factual accuracy and avoiding unsupported claims.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 535,
+    "completion_tokens": 50,
+    "total_tokens": 585
+  },
+  "finish_reason": "stop"
+}

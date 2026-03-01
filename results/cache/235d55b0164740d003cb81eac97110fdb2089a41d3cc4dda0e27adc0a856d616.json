@@ -1,0 +1,10 @@
+{
+  "text": "<think>I need to restate the problem to ensure clarity and set up the calculation.</think>\nYou paid $40 for a foot-long fish sub at Subway, and you paid three times as much for a six-inch cold-cut combo sub.\n<think>Now, I should calculate the cost of the six-inch cold-cut combo sub by multiplying $40 by 3.</think>\nThree times $40 is $120, so the six-inch cold-cut combo sub costs $120.\n<think>I need to add the two amounts together to find the total cost for lunch.</think>\nThe total cost is $40 + $120 = $160.\n<think>I should present the final answer after the required #### marker.</think>\n#### 160",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 251,
+    "completion_tokens": 149,
+    "total_tokens": 400
+  },
+  "finish_reason": "stop"
+}

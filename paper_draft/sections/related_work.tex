@@ -1,0 +1,32 @@
+\section{Related Work}
+\label{sec:related_work}
+
+\para{Chain-of-thought prompting.}
+\citet{wei2022chain} showed that prompting LLMs to produce intermediate reasoning steps dramatically improves performance on arithmetic, commonsense, and symbolic reasoning tasks.
+Subsequent work has refined CoT through self-consistency decoding~\citep{wang2023selfconsistency}, automatic prompt construction, and task decomposition.
+These methods place all reasoning \emph{before} the answer, treating deliberation as a preamble rather than an ongoing process.
+\iscotshort differs by interleaving reasoning \emph{between} sentences of the visible output, so that each sentence is preceded by its own deliberation step.
+
+\para{Pause and thinking tokens.}
+\citet{goyal2024think} introduced learnable \texttt{<pause>} tokens that, when appended to the input during both pretraining and finetuning, improve downstream task accuracy on benchmarks such as SQuAD (+18\% EM) and CommonSenseQA (+8\%).
+\citet{herel2024thinking} proposed inserting thinking tokens after each word in LSTM-based language models, observing per-sentence perplexity improvements on reasoning-heavy sentences but slight degradation on average perplexity.
+\citet{galashov2025catch} made pause tokens adaptive, allowing the model to request additional computation by emitting \texttt{<DON'T KNOW>} tokens when uncertain.
+All three approaches require training modifications.
+We test whether the same intuition---giving the model more time to think---can be realized purely through prompting, using the model's native instruction-following ability.
+
+\para{Latent reasoning.}
+\citet{hao2024coconut} introduced Coconut, which feeds the model's last hidden state back as the next input embedding to enable reasoning in a continuous latent space.
+\citet{lovelace2025star} integrated latent diffusion planning into autoregressive generation, pausing generation to perform diffusion-based planning in sentence embedding space before resuming.
+These methods achieve sentence-level planning but require architectural modifications and specialized training.
+Our work tests whether a similar effect---sentence-level deliberation---can be achieved with an off-the-shelf model through structured prompting alone.
+
+\para{Test-time compute scaling.}
+\citet{snell2024scaling} systematically studied test-time compute allocation, showing that compute-optimal strategies per prompt can improve efficiency by 4$\times$ over best-of-$N$ sampling.
+\citet{muennighoff2025s1} demonstrated that appending ``Wait'' tokens to extend a model's thinking process leads to self-correction and improved performance on competition mathematics, with their s1-32B model exceeding o1-preview on MATH and AIME24 benchmarks.
+These studies focus on maximizing benchmark accuracy through more thinking.
+We complement this line of work by studying how additional test-time compute changes the \emph{qualitative character} of the text, not just its correctness.
+
+\para{LLM-as-judge evaluation.}
+Our evaluation relies partly on LLM-as-judge pairwise comparisons~\citep{zheng2023judging}.
+This approach is known to exhibit systematic biases, particularly toward longer and more verbose responses.
+We observe this bias directly in our results and discuss its implications for evaluating methods that trade breadth for per-sentence quality.

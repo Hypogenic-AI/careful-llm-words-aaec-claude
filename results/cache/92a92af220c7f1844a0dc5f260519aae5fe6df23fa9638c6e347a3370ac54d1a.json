@@ -1,0 +1,10 @@
+{
+  "text": "Let's break it down step by step:\n\n1. The question is about the language spoken in different countries or regions.\n2. First example: France \u2192 French is spoken.\n3. Second example: England \u2192 English is spoken.\n4. Third example: Wales \u2192 Welsh is spoken.\n5. The last part of the question asks: \"In Australia they speak what?\"\n\nStep-by-step reasoning:\n- Australia is an English-speaking country.\n- The official language and the language most commonly spoken in Australia is English.\n\n**Final answer:**  \nIn Australia, they speak English.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 113,
+    "total_tokens": 175
+  },
+  "finish_reason": "stop"
+}

@@ -1,0 +1,10 @@
+{
+  "text": "At the Battle of Thermopylae in 480 BCE, the Greek force that held off the Persian army was composed of approximately 7,000 men at the start of the battle. This included 300 Spartans led by King Leonidas, along with soldiers from several other Greek city-states such as Thespiae, Thebes, and others. After several days of fighting, the majority of the Greek forces withdrew, leaving behind a rearguard of about 1,500 men\u2014including the 300 Spartans, 700 Thespians, and a smaller contingent of Thebans\u2014to make a final stand.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 44,
+    "completion_tokens": 128,
+    "total_tokens": 172
+  },
+  "finish_reason": "stop"
+}

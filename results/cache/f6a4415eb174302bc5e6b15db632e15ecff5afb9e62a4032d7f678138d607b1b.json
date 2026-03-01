@@ -1,0 +1,10 @@
+{
+  "text": "In the United States, there are very few types of clothing that are outright illegal at the federal level. However, certain clothing or the way it is worn can be restricted by federal, state, or local laws under specific circumstances, often for reasons of public safety, decency, or security. Some examples include:\n\n1. **Indecent Exposure**: Laws in all states prohibit public nudity or wearing clothing that exposes genitals or, in some places, female breasts. What counts as \"indecent\" can vary by location.\n\n2. **Obscenity and Offensive Material**: Clothing with obscene images, hate speech, or that incites violence can be restricted in schools, workplaces, or certain public venues.\n\n3. **Impersonating Officials**: Wearing uniforms or badges that impersonate police, military, or emergency personnel is illegal.\n\n4. **Masks and Face Coverings**: Certain states or cities have \"anti-mask\" laws that prohibit wearing masks or face coverings in public, often originally intended to prevent crimes or hide identities (though some of these laws were suspended or modified during the COVID-19 pandemic).\n\n5. **Gang-Related Attire**: Some schools or municipalities ban clothing associated with gangs to reduce violence.\n\n6. **Trademark and Copyright Violation**: Selling clothing that illegally uses copyrighted logos or trademarks is prohibited.\n\n7. **Body Armor**: In some places, convicted felons are restricted from wearing body armor.\n\n8. **Costumes During Crimes**: Wearing disguises (including certain costumes) while committing a crime can result in additional charges.\n\n**Note:** Context matters. Most clothing restrictions relate to conduct (e.g., indecency, impersonation, or concealment during a crime) rather than the clothing itself. The First Amendment protects most forms of self-expression, including clothing, but there are exceptions for public safety and order. Local and state laws may have additional, specific restrictions.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 35,
+    "completion_tokens": 391,
+    "total_tokens": 426
+  },
+  "finish_reason": "stop"
+}

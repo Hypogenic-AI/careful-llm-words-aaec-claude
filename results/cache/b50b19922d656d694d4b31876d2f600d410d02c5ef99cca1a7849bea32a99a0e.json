@@ -1,0 +1,10 @@
+{
+  "text": "Sure! Let's think through the question step by step:\n\n1. **What is gravity?**\n   - Gravity is a force that attracts objects with mass toward each other. On Earth, it pulls everything toward the planet's center.\n\n2. **Where is the International Space Station (ISS)?**\n   - The ISS orbits Earth at an altitude of about 400 kilometers (250 miles) above the surface.\n\n3. **Does gravity exist at the ISS's altitude?**\n   - Yes! Gravity gets weaker with distance from Earth, but it doesn't disappear just a few hundred kilometers up. At the ISS's altitude, gravity is still about 90% as strong as at Earth's surface.\n\n4. **If gravity is present, why do astronauts float?**\n   - Astronauts appear to float because the ISS\u2014and everything inside it\u2014are in \"free fall.\" The ISS is moving forward very fast, and as it falls toward Earth due to gravity, the surface of Earth curves away beneath it. This creates a continuous state of free fall, which feels like weightlessness (microgravity).\n\n**Final answer:**  \nYes, there is gravity on the International Space Station. However, because the ISS and its occupants are in continuous free fall around Earth, they experience microgravity and appear to float.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 47,
+    "completion_tokens": 260,
+    "total_tokens": 307
+  },
+  "finish_reason": "stop"
+}

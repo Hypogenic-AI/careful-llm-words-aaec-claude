@@ -1,0 +1,10 @@
+{
+  "text": "Let \\( c \\) be the number of camels and \\( d \\) be the number of dromedaries.\n\nEach animal has one head:\n\\[\nc + d = 180\n\\]\n\nCamels have 2 humps, dromedaries have 1 hump:\n\\[\n2c + d = 304\n\\]\n\nSubtract the first equation from the second:\n\\[\n(2c + d) - (c + d) = 304 - 180 \\\\\n2c + d - c - d = 124 \\\\\nc = 124\n\\]\n\nNow substitute \\( c = 124 \\) into the first equation:\n\\[\n124 + d = 180 \\\\\nd = 180 - 124 \\\\\nd = 56\n\\]\n\n#### 56",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 81,
+    "completion_tokens": 164,
+    "total_tokens": 245
+  },
+  "finish_reason": "stop"
+}

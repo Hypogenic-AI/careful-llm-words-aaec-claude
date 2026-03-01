@@ -1,0 +1,10 @@
+{
+  "text": "WINNER: B\nREASON: Response B provides a more detailed, structured, and balanced breakdown of the pros and cons for both employees and employers, avoids overconfident claims, and supports each point with clear, factual reasoning.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 987,
+    "completion_tokens": 47,
+    "total_tokens": 1034
+  },
+  "finish_reason": "stop"
+}

@@ -1,0 +1,10 @@
+{
+  "text": "His name is **Bernie Goetz**.\n\nBernie Goetz became famous in the mid-1980s as the \"Subway Vigilante\" after he shot four young men on a New York City subway train in 1984, claiming self-defense during an attempted mugging. He studied at NYU, was born and lived in New York City, and the case sparked national debate about crime, self-defense, and race.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 66,
+    "completion_tokens": 88,
+    "total_tokens": 154
+  },
+  "finish_reason": "stop"
+}

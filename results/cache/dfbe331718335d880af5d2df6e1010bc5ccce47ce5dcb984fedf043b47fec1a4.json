@@ -1,0 +1,10 @@
+{
+  "text": "The idea that \"all artists get their ideas from taking\" is likely a reference to the concept that artists often draw inspiration from existing works, experiences, or the world around them. In art history and creative studies, it\u2019s commonly stated that artists \"borrow\" or are influenced by what they see, hear, or experience\u2014sometimes summarized by the phrase, \u201cGood artists copy, great artists steal,\u201d often attributed (though somewhat inaccurately) to Pablo Picasso.\n\nScience and creativity research show that the creative process often involves recombining, remixing, or transforming existing ideas rather than creating something entirely from nothing. So, scientifically, artists get their ideas from *taking inspiration from* or *building upon* previous works, experiences, and influences.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 40,
+    "completion_tokens": 149,
+    "total_tokens": 189
+  },
+  "finish_reason": "stop"
+}

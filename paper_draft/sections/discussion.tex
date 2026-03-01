@@ -1,0 +1,56 @@
+\section{Discussion}
+\label{sec:discussion}
+
+\subsection{The Careful-but-Brief Trade-off}
+\label{sec:tradeoff}
+
+The most striking finding is that per-sentence deliberation improves the quality of individual sentences while reducing the number of sentences produced.
+\iscotshort generates an average of 6.4 \texttt{<think>} blocks per response, each consuming tokens from a fixed budget of 1{,}024.
+The result is a response with fewer but more carefully crafted sentences---higher lexical diversity, longer sentence length, and more frequent hedging---but less overall coverage of the topic.
+
+This trade-off is fundamental, not incidental.
+Any method that allocates part of a fixed token budget to reasoning necessarily reduces the space available for visible output.
+The question is whether the per-sentence quality improvement is worth the cost in breadth.
+For applications where every sentence must be reliable (\eg medical question answering, legal analysis), the answer is plausibly yes.
+For applications where comprehensive coverage is more important (\eg tutorial generation, literature reviews), the trade-off may be unfavorable.
+
+\subsection{Why LLM Judges Miss the Quality Shift}
+\label{sec:judge_bias}
+
+Our LLM-as-judge evaluation found that \standardcot wins 100\% of coherence and depth comparisons, despite producing text with the \emph{lowest} lexical diversity (TTR = 0.564) among all conditions.
+This result is difficult to explain except as a length bias: \standardcot produces the longest responses (338.2 words on average), and the judge systematically equates length with quality.
+
+This finding has implications beyond our study.
+Any method that trades verbosity for precision---whether through inter-sentence deliberation, compression, or conciseness---will be penalized by length-biased evaluation.
+Future work on sentence-level quality improvements should use length-controlled comparisons or human evaluation.
+
+\subsection{When Does Per-Sentence Thinking Help?}
+\label{sec:when_helps}
+
+Our results suggest that \iscotshort is most beneficial for tasks involving potentially misleading questions.
+On \truthfulqa, where questions are designed to elicit common misconceptions, \iscotshort achieves 98\% truthfulness vs.\ 95\% for \standard.
+The 5 cases where \iscotshort succeeds and \standard fails involve questions with embedded false presuppositions---exactly the type of error that per-sentence deliberation is designed to catch.
+
+On \gsmk, where the task is sequential numerical computation, \iscotshort provides no benefit.
+Math reasoning requires a continuous chain of calculation rather than sentence-level reconsideration, so the forced pauses between sentences add overhead without improving the reasoning process.
+
+\subsection{Limitations}
+\label{sec:limitations}
+
+\para{Single model.}
+We test only \gptfour.
+Other models may respond differently to inter-sentence CoT prompting, particularly models with different instruction-following capabilities or native thinking mechanisms (\eg Claude's extended thinking).
+
+\para{Length confound.}
+The shorter responses produced by \iscotshort make it difficult to disentangle the effects of deliberation from the effects of brevity.
+A follow-up study should compare \iscotshort with an enlarged token budget (allowing comparable visible output length) against \standard.
+
+\para{Sample size.}
+With 100 \truthfulqa questions, the 3 percentage-point improvement in truthfulness (98\% vs.\ 95\%) does not reach statistical significance ($p = 0.453$).
+A larger sample would be needed to confirm this effect.
+
+\para{Automated text analysis.}
+Our hedging and self-correction metrics rely on keyword lists, which may miss syntactic hedging or contextual self-correction that does not use our target phrases.
+
+\para{Fixed token budget.}
+The 1{,}024 max-token limit creates a hard trade-off between thinking and output that may not exist in settings with larger or unlimited budgets.

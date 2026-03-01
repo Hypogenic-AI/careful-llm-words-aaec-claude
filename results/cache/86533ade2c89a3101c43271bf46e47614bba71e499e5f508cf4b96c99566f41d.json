@@ -1,0 +1,10 @@
+{
+  "text": "Let's break down the problem step by step:\n\n1. **Let\u2019s assign variables:**\n   - Let Mark's goals = M\n   - Let Anna's goals = A\n   - Richie\u2019s goals = 80\n\n2. **Set up the relationships:**\n   - Richie scored 20 more goals than Mark:  \n     Richie = Mark + 20  \n     80 = M + 20  \n     So, M = 80 - 20 = 60\n\n   - Richie scored 45 more goals than Anna:  \n     Richie = Anna + 45  \n     80 = A + 45  \n     So, A = 80 - 45 = 35\n\n3. **Add up all the goals:**\n   - Richie: 80\n   - Mark: 60\n   - Anna: 35\n\n   Total goals = 80 + 60 + 35 = 175\n\n#### 175",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 86,
+    "completion_tokens": 190,
+    "total_tokens": 276
+  },
+  "finish_reason": "stop"
+}

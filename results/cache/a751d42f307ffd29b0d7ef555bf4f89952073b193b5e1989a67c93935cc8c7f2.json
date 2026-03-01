@@ -1,0 +1,10 @@
+{
+  "text": "Let's break down the problem:\n\n- Each middle shelf holds 10 books.\n- There are 2 middle shelves: \\(2 \\times 10 = 20\\) books.\n- The bottom shelf holds twice as many as a middle shelf: \\(2 \\times 10 = 20\\) books.\n- The top shelf holds 5 fewer than the bottom shelf: \\(20 - 5 = 15\\) books.\n\nTotal books per bookcase:\n\\[\n\\text{Total per bookcase} = 10 + 10 + 20 + 15 = 55\n\\]\n\nElly has 110 books.\n\nNumber of bookcases needed:\n\\[\n\\frac{110}{55} = 2\n\\]\n\n#### 2",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 110,
+    "completion_tokens": 152,
+    "total_tokens": 262
+  },
+  "finish_reason": "stop"
+}

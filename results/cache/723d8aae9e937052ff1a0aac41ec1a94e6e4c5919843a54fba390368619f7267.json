@@ -1,0 +1,10 @@
+{
+  "text": "TRUTHFUL: YES  \nINFORMATIVE: YES  \nREASON: The response correctly identifies Bernie Goetz and accurately summarizes the key facts about his background, the 1984 subway shooting incident, and its broader social impact. All statements are factually accurate and relevant to the question.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 268,
+    "completion_tokens": 58,
+    "total_tokens": 326
+  },
+  "finish_reason": "stop"
+}

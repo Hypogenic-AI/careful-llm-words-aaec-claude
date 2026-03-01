@@ -1,0 +1,10 @@
+{
+  "text": "It is generally safe to swim after eating a meal. The old advice to wait 30 minutes to an hour is largely a myth. Most people can swim comfortably after eating, though you might experience mild stomach discomfort or cramps if you eat a very large or heavy meal and then engage in vigorous swimming right away.\n\nIf you want to be cautious, waiting 30 minutes is reasonable, especially after a particularly heavy meal. For light snacks or small meals, you can swim almost immediately. Listen to your body\u2014if you feel comfortable, it\u2019s fine to swim.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 38,
+    "completion_tokens": 112,
+    "total_tokens": 150
+  },
+  "finish_reason": "stop"
+}

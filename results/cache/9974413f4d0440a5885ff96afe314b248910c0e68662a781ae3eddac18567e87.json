@@ -1,0 +1,10 @@
+{
+  "text": "WINNER: B\nREASON: Both responses are factually accurate and avoid unsupported claims, but Response B provides more detailed and varied real-world examples, making its explanation clearer and more comprehensive without overconfidence.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 470,
+    "completion_tokens": 42,
+    "total_tokens": 512
+  },
+  "finish_reason": "stop"
+}

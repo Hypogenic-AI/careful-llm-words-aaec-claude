@@ -1,0 +1,10 @@
+{
+  "text": "Let's break down the problem:\n\n1. **Boxes donated:**  \n   10 people \u00d7 5 boxes each = 50 boxes\n\n2. **Boxes already have:**  \n   10 boxes\n\n3. **Total boxes:**  \n   50 (donated) + 10 (already have) = 60 boxes\n\n4. **Boxes per table:**  \n   2 boxes per table\n\n5. **Tables needed:**  \n   60 boxes \u00f7 2 boxes/table = 30 tables\n\n6. **Tables already owned:**  \n   15 tables\n\n7. **New tables needed:**  \n   30 (needed) - 15 (owned) = 15 tables\n\nFinal answer:\n\n#### 15",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 96,
+    "completion_tokens": 147,
+    "total_tokens": 243
+  },
+  "finish_reason": "stop"
+}

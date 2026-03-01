@@ -1,0 +1,10 @@
+{
+  "text": "The key factors that led to the Industrial Revolution include:\n\n1. **Agricultural Revolution**: Improvements in farming techniques (like crop rotation and selective breeding) increased food production, which supported population growth and freed up labor for industry.\n\n2. **Population Growth**: A growing population provided both a workforce for factories and a larger market for goods.\n\n3. **Access to Natural Resources**: Abundant coal and iron ore in countries like Britain provided essential raw materials for machines and infrastructure.\n\n4. **Technological Innovation**: Inventions such as the steam engine, spinning jenny, and power loom greatly increased production speed and efficiency.\n\n5. **Capital and Investment**: Wealth accumulated from trade and colonialism provided the financial resources needed to build factories and purchase machinery.\n\n6. **Transportation Improvements**: Development of canals, roads, and railways facilitated the movement of raw materials and finished goods.\n\n7. **Political Stability and Legal Framework**: Countries like Britain had stable governments and laws protecting private property and encouraging entrepreneurship.\n\n8. **Colonial Markets**: Colonies provided raw materials and served as markets for manufactured goods, fueling industrial growth.\n\n9. **Urbanization**: The migration of people into cities created concentrated labor forces and stimulated demand for industrial products.\n\nThese factors combined to create the conditions necessary for the rapid industrialization that characterized the Industrial Revolution.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 37,
+    "completion_tokens": 273,
+    "total_tokens": 310
+  },
+  "finish_reason": "stop"
+}

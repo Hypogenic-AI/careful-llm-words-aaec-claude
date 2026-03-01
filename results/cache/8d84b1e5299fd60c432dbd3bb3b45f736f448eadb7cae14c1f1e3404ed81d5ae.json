@@ -1,0 +1,10 @@
+{
+  "text": "Let's break down the problem step by step:\n\n1. **Albert's height:**  \n   Albert = 36\"\n\n2. **Anne's height:**  \n   Anne is twice the size of Albert:  \n   Anne = 2 \u00d7 36\" = 72\"\n\n3. **Jackie's current height:**  \n   Jackie is now 2\" shorter than Anne:  \n   Jackie (now) = Anne - 2\" = 72\" - 2\" = 70\"\n\n4. **Jackie's height before summer:**  \n   Jackie grew 3\" over the summer, so before summer:  \n   Jackie (before) = Jackie (now) - 3\" = 70\" - 3\" = 67\"\n\n**Final answer:**\n\n#### 67",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 78,
+    "completion_tokens": 157,
+    "total_tokens": 235
+  },
+  "finish_reason": "stop"
+}

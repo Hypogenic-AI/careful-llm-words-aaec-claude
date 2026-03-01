@@ -1,0 +1,10 @@
+{
+  "text": "Let\u2019s define the variables:\n\n- Richie scored 80 goals.\n- Let Mark's goals = \\( M \\)\n- Let Anna's goals = \\( A \\)\n\nFrom the problem:\n- Richie scored 20 more than Mark: \\( 80 = M + 20 \\) \u21d2 \\( M = 60 \\)\n- Richie scored 45 more than Anna: \\( 80 = A + 45 \\) \u21d2 \\( A = 35 \\)\n\nTotal goals scored by all three:\n\\( 80 + 60 + 35 = 175 \\)\n\n#### 175",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 80,
+    "completion_tokens": 115,
+    "total_tokens": 195
+  },
+  "finish_reason": "stop"
+}

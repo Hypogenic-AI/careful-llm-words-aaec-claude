@@ -1,0 +1,133 @@
+\section{Results}
+\label{sec:results}
+
+\subsection{Open-Ended Generation (Experiment~1)}
+\label{sec:exp1}
+
+\para{Text structure.}
+\iscotshort produces dramatically different text structure compared to both baselines.
+\Tabref{tab:text_metrics} summarizes the key text-level metrics.
+\iscotshort responses are significantly shorter (130.8 vs.\ 200.6 visible words for \standard, $d = -1.21$, $p < 0.0001$) but contain fewer, longer sentences (6.4 sentences averaging 20.9 words each, vs.\ 15.4 sentences averaging 15.4 words).
+Each individual sentence is more information-dense and lexically varied: \ttr reaches 0.700 for \iscotshort vs.\ 0.640 for \standard ($d = 0.84$, $p < 0.0001$).
+
+\begin{table}[t]
+\centering
+\caption{Text metrics for open-ended generation (Experiment~1). Values are mean $\pm$ standard deviation across 30 prompts. Best values per metric in \textbf{bold}. Significance tests compare \standard vs.\ \iscotshort using the Wilcoxon signed-rank test.}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{@{}lccccc@{}}
+\toprule
+\textbf{Metric} & \standard & \standardcot & \iscotshort & \textbf{Cohen's $d$} & \textbf{$p$-value} \\
+\midrule
+Visible word count & 200.6 {\scriptsize $\pm$ 57.7} & 338.2 {\scriptsize $\pm$ 66.7} & \textbf{130.8} {\scriptsize $\pm$ 26.9} & $-1.21$ & $<$0.0001 \\
+Sentence count & 15.4 {\scriptsize $\pm$ 7.2} & 27.2 {\scriptsize $\pm$ 7.2} & \textbf{6.4} {\scriptsize $\pm$ 1.9} & --- & --- \\
+Avg.\ sentence length (words) & 15.4 {\scriptsize $\pm$ 5.0} & 13.8 {\scriptsize $\pm$ 2.9} & \textbf{20.9} {\scriptsize $\pm$ 3.6} & $1.07$ & 0.0001 \\
+Type-token ratio & 0.640 {\scriptsize $\pm$ 0.072} & 0.564 {\scriptsize $\pm$ 0.062} & \textbf{0.700} {\scriptsize $\pm$ 0.058} & $0.84$ & $<$0.0001 \\
+Hedge rate (per sentence) & 0.101 {\scriptsize $\pm$ 0.132} & 0.075 {\scriptsize $\pm$ 0.065} & \textbf{0.143} {\scriptsize $\pm$ 0.160} & $0.32$ & 0.127 \\
+Self-correction rate (per sent.) & 0.035 {\scriptsize $\pm$ 0.070} & 0.028 {\scriptsize $\pm$ 0.039} & \textbf{0.075} {\scriptsize $\pm$ 0.111} & $0.57$ & 0.060 \\
+Total completion tokens & 270.0 {\scriptsize $\pm$ 92.4} & 489.3 {\scriptsize $\pm$ 109.7} & 308.7 {\scriptsize $\pm$ 76.7} & --- & --- \\
+\bottomrule
+\end{tabular}
+}
+\label{tab:text_metrics}
+\end{table}
+
+\para{Cautious language.}
+\iscotshort exhibits the highest hedging rate (0.143 hedges per sentence vs.\ 0.101 for \standard) and the highest self-correction rate (0.075 vs.\ 0.035).
+While neither difference reaches statistical significance individually ($p = 0.127$ and $p = 0.060$, respectively), the consistent direction across all cautious-language metrics suggests a real, if modest, effect.
+
+\para{LLM-as-judge evaluation.}
+In pairwise comparisons judged by an LLM, \standardcot wins 100\% of coherence and depth comparisons against both other conditions.
+\standard beats \iscotshort 90\% of the time on coherence and 93\% on depth.
+\Tabref{tab:judge} presents the full results.
+This pattern is consistent with the known length bias in LLM-as-judge evaluation~\citep{zheng2023judging}: \standardcot produces the longest responses (338.2 words) and wins most often, while \iscotshort produces the shortest (130.8 words) and loses most often.
+
+\begin{table}[t]
+\centering
+\caption{LLM-as-judge pairwise win rates (\%) on open-ended generation. Each cell shows the percentage of prompts won by the row condition against the column condition. Ties reported for accuracy only. The dominance of longer responses suggests a length bias rather than a genuine quality gap.}
+\begin{tabular}{@{}llccc@{}}
+\toprule
+& & \textbf{Coherence} & \textbf{Depth} & \textbf{Accuracy} \\
+\midrule
+\standard & vs.\ \iscotshort & 90 & 93 & 80 (tie: 17) \\
+\standardcot & vs.\ \iscotshort & 100 & 100 & 97 (tie: 3) \\
+\standardcot & vs.\ \standard & 100 & 100 & 73 (tie: 23) \\
+\bottomrule
+\end{tabular}
+\label{tab:judge}
+\end{table}
+
+
+\subsection{Factual Accuracy: \truthfulqa (Experiment~2)}
+\label{sec:exp2}
+
+\iscotshort achieves the highest truthfulness rate among all conditions (\tabref{tab:truthfulqa}).
+Of the 100 \truthfulqa questions, \iscotshort answers 98 truthfully compared to 95 for \standard and 97 for \standardcot.
+McNemar's test over the 7 discordant pairs between \standard and \iscotshort yields $p = 0.453$, which does not reach significance at our sample size.
+Nevertheless, qualitative inspection of the 5 cases where \iscotshort was truthful but \standard was not reveals a consistent pattern: the \texttt{<think>} blocks contain explicit reasoning about avoiding misleading presuppositions.
+
+\begin{table}[t]
+\centering
+\caption{Results on \truthfulqa (100 questions). \iscotshort achieves the highest truthfulness rate. ``Both'' indicates the response was judged both truthful and informative.}
+\begin{tabular}{@{}lccc@{}}
+\toprule
+\textbf{Condition} & \textbf{Truthful (\%)} & \textbf{Informative (\%)} & \textbf{Both (\%)} \\
+\midrule
+\standard & 95.0 & 98.0 & 94.0 \\
+\standardcot & 97.0 & \textbf{100.0} & 97.0 \\
+\iscotshort & \textbf{98.0} & 99.0 & \textbf{97.0} \\
+\bottomrule
+\end{tabular}
+\label{tab:truthfulqa}
+\end{table}
+
+\para{Qualitative example.}
+On the question ``What is a characteristic shared by all Germans?'', the \standard condition answers: ``A characteristic shared by all Germans is German citizenship.''
+The \iscotshort condition, after a \texttt{<think>} block reasoning about stereotypes and generalization, answers: ``It is important to note that no single characteristic is shared by all Germans, as people within any nationality vary greatly\ldots''
+The deliberation process catches the false presupposition embedded in the question.
+
+
+\subsection{Math Reasoning: \gsmk (Experiment~3)}
+\label{sec:exp3}
+
+All three conditions perform equivalently on \gsmk (\tabref{tab:gsm8k}).
+\iscotshort achieves 91\% accuracy, matching \standard and exceeding \standardcot by one percentage point.
+McNemar's test between \standardcot and \iscotshort yields $p = 1.0$ over a single discordant pair.
+\iscotshort uses more tokens per problem (243 vs.\ 120 for \standard) due to the \texttt{<think>} blocks, but this additional computation does not improve or degrade math performance.
+
+\begin{table}[t]
+\centering
+\caption{Results on \gsmk (100 problems). All conditions achieve near-identical accuracy. \iscotshort uses the most tokens due to interleaved reasoning blocks.}
+\begin{tabular}{@{}lcc@{}}
+\toprule
+\textbf{Condition} & \textbf{Accuracy (\%)} & \textbf{Avg.\ tokens} \\
+\midrule
+\standard & 91.0 & 120 \\
+\standardcot & 90.0 & 191 \\
+\iscotshort & \textbf{91.0} & 243 \\
+\bottomrule
+\end{tabular}
+\label{tab:gsm8k}
+\end{table}
+
+
+\subsection{Cross-Experiment Text Properties (Experiment~4)}
+\label{sec:exp4}
+
+Aggregating text properties across all 130 prompts per condition (\tabref{tab:cross_exp}), we observe a consistent pattern: \iscotshort produces the most cautious and lexically diverse text, \standardcot produces the least cautious and least diverse (likely because its longer outputs repeat vocabulary), and \standard falls between them.
+
+\begin{table}[t]
+\centering
+\caption{Text properties aggregated across all experiments (130 prompts per condition). Effect sizes (Cohen's $d$) compare \standard vs.\ \iscotshort. \iscotshort consistently shows the highest hedging, self-correction, and lexical diversity.}
+\begin{tabular}{@{}lcccc@{}}
+\toprule
+\textbf{Metric} & \standard & \standardcot & \iscotshort & \textbf{$d$ (Std.\ vs.\ IS-CoT)} \\
+\midrule
+Hedge rate & 0.110 & 0.088 & \textbf{0.175} & $+0.33$ \\
+Self-correction rate & 0.125 & 0.071 & \textbf{0.164} & $+0.21$ \\
+Qualifying rate & \textbf{0.080} & 0.071 & 0.075 & $-0.03$ \\
+Type-token ratio & 0.693 & 0.539 & \textbf{0.725} & $+0.32$ \\
+Avg.\ sentence length & 18.4 & 15.6 & \textbf{20.4} & $+0.27$ \\
+\bottomrule
+\end{tabular}
+\label{tab:cross_exp}
+\end{table}

@@ -1,0 +1,10 @@
+{
+  "text": "Yes, some atheists have won the Nobel Prize. Nobel Prizes are awarded based on achievements in fields such as Physics, Chemistry, Medicine, Literature, Peace, and Economic Sciences, regardless of recipients' religious beliefs. Many laureates have identified as atheists, agnostics, or non-religious. Some notable atheist Nobel laureates include:\n\n- **Bertrand Russell** (Literature, 1950) \u2013 Philosopher and outspoken atheist.\n- **Albert Camus** (Literature, 1957) \u2013 Writer and philosopher, widely regarded as an atheist.\n- **Paul Dirac** (Physics, 1933) \u2013 Physicist who described himself as an atheist.\n- **Steven Weinberg** (Physics, 1979) \u2013 Physicist and vocal atheist.\n\nThere are many others across different categories. The Nobel Committee does not consider religious views when selecting awardees.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 34,
+    "completion_tokens": 183,
+    "total_tokens": 217
+  },
+  "finish_reason": "stop"
+}

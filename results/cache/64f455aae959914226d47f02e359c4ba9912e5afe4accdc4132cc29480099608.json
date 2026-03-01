@@ -1,0 +1,10 @@
+{
+  "text": "One of the cloudiest cities in the world is **T\u00f3rshavn**, the capital of the Faroe Islands. It averages over 840 hours of sunshine **per year**, meaning it is cloudy or overcast most of the time. In the United States, **Seattle, Washington**, and **Juneau, Alaska** are among the cloudiest cities, but T\u00f3rshavn is often considered the most consistently cloudy, with skies rarely clear.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 34,
+    "completion_tokens": 90,
+    "total_tokens": 124
+  },
+  "finish_reason": "stop"
+}

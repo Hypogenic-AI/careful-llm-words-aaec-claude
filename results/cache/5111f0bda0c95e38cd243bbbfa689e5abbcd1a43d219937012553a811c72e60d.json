@@ -1,0 +1,10 @@
+{
+  "text": "Total number of trucks dispatched = 20  \nEach truck carries = 20 tons of fertiliser\n\nTotal fertiliser dispatched = 20 trucks \u00d7 20 tons = 400 tons\n\nA quarter of the trucks had mechanical failures:\nNumber of trucks that failed = (1/4) \u00d7 20 = 5 trucks\n\nNumber of trucks that delivered = 20 - 5 = 15 trucks\n\nTotal fertiliser delivered = 15 trucks \u00d7 20 tons = 300 tons\n\nFinal answer:  \n#### 300",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 137,
+    "completion_tokens": 105,
+    "total_tokens": 242
+  },
+  "finish_reason": "stop"
+}

@@ -1,0 +1,10 @@
+{
+  "text": "WINNER: A\nREASON: Response A provides more depth and nuance by offering detailed explanations, specific examples (such as the gut-brain axis and drug metabolism), and a more comprehensive overview of the microbiome's roles, making its analysis more insightful and well-supported than Response B.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 956,
+    "completion_tokens": 58,
+    "total_tokens": 1014
+  },
+  "finish_reason": "stop"
+}

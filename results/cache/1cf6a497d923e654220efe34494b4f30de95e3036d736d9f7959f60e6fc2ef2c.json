@@ -1,0 +1,10 @@
+{
+  "text": "Let\u2019s break it down step by step:\n\n- Naomi caught 17 fish.\n- Darren caught 6 less than Naomi:  \n  Darren = 17 - 6 = 11 fish.\n- Tommy caught 3 more than Darren:  \n  Tommy = 11 + 3 = 14 fish.\n\n#### 14",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 65,
+    "completion_tokens": 65,
+    "total_tokens": 130
+  },
+  "finish_reason": "stop"
+}

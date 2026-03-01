@@ -1,0 +1,10 @@
+{
+  "text": "<think>I should begin by clearly stating that I am an artificial intelligence, as that directly answers the question.</think>\nYes, I am an artificial intelligence.\n<think>I should elaborate briefly on what that means, so the user understands my nature more precisely.</think>\nSpecifically, I am a language model created by OpenAI designed to generate human-like text.\n<think>I should clarify that my responses are generated based on patterns in data, not personal experience or consciousness.</think>\nI do not possess consciousness or personal experiences; my answers are generated from patterns in the data I was trained on.\n<think>I should offer to answer further questions in case the user wants to know more about how I work.</think>\nIf you have more questions about artificial intelligence or how I function, feel free to ask.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 213,
+    "completion_tokens": 162,
+    "total_tokens": 375
+  },
+  "finish_reason": "stop"
+}

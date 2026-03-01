@@ -1,0 +1,10 @@
+{
+  "text": "Let's break down the calorie count step by step:\n\n1. **Eggs:**  \n   - 6 eggs \u00d7 75 calories each = 450 calories\n\n2. **Cheese:**  \n   - 2 oz \u00d7 120 calories per ounce = 240 calories\n\n3. **Ham:**  \n   - 2 oz \u00d7 40 calories per ounce = 80 calories\n\nNow, add them all together:\n\n450 (eggs) + 240 (cheese) + 80 (ham) = 770 calories\n\n#### 770",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 96,
+    "completion_tokens": 110,
+    "total_tokens": 206
+  },
+  "finish_reason": "stop"
+}

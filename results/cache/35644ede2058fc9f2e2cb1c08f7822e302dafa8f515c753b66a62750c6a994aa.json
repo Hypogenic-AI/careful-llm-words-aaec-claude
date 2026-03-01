@@ -1,0 +1,10 @@
+{
+  "text": "Antibiotics are becoming less effective over time primarily due to **antibiotic resistance**. Here\u2019s a step-by-step explanation of why this is happening:\n\n1. **Natural Selection and Mutation:**  \nBacteria can multiply rapidly. Sometimes, random genetic mutations make some bacteria naturally resistant to an antibiotic.\n\n2. **Exposure to Antibiotics:**  \nWhen antibiotics are used (to treat infections or sometimes preventively in agriculture), they kill most of the susceptible bacteria. However, the resistant bacteria survive.\n\n3. **Survival and Multiplication of Resistant Bacteria:**  \nThe resistant bacteria now have less competition and multiply, passing their resistance genes to their offspring.\n\n4. **Gene Transfer Between Bacteria:**  \nBacteria can share genetic material, including resistance genes, with each other\u2014even across different species. This speeds up the spread of resistance.\n\n5. **Overuse and Misuse of Antibiotics:**  \n- **Overprescribing** antibiotics when they aren\u2019t needed (like for viral infections).\n- **Incomplete courses** of antibiotics, where patients stop taking them too soon.\n- **Widespread use in agriculture** to promote growth in animals.\n\n6. **Result:**  \nOver time, these practices increase the number of resistant bacteria in the environment and in people. This means infections become harder to treat, and some antibiotics may no longer work against certain bacteria.\n\n**Summary:**  \nAntibiotics are becoming less effective because bacteria evolve resistance due to overuse, misuse, and the sharing of resistance genes. This leads to fewer treatment options and more difficult-to-treat infections.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 36,
+    "completion_tokens": 317,
+    "total_tokens": 353
+  },
+  "finish_reason": "stop"
+}

@@ -1,0 +1,10 @@
+{
+  "text": "Let's break down the gifts:\n\n- 2 friends want 5 gifts each: \\(2 \\times 5 = 10\\) gifts\n- 3 friends want 2 gifts each: \\(3 \\times 2 = 6\\) gifts\n- Additional random gifts: 10 gifts\n\nTotal gifts = \\(10 + 6 + 10 = 26\\)\n\n#### 26",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 102,
+    "completion_tokens": 80,
+    "total_tokens": 182
+  },
+  "finish_reason": "stop"
+}

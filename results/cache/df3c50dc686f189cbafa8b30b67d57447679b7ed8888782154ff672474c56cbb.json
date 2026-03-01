@@ -1,0 +1,10 @@
+{
+  "text": "Herb's house value = $76,000\n\nJuan's house is 30% less expensive than Herb's:\n30% of $76,000 = 0.30 \u00d7 $76,000 = $22,800\n\nJuan's house value = $76,000 - $22,800 = $53,200\n\nCombined value = $76,000 + $53,200 = $129,200\n\n#### $129,200",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 83,
+    "completion_tokens": 90,
+    "total_tokens": 173
+  },
+  "finish_reason": "stop"
+}

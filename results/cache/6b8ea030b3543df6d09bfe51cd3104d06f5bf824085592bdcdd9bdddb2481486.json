@@ -1,0 +1,10 @@
+{
+  "text": "WINNER: A  \nREASON: Response A provides a more detailed and nuanced explanation with specific examples and avoids overgeneralization, making it more likely to be factually accurate and well-supported compared to the broader and less detailed claims in Response B.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 693,
+    "completion_tokens": 50,
+    "total_tokens": 743
+  },
+  "finish_reason": "stop"
+}

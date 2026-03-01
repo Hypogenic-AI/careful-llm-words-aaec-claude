@@ -1,0 +1,10 @@
+{
+  "text": "Right now, I\u2019m focused on helping you! If you have any questions or need information, just let me know.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 32,
+    "completion_tokens": 24,
+    "total_tokens": 56
+  },
+  "finish_reason": "stop"
+}

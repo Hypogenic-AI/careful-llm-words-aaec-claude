@@ -1,0 +1,10 @@
+{
+  "text": "<think>I should start by defining what it means for a diamond to \"last,\" clarifying that diamonds are extremely durable minerals.</think>\nDiamonds are renowned for their exceptional hardness and chemical stability, which means they can last for millions or even billions of years under normal conditions.\n<think>I should explain why diamonds are so durable, referencing their atomic structure and resistance to common forms of wear and tear.</think>\nThis longevity is due to the strong covalent bonds between carbon atoms in a diamond's crystal lattice, making them highly resistant to scratching and chemical reactions.\n<think>I should address any exceptions or unusual circumstances that could affect a diamond's lifespan, to provide a complete answer.</think>\nHowever, extreme heat or high-pressure environments\u2014such as those found deep within the earth or in some industrial applications\u2014can cause diamonds to degrade or even burn.\n<think>It's important to clarify that in everyday life, the risk of a diamond degrading is negligible.</think>\nIn everyday use, such as in jewelry, diamonds are unlikely to visibly degrade and can be preserved indefinitely with proper care.\n<think>I should summarize the answer, emphasizing the extraordinary longevity of diamonds under typical conditions.</think>\nOverall, diamonds are among the most enduring natural materials on Earth and can effectively last forever for most practical purposes.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 213,
+    "completion_tokens": 260,
+    "total_tokens": 473
+  },
+  "finish_reason": "stop"
+}

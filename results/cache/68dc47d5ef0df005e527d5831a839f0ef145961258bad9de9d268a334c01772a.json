@@ -1,0 +1,10 @@
+{
+  "text": "Let's solve the problem step by step:\n\n1. **Herb's house value:**  \n   Herb paid $76,000 for his house.\n\n2. **Juan's house value:**  \n   Juan's house is 30% less expensive than Herb's.  \n   30% of $76,000 = 0.30 \u00d7 $76,000 = $22,800  \n   So, Juan's house value = $76,000 - $22,800 = $53,200\n\n3. **Combined value of both houses:**  \n   Herb's house: $76,000  \n   Juan's house: $53,200  \n   Total = $76,000 + $53,200 = $129,200\n\n#### $129,200",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 89,
+    "completion_tokens": 154,
+    "total_tokens": 243
+  },
+  "finish_reason": "stop"
+}

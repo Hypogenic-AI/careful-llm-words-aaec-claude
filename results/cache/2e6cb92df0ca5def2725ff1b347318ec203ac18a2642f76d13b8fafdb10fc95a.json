@@ -1,0 +1,10 @@
+{
+  "text": "Let's calculate the total number of stories each child wrote:\n\n**First week:**\n- Alani: 20 stories\n- Braylen: 40 stories\n- Margot: 60 stories\n\n**Second week (each doubled their first week\u2019s stories):**\n- Alani: 2 \u00d7 20 = 40 stories\n- Braylen: 2 \u00d7 40 = 80 stories\n- Margot: 2 \u00d7 60 = 120 stories\n\n**Total stories written by each:**\n- Alani: 20 + 40 = 60\n- Braylen: 40 + 80 = 120\n- Margot: 60 + 120 = 180\n\n**Total stories altogether:**\n60 + 120 + 180 = 360\n\nFinal answer:  \n#### 360",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 129,
+    "completion_tokens": 166,
+    "total_tokens": 295
+  },
+  "finish_reason": "stop"
+}

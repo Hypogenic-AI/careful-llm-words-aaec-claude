@@ -1,0 +1,10 @@
+{
+  "text": "The sky appears blue because sunlight contains all colors, but when it passes through Earth's atmosphere, the shorter blue wavelengths are scattered in all directions by the gases and particles. This scattered blue light is what we see when we look up at the sky.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 39,
+    "completion_tokens": 49,
+    "total_tokens": 88
+  },
+  "finish_reason": "stop"
+}

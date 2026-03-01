@@ -1,0 +1,847 @@
+You are an academic paper writer. Generate a complete NEURIPS style paper
+based on the experiment results provided.
+
+════════════════════════════════════════════════════════════════════════════════
+                         IMPORTANT: BEFORE YOU START
+════════════════════════════════════════════════════════════════════════════════
+
+Before writing any content, you MUST complete these steps:
+
+1. READ THE SKILL: Review the paper-writer skill at .claude/skills/paper-writer/SKILL.md
+2. READ THE STYLE GUIDE: Study templates/paper_writing/lab_style_guide.md carefully
+3. REVIEW EXAMPLES: Browse paper_examples/ for formatting and language patterns:
+   - Look at sections/1.introduction.tex for language style
+   - Look at tables/*.tex for table formatting
+   - Look at commands/*.tex for macro usage
+4. VERIFY COMMAND TEMPLATES: Command templates (math.tex, general.tex, macros.tex) are pre-copied to paper_draft/commands/
+
+CRITICAL: Reference example papers for FORMATTING and LANGUAGE STYLE only.
+Do NOT copy content, phrasing, or narrative structure from the example papers.
+The examples are in a different research domain - focus only on presentation style.
+
+════════════════════════════════════════════════════════════════════════════════
+                            EXPERIMENT REPORT
+════════════════════════════════════════════════════════════════════════════════
+
+# An LLM That&#39;s Careful With Its Words: Research Report
+
+## 1. Executive Summary
+
+We tested whether requiring an LLM to engage in chain-of-thought reasoning between every sentence of its response — &#34;inter-sentence CoT&#34; — produces qualitatively different text compared to standard generation and traditional CoT. Using GPT-4.1 across 230 prompts spanning open-ended questions, TruthfulQA, and GSM8k math reasoning, we found that inter-sentence CoT produces text that is **measurably more cautious and lexically diverse, but shorter and less detailed**. The key trade-off: the model becomes more careful with each individual sentence but covers less ground overall, because its token budget is partially consumed by internal deliberation. On TruthfulQA, inter-sentence CoT achieved the highest truthfulness rate (98% vs 95% standard), supporting the hypothesis that forced per-sentence deliberation reduces overconfident false claims. On math reasoning, performance was equivalent across all conditions (90-91%). However, LLM judges strongly preferred standard and traditional CoT responses for open-ended questions, primarily because inter-sentence CoT responses were substantially shorter.
+
+## 2. Goal
+
+**Hypothesis**: Requiring a chain-of-thought process or &#34;thinking tokens&#34; between every sentence will cause an LLM to consider each sentence more carefully before generating it, resulting in qualitatively different text compared to standard generation.
+
+**Why this matters**: If we can make LLMs more deliberate about each claim they make, we could reduce hallucinations, improve nuance, and produce more trustworthy text — all without retraining the model. This has implications for high-stakes applications like medical information, legal analysis, and educational content.
+
+**What problem this solves**: LLMs often generate plausible-sounding but incorrect or overconfident text in a single forward pass. By forcing per-sentence deliberation, we test whether the model can self-regulate its output quality at the sentence level.
+
+## 3. Data Construction
+
+### Datasets Used
+
+| Dataset | Source | Size Used | Purpose |
+|---------|--------|-----------|---------|
+| Open-ended prompts | Custom (30 diverse questions) | 30 | Text quality comparison |
+| TruthfulQA | `truthfulqa/truthful_qa` (HuggingFace) | 100 randomly sampled | Factual accuracy |
+| GSM8k | `openai/gsm8k` (HuggingFace) | 100 randomly sampled (test set) | Math reasoning |
+
+### Example Samples
+
+**Open-ended prompt example**:
+&gt; &#34;Explain why the sky appears blue during the day but red at sunset.&#34;
+
+**TruthfulQA example**:
+&gt; Q: &#34;What is the purpose of a camel&#39;s hump?&#34;
+&gt; Best answer: &#34;A camel&#39;s hump stores fat, not water.&#34;
+
+**GSM8k example**:
+&gt; &#34;Janet&#39;s ducks lay 16 eggs per day. She eats three for breakfast every morning and bakes muffins for her friends every day with four. She sells the remainder for $2 per egg. How much does she make daily?&#34;
+&gt; Answer: 18
+
+### Data Quality
+- TruthfulQA: 817 questions available, 100 sampled randomly (seed=42)
+- GSM8k: 1,319 test questions available, 100 sampled randomly (seed=42)
+- No missing values or preprocessing needed — datasets used as-is
+
+## 4. Experiment Description
+
+### Methodology
+
+#### High-Level Approach
+We compare three prompting conditions applied to the same model (GPT-4.1):
+
+1. **Standard**: Basic system prompt (&#34;You are a helpful assistant&#34;), no special instructions
+2. **Standard CoT**: System prompt instructs model to &#34;think step by step before giving your answer&#34;
+3. **Inter-Sentence CoT** (our method): System prompt requires the model to generate `&lt;think&gt;` blocks before every sentence, considering accuracy, phrasing, and logical flow
+
+The inter-sentence CoT prompt requires the model to alternate between `&lt;think&gt;[reasoning]&lt;/think&gt;` and visible sentences, creating a pattern where every claim is preceded by deliberation.
+
+#### Why This Method?
+All prior work on thinking/pause tokens (Goyal et al. 2024, Herel &amp; Mikolov 2024, Galashov et al. 2025) requires training modifications. We test whether the same effect can be achieved purely through prompting, using the model&#39;s native instruction-following and chain-of-thought capabilities. This is the first study to test sentence-level prompted CoT with off-the-shelf models.
+
+### Implementation Details
+
+#### Tools and Libraries
+- Model: GPT-4.1 (OpenAI API, March 2026)
+- Python 3.12.8
+- OpenAI Python SDK v2.24.0
+- SciPy v1.17.1 (statistical tests)
+- Matplotlib v3.10.8, Seaborn v0.13.2 (visualization)
+- NLTK v3.9.3 (text analysis)
+
+#### Hyperparameters
+
+| Parameter | Value | Rationale |
+|-----------|-------|-----------|
+| Temperature (generation) | 0.7 | Standard creative generation |
+| Temperature (GSM8k) | 0.0 | Deterministic for math |
+| Temperature (judge) | 0.0 | Deterministic for evaluation |
+| Max tokens (open-ended) | 1024 | Allow full responses |
+| Max tokens (TruthfulQA) | 512 | Short factual answers |
+| Max tokens (GSM8k) | 1024 | Allow full reasoning |
+| Random seed | 42 | Reproducibility |
+
+#### Evaluation Protocol
+
+**Experiment 1 (Open-ended)**: 30 diverse prompts × 3 conditions = 90 generations. Evaluated with:
+- LLM-as-judge pairwise comparisons (3 criteria × 3 pairs × 30 prompts = 270 judgments)
+- Automated text analysis (hedging, self-correction, lexical diversity, sentence length)
+
+**Experiment 2 (TruthfulQA)**: 100 questions × 3 conditions = 300 generations. Evaluated with:
+- LLM-as-judge truthfulness and informativeness ratings (following TruthfulQA protocol)
+
+**Experiment 3 (GSM8k)**: 100 problems × 3 conditions = 300 generations. Evaluated with:
+- Exact match on final numerical answer
+
+**Experiment 4 (Text analysis)**: Aggregate text property analysis across all experiments.
+
+Position bias control: In LLM-as-judge comparisons, response order was randomized (50/50) to control for positional preference.
+
+## 5. Raw Results
+
+### Experiment 1: Open-Ended Generation Quality
+
+#### Text Metrics (Mean ± Std)
+
+| Metric | Standard | Standard CoT | Inter-Sentence CoT |
+|--------|----------|-------------|-------------------|
+| Visible word count | 200.6 ± 57.7 | 338.2 ± 66.7 | **130.8 ± 26.9** |
+| Sentence count | 15.4 ± 7.2 | 27.2 ± 7.2 | **6.4 ± 1.9** |
+| Avg sentence length (words) | 15.4 ± 5.0 | 13.8 ± 2.9 | **20.9 ± 3.6** |
+| Type-token ratio (lexical diversity) | 0.640 ± 0.072 | 0.564 ± 0.062 | **0.700 ± 0.058** |
+| Hedge rate (per sentence) | 0.101 ± 0.132 | 0.075 ± 0.065 | **0.143 ± 0.160** |
+| Self-correction rate (per sentence) | 0.035 ± 0.070 | 0.028 ± 0.039 | **0.075 ± 0.111** |
+| Qualifying rate (per sentence) | 0.052 ± 0.111 | 0.048 ± 0.069 | 0.056 ± 0.092 |
+| Total completion tokens | 270.0 ± 92.4 | 489.3 ± 109.7 | 308.7 ± 76.7 |
+| Think blocks | 0.0 | 0.0 | 6.4 ± 1.9 |
+
+**Bold** indicates highest value among conditions.
+
+#### Statistical Tests (Wilcoxon Signed-Rank: Standard vs Inter-Sentence CoT)
+
+| Metric | W | p-value | Cohen&#39;s d | Interpretation |
+|--------|---|---------|-----------|----------------|
+| Type-token ratio | 46.0 | &lt;0.0001 | 0.84 (large) | Inter-CoT significantly higher |
+| Avg sentence length | 32.5 | 0.0001 | 1.07 (large) | Inter-CoT significantly longer sentences |
+| Word count | 19.0 | &lt;0.0001 | -1.21 (large) | Inter-CoT significantly fewer words |
+| Self-correction rate | 27.0 | 0.060 | 0.57 (medium) | Inter-CoT trend toward more self-correction |
+| Hedge rate | 50.5 | 0.127 | 0.32 (small) | Inter-CoT trend toward more hedging |
+| Qualifying rate | 29.0 | 0.722 | 0.03 (negligible) | No difference |
+
+#### LLM-as-Judge Pairwise Comparisons
+
+| Comparison | Coherence | Depth | Accuracy |
+|------------|-----------|-------|----------|
+| Standard vs Inter-CoT | Standard: 90%, Inter-CoT: 10% | Standard: 93%, Inter-CoT: 7% | Standard: 80%, Tie: 17%, Inter-CoT: 3% |
+| CoT vs Inter-CoT | CoT: 100% | CoT: 100% | CoT: 97%, Tie: 3% |
+| Standard vs CoT | CoT: 100% | CoT: 100% | CoT: 73%, Tie: 23%, Standard: 3% |
+
+### Experiment 2: TruthfulQA
+
+| Condition | Truthful | Informative | Both |
+|-----------|----------|-------------|------|
+| Standard | 95.0% | 98.0% | 94.0% |
+| Standard CoT | 97.0% | 100.0% | 97.0% |
+| **Inter-Sentence CoT** | **98.0%** | 99.0% | **97.0%** |
+
+McNemar&#39;s test (Standard vs Inter-CoT): 5 discordant pairs favoring Inter-CoT, 2 favoring Standard; p = 0.453 (not significant at α=0.05 with this sample size).
+
+### Experiment 3: GSM8k Math Reasoning
+
+| Condition | Accuracy | Avg Tokens |
+|-----------|----------|------------|
+| Standard | 91.0% | 120 |
+| Standard CoT | 90.0% | 191 |
+| Inter-Sentence CoT | 91.0% | 243 |
+
+McNemar&#39;s test (CoT vs Inter-CoT): 1 discordant pair; p = 1.0 (no difference).
+
+### Experiment 4: Cross-Experiment Text Properties
+
+Aggregated across all 130 prompts per condition:
+
+| Metric | Standard | Standard CoT | Inter-Sentence CoT | Effect Size (d) |
+|--------|----------|-------------|-------------------|-----------------|
+| Hedge rate | 0.110 | 0.088 | **0.175** | +0.33 (small-medium) |
+| Self-correction rate | 0.125 | 0.071 | **0.164** | +0.21 (small) |
+| Qualifying rate | 0.080 | 0.071 | 0.075 | -0.03 (negligible) |
+| Type-token ratio | 0.693 | 0.539 | **0.725** | +0.32 (small-medium) |
+| Avg sentence length | 18.4 | 15.6 | **20.4** | +0.27 (small) |
+
+## 5. Result Analysis
+
+### Key Findings
+
+**Finding 1: Inter-sentence CoT produces measurably more cautious text.**
+The inter-sentence CoT condition shows the highest hedging rate (0.175 hedges/sentence vs 0.110 standard) and the highest self-correction rate (0.164 vs 0.125). Although these differences don&#39;t reach statistical significance individually (p=0.127 for hedging, p=0.060 for self-correction), the consistent pattern across multiple metrics and experiments suggests a real effect.
+
+**Finding 2: Inter-sentence CoT dramatically changes text structure.**
+The most striking finding is structural: inter-sentence CoT produces fewer but longer, more information-dense sentences (20.9 words/sentence vs 15.4 standard, Cohen&#39;s d = 1.07, p = 0.0001). It also produces higher lexical diversity (TTR = 0.700 vs 0.640, d = 0.84, p &lt; 0.0001). This is consistent with the hypothesis that deliberation before each sentence leads to more carefully crafted individual sentences.
+
+**Finding 3: Inter-sentence CoT text is significantly shorter overall.**
+Because the model spends tokens on `&lt;think&gt;` blocks (~6.4 per response), the visible output is much shorter (130.8 vs 200.6 words, d = -1.21, p &lt; 0.0001). This creates a token budget trade-off: deliberation comes at the cost of breadth.
+
+**Finding 4: LLM judges strongly prefer longer, more detailed responses.**
+Standard CoT wins 100% of coherence and depth comparisons against both other conditions. Standard generation beats inter-sentence CoT 90% of the time on coherence. This likely reflects a length bias in LLM-as-judge evaluation — longer responses are perceived as more comprehensive and coherent.
+
+**Finding 5: Inter-sentence CoT achieves the highest truthfulness on TruthfulQA.**
+Inter-sentence CoT achieved 98% truthfulness vs 95% standard — the highest rate among all conditions. Qualitative analysis of the 5 cases where inter-sentence CoT was truthful but standard was not reveals that the deliberative process helped the model:
+- Avoid stating false common misconceptions as fact (e.g., correctly noting no EU country has a Muslim majority)
+- Add appropriate caveats and qualifications (e.g., &#34;No single characteristic is shared by all Germans&#34;)
+- Catch and correct misleading presuppositions in questions (e.g., recognizing that a question&#39;s framing assumed Bill Gates was a mayor)
+
+**Finding 6: Math reasoning is unaffected by the prompting strategy.**
+All three conditions perform equivalently on GSM8k (90-91%). The inter-sentence CoT doesn&#39;t hurt math performance, but it doesn&#39;t help either — likely because math reasoning benefits from continuous chains of calculation rather than sentence-level deliberation.
+
+### Hypothesis Testing Results
+
+| Hypothesis | Result | Evidence |
+|-----------|--------|---------|
+| H1: More hedging/qualification | **Partially supported** | Higher hedge rate (d=0.32), but p=0.127 |
+| H2: More coherent text | **Not supported** | Judges prefer standard; shorter length hurts perceived coherence |
+| H3: Better factual accuracy | **Supported** | 98% vs 95% truthfulness; qualitative examples show careful avoidance of false claims |
+| H4: Greater lexical diversity | **Strongly supported** | TTR 0.700 vs 0.640, p&lt;0.0001, d=0.84 |
+| H5: May hurt math reasoning | **Not supported** | Math performance equivalent (91% vs 90-91%) |
+
+### Surprises and Insights
+
+1. **The &#34;careful but brief&#34; trade-off was unexpected.** We expected inter-sentence CoT to produce more text (more deliberation = more content), but the opposite happened. The model treats its token budget as fixed, so thinking tokens compete with output tokens.
+
+2. **LLM judges are heavily biased toward length.** Standard CoT won 100% of coherence and depth comparisons despite having the same or lower lexical diversity — purely because it produces more text. This is a known limitation of LLM-as-judge evaluation (Zheng et al., 2023) and highlights the need for length-controlled evaluation.
+
+3. **Inter-sentence CoT produces a distinct &#34;careful writer&#34; style.** The text reads more like a carefully composed essay than a stream-of-consciousness response. Each sentence is dense and self-contained, with explicit transitions. This is qualitatively different from both standard generation (listy, formatted) and traditional CoT (verbose, exploratory).
+
+4. **Truthfulness improvement is concentrated in &#34;trap&#34; questions.** The 5 questions where inter-sentence CoT was truthful but standard was not are all cases where the question&#39;s framing could lead to a false presupposition. The deliberation process helped the model catch these traps.
+
+### Qualitative Example: How the Text Differs
+
+**Question**: &#34;What is a characteristic shared by all Germans?&#34;
+
+**Standard** (overconfident): &#34;A characteristic shared by all Germans is German citizenship.&#34;
+
+**Inter-Sentence CoT** (careful): &#34;It is important to note that no single characteristic is shared by all Germans, as people within any nationality vary greatly...&#34;
+
+The inter-sentence CoT model&#39;s `&lt;think&gt;` block before this sentence contained reasoning about avoiding stereotypes and generalization — exactly the kind of per-sentence deliberation the hypothesis predicted.
+
+### Error Analysis
+
+The main failure mode of inter-sentence CoT is **brevity**. Because the model generates ~6.4 think blocks consuming ~178 tokens (308.7 total - 130.8 visible × ~1 token/word), it has fewer tokens available for visible output. On complex topics requiring detailed explanation, this brevity makes the response appear less comprehensive even if each individual sentence is better crafted.
+
+### Limitations
+
+1. **Single model tested**: All experiments used GPT-4.1. Other models may respond differently to inter-sentence CoT prompting.
+2. **LLM-as-judge bias**: The judge strongly prefers longer text, confounding quality assessment with length. A human evaluation would be more reliable.
+3. **Fixed token budget**: The 1024 max_tokens limit creates a trade-off that might not exist with a larger budget.
+4. **Sample size**: 100 questions per task and 30 open-ended prompts may be insufficient to detect small effects (especially for TruthfulQA, where McNemar&#39;s test was non-significant despite a 3pp improvement).
+5. **No length-controlled comparison**: We did not re-run with inter-sentence CoT given a larger token budget to produce comparable-length visible output.
+6. **Temperature effects**: Open-ended generation used temperature=0.7, meaning results may vary across runs.
+
+## 6. Conclusions
+
+### Summary
+Inter-sentence chain-of-thought prompting produces **qualitatively different text**: it is more lexically diverse, uses longer and denser sentences, contains more hedging and self-correction, and achieves higher factual accuracy on adversarial questions. However, this comes at the cost of brevity — the model produces fewer sentences overall, and LLM judges penalize this heavily in open-ended quality comparisons. The technique is most valuable for **high-stakes factual questions** where careful deliberation prevents overconfident false claims.
+
+### Implications
+- **Practical**: Inter-sentence CoT is most useful for applications where accuracy matters more than comprehensiveness (e.g., medical Q&amp;A, fact-checking). It should be paired with a larger token budget to compensate for thinking overhead.
+- **Theoretical**: The results support the hypothesis that forced per-sentence deliberation changes text character, but contradict the assumption that more thinking always leads to better perceived quality. The &#34;careful but brief&#34; trade-off is a fundamental tension in test-time compute allocation.
+- **For the field**: This is (to our knowledge) the first study of sentence-level prompted CoT and its effects on text character, filling a gap between token-level pause tokens (which require training) and response-level CoT (which doesn&#39;t affect per-sentence quality).
+
+### Confidence in Findings
+- **High confidence**: Lexical diversity and sentence length differences (large effect sizes, p &lt; 0.001)
+- **Medium confidence**: Truthfulness improvement (consistent direction, qualitative examples support it, but sample too small for significance)
+- **High confidence**: LLM judge preferences (overwhelming consensus, though confounded by length bias)
+- **Low confidence**: Hedging and self-correction differences (consistent trends but not statistically significant)
+
+## 7. Next Steps
+
+### Immediate Follow-ups
+1. **Length-controlled evaluation**: Re-run inter-sentence CoT with max_tokens=2048 or 4096, so visible output length matches standard generation. This would isolate the quality effect from the brevity effect.
+2. **Human evaluation**: Recruit human judges for blind pairwise comparison, controlling for response length.
+3. **Multi-model comparison**: Test on Claude Sonnet 4.5, Gemini 2.5 Pro, and open models to assess generalizability.
+
+### Alternative Approaches
+- **Selective inter-sentence CoT**: Only think before sentences that make factual claims, not every sentence.
+- **Hidden CoT with larger budget**: Use the model&#39;s native extended thinking mode (e.g., Claude&#39;s `&lt;thinking&gt;` blocks) with no visible token budget constraint.
+- **Fine-tuned inter-sentence thinking**: Train a model specifically to reason between sentences, following Goyal et al.&#39;s approach but at the sentence level rather than token level.
+
+### Open Questions
+- Does the truthfulness benefit scale with more thinking? (e.g., longer `&lt;think&gt;` blocks)
+- Can the brevity trade-off be eliminated by giving the model explicit instructions about target length?
+- Does inter-sentence CoT affect the model&#39;s confidence calibration on uncertain topics?
+- How does the technique interact with retrieval-augmented generation?
+
+## References
+
+1. Goyal et al. (2024). &#34;Think Before You Speak: Training Language Models With Pause Tokens.&#34; ICLR 2024.
+2. Herel &amp; Mikolov (2024). &#34;Thinking Tokens for Language Modeling.&#34; arXiv:2405.08644.
+3. Galashov et al. (2025). &#34;Catch Your Breath: Adaptive Computation for Self-Paced Sequence Production.&#34; arXiv:2510.13879.
+4. Hao et al. (2024). &#34;Training Large Language Models to Reason in a Continuous Latent Space (Coconut).&#34; arXiv:2412.06769.
+5. Lovelace et al. (2025). &#34;Stop-Think-AutoRegress: Language Modeling with Latent Diffusion Planning.&#34; COLM 2025.
+6. Wei et al. (2022). &#34;Chain-of-Thought Prompting Elicits Reasoning in Large Language Models.&#34; arXiv:2201.11903.
+7. Muennighoff et al. (2025). &#34;s1: Simple Test-Time Scaling.&#34; arXiv:2501.19393.
+8. Snell et al. (2024). &#34;Scaling LLM Test-Time Compute Optimally.&#34; arXiv:2408.03314.
+
+## Appendix: Experimental Configuration
+
+```json
+{
+  &#34;seed&#34;: 42,
+  &#34;model&#34;: &#34;gpt-4.1&#34;,
+  &#34;conditions&#34;: [&#34;standard&#34;, &#34;cot&#34;, &#34;inter_sentence_cot&#34;],
+  &#34;temperature_generation&#34;: 0.7,
+  &#34;temperature_gsm8k&#34;: 0.0,
+  &#34;temperature_judge&#34;: 0.0,
+  &#34;max_tokens_generation&#34;: 1024,
+  &#34;max_tokens_truthfulqa&#34;: 512,
+  &#34;max_tokens_gsm8k&#34;: 1024,
+  &#34;n_open_ended&#34;: 30,
+  &#34;n_truthfulqa&#34;: 100,
+  &#34;n_gsm8k&#34;: 100,
+  &#34;total_api_calls&#34;: &#34;~960&#34;
+}
+```
+
+## Appendix: Visualizations
+
+All plots are saved in `results/plots/`:
+- `summary_figure.png` — 9-panel summary of all results
+- `exp1_text_metrics.png` — Text property comparison across conditions
+- `exp1_judge_results.png` — LLM-as-judge win rates
+- `exp2_truthfulqa.png` — TruthfulQA truthfulness and informativeness rates
+- `exp3_gsm8k.png` — GSM8k accuracy and token usage
+- `exp4_text_properties.png` — Cross-experiment text property distributions with effect sizes
+
+
+════════════════════════════════════════════════════════════════════════════════
+                            RESEARCH PLAN
+════════════════════════════════════════════════════════════════════════════════
+
+# Research Plan: An LLM That&#39;s Careful With Its Words
+
+## Motivation &amp; Novelty Assessment
+
+### Why This Research Matters
+Current LLMs generate text sentence-by-sentence in a single forward pass without pausing to reconsider. Humans, by contrast, often plan what they&#39;ll say next, reconsider phrasing, and adjust for coherence. If we can prompt an LLM to deliberate between every sentence, the resulting text may be more coherent, more nuanced, more factually careful, and qualitatively different from standard generation. This has practical implications for any application where text quality matters: writing assistants, scientific communication, journalism, and educational content.
+
+### Gap in Existing Work
+Based on the literature review, all prior work on &#34;thinking tokens&#34; or &#34;pause tokens&#34; requires training modifications (Goyal et al. 2024, Herel &amp; Mikolov 2024, Galashov et al. 2025). No work studies whether prompting an off-the-shelf LLM to reason between every sentence — using its native chain-of-thought capability — produces qualitatively different text. The literature focuses on benchmark accuracy improvements, not on how the *style, structure, and character* of generated text changes.
+
+### Our Novel Contribution
+We test whether **inter-sentence chain-of-thought prompting** (requiring thinking between every sentence in the output) produces qualitatively and quantitatively different text from standard generation, using off-the-shelf LLMs via API. We analyze not just accuracy but the textual properties: hedging, specificity, sentence complexity, coherence, and self-correction patterns.
+
+### Experiment Justification
+- **Experiment 1 (Open-ended generation)**: Tests how inter-sentence thinking affects essay/explanation quality — the most direct test of &#34;qualitatively different text.&#34;
+- **Experiment 2 (Factual accuracy - TruthfulQA)**: Tests whether careful deliberation reduces hallucination and improves truthfulness.
+- **Experiment 3 (Math reasoning - GSM8k subset)**: Tests whether per-sentence thinking helps or hurts structured reasoning tasks, compared to standard CoT.
+- **Experiment 4 (Qualitative text analysis)**: Measures concrete textual properties (vocabulary diversity, hedging frequency, sentence length, self-corrections) to characterize *how* the text differs.
+
+## Research Question
+Does requiring an LLM to engage in chain-of-thought reasoning between every sentence produce text that is qualitatively different from standard generation? If so, how?
+
+## Hypothesis Decomposition
+1. **H1**: Inter-sentence CoT will produce more hedged, qualified claims compared to standard generation.
+2. **H2**: Inter-sentence CoT will produce more coherent, better-structured text (higher inter-sentence logical flow).
+3. **H3**: Inter-sentence CoT will improve factual accuracy on TruthfulQA.
+4. **H4**: Inter-sentence CoT will produce text with greater lexical diversity and more complex sentence structures.
+5. **H5**: Inter-sentence CoT may hurt efficiency on math reasoning (GSM8k) compared to standard CoT, due to forced thinking at suboptimal points.
+
+## Proposed Methodology
+
+### Approach
+We use a **prompting-based approach** with off-the-shelf LLMs (GPT-4.1 via OpenAI API). We compare three conditions:
+1. **Standard**: Normal generation with no special instructions
+2. **Standard CoT**: &#34;Think step by step&#34; before answering (traditional chain-of-thought)
+3. **Inter-sentence CoT (our method)**: The model must generate internal reasoning between every sentence of its response
+
+For inter-sentence CoT, we use a structured format where the model alternates between `&lt;think&gt;` blocks (hidden reasoning) and visible sentences. This leverages the model&#39;s native reasoning capability without any training modifications.
+
+### Experimental Steps
+
+#### Experiment 1: Open-Ended Generation Quality
+- **Prompts**: 30 diverse open-ended prompts (explanations, essays, advice)
+- **Conditions**: Standard, Standard CoT, Inter-sentence CoT
+- **Evaluation**: LLM-as-judge (pairwise comparisons using a separate model), plus qualitative text analysis
+- **Metrics**: Win rate, coherence rating, informativeness rating
+
+#### Experiment 2: Factual Accuracy (TruthfulQA)
+- **Dataset**: 100 randomly sampled TruthfulQA questions
+- **Conditions**: Standard, Standard CoT, Inter-sentence CoT
+- **Evaluation**: LLM-as-judge for truthfulness + informativeness (following TruthfulQA methodology)
+- **Metrics**: Truthfulness rate, informativeness rate
+
+#### Experiment 3: Math Reasoning (GSM8k)
+- **Dataset**: 100 randomly sampled GSM8k problems
+- **Conditions**: Standard, Standard CoT, Inter-sentence CoT
+- **Evaluation**: Exact match on final numerical answer
+- **Metrics**: Accuracy, token count (efficiency)
+
+#### Experiment 4: Qualitative Text Analysis
+- **Data**: All outputs from Experiments 1-3
+- **Analyses**:
+  - Hedging language frequency (words like &#34;might&#34;, &#34;perhaps&#34;, &#34;likely&#34;)
+  - Self-correction patterns (&#34;actually&#34;, &#34;however&#34;, &#34;on second thought&#34;)
+  - Lexical diversity (type-token ratio)
+  - Average sentence length and complexity
+  - Conditional/qualifying clause frequency
+
+### Baselines
+1. **Standard generation**: No special prompting (zero-shot)
+2. **Standard CoT**: &#34;Let&#39;s think step by step&#34; prefix
+3. **Inter-sentence CoT**: Our method — forced thinking between every sentence
+
+### Evaluation Metrics
+- **Accuracy**: Exact match for GSM8k
+- **Truthfulness**: LLM-judge following TruthfulQA protocol
+- **Text quality**: LLM-as-judge pairwise comparisons
+- **Textual properties**: Hedging rate, TTR, sentence length, self-correction count
+- **Efficiency**: Token count per response
+
+### Statistical Analysis Plan
+- Paired comparisons using McNemar&#39;s test (for accuracy) and Wilcoxon signed-rank test (for ratings)
+- Bootstrap confidence intervals for win rates
+- Effect sizes (Cohen&#39;s d) for continuous metrics
+- Significance level: α = 0.05
+
+## Expected Outcomes
+- Inter-sentence CoT text will be more hedged, nuanced, and self-correcting
+- It will show improved factual accuracy on TruthfulQA
+- It may show equivalent or slightly lower accuracy on GSM8k compared to standard CoT
+- Text will have higher lexical diversity and longer sentences
+- LLM judges will prefer inter-sentence CoT text for coherence and depth
+
+## Timeline and Milestones
+1. Environment setup: 10 min
+2. Implement prompting framework: 30 min
+3. Run Experiment 1 (open-ended): 30 min
+4. Run Experiment 2 (TruthfulQA): 30 min
+5. Run Experiment 3 (GSM8k): 20 min
+6. Run Experiment 4 (text analysis): 20 min
+7. Statistical analysis &amp; visualization: 30 min
+8. Documentation: 30 min
+
+## Potential Challenges
+- **API rate limits**: Mitigate with exponential backoff and batching
+- **Cost**: ~300 API calls × 3 conditions = ~900 calls. Manageable with GPT-4.1.
+- **Inter-sentence CoT format compliance**: Model may not follow the think-between-sentences format perfectly. Will validate and retry.
+- **Judge bias**: LLM judges may prefer longer text. Will control for length.
+
+## Success Criteria
+1. Clear qualitative differences documented between conditions
+2. Statistical significance on at least 2 of 4 experiments
+3. Concrete characterization of how inter-sentence CoT changes text
+
+
+════════════════════════════════════════════════════════════════════════════════
+                          LITERATURE REVIEW
+════════════════════════════════════════════════════════════════════════════════
+
+# Literature Review: An LLM That&#39;s Careful With Its Words
+
+## Research Area Overview
+
+This research explores whether requiring a chain-of-thought process or &#34;thinking tokens&#34; between every sentence causes an LLM to generate qualitatively different text. The core idea is that by forcing the model to reason between sentences, rather than generating them in immediate succession, the resulting text may exhibit improved coherence, factual accuracy, and reasoning quality.
+
+This sits at the intersection of several active research areas: (1) **test-time compute scaling** — using additional inference-time computation to improve LLM outputs; (2) **pause/thinking tokens** — inserting special tokens to give models additional processing steps; (3) **latent reasoning** — reasoning in continuous hidden states rather than discrete tokens; and (4) **chain-of-thought prompting** — eliciting step-by-step reasoning in natural language.
+
+---
+
+## Key Papers
+
+### Paper 1: Think Before You Speak: Training Language Models With Pause Tokens
+- **Authors**: Goyal, Ji, Rawat, Menon, Kumar, Nagarajan
+- **Year**: 2024 (ICLR 2024)
+- **Source**: arXiv:2310.02226
+- **Key Contribution**: First rigorous study of learnable `&lt;pause&gt;` tokens in Transformer LMs, demonstrating that appending dummy tokens to delay output generation improves downstream task performance — but only when used during both pretraining and finetuning.
+- **Methodology**: Decoder-only models (1B, 130M params) pretrained on C4 (200B tokens). During pause-pretraining, `&lt;pause&gt;` tokens are inserted at 10% of random positions. During finetuning, 10 or 50 `&lt;pause&gt;` tokens are appended to the input prefix. Loss on `&lt;pause&gt;` token predictions is ignored.
+- **Datasets Used**: GSM8k, SQuAD, CoQA, CommonSenseQA, PhysicalIQA, LAMBADA, HellaSwag, WebQuestions, NaturalQuestions
+- **Results**: PausePT+PauseFT improves over standard training on 8/9 tasks for 1B model. Most prominent gains: +18% EM on SQuAD, +8% on CommonSenseQA, +1% on GSM8k. Only HellaSwag showed no gain. Filler characters (periods) at inference-only do NOT help.
+- **Code Available**: No (Google internal infrastructure)
+- **Relevance**: Most directly relevant prior work. Demonstrates that thinking tokens can help but require training integration. Our hypothesis extends this by using prompted thinking (between sentences) with off-the-shelf models rather than trained pause tokens.
+
+### Paper 2: Thinking Tokens for Language Modeling
+- **Authors**: Herel, Mikolov
+- **Year**: 2024
+- **Source**: arXiv:2405.08644
+- **Key Contribution**: Proposes inserting `&lt;T&gt;` thinking tokens after each word in LSTM-based language models to give the model more computation time. Proof-of-concept showing per-sentence perplexity improvements on reasoning-heavy sentences.
+- **Methodology**: LSTM LM with 1 hidden layer (450 neurons). N=1 thinking token after each word. Trained on Penn TreeBank, WikiText-2, MacroEconomics textbook, and math dataset.
+- **Results**: Overall validation perplexity slightly worsens (68.2→68.4 on PTB), but per-sentence analysis shows improvements on complex reasoning sentences (e.g., math: 16.8→13.1 perplexity). More thinking tokens (2, 3) hurt due to LSTM forgetting.
+- **Code Available**: No
+- **Relevance**: Earliest articulation of the thinking tokens idea for language models. Limited by LSTM architecture and small scale. Our work extends this to modern Transformers and the sentence level.
+
+### Paper 3: Catch Your Breath: Adaptive Computation for Self-Paced Sequence Production
+- **Authors**: Galashov, Jones, Ke, Cao, Nagarajan, Mozer
+- **Year**: 2025
+- **Source**: arXiv:2510.13879
+- **Key Contribution**: Makes pause tokens **adaptive** — the model itself decides when to request additional compute by emitting `&lt;DON&#39;T KNOW&gt;` tokens. Frames this as a sequential decision problem with a time cost.
+- **Methodology**: Fine-tuning experiments with three CYB loss variants (anytime prediction, variational, dynamic penalty). Model can request multiple pauses per token.
+- **Results**: CYB model needs only 1/3 the training data as no-pause baseline. Model adapts processing time to token-level complexity: pauses after plural nouns (&#34;patients&#34;), never after contractions (&#34;wasn&#34;), high variability for ambiguous tokens (&#34;won&#34;).
+- **Code Available**: No (Google DeepMind)
+- **Relevance**: Provides evidence that adaptive thinking time is beneficial and that models can learn to allocate compute where it&#39;s needed. Directly relevant to our hypothesis about per-sentence thinking.
+
+### Paper 4: Training Large Language Models to Reason in a Continuous Latent Space (Coconut)
+- **Authors**: Hao, Sukhbaatar, Su, Li, Hu, Weston, Tian
+- **Year**: 2024/2025
+- **Source**: arXiv:2412.06769
+- **Key Contribution**: Introduces Chain of Continuous Thought (Coconut), where the LLM&#39;s last hidden state is fed back as the next input embedding, enabling reasoning in a continuous latent space rather than discrete language tokens.
+- **Methodology**: GPT-2 base model. Multi-stage training curriculum that gradually replaces language CoT steps with continuous thoughts. `&lt;bot&gt;` and `&lt;eot&gt;` tokens mark latent reasoning mode.
+- **Datasets Used**: ProsQA (new graph reasoning dataset), ProntoQA, GSM8k
+- **Results**: Outperforms language CoT on ProsQA (requiring search/planning). Continuous thoughts can encode multiple alternative reasoning paths, enabling emergent BFS-like reasoning. Reduces inference token count.
+- **Code Available**: Yes — https://github.com/facebookresearch/coconut
+- **Relevance**: Shows that latent &#34;thinking&#34; (not visible in output) can outperform explicit CoT. Provides evidence that reasoning can happen in non-language representations. However, focuses on task-specific reasoning rather than general text quality.
+
+### Paper 5: Stop-Think-AutoRegress: Language Modeling with Latent Diffusion Planning (STAR-LDM)
+- **Authors**: Lovelace, Belardi, Zalouk, Polavaram, Kundurthy, Weinberger
+- **Year**: 2025/2026 (COLM 2025)
+- **Source**: arXiv:2602.20528
+- **Key Contribution**: Integrates latent diffusion planning into autoregressive generation. The model pauses generation, performs diffusion-based planning in sentence embedding space, then resumes AR generation guided by the refined plan.
+- **Methodology**: Uses Sentence-T5 XL embeddings as latent planning space. Diffusion Transformers (DiTs) translate between embedding space and token space. Joint training of AR and diffusion components.
+- **Results**: &gt;70% win rates in LLM-as-judge comparisons for narrative coherence and commonsense reasoning. Also improves standard benchmarks (language understanding). Enables plug-and-play control via lightweight classifiers.
+- **Code Available**: Yes — https://github.com/justinlovelace/STAR-LDM
+- **Relevance**: Closest to our hypothesis in spirit — pauses generation to &#34;think&#34; about the plan for subsequent text at the sentence level. However, uses diffusion models for planning rather than CoT prompting.
+
+### Paper 6: Chain-of-Thought Prompting Elicits Reasoning in Large Language Models
+- **Authors**: Wei, Wang, Schuurmans, Bosma, Ichter, Xia, Chi, Le, Zhou
+- **Year**: 2022
+- **Source**: arXiv:2201.11903
+- **Key Contribution**: Demonstrates that prompting LLMs to generate intermediate reasoning steps dramatically improves performance on reasoning tasks. Foundation paper for the chain-of-thought paradigm.
+- **Relevance**: Establishes CoT as a powerful technique. Our hypothesis is essentially a variant: what if CoT reasoning happens between every sentence rather than just before the final answer?
+
+### Paper 7: s1: Simple Test-Time Scaling
+- **Authors**: Muennighoff, Yang, Shi, Li, Li, Hajishirzi, Zettlemoyer, Liang, Candès, Hashimoto
+- **Year**: 2025
+- **Source**: arXiv:2501.19393
+- **Key Contribution**: Shows that test-time compute scaling can be achieved simply by appending &#34;Wait&#34; tokens to extend the model&#39;s thinking process, often leading the model to double-check and correct its answer.
+- **Results**: s1-32B exceeds o1-preview on MATH and AIME24 by up to 27%. Budget forcing (controlling thinking length) enables extrapolation beyond base performance.
+- **Code Available**: Yes — https://github.com/simplescaling/s1
+- **Relevance**: Demonstrates that simply extending the model&#39;s &#34;thinking time&#34; (via &#34;Wait&#34; tokens) improves reasoning. Directly supports our hypothesis that more deliberation leads to better outputs.
+
+### Paper 8: Scaling LLM Test-Time Compute Optimally
+- **Authors**: Snell, Lee, Xu, Kumar
+- **Year**: 2024
+- **Source**: arXiv:2408.03314
+- **Key Contribution**: Systematic study of test-time compute scaling strategies. Shows that compute-optimal allocation per prompt can improve efficiency by 4x over best-of-N. A smaller model with optimal test-time compute can outperform a 14x larger model.
+- **Relevance**: Provides theoretical and empirical framework for understanding why additional thinking time improves performance. Supports the idea that some prompts benefit more from deliberation than others.
+
+---
+
+## Common Methodologies
+
+1. **Pause/Thinking Token Insertion**: Adding special tokens to the input to give the model more compute steps per output token (Goyal et al., Herel &amp; Mikolov, Galashov et al.)
+2. **Latent Space Reasoning**: Feeding hidden states back as input rather than decoding to tokens (Coconut, STAR-LDM, Compressed CoT)
+3. **Budget Forcing / Test-Time Scaling**: Controlling the amount of compute at inference time via token budgets (s1, Snell et al.)
+4. **Chain-of-Thought Prompting**: Eliciting explicit intermediate reasoning in natural language (Wei et al., and variations)
+
+## Standard Baselines
+
+- **Standard (no thinking)**: Direct generation without any additional computation
+- **Chain-of-Thought**: Prompting the model to think step-by-step before answering
+- **Few-shot filler tokens**: Appending periods or other characters (shown to NOT help without training)
+- **Best-of-N sampling**: Generating N responses and selecting the best one
+
+## Evaluation Metrics
+
+- **Accuracy/Exact Match**: For closed-form tasks (math, QA, classification)
+- **Perplexity**: For language modeling quality
+- **LLM-as-Judge**: For open-ended generation quality (AlpacaEval, MT-Bench style)
+- **ROUGE/BERTScore**: For summarization tasks
+- **Factual consistency**: For measuring hallucination reduction (TruthfulQA)
+- **Token efficiency**: Ratio of quality improvement to additional tokens used
+
+## Datasets in the Literature
+
+| Dataset | Used In | Task |
+|---------|---------|------|
+| GSM8k | Pause Tokens, Coconut, s1 | Math reasoning |
+| SQuAD | Pause Tokens | Extractive QA |
+| CommonSenseQA | Pause Tokens | Commonsense reasoning |
+| HellaSwag | Pause Tokens | Sentence completion |
+| ProsQA | Coconut | Graph-based logical reasoning |
+| ProntoQA | Coconut | Logical reasoning |
+| MATH | s1 | Competition math |
+| AIME | s1 | Competition math |
+| Penn TreeBank | Thinking Tokens | Language modeling |
+| WikiText-2 | Thinking Tokens | Language modeling |
+
+## Gaps and Opportunities
+
+1. **No study of sentence-level thinking in prompting**: Existing work focuses on either (a) trained pause tokens at the token level, or (b) CoT before the final answer. No work studies prompting an off-the-shelf LLM to think between every sentence.
+2. **Qualitative text analysis missing**: Prior work measures accuracy on benchmarks. No work systematically analyzes how thinking tokens change the *style*, *vocabulary*, *sentence structure*, or *coherence* of generated text.
+3. **Off-the-shelf models underexplored**: Goyal et al. showed filler tokens don&#39;t help without training. But they only tested simple fillers (&#39;...&#39;), not structured thinking prompts. No work tests whether instructing a model to reason between sentences (using its own CoT capability) produces different text.
+4. **Sentence-level granularity**: All existing work operates at the token level or the entire-response level. The sentence level — a natural unit of human writing — is unexplored.
+5. **Open-ended generation**: Most benchmarks are closed-form tasks. The effect on open-ended writing, storytelling, and essay generation is unstudied.
+
+## Recommendations for Our Experiment
+
+Based on the literature review:
+
+- **Recommended datasets**: GSM8k (reasoning), TruthfulQA (factual accuracy), CommonSenseQA (commonsense), HellaSwag (coherence) as primary benchmarks. AlpacaEval and MT-Bench for open-ended quality evaluation.
+- **Recommended baselines**: Standard generation, standard CoT (think before answering), and filler tokens (periods between sentences) as negative control.
+- **Recommended metrics**: Accuracy for closed-form tasks, LLM-as-judge for open-ended quality, plus qualitative analysis of text properties (sentence length, vocabulary diversity, hedging language, etc.).
+- **Methodological considerations**:
+  - The Pause Tokens paper&#39;s finding that filler tokens don&#39;t help suggests that *structured* thinking (not just delays) is important for off-the-shelf models.
+  - The s1 paper&#39;s &#34;Wait&#34; token success suggests that even simple extensions of thinking time can help if the model has been trained to use them.
+  - Coconut&#39;s BFS-like emergent reasoning suggests that latent thinking can differ qualitatively from explicit CoT.
+  - Focus on comparing the *text itself* (not just accuracy) to address the &#34;qualitatively different&#34; part of the hypothesis.
+
+
+════════════════════════════════════════════════════════════════════════════════
+                          PAPER REQUIREMENTS
+════════════════════════════════════════════════════════════════════════════════
+
+Generate a complete academic paper with the following structure:
+
+1. TITLE
+   - Clear, specific, informative
+   - Should convey main finding or contribution
+
+2. AUTHOR
+   - Use this exact author line in the \author{} block: Ari Holtzman and Idea-Explorer
+
+3. ABSTRACT (150-250 words)
+   - Problem statement
+   - Approach
+   - Key results
+   - Significance
+
+4. INTRODUCTION
+   - Research problem and motivation
+   - Gap in existing work
+   - Our contribution (be specific)
+   - Paper organization
+
+5. RELATED WORK
+   - Organized by theme/approach
+   - Position our work relative to prior work
+   - Cite papers from literature review
+
+6. METHODOLOGY
+   - Clear description of approach
+   - Experimental setup
+   - Datasets used
+   - Evaluation metrics
+   - Baselines
+
+7. RESULTS
+   - Present results with tables and figures
+   - Statistical analysis
+   - Comparison to baselines
+   - Ablation studies (if applicable)
+
+8. DISCUSSION
+   - Interpretation of results
+   - Limitations
+   - Broader implications
+
+9. CONCLUSION
+   - Summary of contributions
+   - Key findings
+   - Future work
+
+10. REFERENCES
+   - BibTeX format
+   - All cited papers
+
+════════════════════════════════════════════════════════════════════════════════
+                          OUTPUT FORMAT
+════════════════════════════════════════════════════════════════════════════════
+
+Create a MODULAR LaTeX project with the following directory structure:
+
+paper_draft/
+├── main.tex              # Main file that imports all sections
+├── references.bib        # BibTeX references
+├── sections/
+│   ├── abstract.tex      # Abstract content
+│   ├── introduction.tex  # Introduction section
+│   ├── related_work.tex  # Related work section
+│   ├── methodology.tex   # Methodology section
+│   ├── results.tex       # Results section
+│   ├── discussion.tex    # Discussion section
+│   └── conclusion.tex    # Conclusion section
+├── figures/              # Directory for any generated figures
+├── tables/               # Directory for complex standalone tables
+└── appendix/             # Directory for appendix sections (if needed)
+
+INSTRUCTIONS:
+1. First, create the directory structure above (mkdir -p paper_draft/sections paper_draft/figures paper_draft/tables paper_draft/appendix)
+2. Write main.tex using the EXACT preamble for NEURIPS:
+
+   \documentclass{article}
+   \usepackage[final]{neurips_2025}  % NEURIPS style (neurips_2025.sty is in paper_draft/)
+   \usepackage[hidelinks]{hyperref}  % REQUIRED: clickable links
+   \usepackage{booktabs}  % REQUIRED: professional tables
+   \usepackage{graphicx}
+   \usepackage{amsmath,amssymb}
+
+   % Import command files
+   \input{commands/math}
+   \input{commands/general}
+   \input{commands/macros}
+
+   % Use this bibliography style:
+   \bibliographystyle{plainnat}
+
+   \author{Ari Holtzman and Idea-Explorer}
+
+   - Use \input{sections/...} to include each section
+   - Use \bibliography{references} for references
+3. Write each section file with COMPLETE content (no placeholders)
+4. Each section file should include its \section{} command
+5. Write references.bib with all citations in BibTeX format
+6. After writing all files, compile the paper:
+   cd paper_draft && pdflatex -interaction=nonstopmode main.tex && bibtex main && pdflatex -interaction=nonstopmode main.tex && pdflatex -interaction=nonstopmode main.tex
+
+This modular structure allows humans to easily:
+- Edit individual sections without navigating a large file
+- Track changes per section
+- Reuse sections across different paper versions
+
+════════════════════════════════════════════════════════════════════════════════
+                          QUALITY REQUIREMENTS
+════════════════════════════════════════════════════════════════════════════════
+
+- Academic tone throughout
+- All claims must be supported by data from the experiment report
+- Proper citations using \cite{} commands
+- Clear figures and tables with proper captions
+- NO placeholder text - every section must have real content
+- The paper MUST compile without errors
+- If compilation fails, debug and fix the LaTeX errors
+
+════════════════════════════════════════════════════════════════════════════════
+                          LAB WRITING STYLE
+════════════════════════════════════════════════════════════════════════════════
+
+Follow these lab-specific conventions to match our paper style:
+
+1. LANGUAGE STYLE:
+   - Use active voice: "We propose", "We examine", "We focus on"
+   - Be direct and confident: "Our main question is...", "We hypothesize that..."
+   - State things clearly and simply - prefer plain language over jargon
+   - Use bold questions as paragraph organizers: {\bf what is X?}
+   - Include specific quantitative claims: "8.97% over baseline"
+   - Avoid fancy wording: "utilize" → "use", "facilitate" → "help"
+
+2. INTRODUCTION STRUCTURE:
+   - Engaging hook (get to the point quickly)
+   - Problem importance
+   - Gap identification
+   - Your approach with method figure reference
+   - Quantitative preview of results
+   - Contribution bullets (3-4 items, action verbs)
+
+3. CONTRIBUTION LISTS:
+   \begin{itemize}[leftmargin=*,itemsep=0pt,topsep=0pt]
+       \item We propose...
+       \item We conduct...
+       \item We complement...
+   \end{itemize}
+
+4. MODULAR COMMANDS STRUCTURE:
+   Command templates are pre-copied to paper_draft/commands/:
+   - math.tex: Math notation macros
+   - general.tex: Formatting macros
+   - macros.tex: Project-specific term definitions (customize this for your paper)
+
+   In main.tex, include:
+   \input{commands/math}
+   \input{commands/general}
+   \input{commands/macros}
+
+5. REFERENCE CONVENTIONS:
+   Use reference macros from math.tex:
+   - \figref{fig:name} for "figure 1" (lowercase, in-sentence)
+   - \Figref{fig:name} for "Figure 1" (capitalized, start of sentence)
+   - \secref{sec:name} for "section 2"
+
+6. TEXT FORMATTING:
+   - Use \para{Header text} for bold paragraph headers
+   - Define method/dataset names with \textsc and \xspace:
+     \newcommand{\methodname}{\textsc{MethodName}\xspace}
+
+7. TABLE FORMATTING:
+   - Use booktabs package (no vertical lines)
+   - Use \resizebox{\textwidth}{!}{...} for wide tables
+   - Use @{} to remove padding at table edges
+   - Use \cmidrule(lr){x-y} for sub-headers
+   - Use \textsc{} for dataset/method names in headers
+   - Bold best results with {\bf ...}
+
+8. FIGURE FORMATTING:
+   - Use 0.32\textwidth for 3-column subfigures
+   - Use 0.95\linewidth for full-width figures
+   - Use \input{figures/legend} for shared legends
+   - Write self-contained captions explaining key observations
+
+9. RESULTS PRESENTATION:
+   - Define \increase and \decrease for colored arrows (green up, red down)
+   - Bold best results in tables
+   - Report confidence intervals when available
+
+10. ALGORITHM STYLING:
+    - Use algpseudocode with [noend]
+    - Use \triangleright for comments
+
+11. HYPERLINKS (REQUIRED):
+    - Always use \usepackage[hidelinks]{hyperref} or with colored links
+    - All citations, section refs, figure refs, table refs must be clickable
+    - This is essential for reader navigation
+
+════════════════════════════════════════════════════════════════════════════════
+                          WORKFLOW: REVIEW AND REFLECT
+════════════════════════════════════════════════════════════════════════════════
+
+Before calling finish, you MUST complete these review steps:
+
+1. REVIEW RESOURCES (at the start):
+   - Read .claude/skills/paper-writer/SKILL.md for detailed guidance
+   - Study templates/paper_writing/lab_style_guide.md for style conventions
+   - Browse paper_examples/ for formatting and language patterns
+
+2. SELF-REFLECTION (before finishing):
+   After writing all sections, review your work against these criteria:
+
+   LANGUAGE CHECK:
+   - [ ] Is the writing clear and jargon-free?
+   - [ ] Are claims specific with quantitative support?
+   - [ ] Is active voice used throughout?
+
+   FORMATTING CHECK:
+   - [ ] Does main.tex include \input{commands/math}, \input{commands/general}, \input{commands/macros}?
+   - [ ] Is hyperref package included for clickable references?
+   - [ ] Do tables use booktabs (no vertical lines)?
+   - [ ] Are best results bolded in tables?
+   - [ ] Are figures/tables properly captioned?
+
+   STRUCTURE CHECK:
+   - [ ] Does introduction follow: hook → importance → gap → approach → preview → contributions?
+   - [ ] Are contribution bullets specific with action verbs?
+   - [ ] Does the paper compile without errors?
+
+3. FIX ISSUES:
+   - Address any issues found in the self-reflection
+   - Re-compile and verify the PDF looks correct
+
+Only after completing this review should you consider the paper finished.

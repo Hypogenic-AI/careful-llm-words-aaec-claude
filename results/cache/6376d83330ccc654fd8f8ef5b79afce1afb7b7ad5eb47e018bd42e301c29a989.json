@@ -1,0 +1,10 @@
+{
+  "text": "WINNER: B\nREASON: Response B is more detailed, logically organized, and provides clearer transitions between points. It elaborates on both benefits and risks with specific examples and subpoints, resulting in a more coherent and well-structured answer.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 982,
+    "completion_tokens": 50,
+    "total_tokens": 1032
+  },
+  "finish_reason": "stop"
+}

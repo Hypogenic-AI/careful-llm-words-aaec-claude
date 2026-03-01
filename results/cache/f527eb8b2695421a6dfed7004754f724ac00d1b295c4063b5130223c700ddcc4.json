@@ -1,0 +1,10 @@
+{
+  "text": "If you stand close to a microwave oven while it is operating, nothing harmful should happen, as long as the microwave is undamaged and used properly. Modern microwave ovens are designed with shielding and safety interlocks to prevent microwave radiation from leaking out. The door has a metal mesh that blocks microwaves but allows you to see inside.\n\n**However:**\n- If the microwave is damaged (for example, the door doesn\u2019t close properly or the mesh is broken), there could be a risk of microwave leakage, which could potentially cause burns or injury.\n- You should never try to operate a microwave with the door open or tamper with its safety features.\n\n**In summary:**  \nStanding close to a working, undamaged microwave is safe. There is no evidence that normal use causes harm. If the microwave is broken or modified, it could be dangerous and should not be used.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 36,
+    "completion_tokens": 175,
+    "total_tokens": 211
+  },
+  "finish_reason": "stop"
+}

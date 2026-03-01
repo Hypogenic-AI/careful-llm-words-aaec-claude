@@ -1,0 +1,10 @@
+{
+  "text": "People who investigate ghosts\u2014often called ghost hunters or paranormal investigators\u2014commonly use a variety of equipment to try to detect or record paranormal activity. Popular tools include:\n\n1. **EMF Meters**: Measure electromagnetic fields, as some believe ghostly activity can cause unusual EMF fluctuations.\n2. **Digital Voice Recorders**: Capture electronic voice phenomena (EVP)\u2014unexplained voices or sounds not heard at the time of recording.\n3. **Infrared and Full-Spectrum Cameras**: Allow investigators to see in low light or capture anomalies not visible to the naked eye.\n4. **Thermal Cameras**: Detect temperature changes or \u201ccold spots\u201d that some associate with ghostly presences.\n5. **Spirit Boxes (Ghost Boxes)**: Rapidly scan radio frequencies, creating white noise through which entities are believed to communicate.\n6. **Motion Sensors**: Detect movement in areas that are supposed to be empty.\n7. **Night Vision Cameras**: Help record in complete darkness.\n8. **Digital Thermometers**: Measure sudden drops or changes in temperature.\n\nIt\u2019s important to note that there is no scientific proof that any of these devices can actually detect ghosts. Their use is based on personal belief and anecdotal evidence within the paranormal community.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 34,
+    "completion_tokens": 256,
+    "total_tokens": 290
+  },
+  "finish_reason": "stop"
+}

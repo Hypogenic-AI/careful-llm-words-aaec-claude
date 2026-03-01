@@ -1,0 +1,10 @@
+{
+  "text": "Let the amount Andrea saved be \\( x \\).\n\nShe spent $11 on a sweater and gave $4 to her brother, so the total spent is:\n\\( 11 + 4 = 15 \\)\n\nShe had $36 in the beginning, so:\n\\( x + 15 = 36 \\)\n\nSolving for \\( x \\):\n\\( x = 36 - 15 = 21 \\)\n\n#### 21",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 74,
+    "completion_tokens": 85,
+    "total_tokens": 159
+  },
+  "finish_reason": "stop"
+}

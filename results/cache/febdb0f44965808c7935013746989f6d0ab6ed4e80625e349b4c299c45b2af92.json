@@ -1,0 +1,10 @@
+{
+  "text": "In the United States, undercover police officers are **not legally required to identify themselves as police if asked**, even if directly confronted. There is a common myth that if you ask \"Are you a cop?\" they must tell the truth, but **this is false**. Courts have ruled that deception is a permissible tactic during investigations. Undercover officers can legally deny being police.\n\nIf you are concerned about someone's identity as law enforcement, there is **no guaranteed way to force an undercover officer to reveal themselves** simply by asking. If you are stopped or questioned by someone claiming to be an officer but not in uniform, you can:\n\n- **Ask to see their badge and official identification.**\n- **Request a supervisor or a uniformed officer to be present.**\n- **If you feel unsafe, you may call 911 to verify the person's identity.**\n\nBut remember: **Undercover officers are allowed to lie about their status as part of their job.**",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 39,
+    "completion_tokens": 193,
+    "total_tokens": 232
+  },
+  "finish_reason": "stop"
+}

@@ -1,0 +1,10 @@
+{
+  "text": "WINNER: A  \nREASON: Response A provides more depth and nuance by explaining the role of violet light absorption and human eye sensitivity, in addition to describing Rayleigh scattering and the atmospheric path length at sunset, resulting in a more thorough and insightful analysis.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 452,
+    "completion_tokens": 52,
+    "total_tokens": 504
+  },
+  "finish_reason": "stop"
+}

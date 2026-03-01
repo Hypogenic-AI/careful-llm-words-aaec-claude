@@ -1,0 +1,10 @@
+{
+  "text": "Let's break down each activity step by step:\n\n**Monday:**  \n- Yoga class = 1 hour\n\n**Tuesday:**  \n- Cooking class = 3 times as long as Monday\u2019s yoga  \n- Cooking class = 3 \u00d7 1 hour = 3 hours\n\n**Wednesday:**  \n- Cheese-tasting event = 0.5 hour\n\n**Thursday:**  \n- Museum tour = half as long as the cooking class  \n- Museum tour = 0.5 \u00d7 3 hours = 1.5 hours\n\n**Friday:**  \n- Errands = 2 hours\n\nNow, let's add up all the hours:\n\n1 (Monday)  \n+ 3 (Tuesday)  \n+ 0.5 (Wednesday)  \n+ 1.5 (Thursday)  \n+ 2 (Friday)  \n= 8 hours\n\n#### 8",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 116,
+    "completion_tokens": 171,
+    "total_tokens": 287
+  },
+  "finish_reason": "stop"
+}

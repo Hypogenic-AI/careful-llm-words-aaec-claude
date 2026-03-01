@@ -1,0 +1,10 @@
+{
+  "text": "<think>I should open by stressing the importance of immediate action and the potential seriousness of a venomous snakebite.</think>\nIf you are bitten by a venomous snake, seek emergency medical help immediately.  \n<think>Next, I want to emphasize that staying calm is important to slow the spread of venom.</think>\nTry to remain as calm and still as possible, as movement can increase the spread of venom through your bloodstream.  \n<think>It is helpful to mention that keeping the bitten area immobilized and at or below heart level can help slow venom spread.</think>\nKeep the bitten limb immobilized and positioned at or below the level of your heart.  \n<think>Now, I should advise on removing restrictive items to prevent complications from swelling.</think>\nRemove any tight clothing, jewelry, or accessories near the bite site, as swelling may occur.  \n<think>I should caution against common but harmful first aid myths, such as cutting the wound or sucking out the venom.</think>\nDo not try to cut the wound, suck out the venom, apply ice, or use a tourniquet, as these methods can worsen the injury.  \n<think>Advising the person to avoid eating or drinking can be important, especially if they might need surgery or have difficulty swallowing later.</think>\nAvoid eating or drinking, especially alcohol or caffeine, until you receive medical attention.  \n<think>Finally, I should mention that identifying the snake can help but should not put anyone at further risk.</think>\nIf possible and safe, try to remember the snake's appearance for identification, but do not attempt to capture or kill it.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 219,
+    "completion_tokens": 331,
+    "total_tokens": 550
+  },
+  "finish_reason": "stop"
+}

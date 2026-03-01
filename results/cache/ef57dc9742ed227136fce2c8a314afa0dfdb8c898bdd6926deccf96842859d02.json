@@ -1,0 +1,10 @@
+{
+  "text": "In real life, you would go to **King\u2019s Cross Station** in London to \"catch the train to Hogwarts.\" In the Harry Potter books, students board the Hogwarts Express from **Platform 9\u00be** at King\u2019s Cross. At the real King\u2019s Cross Station, there is a special photo spot with a trolley \"vanishing\" into the wall, marked \"Platform 9\u00be,\" near the main concourse, where fans can take pictures.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 41,
+    "completion_tokens": 91,
+    "total_tokens": 132
+  },
+  "finish_reason": "stop"
+}

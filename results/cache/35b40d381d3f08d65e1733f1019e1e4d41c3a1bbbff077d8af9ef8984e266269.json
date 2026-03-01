@@ -1,0 +1,10 @@
+{
+  "text": "First, calculate Ryan\u2019s total allowance after 3 weeks:\n$6 per week \u00d7 3 weeks = $18\n\nNext, calculate the total cost of ice cream cones for himself and 3 friends (4 people):\n$1.25 \u00d7 4 = $5\n\nSubtract the ice cream cost from his total money:\n$18 - $5 = $13\n\nNow, determine how many movie tickets Ryan can buy at $6.50 each:\n$13 \u00f7 $6.50 = 2\n\nSo, Ryan can buy\n\n#### 2",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 100,
+    "completion_tokens": 112,
+    "total_tokens": 212
+  },
+  "finish_reason": "stop"
+}

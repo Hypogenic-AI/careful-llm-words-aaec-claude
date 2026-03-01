@@ -1,0 +1,10 @@
+{
+  "text": "**The tragedy of the commons** is a concept in economics and environmental science that describes how individuals, acting in their own self-interest, can collectively overuse and deplete a shared and limited resource\u2014even when it's clear that it is not in anyone's long-term interest for this to happen.\n\nThe term was popularized by Garrett Hardin in 1968. The \"commons\" refers to a resource shared by a group (historically, common grazing land). When each person tries to get the most benefit (e.g., by grazing more of their own animals), the shared resource can become overused and eventually degraded or destroyed.\n\n**Modern examples include:**\n\n1. **Overfishing:** Oceans are often treated as a common resource. Without regulation, individual fishers have an incentive to catch as many fish as possible, which can lead to the collapse of fish populations.\n\n2. **Air pollution and climate change:** The atmosphere is a global commons. Factories, vehicles, and countries emit greenhouse gases for their own benefit, but the cumulative effect leads to global warming and climate change.\n\n3. **Traffic congestion:** Roads, especially in cities, can be overused. Each driver benefits by using their car, but too many cars cause traffic jams and air pollution.\n\n4. **Deforestation:** In some regions, forests are not privately owned or effectively regulated. Individuals clear land for agriculture or timber, which can lead to loss of biodiversity and environmental damage.\n\n5. **Groundwater depletion:** Aquifers are shared by many users (farmers, companies, municipalities). Excessive pumping by each user can lead to the depletion of water resources for everyone.\n\nIn each case, collective action or regulation is often needed to manage the resource sustainably and avoid the tragedy.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 36,
+    "completion_tokens": 352,
+    "total_tokens": 388
+  },
+  "finish_reason": "stop"
+}

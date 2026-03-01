@@ -1,0 +1,10 @@
+{
+  "text": "She is the Queen of Denmark. This refers to Queen Margrethe II, who has a noted interest in archaeology and has had a long and popular reign.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 32,
+    "total_tokens": 94
+  },
+  "finish_reason": "stop"
+}

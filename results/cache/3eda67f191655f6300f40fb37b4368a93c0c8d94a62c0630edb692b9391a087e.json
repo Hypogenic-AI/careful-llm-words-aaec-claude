@@ -1,0 +1,10 @@
+{
+  "text": "Let's define:\n\n- \\( c \\) = number of camels (each has 2 humps)\n- \\( d \\) = number of dromedaries (each has 1 hump)\n\nWe are told:\n\n- Total heads: \\( c + d = 180 \\)\n- Total humps: \\( 2c + d = 304 \\)\n\nLet's solve step by step:\n\n**Step 1: Express one variable in terms of the other using the first equation.**\n\nFrom \\( c + d = 180 \\):\n\n\\( c = 180 - d \\)\n\n**Step 2: Substitute into the second equation.**\n\nSubstitute \\( c \\) into \\( 2c + d = 304 \\):\n\n\\( 2(180 - d) + d = 304 \\)\n\n\\( 360 - 2d + d = 304 \\)\n\n\\( 360 - d = 304 \\)\n\n**Step 3: Solve for \\( d \\).**\n\n\\( 360 - 304 = d \\)\n\n\\( d = 56 \\)\n\n**Step 4: Final answer**\n\n#### 56",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 87,
+    "completion_tokens": 226,
+    "total_tokens": 313
+  },
+  "finish_reason": "stop"
+}

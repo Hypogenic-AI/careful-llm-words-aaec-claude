@@ -1,0 +1,10 @@
+{
+  "text": "Let's break down the problem step by step:\n\n1. **Cindy's pets:**  \n   Cindy has 4 pets.\n\n2. **Marcia's pets:**  \n   Marcia has two more pets than Cindy.  \n   So, Marcia has:  \n   4 (Cindy's pets) + 2 = 6 pets\n\n3. **Jan's pets:**  \n   Jan has three times the number of pets as Marcia.  \n   So, Jan has:  \n   3 \u00d7 6 (Marcia's pets) = 18 pets\n\n4. **Total pets:**  \n   Add up all their pets:  \n   Cindy: 4  \n   Marcia: 6  \n   Jan: 18  \n   Total = 4 + 6 + 18 = 28\n\nFinal answer:\n#### 28",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 75,
+    "completion_tokens": 171,
+    "total_tokens": 246
+  },
+  "finish_reason": "stop"
+}

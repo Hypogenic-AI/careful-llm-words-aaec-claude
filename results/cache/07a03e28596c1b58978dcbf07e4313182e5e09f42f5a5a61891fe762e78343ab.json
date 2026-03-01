@@ -1,0 +1,10 @@
+{
+  "text": "Certainly! Let's break it down step by step:\n\n**1. Understanding Genetic Inheritance:**\n- Every person inherits half their DNA from their mother and half from their father.\n- This means you share 50% of your genetic material with each parent.\n\n**2. Siblings and Genetic Sharing:**\n- Full siblings also receive half their DNA from each parent.\n- However, the specific half of DNA that each sibling gets from each parent is random.\n- On average, full siblings share 50% of their DNA, too.\n\n**3. Why 50% for Siblings?**\n- Sometimes, siblings can share slightly more or less due to the randomness of genetic recombination, but on average, it\u2019s about 50%.\n- Identical twins are an exception\u2014they share nearly 100% of their DNA.\n\n**4. Comparing the Numbers:**\n- Shared DNA with each parent: 50%\n- Shared DNA with a full sibling (on average): 50%\n\n**Conclusion:**  \nYou share, on average, **the same amount of genes (about 50%) with your siblings as you do with each of your parents**. Neither relationship involves sharing more genes than the other.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 49,
+    "completion_tokens": 241,
+    "total_tokens": 290
+  },
+  "finish_reason": "stop"
+}

@@ -1,0 +1,10 @@
+{
+  "text": "WINNER: B\nREASON: Response B is more structured, provides specific examples for each factor, and avoids overgeneralization or unsupported claims, making it more likely to be factually accurate and balanced.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 547,
+    "completion_tokens": 42,
+    "total_tokens": 589
+  },
+  "finish_reason": "stop"
+}

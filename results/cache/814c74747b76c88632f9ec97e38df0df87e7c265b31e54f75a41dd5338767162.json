@@ -1,0 +1,10 @@
+{
+  "text": "Let the number of blue gumballs be \\( b = 12 \\).\n\nThe number of pink gumballs is \\( 4b + 22 \\).\n\nPlug in \\( b = 12 \\):\n\n\\( 4 \\times 12 + 22 = 48 + 22 = 70 \\)\n\n#### 70",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 77,
+    "completion_tokens": 66,
+    "total_tokens": 143
+  },
+  "finish_reason": "stop"
+}

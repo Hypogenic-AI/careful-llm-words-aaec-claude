@@ -1,0 +1,10 @@
+{
+  "text": "<think>I should begin by acknowledging that the search for ghosts is not scientifically validated, but that there are tools commonly used by paranormal investigators.</think>\nMany people who investigate paranormal activity use various pieces of equipment, even though there is no scientific proof that ghosts exist. \n<think>Now, I should mention some of the most common types of equipment used, starting with EMF meters, and briefly explain their purpose.</think>\nOne popular device is an EMF (electromagnetic field) meter, which is used to detect fluctuations in electromagnetic fields that some believe could indicate a ghostly presence.\n<think>Next, I should add digital voice recorders, as these are often used to capture potential EVPs (electronic voice phenomena).</think>\nDigital voice recorders are often used to try to capture unexplained voices, known as electronic voice phenomena, during investigations.\n<think>Thermal cameras are another tool, and I should mention them with a short explanation.</think>\nThermal cameras or infrared thermometers can detect cold or hot spots that some think may be associated with paranormal activity.\n<think>Finally, I should mention other common tools like cameras, motion detectors, and spirit boxes, and summarize their uses.</think>\nOther equipment sometimes includes night vision cameras, motion detectors, and \u201cspirit boxes,\u201d which scan radio frequencies in hopes of picking up mysterious voices.\n<think>To wrap up, I should remind the reader that these tools do not provide scientific evidence of ghosts but are used by enthusiasts and investigators.</think>\nIt\u2019s important to note that while these tools are popular in ghost hunting, none of them have been proven to reliably detect ghosts.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 216,
+    "completion_tokens": 335,
+    "total_tokens": 551
+  },
+  "finish_reason": "stop"
+}

@@ -1,0 +1,10 @@
+{
+  "text": "James runs 3 sprints each session, and each sprint is 60 meters:\n\n3 sprints \u00d7 60 meters = 180 meters per session\n\nHe runs 3 times a week:\n\n180 meters \u00d7 3 sessions = 540 meters per week\n\n#### 540",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 67,
+    "completion_tokens": 55,
+    "total_tokens": 122
+  },
+  "finish_reason": "stop"
+}

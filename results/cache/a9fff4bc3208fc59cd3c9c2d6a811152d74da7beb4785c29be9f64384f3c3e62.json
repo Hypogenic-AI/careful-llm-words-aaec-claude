@@ -1,0 +1,10 @@
+{
+  "text": "Let's solve the problem step by step:\n\n1. **Find the total weight of all the tunas:**\n   - First tuna: 56 kg\n   - Second tuna: 46 kg\n   - Third tuna: 26 kg\n\n   Total weight = 56 + 46 + 26 = 128 kg\n\n2. **Find the total earnings if 1 kg of tuna costs $0.50:**\n   - Total earnings = Total weight \u00d7 Price per kg\n   - Total earnings = 128 kg \u00d7 $0.50/kg\n\n3. **Calculate the total earnings:**\n   - 128 \u00d7 0.50 = 64\n\nFinal answer:\n#### $64",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 106,
+    "completion_tokens": 141,
+    "total_tokens": 247
+  },
+  "finish_reason": "stop"
+}

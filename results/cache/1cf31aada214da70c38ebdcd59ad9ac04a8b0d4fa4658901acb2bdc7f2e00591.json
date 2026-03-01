@@ -1,0 +1,10 @@
+{
+  "text": "If someone is bitten by a venomous snake, follow these steps immediately:\n\n1. **Call for emergency help:** Dial emergency services (911 or your local number) right away.\n2. **Keep the person calm and still:** Movement increases the spread of venom. Have them lie down with the bite below heart level.\n3. **Remove tight clothing and jewelry:** The area may swell, so remove rings, watches, or tight clothes near the bite.\n4. **Clean the bite area gently:** Use soap and water if available, but do not scrub or apply ice.\n5. **Cover with a clean, dry dressing:** A loose, sterile bandage is best.\n6. **Do NOT:**\n   - Do not try to suck out the venom.\n   - Do not cut the wound.\n   - Do not use a tourniquet.\n   - Do not apply ice or immerse the bite in water.\n   - Do not give the person alcohol or caffeine.\n7. **Monitor breathing and pulse:** Be ready to perform CPR if necessary.\n8. **Note the snake\u2019s appearance:** Only if it\u2019s safe, try to remember the color, shape, and size to help medical staff.\n\nGet the person to a hospital as quickly as possible for antivenom and further treatment.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 37,
+    "completion_tokens": 259,
+    "total_tokens": 296
+  },
+  "finish_reason": "stop"
+}

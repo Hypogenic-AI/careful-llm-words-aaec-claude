@@ -1,0 +1,10 @@
+{
+  "text": "First, find the plane's speed:\n\nSpeed = Distance / Time = 1200 miles / 3 hours = 400 miles per hour.\n\nNow, find the time to travel 2000 miles at this speed:\n\nTime = Distance / Speed = 2000 miles / 400 miles per hour = 5 hours.\n\nFinal answer:\n\n#### 5",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 66,
+    "completion_tokens": 71,
+    "total_tokens": 137
+  },
+  "finish_reason": "stop"
+}

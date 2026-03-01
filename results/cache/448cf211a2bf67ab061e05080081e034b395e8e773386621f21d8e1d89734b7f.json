@@ -1,0 +1,10 @@
+{
+  "text": "WINNER: A\nREASON: Response A provides a much more detailed, nuanced, and comprehensive analysis of how climate change affects ocean ecosystems, supporting its claims with specific examples and explanations, whereas Response B is more general and lacks depth.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 768,
+    "completion_tokens": 48,
+    "total_tokens": 816
+  },
+  "finish_reason": "stop"
+}

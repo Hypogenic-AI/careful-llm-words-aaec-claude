@@ -1,0 +1,10 @@
+{
+  "text": "Let\u2019s think through this step by step:\n\n1. **What is muscle?**  \nMuscle is made of muscle fibers\u2014cells that contract and help you move.\n\n2. **What is fat?**  \nFat is stored energy in the form of adipose tissue, made up of fat cells.\n\n3. **Are muscle and fat the same?**  \nNo. They are completely different types of tissue with different functions and structures.\n\n4. **What happens when you stop exercising?**  \n- Your muscles are not used as much, so they can shrink (atrophy).\n- You might burn fewer calories, so if you keep eating the same way, you could gain fat.\n\n5. **Does muscle turn into fat?**  \nNo, muscle cannot physically turn into fat. Muscle tissue does not transform into fat tissue. Instead:\n   - Your muscle mass may decrease (atrophy) because you\u2019re not using it.\n   - You may gain fat if you\u2019re not as active and don\u2019t adjust your diet, because unused energy is stored as fat.\n\n**In summary:**  \nMuscle does not turn into fat if you don\u2019t exercise. Instead, you may lose muscle and gain fat, but these are separate processes.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 48,
+    "completion_tokens": 248,
+    "total_tokens": 296
+  },
+  "finish_reason": "stop"
+}

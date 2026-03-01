@@ -1,0 +1,10 @@
+{
+  "text": "Let's break down the question step by step:\n\n1. \"Return of the Jedi\" is the third film in the original Star Wars trilogy.\n2. The original Star Wars film (now known as \"A New Hope\") was directed by George Lucas.\n3. The second film, \"The Empire Strikes Back,\" was directed by Irvin Kershner.\n4. For \"Return of the Jedi,\" George Lucas did not direct the film himself.\n5. Instead, he hired another director for the project.\n\nThe director of \"Return of the Jedi\" is Richard Marquand.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 46,
+    "completion_tokens": 118,
+    "total_tokens": 164
+  },
+  "finish_reason": "stop"
+}

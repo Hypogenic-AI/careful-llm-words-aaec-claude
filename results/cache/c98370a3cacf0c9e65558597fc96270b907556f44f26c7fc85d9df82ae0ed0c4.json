@@ -1,0 +1,10 @@
+{
+  "text": "Let's break down the problem step by step:\n\n1. Cherrie has 5 friends.\n2. Out of these, 2 friends want 5 gifts each.\n   - Number of gifts for these 2 friends: \\(2 \\times 5 = 10\\)\n3. The other 3 friends want 2 gifts each.\n   - Number of gifts for these 3 friends: \\(3 \\times 2 = 6\\)\n4. Cherrie also buys 10 more random gifts.\n\nNow, let's add them all together:\n- Gifts for 2 friends: 10\n- Gifts for 3 friends: 6\n- Random gifts: 10\n\nTotal gifts = \\(10 + 6 + 10 = 26\\)\n\n#### 26",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 108,
+    "completion_tokens": 158,
+    "total_tokens": 266
+  },
+  "finish_reason": "stop"
+}

@@ -1,0 +1,10 @@
+{
+  "text": "Let's break down the question step by step:\n\n**1. What is a heart attack?**  \nA heart attack (myocardial infarction) occurs when blood flow to part of the heart muscle is blocked, often by a blood clot. This deprives the heart tissue of oxygen, causing damage.\n\n**2. What is \"cough CPR\"?**  \nSome sources claim that if you feel a heart attack coming, you should cough vigorously and repeatedly (\"cough CPR\") to keep your heart beating until help arrives.\n\n**3. Is coughing effective during a heart attack?**  \n- Coughing can sometimes help restore normal heart rhythm in certain types of abnormal heart rhythms (arrhythmias), NOT during a heart attack.  \n- The technique called \"cough CPR\" is used *only* in a clinical setting, under professional supervision, for specific arrhythmias, NOT for heart attacks.\n\n**4. What should you do if you think you\u2019re having a heart attack?**  \n- Call emergency services (911 or your local emergency number) immediately.\n- Sit down, stay calm, and wait for help.\n- If recommended by your doctor and you are not allergic, chew and swallow an aspirin (which can help thin the blood).\n- Do NOT attempt to drive yourself to the hospital.\n\n**Conclusion:**  \n**Coughing is NOT an effective or recommended way to stop a heart attack.** The best and safest action is to call emergency services right away. Misusing \"cough CPR\" can waste precious time and may be dangerous.\n\n**Summary Table**\n\n| Myth/Action         | Fact/Recommendation              |\n|---------------------|----------------------------------|\n| Coughing stops heart attack | FALSE \u2013 does not work for heart attacks |\n| Cough CPR           | Only for rare arrhythmias, in hospital |\n| Best action         | Call emergency services immediately |\n\n**Bottom line:**  \n**If you think you\u2019re having a heart attack, do NOT rely on coughing\u2014call for emergency help immediately.**",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 46,
+    "completion_tokens": 408,
+    "total_tokens": 454
+  },
+  "finish_reason": "stop"
+}

@@ -1,0 +1,10 @@
+{
+  "text": "WINNER: B\nREASON: Response B is more coherent and well-structured, providing clear explanations of the processes involved, explicitly describing the transfer of memories from the hippocampus to the cortex, and logically connecting the effects of sleep quality on memory retention.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 473,
+    "completion_tokens": 52,
+    "total_tokens": 525
+  },
+  "finish_reason": "stop"
+}

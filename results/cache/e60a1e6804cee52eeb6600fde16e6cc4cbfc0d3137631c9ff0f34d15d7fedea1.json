@@ -1,0 +1,10 @@
+{
+  "text": "Let's break down the problem step by step:\n\n1. **Cost of foot-long fish sub:**  \n   You pay $40 for a foot-long fish sub.\n\n2. **Cost of six-inch cold-cut combo sub:**  \n   You pay thrice as much for a six-inch cold-cut combo sub as you did for the foot-long fish sub.  \n   So, cost = 3 \u00d7 $40 = $120\n\n3. **Total cost:**  \n   Add the cost of both items:  \n   $40 (fish sub) + $120 (cold-cut combo sub) = $160\n\n#### $160",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 75,
+    "completion_tokens": 124,
+    "total_tokens": 199
+  },
+  "finish_reason": "stop"
+}

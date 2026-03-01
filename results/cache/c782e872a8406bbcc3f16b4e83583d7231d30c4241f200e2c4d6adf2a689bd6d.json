@@ -1,0 +1,10 @@
+{
+  "text": "First, calculate the number of management employees:\n20% of 50 = 0.20 \u00d7 50 = 10 employees\n\nNext, calculate how many of these management employees oversee the entire company:\n30% of 10 = 0.30 \u00d7 10 = 3 employees\n\n#### 3",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 74,
+    "completion_tokens": 62,
+    "total_tokens": 136
+  },
+  "finish_reason": "stop"
+}

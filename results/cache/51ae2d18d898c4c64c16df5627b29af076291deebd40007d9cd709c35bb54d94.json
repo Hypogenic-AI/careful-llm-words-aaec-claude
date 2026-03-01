@@ -1,0 +1,10 @@
+{
+  "text": "In the United States, you must be at least 21 years old to purchase alcohol. In many other countries, the legal age varies, commonly ranging from 18 to 21 years old. Always check the specific laws in your country or region.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 36,
+    "completion_tokens": 50,
+    "total_tokens": 86
+  },
+  "finish_reason": "stop"
+}

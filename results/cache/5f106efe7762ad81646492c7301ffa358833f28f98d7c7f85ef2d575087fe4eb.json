@@ -1,0 +1,10 @@
+{
+  "text": "<think>The first sentence should introduce the context: the famous Greek force at Thermopylae, and note that the numbers are debated.</think>\nThe force that resisted the Persian army at Thermopylae is traditionally said to have numbered around 7,000 Greek soldiers at the start of the battle.  \n<think>Now I should clarify that this number included men from several Greek city-states, not just Spartans, for accuracy.</think>\nThis force was composed of contingents from various Greek city-states, including about 300 Spartans led by King Leonidas.  \n<think>I need to mention that by the final stand, the number of Greeks remaining was much smaller, to provide a complete answer.</think>\nBy the final day, only a small group remained\u2014typically reported as the 300 Spartans, 700 Thespians, and a few hundred others\u2014totaling perhaps 1,000 to 1,500 men.  \n<think>I should conclude by noting that ancient sources differ, and these numbers are subject to historical debate.</think>\nIt is important to note that ancient sources sometimes report different figures, so the exact size remains a topic of scholarly discussion.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 226,
+    "completion_tokens": 243,
+    "total_tokens": 469
+  },
+  "finish_reason": "stop"
+}

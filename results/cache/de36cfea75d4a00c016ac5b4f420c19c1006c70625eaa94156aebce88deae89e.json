@@ -1,0 +1,10 @@
+{
+  "text": "Both sequences, **HHHHH** and **HTTHT**, are **equally likely** when tossing a fair coin.\n\n**Explanation:**\n- Each toss of a fair coin has a probability of \u00bd for heads and \u00bd for tails.\n- For a sequence of 5 tosses, the probability of any specific sequence is:\n  \\[\n  (1/2)^5 = 1/32\n  \\]\n- This applies to **any** particular sequence, including HHHHH and HTTHT.\n\n**Conclusion:**  \nNeither sequence is more likely; **both have a probability of 1/32**.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 46,
+    "completion_tokens": 129,
+    "total_tokens": 175
+  },
+  "finish_reason": "stop"
+}

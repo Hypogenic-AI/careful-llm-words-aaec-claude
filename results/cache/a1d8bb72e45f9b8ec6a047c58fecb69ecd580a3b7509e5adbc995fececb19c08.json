@@ -1,0 +1,10 @@
+{
+  "text": "Let's break down the problem step by step:\n\n**Step 1: Holes at the end of each day**\n\n- **First day:**  \n  Holes dug = 10  \n  Holes at end of day 1 = 10\n\n- **Second day:**  \n  Holes dug = 13  \n  Holes at end of day 2 = 10 (from day 1) + 13 = 23\n\n- **Third day:**  \n  Holes dug = 8  \n  But they filled in 2 holes  \n  Holes at end of day 3 = 23 (from day 2) + 8 - 2 = 29\n\n**Step 2: Holes at the end of the fourth day**\n\n- The island had four times as many holes as it did at the end of the first day.\n- Holes at end of first day = 10\n- So, holes at end of fourth day = 4 \u00d7 10 = 40\n\n**Step 3: Holes dug on the fourth day**\n\n- Holes at end of day 3 = 29\n- Holes at end of day 4 = 40\n- So, holes dug on the fourth day = 40 - 29 = 11\n\n**Final Answer:**\n\n#### 11",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 158,
+    "completion_tokens": 272,
+    "total_tokens": 430
+  },
+  "finish_reason": "stop"
+}

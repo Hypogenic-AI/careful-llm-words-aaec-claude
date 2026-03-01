@@ -1,0 +1,10 @@
+{
+  "text": "Let the total land Mr. Ruther had at first be \\( x \\) hectares.\n\nHe sold \\( \\frac{3}{5} \\) of his land, so he had \\( 1 - \\frac{3}{5} = \\frac{2}{5} \\) of his land left.\n\nWe are told that \\( \\frac{2}{5}x = 12.8 \\).\n\nTo find \\( x \\):\n\n\\[\nx = \\frac{12.8}{\\frac{2}{5}} = 12.8 \\times \\frac{5}{2} = 12.8 \\times 2.5 = 32\n\\]\n\n#### 32",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 141,
+    "total_tokens": 204
+  },
+  "finish_reason": "stop"
+}

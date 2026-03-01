@@ -1,0 +1,10 @@
+{
+  "text": "Veins appear blue because of the way light penetrates the skin and is absorbed and scattered. While the blood inside veins is actually dark red, skin and tissues absorb more of the red wavelengths of light and scatter the blue wavelengths back to our eyes. This optical effect makes veins look blue, even though blood is not blue.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 31,
+    "completion_tokens": 65,
+    "total_tokens": 96
+  },
+  "finish_reason": "stop"
+}

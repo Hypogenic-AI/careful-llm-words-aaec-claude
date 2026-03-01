@@ -1,0 +1,10 @@
+{
+  "text": "Let\u2019s break down the problem:\n\n- Total cost: $2,400\n- Computer cost: $1,100\n- Printer cost: $400 less than the computer\n\nSo,  \nPrinter cost = $1,100 - $400 = $700\n\nLet the cost of one monitor be \\( x \\).\n\nErrol bought 2 monitors, so the cost for monitors is \\( 2x \\).\n\nNow, sum up all costs:\n\\[\n\\text{Computer} + \\text{2 Monitors} + \\text{Printer} = \\$2,400\n\\]\n\\[\n1,100 + 2x + 700 = 2,400\n\\]\n\\[\n1,800 + 2x = 2,400\n\\]\n\\[\n2x = 2,400 - 1,800 = 600\n\\]\n\\[\nx = \\frac{600}{2} = 300\n\\]\n\nSo, the cost of one monitor is  \n#### 300",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 83,
+    "completion_tokens": 205,
+    "total_tokens": 288
+  },
+  "finish_reason": "stop"
+}

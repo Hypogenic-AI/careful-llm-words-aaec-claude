@@ -1,0 +1,10 @@
+{
+  "text": "Let's solve the problem step by step:\n\n**Step 1: Find the rate (speed) of the plane.**\n\nThe plane travels 1200 miles in 3 hours.\n\n\\[\n\\text{Rate} = \\frac{\\text{Distance}}{\\text{Time}} = \\frac{1200 \\text{ miles}}{3 \\text{ hours}} = 400 \\text{ miles per hour}\n\\]\n\n**Step 2: Find the time required to travel an additional 2000 miles at the same rate.**\n\n\\[\n\\text{Time} = \\frac{\\text{Distance}}{\\text{Rate}} = \\frac{2000 \\text{ miles}}{400 \\text{ miles per hour}} = 5 \\text{ hours}\n\\]\n\n**Step 3: State the final answer.**\n\nThe plane would take **5 additional hours** to travel 2000 more miles at the same rate.\n\n#### 5",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 72,
+    "completion_tokens": 194,
+    "total_tokens": 266
+  },
+  "finish_reason": "stop"
+}

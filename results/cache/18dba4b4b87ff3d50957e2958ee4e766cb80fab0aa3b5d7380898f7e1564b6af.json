@@ -1,0 +1,10 @@
+{
+  "text": "WINNER: A\nREASON: Response A provides a more comprehensive and detailed explanation of inflation, its causes, measurement, and effects, while avoiding unsupported or overconfident claims; it is more thorough and factually accurate than Response B.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 889,
+    "completion_tokens": 49,
+    "total_tokens": 938
+  },
+  "finish_reason": "stop"
+}

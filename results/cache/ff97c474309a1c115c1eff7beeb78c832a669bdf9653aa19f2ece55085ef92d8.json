@@ -1,0 +1,10 @@
+{
+  "text": "WINNER: A  \nREASON: Response A provides a more detailed, structured, and nuanced analysis, offering specific examples and a clear breakdown of pros and cons for both employees and employers, whereas Response B is more general and lacks the same depth and specificity.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 989,
+    "completion_tokens": 52,
+    "total_tokens": 1041
+  },
+  "finish_reason": "stop"
+}

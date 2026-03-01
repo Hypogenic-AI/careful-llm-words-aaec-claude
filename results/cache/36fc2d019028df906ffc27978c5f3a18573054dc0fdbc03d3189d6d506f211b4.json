@@ -1,0 +1,10 @@
+{
+  "text": "The disease most famously associated with being cured \"just by touching\" is leprosy (also known as Hansen's disease), according to several religious and historical accounts, especially in the context of miracles attributed to Jesus in the Christian Bible. In the Gospels, Jesus is described as curing people of leprosy simply by touching them.\n\nHowever, in modern medicine, there are no diseases that can be reliably cured just by touching someone. All known cures require medical intervention, such as medication or therapy. The idea of curing by touch is found in faith healing, spiritual, or miraculous contexts rather than scientific ones.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 38,
+    "completion_tokens": 122,
+    "total_tokens": 160
+  },
+  "finish_reason": "stop"
+}

@@ -1,0 +1,10 @@
+{
+  "text": "Let \\( x \\) be the number of guests.\n\n**First venue:**\n- Flat fee: $200\n- Food: $5 per person\n- Total cost: \\( 200 + 5x \\)\n\n**Second venue:**\n- $25 per person (includes food)\n- Total cost: \\( 25x \\)\n\nSet the costs equal:\n\\[\n200 + 5x = 25x\n\\]\n\\[\n200 = 25x - 5x\n\\]\n\\[\n200 = 20x\n\\]\n\\[\nx = \\frac{200}{20} = 10\n\\]\n\n#### 10",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 138,
+    "completion_tokens": 131,
+    "total_tokens": 269
+  },
+  "finish_reason": "stop"
+}

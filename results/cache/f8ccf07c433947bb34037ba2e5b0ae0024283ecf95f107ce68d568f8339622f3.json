@@ -1,0 +1,10 @@
+{
+  "text": "WINNER: B\nREASON: Response B provides a more detailed, step-by-step explanation of antibiotic resistance, accurately describing mechanisms such as gene transfer and natural selection, while avoiding unsupported or overconfident claims. This makes it more factually thorough and precise.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 616,
+    "completion_tokens": 53,
+    "total_tokens": 669
+  },
+  "finish_reason": "stop"
+}

@@ -1,0 +1,10 @@
+{
+  "text": "<think>I need to restate the problem to ensure clarity and set up the solution step by step.</think>\nAndrea started with $36 and spent some of it on an $11 sweater and gave $4 to her brother. \n<think>Now, I should calculate the total amount Andrea spent after saving some money.</think>\nThe total amount she spent after saving is $11 + $4 = $15.\n<think>Next, I need to determine how much Andrea saved by subtracting the amount spent from her initial amount.</think>\nTherefore, the amount Andrea saved is $36 - $15.\n<think>I should now perform the subtraction to find the final answer.</think>\n$36 - $15 = $21.\n<think>Finally, I need to present the answer after the required #### marker.</think>\n#### 21",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 256,
+    "completion_tokens": 170,
+    "total_tokens": 426
+  },
+  "finish_reason": "stop"
+}

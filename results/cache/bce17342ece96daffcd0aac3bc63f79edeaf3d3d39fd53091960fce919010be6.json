@@ -1,0 +1,10 @@
+{
+  "text": "<think>I should start by restating the information: Herb's house cost $76,000, and Juan's house is 30% less expensive.</think>\nHerb's house is worth $76,000, and Juan's house is 30% less expensive than that.\n<think>Now, I need to calculate 30% of $76,000 to find out how much less Juan's house costs.</think>\n30% of $76,000 is $22,800.\n<think>Next, I should subtract $22,800 from $76,000 to find the value of Juan's house.</think>\nJuan's house is worth $76,000 - $22,800 = $53,200.\n<think>Now, I need to add the values of both houses to find the combined value.</think>\nThe combined value of the two houses is $76,000 + $53,200.\n<think>Finally, I should present the sum as the final answer after the #### as requested.</think>\n#### $129,200",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 265,
+    "completion_tokens": 215,
+    "total_tokens": 480
+  },
+  "finish_reason": "stop"
+}

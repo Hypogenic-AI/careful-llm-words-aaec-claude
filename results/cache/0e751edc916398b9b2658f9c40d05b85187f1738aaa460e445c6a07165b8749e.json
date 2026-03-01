@@ -1,0 +1,10 @@
+{
+  "text": "WINNER: A  \nREASON: Response A provides a more comprehensive and nuanced overview, avoids overconfident language, and includes a summary table that clearly distinguishes between pros and cons, making it more likely to be factually accurate and balanced.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 1085,
+    "completion_tokens": 49,
+    "total_tokens": 1134
+  },
+  "finish_reason": "stop"
+}

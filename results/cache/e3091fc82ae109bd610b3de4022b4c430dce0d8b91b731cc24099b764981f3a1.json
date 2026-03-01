@@ -1,0 +1,10 @@
+{
+  "text": "If you eat a pomegranate, you will consume its juicy seeds (called arils), which are safe and nutritious. Pomegranates are rich in vitamins (especially vitamin C and K), fiber, and antioxidants. Eating pomegranate can offer several health benefits, such as supporting heart health, reducing inflammation, and providing hydration.\n\nMost people eat the arils and discard the tough outer rind and white pith, which are not usually consumed because they are bitter and hard to digest. Swallowing a few seeds is safe, as they are edible and a good source of fiber.\n\nHowever, eating large amounts of pomegranate seeds might cause digestive discomfort in some people, especially those with sensitive stomachs. Additionally, if you have certain health conditions or take specific medications (like blood thinners), you should consult your doctor, as pomegranate can interact with some medications.\n\nIn summary: Eating pomegranate is generally healthy and safe, as long as you eat the seeds/arils and not the rind or pith, and you don\u2019t have specific medical concerns.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 34,
+    "completion_tokens": 211,
+    "total_tokens": 245
+  },
+  "finish_reason": "stop"
+}

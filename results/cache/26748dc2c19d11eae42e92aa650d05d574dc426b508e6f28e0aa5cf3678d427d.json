@@ -1,0 +1,10 @@
+{
+  "text": "Let's break down the problem step by step:\n\n1. **Convert the required height to inches:**  \n   1 foot = 12 inches  \n   4 feet = 4 \u00d7 12 = 48 inches\n\n2. **Adam's current height:**  \n   Adam is 40 inches tall.\n\n3. **How much more does Adam need to grow?**  \n   48 inches (required) - 40 inches (current) = 8 inches\n\n4. **Adam grows 2 inches per year.**  \n   To find out how many years it will take to grow 8 inches:  \n   8 inches \u00f7 2 inches/year = 4 years\n\n#### 4",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 92,
+    "completion_tokens": 142,
+    "total_tokens": 234
+  },
+  "finish_reason": "stop"
+}

@@ -1,0 +1,10 @@
+{
+  "text": "Let's solve the problem step by step:\n\n**Step 1: Total number of trucks dispatched**\n- Mr Hezekiah dispatched 20 trucks.\n\n**Step 2: Amount of fertiliser per truck**\n- Each truck was carrying 20 tons of fertiliser.\n\n**Step 3: Total amount of fertiliser dispatched**\n- Total fertiliser = Number of trucks \u00d7 Fertiliser per truck  \n- Total fertiliser = 20 \u00d7 20 = 400 tons\n\n**Step 4: Number of trucks that had mechanical failures**\n- A quarter of the trucks had mechanical failures.\n- Number of trucks with failures = (1/4) \u00d7 20 = 5 trucks\n\n**Step 5: Number of trucks that successfully delivered**\n- Number of trucks that delivered = Total trucks - Trucks with failures  \n- Number of trucks that delivered = 20 - 5 = 15 trucks\n\n**Step 6: Total amount of fertiliser delivered**\n- Total fertiliser delivered = Number of trucks that delivered \u00d7 Fertiliser per truck  \n- Total fertiliser delivered = 15 \u00d7 20 = 300 tons\n\n**Final Answer:**\n\n#### 300 tons",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 143,
+    "completion_tokens": 236,
+    "total_tokens": 379
+  },
+  "finish_reason": "stop"
+}

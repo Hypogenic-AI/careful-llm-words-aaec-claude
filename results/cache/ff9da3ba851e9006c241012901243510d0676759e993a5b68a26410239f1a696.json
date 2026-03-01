@@ -1,0 +1,10 @@
+{
+  "text": "WINNER: B\nREASON: Response B provides more depth and nuance by breaking down the explanation into clear steps, including details about wavelengths, human eye sensitivity, and a summary table, all of which support and elaborate on the claims more thoroughly than Response A.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 752,
+    "completion_tokens": 53,
+    "total_tokens": 805
+  },
+  "finish_reason": "stop"
+}

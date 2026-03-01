@@ -1,0 +1,10 @@
+{
+  "text": "Let Dora's age = 15 years.\n\nDora's father's age = 2 \u00d7 Dora's age + 8  \n= 2 \u00d7 15 + 8  \n= 30 + 8  \n= 38 years\n\nDora's mother's age = Dora's father's age - 4  \n= 38 - 4  \n= 34 years\n\nTotal combined age = Dora's age + Father's age + Mother's age  \n= 15 + 38 + 34  \n= 87\n\n#### 87",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 83,
+    "completion_tokens": 104,
+    "total_tokens": 187
+  },
+  "finish_reason": "stop"
+}

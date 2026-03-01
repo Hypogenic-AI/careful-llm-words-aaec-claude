@@ -1,0 +1,10 @@
+{
+  "text": "Sure! Let\u2019s break down the question step by step:\n\n1. **Understanding the Question:**  \n   The question is asking for a city that is \"cloudy literally all the time.\" This means a place with an extremely high frequency of cloudy days, ideally with very few clear or sunny days per year.\n\n2. **Defining \"Cloudy\":**  \n   Meteorologically, a \"cloudy\" day typically means the sky is covered with clouds for the majority of the day (overcast). Some cities are known for persistent cloud cover due to their climate, geography, or proximity to large bodies of water.\n\n3. **Looking at Data:**  \n   Many meteorological organizations track average annual cloud cover. Some famously cloudy cities include:\n   - **Seattle, USA:** Known for frequent overcast days, but still gets some sunshine.\n   - **London, UK:** Also famous for gray skies, but not literally always cloudy.\n   - **Vancouver, Canada:** Experiences a lot of rainy and cloudy weather, especially in winter.\n\n4. **Searching for the Cloudiest City:**  \n   According to climatological data, one city stands above the rest:\n\n   **Torshavn, Faroe Islands**  \n   - The Faroe Islands are often cited as the cloudiest place on earth.\n   - T\u00f3rshavn, the capital, experiences cloud cover on roughly 840 hours out of every 8760 hours in a year (over 90% of the time).\n   - The islands have persistent oceanic fog and low clouds due to their location in the North Atlantic, between Iceland, Norway, and Scotland.\n\n   Another strong contender is **Yakutat, Alaska, USA**, which records over 340 cloudy days per year, but T\u00f3rshavn still surpasses it in total hours of cloud cover.\n\n5. **Conclusion:**  \n   While no city is *literally* cloudy 100% of the time, T\u00f3rshavn, Faroe Islands, is considered the cloudiest city in the world, with nearly constant cloud cover throughout the year.\n\n**Final Answer:**  \n**T\u00f3rshavn, Faroe Islands** is the city that is cloudy almost all the time.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 47,
+    "completion_tokens": 445,
+    "total_tokens": 492
+  },
+  "finish_reason": "stop"
+}

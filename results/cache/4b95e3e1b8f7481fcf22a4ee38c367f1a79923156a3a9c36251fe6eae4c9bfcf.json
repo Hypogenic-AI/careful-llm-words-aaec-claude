@@ -1,0 +1,10 @@
+{
+  "text": "Let's break down the problem step by step:\n\n**Step 1: Calculate the total number of canvas bags Tara bought.**\n- She bought 8 packs.\n- Each pack contains 5 bags.\n- Total bags = 8 packs \u00d7 5 bags/pack = 40 bags\n\n**Step 2: Calculate the total cost of the canvas bags.**\n- Each pack costs $4.\n- Total cost = 8 packs \u00d7 $4/pack = $32\n\n**Step 3: Calculate the total revenue from selling the bags.**\n- She sold each bag for $8.\n- Total revenue = 40 bags \u00d7 $8/bag = $320\n\n**Step 4: Calculate the profit.**\n- Profit = Total revenue - Total cost\n- Profit = $320 - $32 = $288\n\n**Final Answer:**\n#### $288",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 80,
+    "completion_tokens": 175,
+    "total_tokens": 255
+  },
+  "finish_reason": "stop"
+}

@@ -1,0 +1,10 @@
+{
+  "text": "Let Kory\u2019s dog\u2019s weight = 60 pounds.\n\nElijah\u2019s first dog:  \nOne-fourth of 60 = 60 \u00d7 (1/4) = 15 pounds\n\nElijah\u2019s second dog:  \nHalf of 60 = 60 \u00d7 (1/2) = 30 pounds\n\nTotal weight = Kory\u2019s dog + Elijah\u2019s first dog + Elijah\u2019s second dog  \nTotal weight = 60 + 15 + 30 = 105 pounds\n\n#### 105",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 89,
+    "completion_tokens": 101,
+    "total_tokens": 190
+  },
+  "finish_reason": "stop"
+}

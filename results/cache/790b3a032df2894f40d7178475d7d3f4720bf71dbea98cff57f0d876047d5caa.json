@@ -1,0 +1,10 @@
+{
+  "text": "WINNER: A  \nREASON: Response A provides greater depth and nuance by systematically breaking down the various components of the criminal justice system's approach, including sentencing purposes, types of sentences, correctional programs, risk assessment, policy shifts, and ongoing debates, all supported with specific examples and analysis.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 933,
+    "completion_tokens": 60,
+    "total_tokens": 993
+  },
+  "finish_reason": "stop"
+}

@@ -1,0 +1,10 @@
+{
+  "text": "Daryl Bem\u2019s 2011 study \"Feeling the Future\" claimed to provide experimental evidence for precognition\u2014specifically, that people could anticipate future random events, a phenomenon related to extrasensory perception (ESP). However, **no scientific phenomenon was firmly established by Bem\u2019s study**. Instead, the paper sparked significant controversy and debate about experimental methods and statistical analysis in psychology. Subsequent attempts to replicate Bem\u2019s findings have overwhelmingly failed, and the consensus in the scientific community is that Bem\u2019s results were likely due to methodological flaws, statistical anomalies, or publication bias, rather than genuine evidence of precognition or ESP.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 40,
+    "completion_tokens": 125,
+    "total_tokens": 165
+  },
+  "finish_reason": "stop"
+}

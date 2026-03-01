@@ -1,0 +1,28 @@
+\section{Introduction}
+\label{sec:introduction}
+
+When a careful writer composes a paragraph, she does not simply transcribe an unbroken stream of thought.
+She writes a sentence, pauses to consider whether it is accurate, checks that it follows logically from the previous one, and only then moves on.
+Large language models, by contrast, produce each token conditioned only on the tokens already generated, with no explicit mechanism for reconsidering what comes next at the level of a complete sentence.
+Recent work on \emph{pause tokens}~\citep{goyal2024think} and \emph{test-time compute scaling}~\citep{snell2024scaling,muennighoff2025s1} has shown that giving models additional computation at inference time can improve task performance.
+However, these approaches either require training modifications or operate at the response level, and none study how the \emph{character} of the generated text changes when models are forced to deliberate sentence by sentence.
+
+We ask a simple question: {\bf what happens to an LLM's writing when it must think before every sentence?}
+To answer this, we introduce \iscot (\iscotshort), a prompting strategy that instructs the model to produce a \texttt{<think>} block of explicit reasoning before each sentence of its visible response.
+Unlike conventional chain-of-thought~\citep{wei2022chain}, which places all reasoning before the final answer, \iscotshort interleaves reasoning with output at the sentence level, creating a pattern in which every claim is preceded by deliberation about its accuracy, phrasing, and logical connection to the surrounding text.
+
+We evaluate \iscotshort on \gptfour across three tasks: 30 open-ended generation prompts, 100 \truthfulqa questions, and 100 \gsmk math problems, comparing it against standard generation and standard CoT.
+Our automated text analysis reveals that \iscotshort produces a distinctive ``careful writer'' style: sentences are longer and more information-dense (20.9 vs.\ 15.4 words per sentence, $d = 1.07$), lexical diversity is significantly higher (type-token ratio 0.700 vs.\ 0.640, $d = 0.84$), and hedging and self-correction language appears more frequently.
+On \truthfulqa, \iscotshort achieves the highest truthfulness rate (98\% vs.\ 95\% for standard generation), with qualitative evidence that deliberation helps avoid false presuppositions.
+On \gsmk, all three conditions perform equivalently (90--91\%).
+
+The results also reveal an unexpected trade-off.
+Because \texttt{<think>} blocks consume part of the model's token budget, \iscotshort responses are substantially shorter (130.8 vs.\ 200.6 visible words).
+LLM-as-judge evaluations overwhelmingly prefer the longer standard and CoT responses, highlighting a well-known length bias in automated evaluation~\citep{zheng2023judging} that obscures the per-sentence quality improvements \iscotshort achieves.
+
+We make the following contributions:
+\begin{itemize}[leftmargin=*,itemsep=0pt,topsep=0pt]
+    \item We propose \iscot, a prompting strategy that requires explicit reasoning before every sentence, and show that it produces measurably different text without any model training.
+    \item We conduct the first systematic study of how sentence-level deliberation affects text properties---hedging, lexical diversity, sentence structure, and self-correction---across open-ended, factual, and mathematical tasks.
+    \item We identify a token-budget trade-off between per-sentence quality and response breadth, and demonstrate that standard LLM-as-judge evaluation is poorly calibrated to detect the quality shift that \iscotshort produces.
+\end{itemize}

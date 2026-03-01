@@ -1,0 +1,10 @@
+{
+  "text": "Let's break down the problem step by step:\n\n**Step 1: Calculate Ryan's total allowance after 3 weeks.**\n- Allowance per week = $6\n- Number of weeks = 3\n- Total allowance = $6 \u00d7 3 = $18\n\n**Step 2: Calculate the total cost of ice cream cones.**\n- Number of people (Ryan + 3 friends) = 4\n- Cost per ice cream cone = $1.25\n- Total cost for ice cream = 4 \u00d7 $1.25 = $5.00\n\n**Step 3: Subtract the cost of ice cream from Ryan's total money.**\n- Money left = $18 - $5 = $13\n\n**Step 4: Calculate how many movie tickets Ryan can buy.**\n- Cost per movie ticket = $6.50\n- Number of tickets Ryan can buy = $13 \u00f7 $6.50 = 2\n\n**Step 5: Final answer**\n#### 2",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 106,
+    "completion_tokens": 206,
+    "total_tokens": 312
+  },
+  "finish_reason": "stop"
+}

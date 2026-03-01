@@ -1,0 +1,10 @@
+{
+  "text": "Let's break down the problem step by step:\n\n1. Find the cost of 3 loaves of bread:\n- Each loaf costs $2.\n- 3 loaves cost: 3 \u00d7 $2 = $6\n\n2. Find the cost of 2 bagels:\n- Each bagel costs $1.\n- 2 bagels cost: 2 \u00d7 $1 = $2\n\n3. Find the difference in cost:\n- $6 (for bread) - $2 (for bagels) = $4\n\nFinal answer:\n#### $4",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 74,
+    "completion_tokens": 113,
+    "total_tokens": 187
+  },
+  "finish_reason": "stop"
+}

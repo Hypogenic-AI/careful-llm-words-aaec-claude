@@ -1,0 +1,10 @@
+{
+  "text": "In England today, there are very few books that are explicitly banned by law. The UK no longer maintains an official, regularly updated list of \"banned books.\" However, books can still be prohibited under laws related to obscenity, terrorism, incitement to racial hatred, or national security. \n\n**Key points:**\n- The Obscene Publications Act 1959 allows courts to ban materials deemed obscene.\n- The Terrorism Act 2000 and related laws can prohibit materials that promote terrorism or extremism.\n- The Public Order Act 1986 can be used to ban materials that incite racial hatred.\n\n**Currently, there is no public, comprehensive list of banned books in England.** Instead, individual books may be restricted or seized by authorities on a case-by-case basis, typically after a legal process.\n\n**Notable examples:**\n- Some terrorist propaganda materials (for example, certain issues of \u201cInspire\u201d magazine published by Al-Qaeda) are illegal to possess or distribute.\n- Some extreme pornographic or child abuse materials are illegal under specific laws, but these are criminal materials rather than books in the traditional sense.\n- In the past, books like *Lady Chatterley's Lover* or *The Anarchist Cookbook* faced bans or restrictions, but these are not currently banned in England.\n\n**In summary:**  \nThere are no widely-available literary works currently banned by law in England, but certain materials (especially those relating to terrorism, hate, or extreme obscenity) may be prohibited. The status of any particular book would depend on a legal judgement.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 42,
+    "completion_tokens": 318,
+    "total_tokens": 360
+  },
+  "finish_reason": "stop"
+}

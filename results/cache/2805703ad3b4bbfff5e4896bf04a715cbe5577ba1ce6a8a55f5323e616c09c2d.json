@@ -1,0 +1,10 @@
+{
+  "text": "WINNER: A\nREASON: Response A provides a more comprehensive and nuanced overview of the main theories about the origin of consciousness, accurately representing the diversity of perspectives without making unsupported or overconfident claims. It also clearly distinguishes between scientific, philosophical, and mystical theories, enhancing factual accuracy.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 1206,
+    "completion_tokens": 59,
+    "total_tokens": 1265
+  },
+  "finish_reason": "stop"
+}

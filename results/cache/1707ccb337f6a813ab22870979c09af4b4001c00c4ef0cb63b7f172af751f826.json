@@ -1,0 +1,10 @@
+{
+  "text": "<think>I should start by defining biodiversity and its general importance in ecosystems to set the context for the explanation.</think>\nBiodiversity refers to the variety of living organisms in an ecosystem, including differences within and between species and ecosystems. \n<think>Now, I should explain how this diversity contributes to the stability of ecosystems, making sure to define what \"stability\" means in this context.</think>\nEcosystem stability means the ability of an ecosystem to maintain its structure and function over time, even when faced with disturbances. \n<think>Next, I should connect biodiversity to stability by explaining that more diverse systems are often more resilient to changes and disruptions.</think>\nHigh biodiversity increases resilience because different species often perform overlapping roles, so if one species declines, others can fulfill similar functions.\n<think>I should provide a specific example to illustrate how biodiversity supports stability in practical terms.</think>\nFor example, in a diverse grassland, many plant species can survive drought, so the ecosystem continues to function even if some species are affected.\n<think>Now, I should mention that biodiversity also helps control pests, diseases, and supports nutrient cycling, which are all important for stability.</think>\nBiodiverse ecosystems are better at controlling pests and diseases and cycling nutrients, which helps maintain ecosystem health and productivity.\n<think>Finally, I should summarize the main point to clearly state why biodiversity is crucial for stability.</think>\nIn summary, biodiversity acts as a buffer against environmental changes, making ecosystems more stable and sustainable over time.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 216,
+    "completion_tokens": 307,
+    "total_tokens": 523
+  },
+  "finish_reason": "stop"
+}

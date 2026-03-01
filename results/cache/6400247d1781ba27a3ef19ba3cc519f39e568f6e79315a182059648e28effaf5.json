@@ -1,0 +1,10 @@
+{
+  "text": "WINNER: B\nREASON: Response B provides more depth and nuance by offering clear definitions, structured formatting, a summary table, and an explicit mention of confounding variables, making the explanation more comprehensive and insightful.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 692,
+    "completion_tokens": 44,
+    "total_tokens": 736
+  },
+  "finish_reason": "stop"
+}

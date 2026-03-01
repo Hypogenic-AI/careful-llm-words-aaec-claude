@@ -1,0 +1,10 @@
+{
+  "text": "The EU country where most people are Muslim is **Bulgaria**. However, Muslims are a minority there (about 10-15% of the population). As of 2024, **no European Union member state has a Muslim majority population**. If you're referring to countries in Europe with Muslim majorities (but not in the EU), then Albania and Kosovo fit that description, but they are not EU members.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 35,
+    "completion_tokens": 85,
+    "total_tokens": 120
+  },
+  "finish_reason": "stop"
+}

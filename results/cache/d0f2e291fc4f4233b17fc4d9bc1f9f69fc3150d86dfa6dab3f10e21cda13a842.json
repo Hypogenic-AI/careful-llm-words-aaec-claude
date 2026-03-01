@@ -1,0 +1,10 @@
+{
+  "text": "Sure! Let's think through the question step by step:\n\n1. **Observation**: Camels are animals that live in very hot and dry environments, like deserts.\n2. **Feature**: Camels have one or two humps on their backs, depending on the species.\n3. **Common Misconception**: Some people think the hump stores water directly, but that's not accurate.\n4. **Actual Function**: The hump is actually a large mass of fat.\n5. **Reasoning**:\n    - In the desert, food is often scarce.\n    - The fat in the hump serves as an energy reserve.\n    - When food is hard to find, the camel's body can break down the fat for energy.\n    - As the fat is used, the hump can shrink and become floppy.\n6. **Water Connection**:\n    - When the fat is metabolized, it produces water as a byproduct, which helps the camel survive without drinking for long periods.\n\n**Answer:**  \nThe purpose of a camel's hump is to store fat, which the camel can use for energy and water when food and water are scarce in the desert. It helps the camel survive long periods without eating or drinking.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 48,
+    "completion_tokens": 246,
+    "total_tokens": 294
+  },
+  "finish_reason": "stop"
+}

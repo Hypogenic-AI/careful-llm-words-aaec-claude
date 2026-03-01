@@ -1,0 +1,10 @@
+{
+  "text": "Total books = 50\n\nEnglish books = 50 \u00d7 1/2 = 25  \nGerman books = 50 \u00d7 10% = 50 \u00d7 0.1 = 5  \nSpanish books = 50 - (25 + 5) = 20\n\n#### 20",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 72,
+    "completion_tokens": 60,
+    "total_tokens": 132
+  },
+  "finish_reason": "stop"
+}

@@ -1,0 +1,10 @@
+{
+  "text": "WINNER: B\nREASON: Response B provides more depth and nuance by breaking down the vaccine process into clear steps, offering specific examples, and elaborating on the mechanisms and broader impacts of herd immunity, making the explanation more comprehensive and insightful.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 671,
+    "completion_tokens": 50,
+    "total_tokens": 721
+  },
+  "finish_reason": "stop"
+}

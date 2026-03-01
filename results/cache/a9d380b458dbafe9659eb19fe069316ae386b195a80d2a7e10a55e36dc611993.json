@@ -1,0 +1,10 @@
+{
+  "text": "Let the number of students good at both math and English be \\( x \\).\n\nTotal students = 20  \nGood at math only = 5  \nGood at English only = 8  \nGood at both = \\( x \\)\n\nSo,\n\\[\n5 \\text{ (math only)} + 8 \\text{ (English only)} + x \\text{ (both)} = 20\n\\]\n\\[\n13 + x = 20\n\\]\n\\[\nx = 7\n\\]\n\nNumber of students good at math = Good at math only + Good at both  \n= \\( 5 + 7 = 12 \\)\n\n#### 12",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 82,
+    "completion_tokens": 133,
+    "total_tokens": 215
+  },
+  "finish_reason": "stop"
+}

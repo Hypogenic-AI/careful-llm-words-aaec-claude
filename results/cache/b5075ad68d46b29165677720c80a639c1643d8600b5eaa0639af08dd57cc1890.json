@@ -1,0 +1,10 @@
+{
+  "text": "You do **not have to wait** before filing a missing person report. Contrary to common myths, you can file a missing person report **immediately**\u2014there is no 24 or 48-hour waiting period required.\n\nIf you believe someone is missing and are concerned for their safety or well-being, contact your local law enforcement agency as soon as possible. Prompt reporting increases the chances of finding the missing person safely.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 37,
+    "completion_tokens": 84,
+    "total_tokens": 121
+  },
+  "finish_reason": "stop"
+}

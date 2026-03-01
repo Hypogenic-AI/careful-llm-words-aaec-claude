@@ -1,0 +1,10 @@
+{
+  "text": "When video recordings of lectures are provided, class attendance often decreases. Many studies across different educational settings have found that students are more likely to skip in-person classes when they know recordings are available. Students cite flexibility, the ability to review material at their own pace, and the convenience of watching lectures on their own schedule as reasons for watching videos instead of attending live sessions. However, the extent of the decrease can vary based on course structure, assessment methods, and individual student preferences. Some students still prefer in-person attendance for engagement, interaction, or routine.\n\nIn summary: **Providing lecture video recordings generally leads to lower in-person class attendance, though the impact may vary.**",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 38,
+    "completion_tokens": 134,
+    "total_tokens": 172
+  },
+  "finish_reason": "stop"
+}

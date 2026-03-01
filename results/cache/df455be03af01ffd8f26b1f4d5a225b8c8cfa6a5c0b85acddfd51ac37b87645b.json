@@ -1,0 +1,10 @@
+{
+  "text": "Let's break down the problem step by step:\n\n1. **Milk produced by one cow per day:**  \n   5 liters\n\n2. **Number of cows the farmer currently has:**  \n   3 cows\n\n3. **Total milk produced by current cows per day:**  \n   \\( 3 \\text{ cows} \\times 5 \\text{ liters/cow} = 15 \\text{ liters} \\)\n\n4. **Target milk production per day:**  \n   25 liters\n\n5. **Additional milk needed:**  \n   \\( 25 \\text{ liters} - 15 \\text{ liters} = 10 \\text{ liters} \\)\n\n6. **Number of cows needed to produce the additional 10 liters:**  \n   \\( 10 \\text{ liters} \\div 5 \\text{ liters/cow} = 2 \\text{ cows} \\)\n\nSo, the farmer needs **2 more cows** to produce 25 liters of milk a day.\n\n#### 2",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 79,
+    "completion_tokens": 205,
+    "total_tokens": 284
+  },
+  "finish_reason": "stop"
+}

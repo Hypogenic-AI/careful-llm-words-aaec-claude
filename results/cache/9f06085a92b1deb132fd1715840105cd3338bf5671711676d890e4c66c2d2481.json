@@ -1,0 +1,10 @@
+{
+  "text": "First, let's find out how many pages Judy read in the first week.\n\nShe read for 15 minutes each night for 7 nights:\n15 minutes/night \u00d7 7 nights = 105 minutes\n\nShe reads 2 pages per 1.5 minutes. Let's find out how many pages she can read in 105 minutes.\n\nFirst, find how many 1.5-minute intervals are in 105 minutes:\n105 minutes \u00f7 1.5 minutes/interval = 70 intervals\n\nShe reads 2 pages per interval:\n70 intervals \u00d7 2 pages/interval = 140 pages\n\nIn the second week, she read 100 pages.\n\nTotal pages in two weeks:\n140 pages (first week) + 100 pages (second week) = 240 pages\n\n#### 240",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 89,
+    "completion_tokens": 159,
+    "total_tokens": 248
+  },
+  "finish_reason": "stop"
+}

@@ -1,0 +1,10 @@
+{
+  "text": "Inflation in economics refers to the general increase in prices of goods and services over time, which leads to a decrease in the purchasing power of money. In other words, when inflation occurs, each unit of currency buys fewer goods and services than it did before.\n\n**How inflation affects ordinary people:**\n- **Cost of Living Rises:** Everyday expenses like food, housing, transportation, and healthcare become more expensive, so people need more money to maintain the same standard of living.\n- **Savings Lose Value:** If inflation is high and savings don\u2019t earn enough interest, the real value of money saved goes down. For example, if you keep cash under your mattress, it will buy less in the future.\n- **Wages May Not Keep Up:** If salaries and wages don\u2019t increase at the same rate as inflation, people may find it harder to afford necessities.\n- **Borrowers vs. Savers:** Inflation can benefit borrowers, as they repay loans with money that\u2019s worth less over time. On the other hand, savers can lose out if their savings don\u2019t grow as fast as inflation.\n\nIn summary, inflation means that money loses value over time, making things more expensive and potentially reducing people\u2019s real income and savings if not managed properly.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 39,
+    "completion_tokens": 252,
+    "total_tokens": 291
+  },
+  "finish_reason": "stop"
+}

@@ -1,0 +1,10 @@
+{
+  "text": "Crying during the New Year is often associated with superstitions in various cultures. Some believe that starting the New Year in tears may bring sadness, bad luck, or emotional challenges for the rest of the year. The idea is that your actions and emotions at the start of the year set the tone for the months ahead.\n\nHowever, these are just beliefs and not based on any scientific evidence. In reality, crying is a natural emotional response and does not have any mystical influence on your year. If you find yourself crying during New Year's, it may be helpful to reach out for support, but it does not mean your entire year will be sad or unlucky.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 35,
+    "completion_tokens": 132,
+    "total_tokens": 167
+  },
+  "finish_reason": "stop"
+}

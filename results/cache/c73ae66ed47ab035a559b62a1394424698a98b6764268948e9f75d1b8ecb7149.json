@@ -1,0 +1,10 @@
+{
+  "text": "Let's break down the problem step by step:\n\n1. **Cost of pasta per week:**  \n   $1.00 per box\n\n2. **Cost of cheddar cheese per week:**  \n   $3.00\n\n3. **Cost of gruyere cheese per week:**  \n   Twice the cheddar cheese:  \n   $3.00 \u00d7 2 = $6.00\n\n4. **Total cost per week:**  \n   Pasta + Cheddar + Gruyere  \n   $1.00 + $3.00 + $6.00 = $10.00\n\n5. **Number of weeks in a year:**  \n   52 weeks\n\n6. **Total cost per year:**  \n   $10.00 \u00d7 52 = $520.00\n\n#### $520.00",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 99,
+    "completion_tokens": 162,
+    "total_tokens": 261
+  },
+  "finish_reason": "stop"
+}

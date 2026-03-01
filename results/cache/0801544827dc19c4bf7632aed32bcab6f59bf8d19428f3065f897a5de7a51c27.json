@@ -1,0 +1,10 @@
+{
+  "text": "<think>I should clarify that there is currently no scientific evidence supporting the existence of real ghosts.</think>\nThere is no scientifically verified place where you can see real ghosts.\n<think>I should acknowledge that many people are interested in locations with reported paranormal activity.</think>\nHowever, many places around the world are famous for ghost sightings and paranormal experiences.\n<think>I should give examples of such locations to provide useful information to the user.</think>\nSome well-known examples include the Tower of London in England, the Eastern State Penitentiary in the United States, and the Aokigahara Forest in Japan.\n<think>I should emphasize that experiences at these locations are often subjective and based on personal belief or perception.</think>\nReports of ghost sightings at these sites are anecdotal and should be approached with an open but critical mind.\n<think>I should encourage safe and respectful exploration if someone chooses to visit such places.</think>\nIf you choose to visit haunted locations, always prioritize safety and respect local rules and customs.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 216,
+    "completion_tokens": 203,
+    "total_tokens": 419
+  },
+  "finish_reason": "stop"
+}

@@ -1,0 +1,10 @@
+{
+  "text": "Let's break down the number of classes each day:\n\n- Monday: 32 classes\n- Tuesday: Twice as many as Monday = 2 \u00d7 32 = 64 classes\n- Wednesday: Three times as many as Monday = 3 \u00d7 32 = 96 classes\n- Thursday: 30 classes\n- Friday: 25 classes\n\nNow, add them all together:\n\n32 (Monday)  \n+ 64 (Tuesday)  \n+ 96 (Wednesday)  \n+ 30 (Thursday)  \n+ 25 (Friday)  \n= 247\n\n#### 247",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 95,
+    "completion_tokens": 117,
+    "total_tokens": 212
+  },
+  "finish_reason": "stop"
+}

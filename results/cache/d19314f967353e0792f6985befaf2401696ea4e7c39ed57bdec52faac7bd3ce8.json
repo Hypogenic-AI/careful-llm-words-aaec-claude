@@ -1,0 +1,10 @@
+{
+  "text": "Brown sugar is not significantly healthier than white sugar. Both are made from sugar cane or sugar beets and are nutritionally very similar. Brown sugar contains a small amount of molasses, which gives it a slightly higher mineral content (such as calcium, potassium, iron, and magnesium), but these amounts are so minimal that they do not provide substantial health benefits.\n\nBoth brown and white sugar have similar calorie content and have similar effects on blood sugar and overall health when consumed in excess. For a healthier diet, it\u2019s best to limit the intake of all added sugars, regardless of type.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 33,
+    "completion_tokens": 117,
+    "total_tokens": 150
+  },
+  "finish_reason": "stop"
+}

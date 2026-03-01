@@ -1,0 +1,10 @@
+{
+  "text": "Let's break down the problem step by step.\n\n**Step 1: Calculate Jon's total time.**\n\n- Swim: 40 minutes\n- Bike: 1 hour 20 minutes = 80 minutes\n- Run: 50 minutes\n\nTotal time for Jon = 40 + 80 + 50 = **170 minutes**\n\n---\n\n**Step 2: Calculate James's swim time.**\n\nJames finishes the swim 10% faster than Jon.\n\n- Jon's swim time = 40 minutes\n- 10% faster means James takes 90% of Jon's time.\n\nJames's swim time = 40 \u00d7 0.9 = **36 minutes**\n\n---\n\n**Step 3: Calculate James's bike time.**\n\nJames takes 5 minutes longer than Jon on the bike.\n\n- Jon's bike time = 80 minutes\n\nJames's bike time = 80 + 5 = **85 minutes**\n\n---\n\n**Step 4: Let James's run time be \\( x \\) minutes.**\n\nJames's total time = swim + bike + run = 36 + 85 + \\( x \\) = \\( 121 + x \\) minutes\n\n---\n\n**Step 5: Use the information that Jon won by 10 minutes.**\n\nJon's total time = 170 minutes  \nJames's total time = \\( 121 + x \\) minutes\n\nJon won by 10 minutes, so James's time is 10 minutes more than Jon's:\n\n\\( 121 + x = 170 + 10 \\)  \n\\( 121 + x = 180 \\)  \n\\( x = 180 - 121 \\)  \n\\( x = 59 \\)\n\n---\n\n**Final Answer:**\n\nJames took #### 59 minutes #### to do the run.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 117,
+    "completion_tokens": 356,
+    "total_tokens": 473
+  },
+  "finish_reason": "stop"
+}

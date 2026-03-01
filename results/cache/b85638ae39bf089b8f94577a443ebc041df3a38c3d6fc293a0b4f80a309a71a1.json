@@ -1,0 +1,10 @@
+{
+  "text": "In folklore and popular culture, vampires are traditionally believed to be most active and dangerous at night, especially around midnight. Legends often suggest that you should be particularly watchful from dusk until dawn, as vampires are said to avoid sunlight, which is harmful or fatal to them. Additionally, certain times like Halloween or during a full moon are sometimes associated with increased supernatural activity in stories, though this varies by tradition.\n\nIn summary: **Watch out for vampires after sunset and before sunrise.**",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 33,
+    "completion_tokens": 96,
+    "total_tokens": 129
+  },
+  "finish_reason": "stop"
+}

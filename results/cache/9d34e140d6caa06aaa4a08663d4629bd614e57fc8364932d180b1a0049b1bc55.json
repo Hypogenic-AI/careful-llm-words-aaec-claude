@@ -1,0 +1,10 @@
+{
+  "text": "Since 2015, **Estonia** has consistently achieved the best PISA scores among Northern European countries. In the PISA assessments (2015, 2018, and 2022), Estonian students have outperformed their peers from other Northern European nations (such as Finland, Sweden, Denmark, Norway, and Iceland) in all three tested areas: reading, mathematics, and science. Estonia is recognized as one of the top-performing countries in Europe and the world according to PISA results.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 42,
+    "completion_tokens": 101,
+    "total_tokens": 143
+  },
+  "finish_reason": "stop"
+}

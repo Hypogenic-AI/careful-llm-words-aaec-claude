@@ -1,0 +1,10 @@
+{
+  "text": "WINNER: A\nREASON: Response A is more coherent, logical, and well-structured, with clear headings, bullet points, and a systematic breakdown of pros and cons for both employees and employers, making it easier to follow and understand.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 990,
+    "completion_tokens": 50,
+    "total_tokens": 1040
+  },
+  "finish_reason": "stop"
+}

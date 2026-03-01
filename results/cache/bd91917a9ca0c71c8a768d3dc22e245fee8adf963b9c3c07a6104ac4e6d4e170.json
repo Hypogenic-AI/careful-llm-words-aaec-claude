@@ -1,0 +1,10 @@
+{
+  "text": "Biodiversity is important for ecosystem stability because it increases the variety of species, genes, and ecosystems, which helps ensure that natural systems are resilient to disturbances like diseases, climate changes, or invasive species. When an ecosystem has high biodiversity, different species can fulfill various roles, such as pollination, nutrient cycling, and pest control. This diversity means that if one species is affected by a problem, others can take over its role, maintaining the ecosystem's overall function. In short, greater biodiversity makes ecosystems more flexible, stable, and able to recover from disruptions, supporting the health and sustainability of the environment.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 34,
+    "completion_tokens": 122,
+    "total_tokens": 156
+  },
+  "finish_reason": "stop"
+}

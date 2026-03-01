@@ -1,0 +1,10 @@
+{
+  "text": "WINNER: A\nREASON: Response A provides more depth and nuance by offering a thorough explanation of opportunity cost, multiple well-developed real-world examples, and a clear summary, whereas Response B is more concise and less detailed.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 772,
+    "completion_tokens": 46,
+    "total_tokens": 818
+  },
+  "finish_reason": "stop"
+}

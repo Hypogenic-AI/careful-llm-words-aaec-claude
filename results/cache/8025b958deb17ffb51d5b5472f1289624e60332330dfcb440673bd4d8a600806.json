@@ -1,0 +1,10 @@
+{
+  "text": "<think>First, I should recall that West Virginia is often cited as having the highest obesity rate in the United States, according to many recent CDC reports.</think>\nWest Virginia typically has the highest adult obesity rate among all U.S. states.\n<think>Since the user asked which states are more obese than West Virginia, I should clarify that there are none, based on the latest available data.</think>\nNo other state currently has a higher obesity rate than West Virginia.\n<think>I should consider whether there are states with similar rates, or if the rates can change over time, and mention this for completeness.</think>\nHowever, some states such as Mississippi and Alabama have obesity rates that are very close to West Virginia's, and rankings may change slightly from year to year.\n<think>To ensure accuracy, I should recommend consulting the most recent CDC or Trust for America's Health data for up-to-date statistics.</think>\nFor the most current information, it is best to check recent reports from the CDC or Trust for America's Health.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 216,
+    "completion_tokens": 208,
+    "total_tokens": 424
+  },
+  "finish_reason": "stop"
+}

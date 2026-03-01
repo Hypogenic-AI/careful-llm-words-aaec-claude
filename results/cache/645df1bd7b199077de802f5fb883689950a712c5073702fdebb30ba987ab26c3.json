@@ -1,0 +1,10 @@
+{
+  "text": "Let's break down the problem step by step:\n\n1. **Number of people and their choices:**\n   - 10 people want chicken salad.\n   - 6 people want pasta salad.\n\n2. **Cost per person:**\n   - Chicken salad: $6.50 per person.\n   - Pasta salad: $6.00 per person.\n\n3. **Calculate the total cost for chicken salad:**\n   - 10 people \u00d7 $6.50 = $65.00\n\n4. **Calculate the total cost for pasta salad:**\n   - 6 people \u00d7 $6.00 = $36.00\n\n5. **Add both totals to get the overall cost:**\n   - $65.00 (chicken salad) + $36.00 (pasta salad) = $101.00\n\n#### $101.00",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 96,
+    "completion_tokens": 171,
+    "total_tokens": 267
+  },
+  "finish_reason": "stop"
+}

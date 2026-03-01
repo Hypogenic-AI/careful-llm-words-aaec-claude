@@ -1,0 +1,10 @@
+{
+  "text": "Let's break down the problem step by step:\n\n1. **Total students in the class:**  \n   20 students\n\n2. **Students good at math only:**  \n   5 students\n\n3. **Students good at English only:**  \n   8 students\n\n4. **Let \\( x \\) be the number of students good at both math and English.**\n\n5. **The sum of all groups should equal the total number of students:**  \n   (Math only) + (English only) + (Both) = Total  \n   \\( 5 + 8 + x = 20 \\)\n\n6. **Solve for \\( x \\):**  \n   \\( 5 + 8 + x = 20 \\)  \n   \\( 13 + x = 20 \\)  \n   \\( x = 20 - 13 = 7 \\)\n\n7. **Number of students good at math:**  \n   This includes those good at math only and those good at both:  \n   (Math only) + (Both) = \\( 5 + 7 = 12 \\)\n\n#### 12",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 88,
+    "completion_tokens": 225,
+    "total_tokens": 313
+  },
+  "finish_reason": "stop"
+}

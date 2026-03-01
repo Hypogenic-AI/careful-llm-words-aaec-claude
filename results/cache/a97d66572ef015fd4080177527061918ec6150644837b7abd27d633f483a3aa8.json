@@ -1,0 +1,10 @@
+{
+  "text": "WINNER: A  \nREASON: Response A provides more depth and nuance by explaining not only how vaccines work (including the creation of antibodies and memory cells) but also why herd immunity is crucial for protecting vulnerable populations and controlling disease spread, offering a more comprehensive and insightful analysis.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 466,
+    "completion_tokens": 56,
+    "total_tokens": 522
+  },
+  "finish_reason": "stop"
+}

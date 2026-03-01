@@ -1,0 +1,10 @@
+{
+  "text": "WINNER: B\nREASON: Response B provides more depth and nuance by elaborating on each impact, introducing additional factors such as loss of sea ice and shifts in species distribution, and explaining the mechanisms and consequences in greater detail, resulting in a more comprehensive and insightful analysis.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 889,
+    "completion_tokens": 56,
+    "total_tokens": 945
+  },
+  "finish_reason": "stop"
+}

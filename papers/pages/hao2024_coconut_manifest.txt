@@ -1,0 +1,11 @@
+PDF: /workspaces/careful-llm-words-aaec-claude/papers/hao2024_coconut.pdf
+Total pages: 18
+Pages per chunk: 3
+
+Chunks:
+  hao2024_coconut_chunk_001.pdf: pages 1-3
+  hao2024_coconut_chunk_002.pdf: pages 4-6
+  hao2024_coconut_chunk_003.pdf: pages 7-9
+  hao2024_coconut_chunk_004.pdf: pages 10-12
+  hao2024_coconut_chunk_005.pdf: pages 13-15
+  hao2024_coconut_chunk_006.pdf: pages 16-18

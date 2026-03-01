@@ -1,0 +1,10 @@
+{
+  "text": "Let's break down the problem step by step:\n\n1. **Cost of supplies:**  \n   Jen pays $400 for supplies.\n\n2. **Travel cost is 50% more than supplies:**  \n   50% of $400 = 0.5 \u00d7 $400 = $200\n\n3. **Total travel cost:**  \n   Travel cost = Cost of supplies + 50% of cost of supplies  \n   Travel cost = $400 + $200 = $600\n\n#### $600",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 90,
+    "completion_tokens": 98,
+    "total_tokens": 188
+  },
+  "finish_reason": "stop"
+}

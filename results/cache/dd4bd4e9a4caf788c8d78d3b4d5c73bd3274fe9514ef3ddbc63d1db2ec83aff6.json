@@ -1,0 +1,10 @@
+{
+  "text": "<think>I should start by defining what the tragedy of the commons is in simple terms.</think>\nThe tragedy of the commons is an economic theory describing how individuals, acting in their own self-interest, can overuse and deplete shared resources, leading to negative outcomes for the entire group. \n<think>Now, I should provide a brief explanation of why this happens, to clarify the mechanism.</think>\nThis occurs because each person receives the full benefit of their own use of the resource, while the costs of depletion are spread among all users. \n<think>Next, I should introduce a modern example, ensuring it clearly relates to the idea.</think>\nA modern example is overfishing in international waters, where no single country owns the fish stocks and many parties have incentives to catch as much as they can before others do. \n<think>To enhance understanding, I can provide another example from a different context.</think>\nAnother example is the excessive use of groundwater, where farmers or communities may pump water faster than it can be replenished, eventually exhausting the resource for everyone. \n<think>I should end by mentioning why these examples are relevant, connecting them back to the concept.</think>\nThese situations highlight how the tragedy of the commons can threaten essential resources unless collective action or regulations are put in place to manage them sustainably.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 218,
+    "completion_tokens": 269,
+    "total_tokens": 487
+  },
+  "finish_reason": "stop"
+}

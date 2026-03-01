@@ -1,0 +1,10 @@
+{
+  "text": "Boston, Massachusetts receives about **43 inches (1,092 mm) of rainfall per year** on average.\n\nMany cities in the United States and around the world receive less rainfall than Boston. Here are some examples:\n\n**U.S. Cities with less rainfall than Boston:**\n- **New York, NY:** ~50 inches (actually more than Boston)\n- **Chicago, IL:** ~36 inches\n- **Los Angeles, CA:** ~15 inches\n- **Phoenix, AZ:** ~8 inches\n- **Las Vegas, NV:** ~5 inches\n- **Denver, CO:** ~15 inches\n- **San Diego, CA:** ~10 inches\n- **Salt Lake City, UT:** ~18 inches\n- **Dallas, TX:** ~38 inches\n- **San Francisco, CA:** ~23 inches\n\n**International Cities with less rainfall than Boston:**\n- **London, UK:** ~23 inches (584 mm)\n- **Paris, France:** ~25 inches (637 mm)\n- **Madrid, Spain:** ~17 inches (436 mm)\n- **Moscow, Russia:** ~23 inches (585 mm)\n- **Cairo, Egypt:** ~1 inch (25 mm)\n- **Beijing, China:** ~24 inches (610 mm)\n\n**Summary:**  \nMost cities in the western United States and many major cities worldwide receive less rainfall than Boston. If you want a specific comparison or have a particular region in mind, let me know!",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 36,
+    "completion_tokens": 298,
+    "total_tokens": 334
+  },
+  "finish_reason": "stop"
+}

@@ -1,0 +1,10 @@
+{
+  "text": "<think>I should begin by directly answering the question with the director's name.</think>\n\"Return of the Jedi\" was directed by Richard Marquand.\n<think>I should provide a bit more context, such as the year the film was released, for clarity.</think>\nThe film was released in 1983.\n<think>I could add a note about the film's place in the Star Wars saga, which adds useful context.</think>\nIt is the third installment in the original Star Wars trilogy.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 215,
+    "completion_tokens": 102,
+    "total_tokens": 317
+  },
+  "finish_reason": "stop"
+}

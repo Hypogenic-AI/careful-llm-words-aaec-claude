@@ -1,0 +1,10 @@
+{
+  "text": "**Arguments For Nuclear Energy:**\n\n1. **Low Greenhouse Gas Emissions:** Nuclear power plants emit minimal greenhouse gases compared to fossil fuels, helping combat climate change.\n2. **High Energy Density:** Nuclear fuel yields much more energy per unit than coal, oil, or gas, allowing for large-scale electricity generation.\n3. **Reliable Baseload Power:** Nuclear plants operate continuously, providing stable electricity regardless of weather or time of day, unlike some renewables.\n4. **Energy Security:** Domestic nuclear power reduces reliance on imported fossil fuels and diversifies the energy mix.\n5. **Technological Advancements:** New reactor designs (like small modular reactors) promise improved safety, efficiency, and reduced waste.\n\n**Arguments Against Nuclear Energy:**\n\n1. **Radioactive Waste:** Nuclear plants generate long-lived radioactive waste, posing storage, safety, and environmental challenges for thousands of years.\n2. **Nuclear Accidents:** Catastrophic incidents (e.g., Chernobyl, Fukushima) raise concerns over safety, public health, and environmental contamination.\n3. **High Costs:** Building and decommissioning nuclear power plants require significant upfront investment, often exceeding costs for renewables.\n4. **Limited Fuel Supply:** Uranium, the primary fuel, is finite, and mining/extraction can have environmental impacts.\n5. **Nuclear Proliferation:** Civilian nuclear technology can potentially be diverted to weapons programs, raising global security concerns.\n\nIn summary, supporters highlight nuclear energy's role in lowering emissions and providing reliable power, while critics emphasize safety risks, waste disposal, high costs, and proliferation issues.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 36,
+    "completion_tokens": 323,
+    "total_tokens": 359
+  },
+  "finish_reason": "stop"
+}

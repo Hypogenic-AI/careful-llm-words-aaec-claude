@@ -1,0 +1,10 @@
+{
+  "text": "<think>I should start by defining variables for the number of camels and dromedaries, as this will help set up the equations.</think>\nLet \\( c \\) be the number of camels and \\( d \\) be the number of dromedaries.\n<think>Next, I need to express the total number of heads in terms of these variables, since each animal has one head.</think>\nSince each animal has one head, we have \\( c + d = 180 \\).\n<think>Now, I should write an equation for the total number of humps, using the information that camels have two humps and dromedaries have one.</think>\nEach camel has 2 humps and each dromedary has 1, so \\( 2c + d = 304 \\).\n<think>Now, I need to solve this system of equations, starting by expressing one variable in terms of the other using the first equation.</think>\nFrom \\( c + d = 180 \\), we get \\( c = 180 - d \\).\n<think>Next, I substitute this expression for \\( c \\) into the second equation to solve for \\( d \\).</think>\nSubstituting into \\( 2c + d = 304 \\) gives \\( 2(180 - d) + d = 304 \\).\n<think>I should now expand and simplify this equation to isolate \\( d \\).</think>\nThis becomes \\( 360 - 2d + d = 304 \\).\n<think>Now, combine like terms to further simplify.</think>\nSo, \\( 360 - d = 304 \\).\n<think>Next, solve for \\( d \\) by subtracting 304 from both sides.</think>\n\\( 360 - 304 = d \\)\n<think>Now, calculate the value to find the number of dromedaries.</think>\n\\( d = 56 \\)\n<think>I should now present the final answer clearly, as requested, after the ####.</think>\n#### 56",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 263,
+    "completion_tokens": 422,
+    "total_tokens": 685
+  },
+  "finish_reason": "stop"
+}

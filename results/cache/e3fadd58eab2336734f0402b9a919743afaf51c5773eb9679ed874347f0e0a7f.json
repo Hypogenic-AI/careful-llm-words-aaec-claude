@@ -1,0 +1,10 @@
+{
+  "text": "WINNER: B\nREASON: Response B provides a more comprehensive and detailed overview of both the arguments for and against nuclear energy, avoids unsupported or overconfident claims, and presents information in a clear, balanced, and factually accurate manner.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 970,
+    "completion_tokens": 50,
+    "total_tokens": 1020
+  },
+  "finish_reason": "stop"
+}

@@ -1,0 +1,10 @@
+{
+  "text": "Let's break down the problem step by step:\n\n1. **Total eggs laid per day:**  \n   Janet\u2019s ducks lay 16 eggs per day.\n\n2. **Eggs eaten for breakfast:**  \n   Janet eats 3 eggs every morning.\n\n3. **Eggs used for baking muffins:**  \n   She uses 4 eggs for baking muffins.\n\n4. **Eggs left to sell:**  \n   Eggs left = Total eggs - (Eggs eaten + Eggs used for baking)  \n   Eggs left = 16 - (3 + 4)  \n   Eggs left = 16 - 7  \n   Eggs left = 9 eggs\n\n5. **Selling price per egg:**  \n   She sells each egg for $2.\n\n6. **Total money made per day:**  \n   Money made = Number of eggs sold \u00d7 Price per egg  \n   Money made = 9 \u00d7 $2  \n   Money made = $18\n\n#### $18",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 102,
+    "completion_tokens": 191,
+    "total_tokens": 293
+  },
+  "finish_reason": "stop"
+}

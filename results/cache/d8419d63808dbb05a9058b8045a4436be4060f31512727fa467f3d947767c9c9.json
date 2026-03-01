@@ -1,0 +1,10 @@
+{
+  "text": "WINNER: B\nREASON: Response B is more precise in its language, avoids overgeneralization, and clearly distinguishes between causes of extinction and traits of thriving species, making it less likely to contain unsupported or overconfident claims.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 400,
+    "completion_tokens": 48,
+    "total_tokens": 448
+  },
+  "finish_reason": "stop"
+}

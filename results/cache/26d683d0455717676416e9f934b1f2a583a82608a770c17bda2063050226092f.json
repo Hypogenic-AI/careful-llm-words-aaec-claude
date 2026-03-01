@@ -1,0 +1,10 @@
+{
+  "text": "Let's break down the problem step by step:\n\n**Step 1: Cakes bought on Monday**\n- Rose bought 4 cakes.\n\n**Step 2: Cakes bought on Tuesday**\n- She bought three times the number she bought on Monday.\n- 3 \u00d7 4 = 12 cakes.\n\n**Step 3: Cakes bought on Wednesday**\n- She bought five times the number she bought on Tuesday.\n- 5 \u00d7 12 = 60 cakes.\n\n**Step 4: Total cakes bought over all three days**\n- Monday: 4 cakes\n- Tuesday: 12 cakes\n- Wednesday: 60 cakes\n\nTotal = 4 + 12 + 60 = 76\n\nFinal answer:\n#### 76",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 100,
+    "completion_tokens": 146,
+    "total_tokens": 246
+  },
+  "finish_reason": "stop"
+}

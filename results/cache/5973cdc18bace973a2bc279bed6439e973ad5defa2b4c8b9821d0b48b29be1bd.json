@@ -1,0 +1,10 @@
+{
+  "text": "Antibiotics are becoming less effective over time mainly because bacteria are developing resistance to them. This happens through a process called antibiotic resistance. When antibiotics are used\u2014especially when they are used too often or incorrectly (such as not finishing a prescribed course)\u2014some bacteria survive because they have or develop mutations that protect them from the drug. These resistant bacteria then multiply and spread.\n\nOver time, as more bacteria become resistant, the antibiotics that once killed them no longer work as well or at all. This makes infections harder to treat and increases the risk of disease spread, severe illness, and death. The main reasons for this growing problem include overuse and misuse of antibiotics in humans and animals, and the lack of new antibiotics being developed.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 35,
+    "completion_tokens": 146,
+    "total_tokens": 181
+  },
+  "finish_reason": "stop"
+}

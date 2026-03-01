@@ -1,0 +1,10 @@
+{
+  "text": "First, calculate the total number of hours Pamela will be outside:\n\n4 hours/day \u00d7 8 days = 32 hours\n\nShe uses 1 ounce of sunscreen per hour:\n\n32 hours \u00d7 1 ounce/hour = 32 ounces\n\nEach bottle contains 8 ounces:\n\n32 ounces \u00f7 8 ounces/bottle = 4 bottles\n\n#### 4",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 87,
+    "completion_tokens": 71,
+    "total_tokens": 158
+  },
+  "finish_reason": "stop"
+}

@@ -1,0 +1,10 @@
+{
+  "text": "Paul already has 8 chocolate cupcakes and 40 toffee cupcakes, which totals:\n\n8 + 40 = 48 cupcakes\n\nHe needs 63 cupcakes in total, so he still needs:\n\n63 - 48 = 15 cupcakes\n\n#### 15",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 68,
+    "completion_tokens": 51,
+    "total_tokens": 119
+  },
+  "finish_reason": "stop"
+}

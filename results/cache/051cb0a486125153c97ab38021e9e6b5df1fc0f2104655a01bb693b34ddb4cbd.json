@@ -1,0 +1,10 @@
+{
+  "text": "Let's break down the problem step by step:\n\n1. **One-way distance from home to office:** 5 miles  \n2. **Round-trip distance per day:** 5 miles (to work) + 5 miles (back home) = 10 miles  \n3. **Number of workdays per week:** 5 (Monday to Friday)  \n4. **Total distance driven per week:** 10 miles/day \u00d7 5 days = 50 miles  \n5. **Car's fuel efficiency:** 10 miles per gallon (MPG)  \n6. **Gallons of gas used per week:**  \n   Total miles per week \u00f7 MPG = 50 miles \u00f7 10 MPG = 5 gallons  \n7. **Price of gas per gallon:** $3  \n8. **Total money spent on gas per week:**  \n   Gallons used \u00d7 Price per gallon = 5 gallons \u00d7 $3/gallon = $15  \n\n#### $15",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 106,
+    "completion_tokens": 193,
+    "total_tokens": 299
+  },
+  "finish_reason": "stop"
+}

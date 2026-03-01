@@ -1,0 +1,10 @@
+{
+  "text": "First, find the total weight of all the tunas:\n\n56 kg + 46 kg + 26 kg = 128 kg\n\nNext, calculate the total earnings:\n\n128 kg \u00d7 $0.50/kg = $64\n\nFinal answer:\n\n#### $64",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 100,
+    "completion_tokens": 52,
+    "total_tokens": 152
+  },
+  "finish_reason": "stop"
+}

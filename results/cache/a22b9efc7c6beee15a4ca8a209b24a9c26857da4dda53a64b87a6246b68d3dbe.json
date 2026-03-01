@@ -1,0 +1,10 @@
+{
+  "text": "The word **\"crap\"** has its origins in Middle English and is **not originally a vulgar word**. It derives from the Old French word **\"crappe,\"** meaning \"siftings\" or \"waste,\" which itself comes from the Medieval Latin **\"crappa,\"** meaning \"chaff\" or \"refuse.\" In English, \"crap\" originally referred to chaff, residue, or other discarded matter.\n\nIt only started to take on its modern vulgar sense of \"excrement\" or \"something worthless\" in the 19th century. Contrary to popular myth, the word is **not derived from the name of Thomas Crapper**, a British plumber; the word was in use before his time.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 35,
+    "completion_tokens": 150,
+    "total_tokens": 185
+  },
+  "finish_reason": "stop"
+}

@@ -1,0 +1,10 @@
+{
+  "text": "Let's break down the problem step by step:\n\n1. **How much does John earn per day?**\n   - He works 5 hours a day.\n   - He gets paid $2 per hour.\n   - Daily earnings = 5 hours \u00d7 $2/hour = $10 per day.\n\n2. **How much does John earn per week?**\n   - He works 4 days a week.\n   - Weekly earnings = 4 days \u00d7 $10/day = $40 per week.\n\n3. **How many weeks will it take to save $80?**\n   - Total amount to save = $80.\n   - Weekly savings = $40.\n   - Number of weeks = $80 \u00f7 $40 = 2 weeks.\n\n#### 2",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 85,
+    "completion_tokens": 152,
+    "total_tokens": 237
+  },
+  "finish_reason": "stop"
+}

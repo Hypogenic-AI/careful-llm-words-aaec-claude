@@ -1,0 +1,10 @@
+{
+  "text": "No, coughing cannot effectively stop a heart attack. The idea that \"cough CPR\" (forceful coughing during a heart attack) can save your life is a myth and is not supported by medical evidence for people outside of a hospital setting. If you think you or someone else is having a heart attack, the most important steps are:\n\n1. Call emergency services (911 in the US) immediately.\n2. Chew and swallow an aspirin (if not allergic and advised by a doctor).\n3. Stay calm and rest while waiting for help.\n\nDo **not** rely on coughing to treat a heart attack. Seek professional medical help right away.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 33,
+    "completion_tokens": 130,
+    "total_tokens": 163
+  },
+  "finish_reason": "stop"
+}

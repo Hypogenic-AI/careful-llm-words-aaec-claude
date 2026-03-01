@@ -1,0 +1,10 @@
+{
+  "text": "WINNER: A  \nREASON: Response A provides significantly more depth, nuance, and analysis by outlining a broader range of theories, offering concise explanations, and including a summary table, whereas Response B is more superficial and lacks detailed support for each theory.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 1208,
+    "completion_tokens": 51,
+    "total_tokens": 1259
+  },
+  "finish_reason": "stop"
+}

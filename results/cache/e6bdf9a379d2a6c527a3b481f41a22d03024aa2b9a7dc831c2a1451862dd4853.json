@@ -1,0 +1,10 @@
+{
+  "text": "Let's break down the problem step by step:\n\n1. **Time to shore:** 64 seconds.\n\n2. **Time per 20 feet:** 16 seconds.\n\n3. **Distance to shore:**  \n   \\[\n   \\text{Number of 16-second intervals in 64 seconds} = \\frac{64}{16} = 4\n   \\]\n   So, she rows 20 feet each interval, for 4 intervals:\n   \\[\n   \\text{Total distance} = 4 \\times 20 = 80 \\text{ feet}\n   \\]\n\n4. **Water intake rate:** 2 liters per 10 feet.\n\n5. **Total water taken on:**  \n   \\[\n   \\text{Number of 10-foot segments in 80 feet} = \\frac{80}{10} = 8\n   \\]\n   \\[\n   \\text{Total water} = 8 \\times 2 = 16 \\text{ liters}\n   \\]\n\n**Final answer:**\n\n#### 16",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 100,
+    "completion_tokens": 211,
+    "total_tokens": 311
+  },
+  "finish_reason": "stop"
+}

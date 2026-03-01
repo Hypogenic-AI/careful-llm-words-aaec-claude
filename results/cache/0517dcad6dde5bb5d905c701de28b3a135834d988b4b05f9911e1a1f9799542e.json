@@ -1,0 +1,10 @@
+{
+  "text": "Janet\u2019s ducks lay 16 eggs per day.\n\nShe uses:\n- 3 eggs for breakfast\n- 4 eggs for baking muffins\n\nTotal eggs used: 3 + 4 = 7 eggs\n\nEggs left to sell: 16 - 7 = 9 eggs\n\nShe sells each egg for $2.\n\nTotal money made per day: 9 eggs \u00d7 $2 = $18\n\n#### 18",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 96,
+    "completion_tokens": 86,
+    "total_tokens": 182
+  },
+  "finish_reason": "stop"
+}

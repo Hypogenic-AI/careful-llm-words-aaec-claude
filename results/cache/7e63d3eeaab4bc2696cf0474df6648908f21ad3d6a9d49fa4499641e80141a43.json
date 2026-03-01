@@ -1,0 +1,10 @@
+{
+  "text": "Certainly! Let\u2019s break it down step by step:\n\n**Step 1: Understanding Tax Brackets in the U.S.**\n- The U.S. federal income tax system is progressive and uses tax brackets. This means different portions of your income are taxed at different rates.\n- As your income increases, only the income **within each bracket** is taxed at that bracket's rate.\n\n**Step 2: What Happens When You Move to a Higher Tax Bracket?**\n- If your income rises enough to enter a new (higher) tax bracket, only the **income above the threshold** for that bracket is taxed at the higher rate.\n- The income you earned within the lower brackets is still taxed at the lower rates.\n\n**Step 3: Effect on Take-Home Earnings**\n- Your **take-home pay (after taxes)** will still increase when your income increases, even if you move into a higher tax bracket.\n- The higher rate applies **only to the portion** of your income above the bracket threshold, not your entire income.\n\n**Step 4: Example**\nSuppose the 22% bracket ends at $44,725 and the 24% bracket starts at $44,726:\n\n- If you earn $44,725, the highest tax rate that applies is 22%.\n- If you earn $44,726, only that **$1** above $44,725 is taxed at 24%. The rest is still taxed at 22% or less.\n\n**Conclusion/Answer:**\nIf your income increases and you're bumped up a tax bracket in the U.S., only the additional income in the new bracket is taxed at the higher rate. The rest of your income is still taxed at the lower rates. Your take-home earnings will still increase, but the extra income above the new bracket threshold will be taxed at the higher rate. You will **never take home less money** simply because you entered a higher tax bracket.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 393,
+    "total_tokens": 455
+  },
+  "finish_reason": "stop"
+}

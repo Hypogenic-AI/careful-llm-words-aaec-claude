@@ -1,0 +1,10 @@
+{
+  "text": "<think>I should start by restating the information given about Naomi, since her number of fish is the starting point for the other calculations.</think>\nNaomi caught 17 fish.\n<think>Next, I need to determine how many fish Darren caught, which is 6 less than Naomi.</think>\nDarren caught 17 - 6 = 11 fish.\n<think>Now, I should calculate how many fish Tommy caught, which is 3 more than Darren.</think>\nTommy caught 11 + 3 = 14 fish.\n<think>Finally, I should present the answer in the required format with ####.</think>\n#### 14",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 247,
+    "completion_tokens": 134,
+    "total_tokens": 381
+  },
+  "finish_reason": "stop"
+}

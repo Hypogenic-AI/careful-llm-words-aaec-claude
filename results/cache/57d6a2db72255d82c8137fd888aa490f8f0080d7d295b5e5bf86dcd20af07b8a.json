@@ -1,0 +1,10 @@
+{
+  "text": "<think>I should begin by defining the concept of opportunity cost in clear and simple terms.</think>\nOpportunity cost refers to the value of the next best alternative that must be forgone when making a choice.\n<think>I should now elaborate on why opportunity cost is important in decision-making.</think>\nThis concept is important because resources such as time, money, and effort are limited, so choosing one option means giving up others.\n<think>I need to provide a straightforward real-world example to illustrate the idea.</think>\nFor example, if you spend $20 on a movie ticket, the opportunity cost might be a meal you could have enjoyed with that money instead.\n<think>I should present another example that demonstrates opportunity cost in a different context, such as time management.</think>\nAnother example is choosing to study for an exam rather than going out with friends; the opportunity cost is the enjoyment and social interaction you miss.\n<think>Finally, I should summarize why recognizing opportunity costs leads to better decision-making.</think>\nUnderstanding opportunity cost helps individuals and businesses make more informed and rational choices by considering what they must give up with each decision.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 219,
+    "completion_tokens": 227,
+    "total_tokens": 446
+  },
+  "finish_reason": "stop"
+}

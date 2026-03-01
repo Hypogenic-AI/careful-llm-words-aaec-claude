@@ -1,0 +1,10 @@
+{
+  "text": "The largest beanstalk ever known is from the famous English fairy tale \"Jack and the Beanstalk.\" In the story, Jack plants magic beans that grow overnight into a gigantic beanstalk reaching up into the clouds. Jack climbs the beanstalk and finds a giant's castle at the top, where he has several adventures.\n\nAt the end of the story, Jack escapes the giant by climbing back down the beanstalk and then chopping it down with an axe. The beanstalk crashes to the ground, preventing the giant from following Jack. So, according to the tale, the largest beanstalk ever existed was cut down and destroyed by Jack to save himself.\n\nIn reality, there is no record of such a gigantic beanstalk\u2014this is a work of fiction. The story's beanstalk is a legendary creation from folklore, not an actual plant. The tallest real-world bean plants are runner beans (Phaseolus coccineus), which can grow up to 10\u201312 feet (3\u20133.7 meters), but nothing close to the magical beanstalk from the story.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 37,
+    "completion_tokens": 224,
+    "total_tokens": 261
+  },
+  "finish_reason": "stop"
+}

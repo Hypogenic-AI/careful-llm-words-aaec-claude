@@ -1,0 +1,10 @@
+{
+  "text": "Sure! Let\u2019s think through what happens if you stand close to a microwave:\n\n**Step 1: How does a microwave work?**  \nA microwave oven uses electromagnetic waves (microwaves) to heat food. These microwaves are generated inside the oven and bounce around inside the metal interior, heating your food.\n\n**Step 2: Are microwaves contained?**  \nMicrowave ovens are designed with metal walls and a metal mesh in the door to keep microwaves from escaping. If the microwave is in good condition and the door is closed properly, very little microwave radiation should leak out.\n\n**Step 3: What happens if you\u2019re standing close?**  \nIf the microwave is working correctly:\n- The microwaves stay inside, so you\u2019re not exposed to significant radiation.\n- You might feel a little warmth from the oven as it operates, but this is just regular heat\u2014not microwave radiation.\n\nIf the microwave is damaged (for example, the door seal is broken or the metal mesh is compromised):\n- Some microwave radiation could leak out, but even then, most consumer microwaves are designed to minimize this risk.\n- Prolonged direct exposure to microwaves could, in theory, cause burns or heat injuries, but this is extremely unlikely with a properly functioning appliance.\n\n**Step 4: Safety recommendations**  \n- Standing close to a working microwave is generally safe.\n- Just avoid pressing your face against the door, especially if the oven is old or damaged.\n- If you notice any damage to the door or seals, stop using the microwave and have it repaired.\n\n**Final Answer:**  \nIf you stand close to a properly functioning microwave, nothing harmful will happen because the microwaves are contained inside the oven. If the microwave is damaged, there could be a risk of minor microwave leakage, but this is rare. For everyday use, standing near a microwave is safe.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 49,
+    "completion_tokens": 378,
+    "total_tokens": 427
+  },
+  "finish_reason": "stop"
+}

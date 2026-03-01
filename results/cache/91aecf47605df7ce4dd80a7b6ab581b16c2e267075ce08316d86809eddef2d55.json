@@ -1,0 +1,10 @@
+{
+  "text": "Let \\( r \\) be the number of red balloons and \\( y \\) be the number of yellow balloons.\n\nGiven:\n- \\( r = 20 \\)\n- Each red balloon gets 2 pieces of bologna: \\( 2r \\)\n- Each yellow balloon gets 3 pieces of bologna: \\( 3y \\)\n- Total pieces of bologna: \\( 2r + 3y = 58 \\)\n\nSubstitute \\( r = 20 \\):\n\n\\[\n2(20) + 3y = 58\n\\]\n\\[\n40 + 3y = 58\n\\]\n\\[\n3y = 58 - 40\n\\]\n\\[\n3y = 18\n\\]\n\\[\ny = \\frac{18}{3}\n\\]\n\\[\ny = 6\n\\]\n\n#### 6",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 104,
+    "completion_tokens": 175,
+    "total_tokens": 279
+  },
+  "finish_reason": "stop"
+}

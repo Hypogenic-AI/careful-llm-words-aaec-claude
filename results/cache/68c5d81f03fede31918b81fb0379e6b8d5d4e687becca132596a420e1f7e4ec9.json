@@ -1,0 +1,10 @@
+{
+  "text": "WINNER: A  \nREASON: Response A is more coherent, logical, and well-structured, providing clear organization with headings, detailed explanations, and a logical flow between points, whereas Response B is more general and lacks the same level of structure and depth.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 892,
+    "completion_tokens": 53,
+    "total_tokens": 945
+  },
+  "finish_reason": "stop"
+}

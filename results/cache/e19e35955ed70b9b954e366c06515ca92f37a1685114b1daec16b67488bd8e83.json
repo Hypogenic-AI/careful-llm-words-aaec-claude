@@ -1,0 +1,10 @@
+{
+  "text": "<think>I should begin by providing the general advice that most people are familiar with regarding waiting after eating before swimming.</think>\nIt is commonly recommended to wait about 30 minutes to an hour after eating before swimming.  \n<think>I should explain the reason behind this recommendation and whether it is based on scientific evidence.</think>\nThe idea is that digestion diverts blood flow to your stomach, which some believe could increase the risk of cramps while swimming.  \n<think>It's important to clarify what current scientific research says about this belief to ensure accuracy.</think>\nHowever, there is little scientific evidence to support the notion that swimming after eating poses significant danger for most people.  \n<think>I should note that while it is generally safe, there may be individual considerations, such as eating a particularly large or heavy meal.</think>\nIf you have eaten a very large meal, you might feel more comfortable waiting a bit longer before vigorous swimming.  \n<think>It would be helpful to wrap up with a practical guideline for most people.</think>\nIn general, light to moderate swimming after a normal meal is considered safe for most individuals.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 220,
+    "completion_tokens": 226,
+    "total_tokens": 446
+  },
+  "finish_reason": "stop"
+}

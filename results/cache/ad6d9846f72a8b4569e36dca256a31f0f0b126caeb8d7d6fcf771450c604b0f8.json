@@ -1,0 +1,10 @@
+{
+  "text": "Each cow produces 5 liters of milk per day.  \nThe farmer has 3 cows, so he currently gets:  \n3 cows \u00d7 5 liters/cow = 15 liters per day.\n\nHe wants to produce 25 liters per day.  \nHe needs:  \n25 liters \u00f7 5 liters/cow = 5 cows in total.\n\nHe already has 3 cows, so he needs:  \n5 cows - 3 cows = 2 more cows.\n\n#### 2",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 73,
+    "completion_tokens": 98,
+    "total_tokens": 171
+  },
+  "finish_reason": "stop"
+}

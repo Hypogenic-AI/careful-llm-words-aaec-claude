@@ -1,0 +1,10 @@
+{
+  "text": "Let's analyze the problem step by step:\n\n## Step 1: Understand the Problem\nWe are asked to compare the likelihood of two specific coin toss sequences occurring with a fair coin:\n- Sequence 1: HHHHH (all heads)\n- Sequence 2: HTTHT (a mixed sequence)\n\n## Step 2: Probability of a Single Toss\nA fair coin has two possible outcomes for each toss: Heads (H) or Tails (T).\n- Probability of H = \u00bd\n- Probability of T = \u00bd\n\n## Step 3: Probability of a Sequence\nTo get a specific sequence, each toss must come out a certain way. Because the tosses are independent, we multiply the probabilities for each toss.\n\n### Sequence 1: HHHHH\n- First toss: H (\u00bd)\n- Second toss: H (\u00bd)\n- Third toss: H (\u00bd)\n- Fourth toss: H (\u00bd)\n- Fifth toss: H (\u00bd)\n\nProbability = \u00bd \u00d7 \u00bd \u00d7 \u00bd \u00d7 \u00bd \u00d7 \u00bd = (\u00bd)^5 = 1/32\n\n### Sequence 2: HTTHT\n- First toss: H (\u00bd)\n- Second toss: T (\u00bd)\n- Third toss: T (\u00bd)\n- Fourth toss: H (\u00bd)\n- Fifth toss: T (\u00bd)\n\nProbability = \u00bd \u00d7 \u00bd \u00d7 \u00bd \u00d7 \u00bd \u00d7 \u00bd = (\u00bd)^5 = 1/32\n\n## Step 4: Compare the Probabilities\nBoth sequences have the same probability: 1/32.\n\n## Step 5: Interpretation\nIt may seem surprising, but **every specific 5-toss sequence is equally likely** with a fair coin. This is a common counterintuitive result.\n\n---\n\n**Final Answer:**\n\nBoth sequences (HHHHH and HTTHT) are equally likely, each with a probability of 1/32.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 59,
+    "completion_tokens": 393,
+    "total_tokens": 452
+  },
+  "finish_reason": "stop"
+}

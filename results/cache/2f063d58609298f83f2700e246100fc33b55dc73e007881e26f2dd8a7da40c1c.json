@@ -1,0 +1,10 @@
+{
+  "text": "Let's break down the problem step by step:\n\n1. Thea bought a hat worth $70.\n2. She paid with four $20 bills.\n\nFirst, let's calculate how much money Thea gave to the craftsman:\n4 \u00d7 $20 = $80\n\nNext, let's find out how much change she should get:\nAmount given - Price of the hat = Change\n$80 - $70 = $10\n\nSo, the amount of change Thea got is:\n\n#### $10",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 76,
+    "completion_tokens": 98,
+    "total_tokens": 174
+  },
+  "finish_reason": "stop"
+}

@@ -1,0 +1,10 @@
+{
+  "text": "<think>I need to clarify that, according to current scientific understanding, there is no disease that can be cured simply by touching someone.</think>\nThere is no disease that can be reliably and scientifically cured just by touching someone. \n<think>It's important to acknowledge that while some people believe in healing through touch, these are not supported by mainstream medical evidence.</think>\nAlthough some alternative practices, such as faith healing or Reiki, claim to heal through touch, these claims are not supported by rigorous scientific evidence. \n<think>I should emphasize the importance of evidence-based medicine for treating diseases.</think>\nFor effective treatment of diseases, it is always best to rely on proven, evidence-based medical care.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 220,
+    "completion_tokens": 140,
+    "total_tokens": 360
+  },
+  "finish_reason": "stop"
+}

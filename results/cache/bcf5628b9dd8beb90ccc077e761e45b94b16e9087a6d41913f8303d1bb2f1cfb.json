@@ -1,0 +1,10 @@
+{
+  "text": "We cannot know for certain what will happen to the value of gold in the next twenty years, even though it has increased in the past twenty years. Past performance does not guarantee future results. Gold prices are influenced by many factors, including inflation, global economic conditions, currency values, and investor sentiment. While its historical trend may offer some context, it does not ensure that gold will continue to rise, stay the same, or fall in value in the future.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 50,
+    "completion_tokens": 92,
+    "total_tokens": 142
+  },
+  "finish_reason": "stop"
+}

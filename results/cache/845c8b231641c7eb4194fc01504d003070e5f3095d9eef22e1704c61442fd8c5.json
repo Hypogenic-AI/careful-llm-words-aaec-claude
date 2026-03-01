@@ -1,0 +1,10 @@
+{
+  "text": "WINNER: A\nREASON: Response A provides a more comprehensive and nuanced overview of both the benefits and risks, includes more detail, and avoids overconfident or unsupported claims by acknowledging uncertainties and the need for regulation and further research.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 979,
+    "completion_tokens": 48,
+    "total_tokens": 1027
+  },
+  "finish_reason": "stop"
+}

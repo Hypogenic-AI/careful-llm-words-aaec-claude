@@ -1,0 +1,10 @@
+{
+  "text": "Certainly! Let\u2019s break down what it means for a nuclear reactor to \"go critical,\" step by step:\n\n**Step 1: Understanding Nuclear Fission**\n- In a nuclear reactor, energy is produced by splitting heavy atomic nuclei (like uranium-235) in a process called fission.\n- Each fission event releases energy and also additional neutrons.\n\n**Step 2: The Chain Reaction**\n- The released neutrons can cause more fission events in nearby fuel atoms, creating a chain reaction.\n- The behavior of this chain reaction is crucial for the reactor's operation.\n\n**Step 3: Neutron Population**\n- The number of neutrons in the reactor core determines the rate of fission reactions.\n- If the number of neutrons decreases over time, the reaction dies out.\n- If the number increases, the reaction accelerates and can become dangerous.\n\n**Step 4: Criticality Defined**\n- \"Critical\" refers to a specific, balanced condition in the reactor.\n- When a reactor \"goes critical,\" it means that the chain reaction is self-sustaining: each fission event causes, on average, exactly one more fission event.\n- In this state, the neutron population remains steady from one generation to the next.\n\n**Step 5: Reactor Power**\n- When just going critical, the reactor may be at a low power level.\n- If the reactor remains critical, power can be increased or decreased in a controlled manner by adjusting control rods and other variables.\n\n---\n\n**Final Answer:**\nWhen a nuclear reactor \"goes critical,\" it means that the nuclear fission chain reaction inside the reactor has reached a self-sustaining state\u2014each fission event causes, on average, one more fission event. This allows the reactor to maintain a steady rate of energy production. \"Critical\" is a normal and necessary condition for a reactor to operate safely and produce power.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 49,
+    "completion_tokens": 385,
+    "total_tokens": 434
+  },
+  "finish_reason": "stop"
+}

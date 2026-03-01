@@ -1,0 +1,10 @@
+{
+  "text": "Let's break down the problem step by step:\n\n1. **Total number of employees:**  \n   50\n\n2. **Percentage of employees who are management:**  \n   20% of 50 = 0.20 \u00d7 50 = 10 employees\n\n3. **Percentage of management who oversee the entire company:**  \n   30% of 10 = 0.30 \u00d7 10 = 3 employees\n\nSo, the number of employees who oversee the company is:\n\n#### 3",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 80,
+    "completion_tokens": 101,
+    "total_tokens": 181
+  },
+  "finish_reason": "stop"
+}

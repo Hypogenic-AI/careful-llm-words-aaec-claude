@@ -1,0 +1,10 @@
+{
+  "text": "WINNER: B\nREASON: Response B provides more depth and nuance by defining key terms, offering a concrete example, and explaining specific mechanisms (like overlapping roles and pest control) that support its claims, resulting in a more thorough and insightful analysis.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 423,
+    "completion_tokens": 51,
+    "total_tokens": 474
+  },
+  "finish_reason": "stop"
+}

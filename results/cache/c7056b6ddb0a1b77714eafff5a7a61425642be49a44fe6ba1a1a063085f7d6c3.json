@@ -1,0 +1,10 @@
+{
+  "text": "No, muscle does not turn into fat if you stop exercising. Muscle and fat are two different types of tissue and cannot transform into each other.\n\nWhat actually happens is:  \n- If you stop exercising, your muscles may shrink (atrophy) from lack of use.\n- If you also eat more calories than you burn, you may gain fat.\n- This can make it look or feel like muscle has \"turned into\" fat, but in reality, you are losing muscle mass and gaining fat.\n\nMaintaining an active lifestyle and eating a balanced diet can help preserve muscle and prevent fat gain.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 35,
+    "completion_tokens": 119,
+    "total_tokens": 154
+  },
+  "finish_reason": "stop"
+}

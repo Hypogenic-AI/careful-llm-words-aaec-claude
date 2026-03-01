@@ -1,0 +1,10 @@
+{
+  "text": "Nothing significant or harmful happens if you step on the cracks in the pavement. The idea that stepping on cracks causes bad luck or other consequences is just a superstition, often shared as a rhyme (\"Step on a crack, break your mother's back\"). In reality, stepping on pavement cracks is perfectly safe and has no special effect.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 37,
+    "completion_tokens": 65,
+    "total_tokens": 102
+  },
+  "finish_reason": "stop"
+}

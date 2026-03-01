@@ -1,0 +1,10 @@
+{
+  "text": "Scientists have generally been skeptical of the idea that UFOs (Unidentified Flying Objects) are extraterrestrial for several reasons:\n\n1. **Lack of Conclusive Evidence**: Despite decades of sightings and reports, there has been no scientifically verified physical evidence (such as alien technology or biological samples) that confirms extraterrestrial origins.\n\n2. **Alternative Explanations**: Most UFO sightings can be explained by natural phenomena, man-made objects (such as aircraft, satellites, or weather balloons), optical illusions, or even hoaxes.\n\n3. **Scientific Method**: Science relies on reproducible, empirical evidence. Most UFO encounters are anecdotal, lack verifiable data, or cannot be independently confirmed.\n\n4. **Extraordinary Claims Require Extraordinary Evidence**: Claiming that UFOs are extraterrestrial involves extraordinary implications. Scientists require very strong evidence before accepting such a significant claim.\n\n5. **Misinterpretation of \"Denial\"**: Scientists do not \"deny the truth\" but remain unconvinced due to insufficient evidence. Skepticism is a key part of the scientific process.\n\nIn short, it's not denial of truth, but a demand for solid proof before accepting extraordinary explanations. Most scientists remain open to the possibility, but need more robust evidence to reach a conclusion.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 38,
+    "completion_tokens": 256,
+    "total_tokens": 294
+  },
+  "finish_reason": "stop"
+}

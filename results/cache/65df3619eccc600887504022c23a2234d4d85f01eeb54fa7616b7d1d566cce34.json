@@ -1,0 +1,10 @@
+{
+  "text": "WINNER: B\nREASON: Response B is more coherent and well-structured, clearly separating the explanation of how vaccines work from the discussion of herd immunity with headings, and providing a logical flow within each section. The use of simple language and examples (such as mentioning newborns) also enhances clarity and organization.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 467,
+    "completion_tokens": 64,
+    "total_tokens": 531
+  },
+  "finish_reason": "stop"
+}

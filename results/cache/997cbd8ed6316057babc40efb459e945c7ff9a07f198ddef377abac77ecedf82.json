@@ -1,0 +1,10 @@
+{
+  "text": "WINNER: A  \nREASON: Response A provides more depth and nuance by offering a step-by-step explanation of the tragedy of the commons, a wider range of modern examples (including public Wi-Fi), and a thoughtful summary that discusses solutions such as cooperation, regulation, and privatization.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 970,
+    "completion_tokens": 58,
+    "total_tokens": 1028
+  },
+  "finish_reason": "stop"
+}

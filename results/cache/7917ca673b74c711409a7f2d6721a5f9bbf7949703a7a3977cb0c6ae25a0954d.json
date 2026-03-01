@@ -1,0 +1,10 @@
+{
+  "text": "<think>I should start by calculating the total number of miles John travels in a year for commuting to work and back.</think>\nJohn travels 30 miles each way, so he travels 60 miles per day.\n<think>Now, I need to determine how many days per year he commutes, which is 5 days a week for 50 weeks.</think>\nHe commutes 5 days a week for 50 weeks, which is 250 days per year.\n<think>Next, I should multiply the number of days by the miles per day to get the total annual miles.</think>\nSo, he travels 60 miles per day \u00d7 250 days = 15,000 miles per year.\n<think>Now, I need to calculate the cost per mile for the total annual miles at $2 per mile.</think>\nAt $2 per mile, the annual mileage cost is 15,000 miles \u00d7 $2 = $30,000.\n<think>I must also account for the monthly bonus, which is $150 per month for 12 months.</think>\nThe annual bonus is $150 \u00d7 12 = $1,800.\n<think>Now, I should add the mileage cost and the bonus to get the total annual cost.</think>\nThe total annual cost is $30,000 + $1,800 = $31,800.\n<think>I should now present the final answer clearly after the required delimiter.</think>\n#### $31,800",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 297,
+    "completion_tokens": 299,
+    "total_tokens": 596
+  },
+  "finish_reason": "stop"
+}

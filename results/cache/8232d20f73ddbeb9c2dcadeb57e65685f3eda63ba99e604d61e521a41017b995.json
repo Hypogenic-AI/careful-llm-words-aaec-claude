@@ -1,0 +1,10 @@
+{
+  "text": "Not all Mexicans are members of a single church. However, the majority of Mexicans are members of the Roman Catholic Church. According to recent census data, about 77% of Mexicans identify as Roman Catholic, but there are also significant populations of Protestants, other Christian denominations, and people who practice other religions or none at all.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 34,
+    "completion_tokens": 69,
+    "total_tokens": 103
+  },
+  "finish_reason": "stop"
+}

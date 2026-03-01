@@ -1,0 +1,10 @@
+{
+  "text": "Let's solve the problem step by step:\n\n1. **Total number of books:**  \n   There are 50 books in the library.\n\n2. **Books written in English:**  \n   Half of them are in English.  \n   \\( \\frac{1}{2} \\times 50 = 25 \\) books in English.\n\n3. **Books written in German:**  \n   10% are in German.  \n   \\( 0.10 \\times 50 = 5 \\) books in German.\n\n4. **Books written in Spanish:**  \n   The rest are in Spanish.  \n   Total books - English books - German books = Spanish books  \n   \\( 50 - 25 - 5 = 20 \\)\n\n#### 20",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 78,
+    "completion_tokens": 152,
+    "total_tokens": 230
+  },
+  "finish_reason": "stop"
+}

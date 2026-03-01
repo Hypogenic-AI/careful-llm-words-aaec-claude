@@ -1,0 +1,10 @@
+{
+  "text": "Let's calculate the total daily consumption:\n\n- 1 German Shepherd consumes 5 kg/day.\n- 3 German Shepherds consume: 3 \u00d7 5 = 15 kg/day.\n\n- 1 Bulldog consumes 3 kg/day.\n- 2 Bulldogs consume: 2 \u00d7 3 = 6 kg/day.\n\nTotal daily consumption = 15 kg + 6 kg = 21 kg/day.\n\nFor a week (7 days):\n\nTotal weekly consumption = 21 kg/day \u00d7 7 days = 147 kg.\n\nFinal answer:\n#### 147",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 86,
+    "completion_tokens": 111,
+    "total_tokens": 197
+  },
+  "finish_reason": "stop"
+}

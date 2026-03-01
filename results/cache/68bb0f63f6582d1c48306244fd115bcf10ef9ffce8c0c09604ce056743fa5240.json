@@ -1,0 +1,10 @@
+{
+  "text": "First, calculate the total cost for each type of item:\n\n- Shorts: \\(3 \\times \\$16.50 = \\$49.50\\)\n- Pants: \\(3 \\times \\$22.50 = \\$67.50\\)\n- Shoes: \\(3 \\times \\$42 = \\$126\\)\n\nNow, add them together:\n\n\\[\n\\$49.50 + \\$67.50 + \\$126 = \\$243\n\\]\n\n#### 243",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 97,
+    "completion_tokens": 91,
+    "total_tokens": 188
+  },
+  "finish_reason": "stop"
+}

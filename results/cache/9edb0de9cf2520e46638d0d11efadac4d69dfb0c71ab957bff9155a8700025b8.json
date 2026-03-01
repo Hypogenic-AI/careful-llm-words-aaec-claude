@@ -1,0 +1,10 @@
+{
+  "text": "Let's break down the problem step by step:\n\n1. **Cost per scoop:** $1.50  \n2. **Deal:** Buy 2 scoops, get 1 scoop free.  \n   - So, for every 2 scoops paid, Erin gets 3 scoops in total.\n3. **Money Erin has:** $6.00\n\nLet's see how many scoops Erin can buy with $6.00.\n\n**Step 1: Find out how many sets of \"buy 2 get 1 free\" Erin can afford.**\n\n- Cost for 2 scoops = 2 \u00d7 $1.50 = $3.00\n- For $3.00, Erin gets 3 scoops (2 paid + 1 free)\n\n**Step 2: How many sets can Erin buy with $6.00?**\n\n- $6.00 \u00f7 $3.00 = 2 sets\n\n**Step 3: Total scoops Erin gets:**\n\n- Each set gives 3 scoops\n- 2 sets \u00d7 3 scoops = 6 scoops\n\n#### 6",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 94,
+    "completion_tokens": 227,
+    "total_tokens": 321
+  },
+  "finish_reason": "stop"
+}

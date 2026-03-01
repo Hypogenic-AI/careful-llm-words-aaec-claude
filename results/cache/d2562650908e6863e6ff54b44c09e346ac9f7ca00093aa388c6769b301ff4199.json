@@ -1,0 +1,10 @@
+{
+  "text": "WINNER: B\nREASON: Response B provides a more detailed, nuanced, and structured explanation, referencing multiple sentencing goals, policy shifts, and challenges, while avoiding unsupported or overconfident claims. It demonstrates a broader understanding of the complexities and ongoing debates within the criminal justice system.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 931,
+    "completion_tokens": 58,
+    "total_tokens": 989
+  },
+  "finish_reason": "stop"
+}

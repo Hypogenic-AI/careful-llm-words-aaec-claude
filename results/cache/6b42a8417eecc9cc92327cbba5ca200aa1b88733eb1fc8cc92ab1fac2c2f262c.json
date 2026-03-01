@@ -1,0 +1,10 @@
+{
+  "text": "Let's break down the problem step by step:\n\n1. **Determine how many pounds of ground beef are needed for 80 meatballs:**\n   - Aiden gets 16 meatballs from each pound of meat.\n   - To make 80 meatballs:  \n     \\( 80 \\div 16 = 5 \\) pounds of ground beef.\n\n2. **Determine how much seasoning is needed per pound:**\n   - He uses 2 tablespoons of seasoning per pound.\n\n3. **Calculate the total amount of seasoning needed for 5 pounds:**\n   - \\( 5 \\) pounds \u00d7 \\( 2 \\) tablespoons per pound = \\( 10 \\) tablespoons.\n\n**Final answer:**\n\n#### 10",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 111,
+    "completion_tokens": 145,
+    "total_tokens": 256
+  },
+  "finish_reason": "stop"
+}

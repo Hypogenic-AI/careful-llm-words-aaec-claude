@@ -1,0 +1,15 @@
+PDF: /workspaces/careful-llm-words-aaec-claude/papers/goyal2023_pause_tokens.pdf
+Total pages: 28
+Pages per chunk: 3
+
+Chunks:
+  goyal2023_pause_tokens_chunk_001.pdf: pages 1-3
+  goyal2023_pause_tokens_chunk_002.pdf: pages 4-6
+  goyal2023_pause_tokens_chunk_003.pdf: pages 7-9
+  goyal2023_pause_tokens_chunk_004.pdf: pages 10-12
+  goyal2023_pause_tokens_chunk_005.pdf: pages 13-15
+  goyal2023_pause_tokens_chunk_006.pdf: pages 16-18
+  goyal2023_pause_tokens_chunk_007.pdf: pages 19-21
+  goyal2023_pause_tokens_chunk_008.pdf: pages 22-24
+  goyal2023_pause_tokens_chunk_009.pdf: pages 25-27
+  goyal2023_pause_tokens_chunk_010.pdf: page 28

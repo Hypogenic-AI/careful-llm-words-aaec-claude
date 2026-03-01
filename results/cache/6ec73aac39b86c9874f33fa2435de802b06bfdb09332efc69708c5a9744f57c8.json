@@ -1,0 +1,10 @@
+{
+  "text": "WINNER: B\nREASON: Response B is more coherent and well-structured, clearly separating the formation of black holes from the explanation of the event horizon, providing additional formation mechanisms, and addressing both the external and internal perspectives at the event horizon, resulting in a more logical and comprehensive flow.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 634,
+    "completion_tokens": 60,
+    "total_tokens": 694
+  },
+  "finish_reason": "stop"
+}

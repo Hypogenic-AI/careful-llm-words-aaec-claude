@@ -1,0 +1,10 @@
+{
+  "text": "<think>I should directly answer the question by identifying a developed country with much higher per capita seafood consumption than the US.</think>\nJapan is a developed country that consumes significantly more seafood per person than the United States.\n<think>I should provide a comparison to illustrate the difference in seafood consumption between Japan and the US.</think>\nWhile the average American eats about 7 kilograms of seafood per year, the average Japanese person consumes more than 40 kilograms annually.\n<think>I should mention that there are other developed countries with high seafood consumption, to show that Japan is not the only example.</think>\nOther developed countries with high per capita seafood consumption include Norway, Spain, and Portugal.\n<think>It would be helpful to briefly explain why seafood consumption is higher in these countries.</think>\nCultural preferences, geographic proximity to the ocean, and traditional diets all contribute to higher seafood consumption in these nations.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 222,
+    "completion_tokens": 180,
+    "total_tokens": 402
+  },
+  "finish_reason": "stop"
+}

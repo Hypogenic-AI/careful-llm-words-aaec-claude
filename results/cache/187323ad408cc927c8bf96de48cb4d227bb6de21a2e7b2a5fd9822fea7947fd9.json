@@ -1,0 +1,10 @@
+{
+  "text": "Let the number of candies Robert has be \\( x \\).\n\nJohn has twice as many candies as Robert:\n\\[\n\\text{John's candies} = 2x\n\\]\nWe are told John has 54 candies:\n\\[\n2x = 54 \\implies x = 27\n\\]\n\nJames has 6 more candies than Robert:\n\\[\n\\text{James's candies} = x + 6 = 27 + 6 = 33\n\\]\n\nThe difference between John's and James's candies:\n\\[\n54 - 33 = 21\n\\]\n\n#### 21",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 68,
+    "completion_tokens": 122,
+    "total_tokens": 190
+  },
+  "finish_reason": "stop"
+}

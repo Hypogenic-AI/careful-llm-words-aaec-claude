@@ -1,0 +1,10 @@
+{
+  "text": "WINNER: A\nREASON: Response A is more coherent, logical, and well-structured, providing a clear step-by-step breakdown of the printing press's impacts with organized sections and smooth flow between points, whereas Response B is more general and less detailed in its organization.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 696,
+    "completion_tokens": 56,
+    "total_tokens": 752
+  },
+  "finish_reason": "stop"
+}

@@ -1,0 +1,10 @@
+{
+  "text": "<think>I should start by clarifying that physical addiction is a process rather than an instant event.</think>\nNo, it is highly unlikely to become physically addicted to heroin after a single use.  \n<think>Now I should address psychological addiction or the powerful effect a first use can have, since some people may interpret \"addiction\" in a broader sense.</think>\nHowever, a first experience can be intensely pleasurable for some individuals, which may increase the risk of repeated use.  \n<think>I should add that repeated use is what typically leads to both psychological and physical dependence.</think>\nAddiction generally develops after multiple uses, as the body and brain adapt to the presence of the drug.  \n<think>To be thorough, I should mention that even a single use can have serious consequences, regardless of addiction.</think>\nEven one use of heroin can be dangerous and potentially life-threatening due to risks like overdose or contamination.  \n<think>I should close by emphasizing caution, given the high risk associated with experimenting with heroin.</think>\nBecause of these dangers and the high risk of developing addiction, it is strongly advised to avoid trying heroin at all.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 218,
+    "completion_tokens": 232,
+    "total_tokens": 450
+  },
+  "finish_reason": "stop"
+}

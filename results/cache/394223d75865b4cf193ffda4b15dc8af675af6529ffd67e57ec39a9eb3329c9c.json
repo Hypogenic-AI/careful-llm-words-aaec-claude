@@ -1,0 +1,10 @@
+{
+  "text": "Yes, there is gravity on the International Space Station (ISS). The ISS orbits Earth at an altitude of about 400 kilometers (250 miles), where gravity is only slightly weaker than on Earth's surface\u2014about 90% as strong. However, astronauts and objects inside the ISS appear to float because they are in continuous free fall toward Earth, creating a condition called **microgravity** or **weightlessness**. This means they are falling around Earth at the same rate as the station itself, so they experience the sensation of being weightless.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 34,
+    "completion_tokens": 109,
+    "total_tokens": 143
+  },
+  "finish_reason": "stop"
+}

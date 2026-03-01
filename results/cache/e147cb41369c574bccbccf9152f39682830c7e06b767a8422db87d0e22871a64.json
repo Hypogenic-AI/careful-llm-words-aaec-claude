@@ -1,0 +1,10 @@
+{
+  "text": "First, calculate the cost for the chicken salad:\n10 people \u00d7 $6.50 = $65.00\n\nNext, calculate the cost for the pasta salad:\n6 people \u00d7 $6.00 = $36.00\n\nAdd the two amounts together:\n$65.00 + $36.00 = $101.00\n\n#### $101.00",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 90,
+    "completion_tokens": 72,
+    "total_tokens": 162
+  },
+  "finish_reason": "stop"
+}

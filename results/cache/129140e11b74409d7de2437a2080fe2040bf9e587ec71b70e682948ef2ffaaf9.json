@@ -1,0 +1,10 @@
+{
+  "text": "Certainly! Let's think step by step:\n\n1. **Early Concepts:** The idea of creating light using electricity began in the early 1800s. Many inventors experimented with different designs to produce electric light.\n\n2. **First Developments:** Humphry Davy, an English scientist, demonstrated the first form of electric light in 1802 using a piece of carbon and a battery (arc lamp), but it was not practical for everyday use.\n\n3. **Further Progress:** Over the decades, inventors like Warren de la Rue, Joseph Swan, and Hiram Maxim developed improvements, especially focusing on the filament and vacuum inside the bulb.\n\n4. **Thomas Edison\u2019s Role:** Thomas Edison is often credited with inventing the light bulb because, in 1879, he created a practical and long-lasting incandescent light bulb by using a carbon filament in a vacuum.\n\n5. **Parallel Invention:** Around the same time, Joseph Swan in Britain also independently developed a working light bulb. In fact, Swan and Edison later formed a joint venture due to patent disputes.\n\n**Final Answer:**\nThe light bulb was not invented by a single person. Many inventors contributed to its development. However, Thomas Edison is most famously associated with inventing the practical incandescent light bulb in 1879, although Joseph Swan in Britain independently developed a similar version around the same time.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 44,
+    "completion_tokens": 274,
+    "total_tokens": 318
+  },
+  "finish_reason": "stop"
+}

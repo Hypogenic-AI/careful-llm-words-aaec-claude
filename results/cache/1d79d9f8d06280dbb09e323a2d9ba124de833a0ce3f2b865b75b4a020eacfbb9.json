@@ -1,0 +1,10 @@
+{
+  "text": "On average, British people are taller than people from many countries around the world, though not the tallest globally. As of recent data, the average height for adult British men is about 5ft 9in (175 cm) and for women about 5ft 4in (162 cm).\n\n**Brits are generally taller on average than people from:**\n- Most Asian countries (e.g., China, India, Japan, Indonesia, Vietnam)\n- Most Latin American countries (e.g., Mexico, Brazil, Peru)\n- Many Southern European countries (e.g., Portugal, Spain, Italy)\n- Many African countries (e.g., Nigeria, Ethiopia, Egypt)\n\n**However, Brits are generally shorter than people from:**\n- The Netherlands\n- Denmark\n- Norway\n- Sweden\n- Some other Northern and Central European countries\n\n**Summary:**  \nBrits are taller on average than people from most parts of Asia, Latin America, Africa, and some Southern European countries, but not as tall as many Northern and Central Europeans.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 36,
+    "completion_tokens": 209,
+    "total_tokens": 245
+  },
+  "finish_reason": "stop"
+}

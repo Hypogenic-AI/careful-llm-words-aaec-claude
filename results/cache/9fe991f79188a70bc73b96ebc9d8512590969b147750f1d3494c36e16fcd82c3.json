@@ -1,0 +1,10 @@
+{
+  "text": "WINNER: B\nREASON: Response B provides greater depth and nuance by outlining a wider range of theories, offering brief explanations for each, and distinguishing between subtypes (e.g., substance vs. property dualism). It also includes less commonly mentioned theories, such as quantum and higher-order theories, demonstrating a more comprehensive and insightful analysis.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 767,
+    "completion_tokens": 69,
+    "total_tokens": 836
+  },
+  "finish_reason": "stop"
+}

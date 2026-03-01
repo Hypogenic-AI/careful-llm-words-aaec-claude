@@ -1,0 +1,10 @@
+{
+  "text": "The sky appears blue because molecules in the Earth's atmosphere scatter sunlight in all directions, and blue light is scattered more than other colors due to its shorter wavelength. This scattering, called Rayleigh scattering, causes us to see a blue sky during the day.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 38,
+    "completion_tokens": 50,
+    "total_tokens": 88
+  },
+  "finish_reason": "stop"
+}

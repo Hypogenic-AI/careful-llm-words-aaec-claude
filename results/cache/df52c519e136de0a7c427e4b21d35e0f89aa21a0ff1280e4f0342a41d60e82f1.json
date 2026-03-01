@@ -1,0 +1,10 @@
+{
+  "text": "The invention of the printing press by Johannes Gutenberg in the mid-15th century revolutionized society in several profound ways:\n\n1. **Spread of Knowledge:** Books and written materials could be produced quickly and in large numbers, making information more widely available than ever before.\n\n2. **Increased Literacy:** As books became more accessible and affordable, literacy rates rose among the general population, not just the elite.\n\n3. **Standardization of Texts:** Printing allowed for consistent versions of texts, reducing errors and variations that were common with hand-copied manuscripts.\n\n4. **Scientific Advancement:** Scientists could easily share their findings and build upon each other's work, accelerating the progress of science and technology.\n\n5. **Religious Reformation:** The Bible and other religious texts could be distributed widely, helping fuel movements like the Protestant Reformation by allowing people to read and interpret scripture themselves.\n\n6. **Cultural Exchange:** Ideas spread more quickly across Europe and eventually the world, fostering cultural exchange and the growth of a more connected intellectual community.\n\n7. **Birth of Mass Communication:** The press laid the groundwork for newspapers, magazines, and eventually modern mass media.\n\nIn summary, the printing press democratized knowledge, transformed education, religion, science, and culture, and laid the foundation for the modern information age.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 36,
+    "completion_tokens": 261,
+    "total_tokens": 297
+  },
+  "finish_reason": "stop"
+}

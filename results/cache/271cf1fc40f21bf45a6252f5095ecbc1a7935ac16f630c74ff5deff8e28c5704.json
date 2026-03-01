@@ -1,0 +1,10 @@
+{
+  "text": "In summer, New York City and Rome both experience warm to hot weather, but there are some differences:\n\n- **Temperature:**  \n  - **New York City:** Average highs in June-August are around 80\u201385\u00b0F (27\u201329\u00b0C), with occasional hotter days.\n  - **Rome:** Average highs are slightly warmer, about 85\u201390\u00b0F (29\u201332\u00b0C), sometimes reaching higher.\n\n- **Humidity:**  \n  - **New York City:** Summers are typically more humid, making the heat feel more intense and sticky.\n  - **Rome:** Generally less humid, so while it can be very hot, the air usually feels drier.\n\n- **Rainfall:**  \n  - **New York City:** Experiences more frequent summer thunderstorms and rain.\n  - **Rome:** Summers are quite dry, with very little rainfall.\n\n**Summary:**  \nRome is usually hotter and drier in summer, while New York City is a bit cooler but much more humid and prone to summer showers. Both cities can feel very hot, but the type of heat is different\u2014humid in NYC, dry in Rome.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 39,
+    "completion_tokens": 226,
+    "total_tokens": 265
+  },
+  "finish_reason": "stop"
+}

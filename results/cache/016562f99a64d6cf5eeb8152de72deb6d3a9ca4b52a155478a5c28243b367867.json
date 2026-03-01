@@ -1,0 +1,10 @@
+{
+  "text": "To find Wilson's math grade, calculate the average of his 5 test scores:\n\n65, 94, 81, 86, 74\n\nFirst, add the scores:\n65 + 94 + 81 + 86 + 74 = 400\n\nNow, divide by 5:\n400 \u00f7 5 = 80\n\nHis current math grade is:\n\n#### 80",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 106,
+    "completion_tokens": 79,
+    "total_tokens": 185
+  },
+  "finish_reason": "stop"
+}

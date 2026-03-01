@@ -1,0 +1,10 @@
+{
+  "text": "<think>I should begin by clarifying that, as of now, there is no machine that can accurately and reliably detect lies with complete certainty.</think>\nCurrently, no machine exists that can accurately and reliably determine if someone is lying with complete certainty.  \n<think>Next, I should mention that while there are devices like polygraphs, their accuracy and scientific validity are widely debated.</think>\nDevices such as polygraphs (lie detectors) attempt to measure physiological responses linked to lying, but their accuracy and scientific validity are widely debated.  \n<think>I should also make it clear that polygraph results are often not admissible in court due to questions about their reliability.</think>\nBecause of these concerns, polygraph results are often not admissible as evidence in court.  \n<think>It's important to add that new technologies, like brain scans and voice analysis, are being explored, but none are proven to be fully reliable.</think>\nOther technologies, such as brain imaging (fMRI) and voice stress analysis, are being researched but have not been proven to be fully reliable or practical for widespread use.  \n<think>Finally, I should summarize that, despite ongoing research, there is no foolproof machine for lie detection at this time.</think>\nIn summary, while several machines claim to detect lies, none are foolproof or universally accepted for accurate lie detection.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 217,
+    "completion_tokens": 275,
+    "total_tokens": 492
+  },
+  "finish_reason": "stop"
+}

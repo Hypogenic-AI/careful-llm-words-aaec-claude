@@ -1,0 +1,10 @@
+{
+  "text": "<think>I should start by stating the rate at which the plane is traveling, based on the given information.</think>\nThe plane travels 1200 miles in 3 hours, so its rate is 1200 \u00f7 3 = 400 miles per hour.\n<think>Now, I need to determine how long it would take to travel 2000 miles at this rate.</think>\nTo find the time for 2000 miles, I divide 2000 by 400, which gives 5 hours.\n<think>I should now clearly state the final answer as requested, after the ####.</think>\n#### 5",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 248,
+    "completion_tokens": 127,
+    "total_tokens": 375
+  },
+  "finish_reason": "stop"
+}

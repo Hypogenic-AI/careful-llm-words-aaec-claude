@@ -1,0 +1,10 @@
+{
+  "text": "Let's solve step by step:\n\n**November price:** $40\n\n**December:**  \nPrice increased by 80%.  \nIncrease = 80% of $40 = 0.8 \u00d7 $40 = $32  \nNew price = $40 + $32 = $72\n\n**January:**  \nPrice decreased by 50%.  \nDecrease = 50% of $72 = 0.5 \u00d7 $72 = $36  \nNew price = $72 - $36 = $36\n\n**Final answer:**  \n#### $36",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 76,
+    "completion_tokens": 107,
+    "total_tokens": 183
+  },
+  "finish_reason": "stop"
+}

@@ -1,0 +1,10 @@
+{
+  "text": "Let\u2019s break down the problem step by step:\n\n1. **Initial amounts:**\n   - Ronnie: $5\n   - Rissa: $5 \u00d7 3 = $15\n\n2. **Let the amount each gave to their sister be \\( x \\).**\n   - Ronnie left: \\( 5 - x \\)\n   - Rissa left: \\( 15 - x \\)\n\n3. **Rissa is left with 4/5 of her money:**\n   \\[\n   15 - x = \\frac{4}{5} \\times 15\n   \\]\n   \\[\n   15 - x = 12\n   \\]\n   \\[\n   x = 15 - 12 = 3\n   \\]\n\n4. **Ronnie's money left:**\n   \\[\n   5 - x = 5 - 3 = 2\n   \\]\n\n**Final answer:**\n\n#### 2",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 87,
+    "completion_tokens": 193,
+    "total_tokens": 280
+  },
+  "finish_reason": "stop"
+}

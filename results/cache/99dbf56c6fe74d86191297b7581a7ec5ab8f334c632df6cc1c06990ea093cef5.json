@@ -1,0 +1,10 @@
+{
+  "text": "WINNER: B\nREASON: Response B provides more detail about the mechanisms of memory consolidation, such as the transfer from the hippocampus to the cortex, and avoids overgeneralization by specifying the types of memories associated with each sleep stage. It also accurately notes the negative effects of sleep deprivation, making it more factually thorough and precise.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 470,
+    "completion_tokens": 69,
+    "total_tokens": 539
+  },
+  "finish_reason": "stop"
+}

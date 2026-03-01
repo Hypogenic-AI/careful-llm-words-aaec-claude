@@ -1,0 +1,10 @@
+{
+  "text": "Let's define the variables and break down the problem step by step.\n\n**Step 1: Assign variables and write what we know.**\n\nLet:\n- \\( x \\) = number of apples Joanne gathers from the average trees.\n\nFrom the problem:\n- Joanne gathers **30 apples from the tallest trees**.\n- Joanne gathers **half this amount from the shortest trees**: \\( \\frac{30}{2} = 15 \\) apples.\n- Joanne gathers **x apples from the average trees**.\n\nSo, Joanne's total: \\( 30 + 15 + x \\).\n\nHer sister:\n- Gathers **twice as many apples from the tallest trees**: \\( 2 \\times 30 = 60 \\).\n- Gathers **3 times as many apples from the shortest trees**: \\( 3 \\times 15 = 45 \\).\n- **None from the average trees**.\n\nSo, her sister's total: \\( 60 + 45 = 105 \\).\n\n**Step 2: Write the total apples equation.**\n\nCombined total: \\( (30 + 15 + x) + (60 + 45) = 500 \\)\n\nSimplify:\n- \\( 30 + 15 = 45 \\)\n- \\( 60 + 45 = 105 \\)\n\nSo,\n\\[\n45 + x + 105 = 500\n\\]\n\\[\n(45 + 105) + x = 500\n\\]\n\\[\n150 + x = 500\n\\]\n\n**Step 3: Solve for \\( x \\).**\n\n\\[\nx = 500 - 150\n\\]\n\\[\nx = 350\n\\]\n\n**Step 4: Final answer**\n\nJoanne gathered **350 apples from the average trees**.\n\n#### 350",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 144,
+    "completion_tokens": 363,
+    "total_tokens": 507
+  },
+  "finish_reason": "stop"
+}

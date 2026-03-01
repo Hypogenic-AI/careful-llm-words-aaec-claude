@@ -1,0 +1,10 @@
+{
+  "text": "First, calculate the total number of bags:\n8 packs \u00d7 5 bags per pack = 40 bags\n\nNext, calculate the total cost:\n8 packs \u00d7 $4 per pack = $32\n\nNow, calculate the total revenue from selling the bags:\n40 bags \u00d7 $8 per bag = $320\n\nFinally, calculate the profit:\nProfit = Total revenue - Total cost = $320 - $32 = $288\n\n#### 288",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 74,
+    "completion_tokens": 88,
+    "total_tokens": 162
+  },
+  "finish_reason": "stop"
+}

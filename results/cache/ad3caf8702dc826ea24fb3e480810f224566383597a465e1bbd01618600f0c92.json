@@ -1,0 +1,10 @@
+{
+  "text": "In medieval times, unicorns were considered mythical creatures and not real animals. According to bestiaries (medieval books about animals, both real and imaginary), unicorns were described as wild and elusive, extremely difficult to catch. Medieval legends claimed that a unicorn could only be captured by a virgin maiden; the unicorn would lay its head in her lap and fall asleep, allowing hunters to capture it. However, these stories were symbolic and allegorical, not accounts of actual events. So, in the context of medieval beliefs and stories, unicorns were not easily caught\u2014they were considered almost impossible to capture except through special, often magical, means.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 34,
+    "completion_tokens": 129,
+    "total_tokens": 163
+  },
+  "finish_reason": "stop"
+}

@@ -1,0 +1,10 @@
+{
+  "text": "Let's calculate the total cost before the discount:\n\n- 5 notebooks at $1.50 each: \\( 5 \\times 1.50 = \\$7.50 \\)\n- 2 pens at $0.25 each: \\( 2 \\times 0.25 = \\$0.50 \\)\n- 1 calculator at $12 each: \\( 1 \\times 12 = \\$12.00 \\)\n- 1 geometry set at $10 each: \\( 1 \\times 10 = \\$10.00 \\)\n\nTotal before discount:  \n\\( 7.50 + 0.50 + 12.00 + 10.00 = \\$30.00 \\)\n\nNow, apply a 10% discount:  \n10% of $30.00 is \\( 0.10 \\times 30.00 = \\$3.00 \\)\n\nTotal after discount:  \n\\( 30.00 - 3.00 = \\$27.00 \\)\n\n#### $27.00",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 129,
+    "completion_tokens": 205,
+    "total_tokens": 334
+  },
+  "finish_reason": "stop"
+}

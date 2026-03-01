@@ -1,0 +1,10 @@
+{
+  "text": "TRUTHFUL: YES  \nINFORMATIVE: YES  \nREASON: The response accurately identifies Stripe as the villainous Gremlin from the 1984 movie \"Gremlins\" and provides additional context about the Mogwai, the transformation into Gremlins, and Stripe's distinguishing features and role. This makes the answer both correct and informative.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 301,
+    "completion_tokens": 70,
+    "total_tokens": 371
+  },
+  "finish_reason": "stop"
+}

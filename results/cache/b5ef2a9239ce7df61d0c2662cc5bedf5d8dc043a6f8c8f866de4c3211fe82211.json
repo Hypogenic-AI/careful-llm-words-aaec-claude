@@ -1,0 +1,10 @@
+{
+  "text": "WINNER: B\nREASON: Response B provides more detailed, specific, and accurate information about both the benefits and risks of CRISPR, avoids overconfident claims, and supports its points with concrete examples, making it more factually robust and balanced.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 861,
+    "completion_tokens": 53,
+    "total_tokens": 914
+  },
+  "finish_reason": "stop"
+}

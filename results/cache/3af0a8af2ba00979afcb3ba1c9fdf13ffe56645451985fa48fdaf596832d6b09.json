@@ -1,0 +1,10 @@
+{
+  "text": "Let\u2019s break down the problem:\n\n- Total cost: $60\n- Total classes: 10\n- Maximum allowed cost per class: $10\n\nLet \\( x \\) be the number of classes Manny attends.\n\nThe cost per class is \\( \\frac{60}{x} \\).\n\nWe want \\( \\frac{60}{x} \\leq 10 \\).\n\nSolve for \\( x \\):\n\n\\[\n\\frac{60}{x} \\leq 10\n\\]\n\\[\n60 \\leq 10x\n\\]\n\\[\n6 \\leq x\n\\]\n\nSo, Manny must attend at least 6 classes.\n\nIf there are 10 classes total, the maximum number he can miss is \\( 10 - 6 = 4 \\).\n\n#### 4",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 91,
+    "completion_tokens": 161,
+    "total_tokens": 252
+  },
+  "finish_reason": "stop"
+}

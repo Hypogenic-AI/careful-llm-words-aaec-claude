@@ -1,0 +1,10 @@
+{
+  "text": "Let's break down the problem step by step:\n\n1. Paul needs a total of 63 cupcakes.\n2. He already has:\n   - 8 chocolate cupcakes\n   - 40 toffee cupcakes\n\n3. First, add the cupcakes he already has:\n   8 (chocolate) + 40 (toffee) = 48 cupcakes\n\n4. Subtract the cupcakes he already has from the total needed:\n   63 (needed) - 48 (already have) = 15\n\nSo, Paul should buy:\n\n#### 15",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 74,
+    "completion_tokens": 111,
+    "total_tokens": 185
+  },
+  "finish_reason": "stop"
+}

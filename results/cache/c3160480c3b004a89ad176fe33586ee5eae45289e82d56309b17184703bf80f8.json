@@ -1,0 +1,10 @@
+{
+  "text": "WINNER: B\nREASON: Response B provides slightly more detail about how vaccines work (mentioning blueprints for making parts, which covers mRNA vaccines) and avoids overgeneralization, making it more factually accurate and comprehensive without unsupported claims.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 464,
+    "completion_tokens": 51,
+    "total_tokens": 515
+  },
+  "finish_reason": "stop"
+}

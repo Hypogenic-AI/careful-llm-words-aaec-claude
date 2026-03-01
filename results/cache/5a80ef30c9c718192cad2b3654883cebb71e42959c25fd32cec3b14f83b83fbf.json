@@ -1,0 +1,10 @@
+{
+  "text": "<think>I need to first determine how many employees are in management by calculating 20% of 50.</think>\n20% of 50 employees is 10 employees in management.\n<think>Now, I need to find 30% of these 10 management employees to determine how many oversee the entire company.</think>\n30% of 10 is 3 employees.\n<think>I should now present the final answer in the format requested, after ####.</think>\n#### 3",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 256,
+    "completion_tokens": 98,
+    "total_tokens": 354
+  },
+  "finish_reason": "stop"
+}

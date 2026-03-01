@@ -1,0 +1,10 @@
+{
+  "text": "Let's solve the problem step by step:\n\n1. **Total money to be divided:** $100  \n2. **Ratio of division (Gerald : Julia):** 3 : 2  \n   - This means for every 3 parts Gerald gets, Julia gets 2 parts.\n\n3. **Total parts:**  \n   \\( 3 + 2 = 5 \\) parts\n\n4. **Value of one part:**  \n   \\( \\$100 \\div 5 = \\$20 \\) per part\n\n5. **Gerald's share:**  \n   \\( 3 \\times \\$20 = \\$60 \\)\n\n6. **Gerald spent $10 on a book:**  \n   \\( \\$60 - \\$10 = \\$50 \\)\n\n**Final Answer:**  \n#### $50",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 71,
+    "completion_tokens": 158,
+    "total_tokens": 229
+  },
+  "finish_reason": "stop"
+}

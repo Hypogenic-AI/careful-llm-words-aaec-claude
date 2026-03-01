@@ -1,0 +1,10 @@
+{
+  "text": "Let's break down the problem step by step:\n\n1. **Kim's Usual Sleep Schedule:**\n   - Goes to sleep: 10:00 p.m.\n   - Wakes up: 6:00 a.m.\n   - Total usual sleep time: 8 hours = 480 minutes\n\n2. **Sleepwalking Episode:**\n   - Sleepwalking from 2:15 a.m. to 2:38 a.m.\n   - Duration: 2:38 - 2:15 = 23 minutes\n   - During this time, she is not sleeping on her bed.\n\n3. **Woke Up Early:**\n   - Woke up 5 minutes earlier than usual (i.e., at 5:55 a.m. instead of 6:00 a.m.)\n   - So, she lost 5 minutes of sleep on her bed.\n\n4. **Total Time Not Sleeping on Bed:**\n   - Sleepwalking: 23 minutes\n   - Woke up early: 5 minutes\n   - Total: 23 + 5 = 28 minutes\n\n5. **Total Time Slept on Bed:**\n   - Usual sleep time: 480 minutes\n   - Subtract time not on bed: 480 - 28 = 452 minutes\n\n**Final Answer:**\n\n#### 452",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 148,
+    "completion_tokens": 271,
+    "total_tokens": 419
+  },
+  "finish_reason": "stop"
+}

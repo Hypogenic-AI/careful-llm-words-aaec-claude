@@ -1,0 +1,9 @@
+Large language models generate text without pausing to reconsider individual sentences,
+yet humans routinely deliberate before committing words to the page.
+We introduce \emph{inter-sentence chain-of-thought} (\iscotshort), a prompting strategy that requires a model to produce explicit reasoning inside \texttt{<think>} blocks before every sentence it writes.
+Using \gptfour across 230 prompts spanning open-ended generation, \truthfulqa, and \gsmk, we compare \iscotshort to standard generation and conventional chain-of-thought (CoT).
+We find that \iscotshort produces text that is measurably more cautious: it exhibits 59\% more hedging language, 31\% higher self-correction rates, and significantly greater lexical diversity (type-token ratio 0.700 vs.\ 0.640, $p<0.0001$, Cohen's $d=0.84$).
+On \truthfulqa, \iscotshort achieves the highest truthfulness (98\% vs.\ 95\% for standard), with qualitative evidence that per-sentence deliberation helps the model avoid common misconceptions.
+However, deliberation consumes tokens: \iscotshort responses contain 35\% fewer visible words, and LLM judges overwhelmingly prefer longer responses.
+Math reasoning on \gsmk is unaffected (91\% for both \iscotshort and standard).
+Our results reveal a fundamental trade-off in test-time compute allocation: per-sentence deliberation improves the \emph{character} of each sentence at the cost of overall breadth, and current evaluation methods are poorly suited to detect this quality shift.

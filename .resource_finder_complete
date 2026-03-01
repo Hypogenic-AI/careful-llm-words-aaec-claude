@@ -1,0 +1,15 @@
+Resource finding complete.
+
+Topic: An LLM That's Careful With Its Words
+Date: 2026-03-01
+
+Papers: 22 downloaded to papers/
+Datasets: 4 downloaded to datasets/ (GSM8k, TruthfulQA, CommonSenseQA, HellaSwag)
+Code repositories: 3 cloned to code/ (coconut, s1, star-ldm)
+
+Deliverables:
+- literature_review.md (comprehensive review of 8 key papers)
+- resources.md (full resource catalog with relevance matrix)
+- papers/README.md (paper inventory)
+- datasets/README.md (dataset documentation with download instructions)
+- code/README.md (repository documentation)

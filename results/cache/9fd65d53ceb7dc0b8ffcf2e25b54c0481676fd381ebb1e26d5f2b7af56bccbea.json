@@ -1,0 +1,10 @@
+{
+  "text": "First, determine how many pounds of ground beef Aiden needs for 80 meatballs:\n\n80 meatballs \u00f7 16 meatballs per pound = 5 pounds of ground beef\n\nHe uses 2 tablespoons of seasoning per pound:\n\n5 pounds \u00d7 2 tablespoons per pound = 10 tablespoons of seasoning\n\n#### 10",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 105,
+    "completion_tokens": 65,
+    "total_tokens": 170
+  },
+  "finish_reason": "stop"
+}

@@ -1,0 +1,10 @@
+{
+  "text": "WINNER: B\nREASON: Response B provides more depth and nuance by breaking down the formation process into clear steps, mentioning the role of supernovae and mass thresholds, and adding details about tidal forces and spacetime distortion at the event horizon. It also offers a concise summary and invites further questions, demonstrating thoroughness and insight.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 1049,
+    "completion_tokens": 68,
+    "total_tokens": 1117
+  },
+  "finish_reason": "stop"
+}

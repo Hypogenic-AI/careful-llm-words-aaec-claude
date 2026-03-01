@@ -1,0 +1,10 @@
+{
+  "text": "Yes, you can teach an old dog new tricks! While older dogs might take a bit longer to learn than puppies, they are still very capable of picking up new behaviors and commands. The key is to use patience, positive reinforcement, and consistent, short training sessions. Age is not a barrier to learning\u2014many older dogs enjoy the mental stimulation and bonding that training provides.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 34,
+    "completion_tokens": 75,
+    "total_tokens": 109
+  },
+  "finish_reason": "stop"
+}

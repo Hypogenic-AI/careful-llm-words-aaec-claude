@@ -1,0 +1,10 @@
+{
+  "text": "The sky appears blue during the day because of a phenomenon called Rayleigh scattering. Sunlight is made up of many colors, but as it passes through the Earth's atmosphere, molecules and small particles scatter the shorter wavelengths of light (blue and violet) more than the longer wavelengths (red and yellow). Our eyes are more sensitive to blue light, and most of the violet light is absorbed by the upper atmosphere, so the sky looks blue.\n\nAt sunset, the Sun is lower in the sky, and its light has to pass through a thicker layer of the Earth's atmosphere. This causes even more scattering of the shorter blue wavelengths, so most of the blue light is scattered out of view. The longer wavelengths (red, orange, and yellow) are scattered less and pass through to our eyes, making the sky near the horizon appear red or orange.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 39,
+    "completion_tokens": 168,
+    "total_tokens": 207
+  },
+  "finish_reason": "stop"
+}

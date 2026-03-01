@@ -1,0 +1,10 @@
+{
+  "text": "<think>This question describes a female monarch with an interest in archaeology, a long and successful reign, and high popular support for the royal family in her country.</think>\nThe monarch described is Queen Margrethe II of Denmark.\n<think>I need to clarify why this answer fits the clues given in the question.</think>\nQueen Margrethe II has reigned since 1972, making hers one of the longest and most stable monarchies in Europe.\n<think>I should explain her connection to archaeology and the popularity of the Danish royal family.</think>\nShe is personally interested in archaeology and has taken part in archaeological excavations.\n<think>I want to make clear that Denmark is known for having high popular support for its royal family.</think>\nDenmark is well known for the strong public support of its monarchy.\n<think>I should briefly summarize to connect all the clues together.</think>\nTherefore, the correct answer is Denmark.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 244,
+    "completion_tokens": 187,
+    "total_tokens": 431
+  },
+  "finish_reason": "stop"
+}

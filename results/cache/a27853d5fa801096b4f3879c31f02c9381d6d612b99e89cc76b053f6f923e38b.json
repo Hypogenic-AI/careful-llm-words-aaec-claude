@@ -1,0 +1,10 @@
+{
+  "text": "Let's break down the problem step by step:\n\n1. **Total amount owed including interest:**\n   - Principal = $300\n   - Interest = 2% of $300 = 0.02 \u00d7 $300 = $6\n   - Total owed = $300 + $6 = $306\n\n2. **Amount paid in the first 11 months:**\n   - Each month for 11 months: $25 \u00d7 11 = $275\n\n3. **Amount remaining to be paid in the twelfth month:**\n   - Remaining = Total owed - Amount paid in 11 months\n   - Remaining = $306 - $275 = $31\n\n**Final answer:**\n\n#### $31",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 99,
+    "completion_tokens": 143,
+    "total_tokens": 242
+  },
+  "finish_reason": "stop"
+}

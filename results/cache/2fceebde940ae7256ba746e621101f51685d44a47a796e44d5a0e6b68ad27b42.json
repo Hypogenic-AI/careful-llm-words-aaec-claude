@@ -1,0 +1,10 @@
+{
+  "text": "**How vaccines work:**  \nVaccines prepare your immune system to recognize and fight specific germs (like viruses or bacteria) without causing the disease. They contain weakened or inactive parts of a particular germ or a blueprint for making those parts. When vaccinated, your body creates antibodies and memory cells that recognize the germ if you are exposed in the future, allowing your immune system to respond quickly and prevent illness.\n\n**Why herd immunity matters:**  \nHerd immunity occurs when a large portion of a community is immune to a disease, making its spread unlikely. This protects people who can't be vaccinated (such as newborns or those with certain health conditions) because the disease has fewer opportunities to spread. Achieving herd immunity through vaccination is crucial for controlling and eventually eliminating contagious diseases.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 35,
+    "completion_tokens": 153,
+    "total_tokens": 188
+  },
+  "finish_reason": "stop"
+}

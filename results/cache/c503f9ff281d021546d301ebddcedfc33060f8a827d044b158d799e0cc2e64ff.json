@@ -1,0 +1,10 @@
+{
+  "text": "Let's break down Kim's sleep:\n\n- She goes to bed at 10:00 p.m.\n- She usually wakes up at 6:00 a.m., but this day she woke up 5 minutes earlier, so she woke up at 5:55 a.m.\n- She was sleepwalking (not sleeping on her bed) from 2:15 a.m. to 2:38 a.m.\n\nFirst, calculate the total time from 10:00 p.m. to 5:55 a.m.:\n\n- 10:00 p.m. to 12:00 a.m. = 2 hours\n- 12:00 a.m. to 5:55 a.m. = 5 hours 55 minutes\n- Total = 2 hours + 5 hours 55 minutes = 7 hours 55 minutes = 475 minutes\n\nNow, subtract the time she was sleepwalking (not on her bed):\n\n- 2:15 a.m. to 2:38 a.m. = 23 minutes\n\nSo, total time sleeping on her bed:\n\n- 475 minutes - 23 minutes = 452 minutes\n\nFinal answer:\n\n#### 452",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 142,
+    "completion_tokens": 240,
+    "total_tokens": 382
+  },
+  "finish_reason": "stop"
+}

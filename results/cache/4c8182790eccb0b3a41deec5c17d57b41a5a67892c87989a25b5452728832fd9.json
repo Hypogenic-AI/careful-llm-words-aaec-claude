@@ -1,0 +1,10 @@
+{
+  "text": "WINNER: B\nREASON: Response B provides a more detailed and nuanced explanation, breaking down the reasons for biodiversity's importance with specific examples and mechanisms, while avoiding unsupported or overconfident claims. This makes it more likely to be factually accurate and comprehensive.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 545,
+    "completion_tokens": 54,
+    "total_tokens": 599
+  },
+  "finish_reason": "stop"
+}

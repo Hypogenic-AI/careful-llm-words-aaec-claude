@@ -1,0 +1,10 @@
+{
+  "text": "First, let's divide $100 between Gerald and Julia in the ratio 3:2.\n\nTotal parts = 3 + 2 = 5\n\nGerald's share = (3/5) \u00d7 $100 = $60  \nJulia's share = (2/5) \u00d7 $100 = $40\n\nGerald spent $10 on a book, so the money he had left is:\n\n$60 - $10 = $50\n\n#### 50",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 65,
+    "completion_tokens": 92,
+    "total_tokens": 157
+  },
+  "finish_reason": "stop"
+}

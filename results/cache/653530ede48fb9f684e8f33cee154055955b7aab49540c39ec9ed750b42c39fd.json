@@ -1,0 +1,10 @@
+{
+  "text": "The attempted murder of Malala Yousafzai on October 9, 2012, was carried out by members of the Tehrik-i-Taliban Pakistan (TTP), specifically by a gunman named Ataullah Khan. The attack was ordered by the TTP leadership because of Malala\u2019s outspoken advocacy for girls\u2019 education and her criticism of the Taliban\u2019s policies in Pakistan\u2019s Swat Valley. The TTP publicly claimed responsibility for the attack shortly after it happened. There is no credible evidence suggesting anyone other than the TTP was behind the attempt on her life.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 41,
+    "completion_tokens": 118,
+    "total_tokens": 159
+  },
+  "finish_reason": "stop"
+}

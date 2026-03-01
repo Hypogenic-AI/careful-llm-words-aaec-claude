@@ -1,0 +1,10 @@
+{
+  "text": "Biodiversity is important for ecosystem stability for several reasons:\n\n1. **Greater Resilience to Disturbances:** Ecosystems with high biodiversity have many different species, each playing unique roles. If one species is affected by disease, climate change, or other disturbances, others can fill its role, helping the ecosystem recover and maintain its functions.\n\n2. **Functional Complementarity:** Different species often perform complementary functions. For example, some plants fix nitrogen, while others provide food for pollinators. High biodiversity ensures that these diverse functions are carried out, supporting nutrient cycles, soil formation, water purification, and more.\n\n3. **Genetic Diversity:** Within species, genetic variation increases the chances that some individuals can survive new stresses such as pests, diseases, or changing environmental conditions. This adaptability helps populations persist over time.\n\n4. **Stability of Food Webs:** Diverse ecosystems have complex food webs with many connections. This complexity prevents the collapse of the entire system if one link is broken, helping stabilize populations and energy flow.\n\n5. **Ecosystem Services:** Biodiversity supports essential services\u2014like pollination, pest control, and decomposition\u2014that humans and other species rely on. Stable ecosystems are more reliable in providing these services.\n\nIn summary, biodiversity acts as a buffer against environmental changes, making ecosystems more stable, productive, and resilient over time.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 35,
+    "completion_tokens": 271,
+    "total_tokens": 306
+  },
+  "finish_reason": "stop"
+}

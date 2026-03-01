@@ -1,0 +1,10 @@
+{
+  "text": "Some species go extinct while others thrive due to a combination of environmental changes, competition, predation, disease, and adaptability. Species that cannot adjust to changing conditions\u2014such as climate shifts, habitat loss, or new predators\u2014may decline and eventually go extinct. In contrast, species that are more adaptable, have broader diets, reproduce quickly, or can exploit new resources are more likely to survive and thrive. Human activities, like pollution, overhunting, and introducing invasive species, also play a major role in determining which species persist and which disappear. Ultimately, survival depends on a species' ability to cope with ongoing challenges in its environment.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 35,
+    "completion_tokens": 128,
+    "total_tokens": 163
+  },
+  "finish_reason": "stop"
+}

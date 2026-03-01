@@ -1,0 +1,10 @@
+{
+  "text": "There is no single trait that all British people share. Like people everywhere, those from Britain are diverse, with a wide range of personalities, backgrounds, and beliefs. While some cultural stereotypes exist\u2014such as politeness, a love of tea, or a particular sense of humor\u2014not every British person fits these descriptions. It's important to remember that broad generalizations rarely apply to an entire nation.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 33,
+    "completion_tokens": 78,
+    "total_tokens": 111
+  },
+  "finish_reason": "stop"
+}

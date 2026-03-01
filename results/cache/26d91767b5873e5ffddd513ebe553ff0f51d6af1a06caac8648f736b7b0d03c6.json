@@ -1,0 +1,10 @@
+{
+  "text": "Let's track Finley's position step by step:\n\n1. She started off in 1st place.\n2. Fell back 5 spots: 1 + 5 = 6th place.\n3. Moved ahead 2 spots: 6 - 2 = 4th place.\n4. Fell behind 3 spots: 4 + 3 = 7th place.\n5. Jumped ahead 1 spot: 7 - 1 = 6th place.\n\nFinal answer:  \n#### 6",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 96,
+    "completion_tokens": 105,
+    "total_tokens": 201
+  },
+  "finish_reason": "stop"
+}

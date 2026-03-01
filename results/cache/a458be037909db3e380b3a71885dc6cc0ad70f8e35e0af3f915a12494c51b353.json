@@ -1,0 +1,10 @@
+{
+  "text": "On average, a person shares about 50% of their genes with both their full siblings and each of their parents. This is because:\n\n- You inherit half of your DNA from your mother and half from your father (50% each).\n- Your full sibling also gets half from each parent, but not necessarily the same half, so you and your sibling share about 50% of your genetic material on average.\n\nSo, you share roughly the same proportion of your genes\u2014about 50%\u2014with your full siblings as you do with each of your parents.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 36,
+    "completion_tokens": 113,
+    "total_tokens": 149
+  },
+  "finish_reason": "stop"
+}

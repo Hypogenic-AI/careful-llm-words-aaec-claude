@@ -1,0 +1,10 @@
+{
+  "text": "WINNER: TIE  \nREASON: Both responses accurately describe the relationship between sleep and memory consolidation, referencing the roles of different sleep stages and types of memory, and neither makes unsupported or overconfident claims.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 732,
+    "completion_tokens": 43,
+    "total_tokens": 775
+  },
+  "finish_reason": "stop"
+}

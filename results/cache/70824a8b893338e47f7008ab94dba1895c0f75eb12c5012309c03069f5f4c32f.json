@@ -1,0 +1,10 @@
+{
+  "text": "If you walk into a wardrobe in real life, you\u2019ll simply find yourself inside a piece of furniture used for storing clothes. Instead of a magical world like in \"The Lion, the Witch, and the Wardrobe,\" you\u2019ll encounter hanging clothes, shelves, and possibly drawers or storage boxes. You won\u2019t be transported anywhere; you\u2019ll just be inside an enclosed space, and if the wardrobe is small, it may feel cramped. Always be careful not to bump your head or get stuck, especially if the wardrobe is crowded or not very sturdy.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 37,
+    "completion_tokens": 110,
+    "total_tokens": 147
+  },
+  "finish_reason": "stop"
+}

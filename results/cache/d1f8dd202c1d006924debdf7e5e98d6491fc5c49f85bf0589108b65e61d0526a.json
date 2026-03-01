@@ -1,0 +1,10 @@
+{
+  "text": "<think>I should start by stating the total amount Thea paid, which is four $20 bills.</think>\nThea paid the craftsman with four $20 bills, totaling $80.\n<think>Next, I need to mention the price of the hat, which is $70.</think>\nThe hat she bought was worth $70.\n<think>Now, I should explain how to calculate the change by subtracting the price from the amount paid.</think>\nTo find the change, subtract the price of the hat from the amount Thea paid: $80 - $70.\n<think>Finally, I should provide the numerical answer after the #### as requested.</think>\n#### 10",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 252,
+    "completion_tokens": 141,
+    "total_tokens": 393
+  },
+  "finish_reason": "stop"
+}

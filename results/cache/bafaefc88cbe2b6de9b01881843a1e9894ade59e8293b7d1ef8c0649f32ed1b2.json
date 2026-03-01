@@ -1,0 +1,10 @@
+{
+  "text": "Let's break down the problem step by step:\n\n1. **Craig's Words:**\n   - Craig has spelled out 20 words.\n   - Each word has 15 letters.\n   - Total letters Craig spelled:  \n     \\( 20 \\times 15 = 300 \\) letters\n\n2. **Craig's Brother's Words:**\n   - The brother's total letter count is 50 more than Craig's.\n   - So, total letters brother spelled:  \n     \\( 300 + 50 = 350 \\) letters\n\n3. **Total Letters Spelled:**\n   - Add Craig's and his brother's totals:  \n     \\( 300 + 350 = 650 \\) letters\n\n#### 650",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 116,
+    "completion_tokens": 147,
+    "total_tokens": 263
+  },
+  "finish_reason": "stop"
+}

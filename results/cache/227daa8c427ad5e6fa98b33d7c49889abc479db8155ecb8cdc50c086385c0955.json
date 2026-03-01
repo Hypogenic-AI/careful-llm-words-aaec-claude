@@ -1,0 +1,10 @@
+{
+  "text": "<think>I should clarify that gravity does exist on the International Space Station, contrary to a common misconception.</think>\nYes, there is gravity on the International Space Station (ISS).\n<think>Now I should explain that the ISS is still under Earth's gravitational influence, and how strong gravity is there compared to Earth's surface.</think>\nThe ISS orbits about 400 kilometers above Earth's surface, where gravity is only slightly weaker than on the ground\u2014about 90% as strong.\n<think>I should address why astronauts feel weightless if gravity is present, to clear up confusion.</think>\nAstronauts inside the ISS experience weightlessness because both they and the station are in continuous free fall around Earth, creating a microgravity environment.\n<think>It would be helpful to summarize why this free fall causes the sensation of weightlessness.</think>\nThis means that although gravity is pulling them toward Earth, their forward motion keeps them in orbit, so they appear to float.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 216,
+    "completion_tokens": 194,
+    "total_tokens": 410
+  },
+  "finish_reason": "stop"
+}

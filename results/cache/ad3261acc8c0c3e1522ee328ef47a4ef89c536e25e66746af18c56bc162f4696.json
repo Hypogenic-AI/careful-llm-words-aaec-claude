@@ -1,0 +1,10 @@
+{
+  "text": "Let\u2019s break it down:\n\n- The book costs $4.\n- The magazine costs half as much as the book: $4 \u00f7 2 = $2.\n- The pen costs $1 less than the magazine: $2 - $1 = $1.\n\n#### 1",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 65,
+    "completion_tokens": 57,
+    "total_tokens": 122
+  },
+  "finish_reason": "stop"
+}

@@ -1,0 +1,10 @@
+{
+  "text": "First, let's find out how long an extreme sudoku takes:\n\n- A normal sudoku takes 45 minutes.\n- An extreme sudoku takes 4 times that:  \n  \\( 45 \\text{ minutes} \\times 4 = 180 \\text{ minutes} \\)\n\nNow, John drinks a bottle of water every half hour (30 minutes).\n\n- Number of 30-minute intervals in 180 minutes:  \n  \\( 180 \\div 30 = 6 \\)\n\nSo, John drinks 6 bottles of water in that time.\n\n#### 6",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 78,
+    "completion_tokens": 112,
+    "total_tokens": 190
+  },
+  "finish_reason": "stop"
+}

@@ -1,0 +1,10 @@
+{
+  "text": "The person you are referring to is **Elon Huntington Hooker**. He was an American businessman and founder of the Hooker Chemical Company, and he had connections to the Rockefeller family.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 55,
+    "completion_tokens": 38,
+    "total_tokens": 93
+  },
+  "finish_reason": "stop"
+}

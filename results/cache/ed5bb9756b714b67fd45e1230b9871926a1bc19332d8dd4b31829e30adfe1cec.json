@@ -1,0 +1,10 @@
+{
+  "text": "Not all violent offenders have a history of mental illness. Research shows that only a minority of people who commit violent acts have a diagnosable mental illness. Most violence is associated with factors such as substance abuse, socioeconomic stress, or a history of trauma, rather than mental illness alone. While certain mental health conditions (like severe psychosis or untreated schizophrenia) can increase the risk of violence in rare cases, the vast majority of individuals with mental illness are not violent. Overall, mental illness is not a strong or consistent predictor of violent offending.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 36,
+    "completion_tokens": 108,
+    "total_tokens": 144
+  },
+  "finish_reason": "stop"
+}

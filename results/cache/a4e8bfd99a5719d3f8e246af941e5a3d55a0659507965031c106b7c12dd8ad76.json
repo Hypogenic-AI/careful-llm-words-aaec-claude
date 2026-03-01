@@ -1,0 +1,10 @@
+{
+  "text": "WINNER: B\nREASON: Response B is more coherent, logical, and well-structured due to its clear organization into numbered points, each addressing a specific aspect of biodiversity's importance, and it provides detailed explanations that flow logically from one idea to the next.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 548,
+    "completion_tokens": 54,
+    "total_tokens": 602
+  },
+  "finish_reason": "stop"
+}

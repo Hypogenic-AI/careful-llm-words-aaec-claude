@@ -1,0 +1,10 @@
+{
+  "text": "Let's solve the problem step by step:\n\n1. **Find the total number of oranges:**\n   - Sitti bought 34 oranges.\n   - Juris bought 22 oranges.\n   - Total oranges = 34 + 22 = 56 oranges.\n\n2. **Find the total number of people sharing the oranges:**\n   - Sitti and Juris are 2 people.\n   - They have 6 other friends.\n   - Total people = 2 + 6 = 8 people.\n\n3. **Divide the total oranges equally among all people:**\n   - Oranges per person = Total oranges \u00f7 Total people\n   - Oranges per person = 56 \u00f7 8 = 7\n\n#### 7",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 77,
+    "completion_tokens": 149,
+    "total_tokens": 226
+  },
+  "finish_reason": "stop"
+}

@@ -1,0 +1,10 @@
+{
+  "text": "First, convert 4 feet to inches:  \n4 feet \u00d7 12 inches/foot = 48 inches.\n\nAdam's current height: 40 inches.  \nHe needs to reach 48 inches.\n\nDifference: 48 inches - 40 inches = 8 inches.\n\nHe grows 2 inches per year.\n\nYears needed: 8 inches \u00f7 2 inches/year = 4 years.\n\n#### 4",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 86,
+    "completion_tokens": 83,
+    "total_tokens": 169
+  },
+  "finish_reason": "stop"
+}

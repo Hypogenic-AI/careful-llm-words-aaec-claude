@@ -1,0 +1,10 @@
+{
+  "text": "WINNER: A  \nREASON: Response A provides a more thorough explanation of the tragedy of the commons, includes a step-by-step breakdown, offers a wider range of well-supported modern examples, and gives a concise summary that addresses solutions, demonstrating greater depth and nuance than Response B.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 781,
+    "completion_tokens": 57,
+    "total_tokens": 838
+  },
+  "finish_reason": "stop"
+}

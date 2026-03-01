@@ -1,0 +1,10 @@
+\section{Conclusion}
+\label{sec:conclusion}
+
+We introduced \iscot, a prompting strategy that requires an LLM to produce explicit reasoning before every sentence of its response.
+Through experiments on open-ended generation, \truthfulqa, and \gsmk, we showed that \iscotshort produces text with a measurably different character: higher lexical diversity ($d = 0.84$), longer and denser sentences ($d = 1.07$), more hedging and self-correction, and the highest truthfulness rate on adversarial factual questions (98\% vs.\ 95\%).
+These gains come at the cost of brevity, as deliberation tokens consume part of the response budget, and current LLM-as-judge methods are poorly calibrated to detect per-sentence quality improvements.
+
+The key takeaway is that \emph{how} a model allocates its test-time compute matters as much as \emph{how much} compute it uses: sentence-level deliberation produces a qualitatively different kind of text than response-level reasoning, with distinct strengths and weaknesses.
+
+Future work should investigate \iscotshort with larger token budgets to decouple quality from brevity, evaluate with human judges who can assess per-sentence precision, and test whether selective inter-sentence reasoning---thinking only before sentences that make factual claims---can retain the truthfulness benefits without the breadth cost.

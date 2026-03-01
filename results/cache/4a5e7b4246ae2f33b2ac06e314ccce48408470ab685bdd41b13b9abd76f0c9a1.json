@@ -1,0 +1,10 @@
+{
+  "text": "WINNER: A\nREASON: Response A provides a more detailed and nuanced explanation of the placebo effect, including specific neurobiological mechanisms and clinical implications, while avoiding overconfident or unsupported claims. It is thorough, factually accurate, and careful in its assertions.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 832,
+    "completion_tokens": 55,
+    "total_tokens": 887
+  },
+  "finish_reason": "stop"
+}

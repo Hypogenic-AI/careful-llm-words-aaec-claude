@@ -1,0 +1,10 @@
+{
+  "text": "Let's solve the problem step by step:\n\n**Step 1: Total pieces of pizza**\n- Tobias starts with 60 pieces.\n\n**Step 2: Pieces eaten on the first day**\n- He ate \\( \\frac{2}{5} \\) of the pieces on the first day.\n- \\( \\frac{2}{5} \\times 60 = 24 \\) pieces.\n\n**Step 3: Pieces remaining after the first day**\n- \\( 60 - 24 = 36 \\) pieces left.\n\n**Step 4: Pieces eaten on the second day**\n- He ate 10 pieces on the second day.\n\n**Step 5: Pieces remaining after the second day**\n- \\( 36 - 10 = 26 \\) pieces left.\n\n**Step 6: Pieces eaten on the third day**\n- He ate \\( \\frac{7}{13} \\) of the remaining pieces on the third day.\n- \\( \\frac{7}{13} \\times 26 = 14 \\) pieces.\n\n**Step 7: Total pieces eaten so far**\n- First day: 24 pieces\n- Second day: 10 pieces\n- Third day: 14 pieces\n\n- Total: \\( 24 + 10 + 14 = 48 \\) pieces\n\n#### 48",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 97,
+    "completion_tokens": 267,
+    "total_tokens": 364
+  },
+  "finish_reason": "stop"
+}

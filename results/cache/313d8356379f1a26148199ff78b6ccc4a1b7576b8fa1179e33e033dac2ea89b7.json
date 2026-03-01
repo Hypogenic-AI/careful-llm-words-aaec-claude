@@ -1,0 +1,10 @@
+{
+  "text": "<think>I should start by directly addressing the main function of a camel's hump, ensuring clarity and accuracy.</think>\nA camel's hump primarily serves as a storage site for fat. \n<think>Next, I should clarify a common misconception about the hump's function to provide deeper understanding.</think>\nContrary to popular belief, the hump does not store water. \n<think>I should explain how the stored fat benefits the camel, linking it to the animal's survival in harsh environments.</think>\nThe fat in the hump can be metabolized into energy and water when food is scarce. \n<think>To conclude, I want to emphasize how this adaptation helps camels thrive in their natural habitats.</think>\nThis unique adaptation allows camels to survive long periods without eating in arid desert conditions.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 217,
+    "completion_tokens": 162,
+    "total_tokens": 379
+  },
+  "finish_reason": "stop"
+}

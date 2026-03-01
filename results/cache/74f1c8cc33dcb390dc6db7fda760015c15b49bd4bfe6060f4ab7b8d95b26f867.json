@@ -1,0 +1,10 @@
+{
+  "text": "The idea that \"it's a bad idea to give a mouse a cookie\" comes from the popular children\u2019s book **\"If You Give a Mouse a Cookie\"** by Laura Numeroff. In the story, giving a mouse a cookie leads to a humorous and escalating chain of requests\u2014the mouse asks for milk, then a straw, then a napkin, and so on. The main point is that **one small gesture can lead to a series of larger, sometimes never-ending, demands**.\n\nSo, it's a \"bad idea\" in a playful way: if you give a mouse a cookie, you might unintentionally start a cycle where the mouse keeps asking for more things, making it hard to satisfy or finish helping. It\u2019s a fun way to illustrate the concept of unintended consequences and how simple actions can spiral into much bigger situations.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 38,
+    "completion_tokens": 168,
+    "total_tokens": 206
+  },
+  "finish_reason": "stop"
+}

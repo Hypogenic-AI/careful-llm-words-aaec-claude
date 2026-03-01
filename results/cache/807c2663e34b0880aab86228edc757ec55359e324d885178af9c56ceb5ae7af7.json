@@ -1,0 +1,10 @@
+{
+  "text": "WINNER: A  \nREASON: Response A provides a more detailed and accurate explanation of antibiotic resistance, including mechanisms like gene transfer and natural selection, without making unsupported or overconfident claims. It is thorough and factually precise.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 592,
+    "completion_tokens": 47,
+    "total_tokens": 639
+  },
+  "finish_reason": "stop"
+}

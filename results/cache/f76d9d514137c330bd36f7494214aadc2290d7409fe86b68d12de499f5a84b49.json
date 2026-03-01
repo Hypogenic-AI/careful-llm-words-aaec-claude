@@ -1,0 +1,10 @@
+{
+  "text": "Let's break down the problem step by step:\n\n1. **Monday:** 32 classes visited.\n\n2. **Tuesday:** Twice as many as Monday.\n   - \\( 2 \\times 32 = 64 \\) classes\n\n3. **Wednesday:** Three times as many as Monday.\n   - \\( 3 \\times 32 = 96 \\) classes\n\n4. **Thursday:** 30 classes visited.\n\n5. **Friday:** 25 classes visited.\n\nNow, let's add up all the classes:\n\n- Monday: 32\n- Tuesday: 64\n- Wednesday: 96\n- Thursday: 30\n- Friday: 25\n\nTotal = \\( 32 + 64 + 96 + 30 + 25 \\)\n\nLet's add step by step:\n\n- \\( 32 + 64 = 96 \\)\n- \\( 96 + 96 = 192 \\)\n- \\( 192 + 30 = 222 \\)\n- \\( 222 + 25 = 247 \\)\n\nSo, the total number of classes that visited the Science Center last week is:\n\n#### 247",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 101,
+    "completion_tokens": 225,
+    "total_tokens": 326
+  },
+  "finish_reason": "stop"
+}

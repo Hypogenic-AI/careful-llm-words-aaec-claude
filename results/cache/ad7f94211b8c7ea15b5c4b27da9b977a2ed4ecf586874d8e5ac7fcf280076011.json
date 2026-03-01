@@ -1,0 +1,10 @@
+{
+  "text": "Let's break down the problem step by step:\n\n1. **Let the number of candies Robert has be \\( x \\).**\n\n2. **James has 6 more candies than Robert:**\n   - So, James has \\( x + 6 \\) candies.\n\n3. **John has twice as many candies as Robert:**\n   - So, John has \\( 2x \\) candies.\n\n4. **We are told that John has 54 candies:**\n   - So, \\( 2x = 54 \\).\n\n5. **Solve for \\( x \\):**\n   \\[\n   2x = 54 \\\\\n   x = \\frac{54}{2} \\\\\n   x = 27\n   \\]\n\n6. **Now, calculate how many candies James has:**\n   - James has \\( x + 6 = 27 + 6 = 33 \\) candies.\n\n7. **Find how many more candies John has than James:**\n   - John has 54 candies, James has 33 candies.\n   - Difference: \\( 54 - 33 = 21 \\)\n\n**Final answer:**\n\n#### 21",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 74,
+    "completion_tokens": 236,
+    "total_tokens": 310
+  },
+  "finish_reason": "stop"
+}

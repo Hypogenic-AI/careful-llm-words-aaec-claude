@@ -1,0 +1,10 @@
+{
+  "text": "<think>I should recall Gandhi's most famous quote about changing the world, which is often paraphrased as \"Be the change you wish to see in the world.\"</think>\nGandhi is widely quoted as saying, \"Be the change you wish to see in the world.\"\n<think>It is important to clarify that this phrase is a paraphrase and not a direct quotation from Gandhi's recorded works.</think>\nHowever, this popular phrase is actually a summary of Gandhi's ideas rather than a direct quotation.\n<think>I should provide more context to what Gandhi actually expressed about personal transformation and societal change.</think>\nGandhi emphasized that personal transformation is essential for broader social change, urging individuals to embody the values and actions they hope to see in others.\n<think>I should mention that the sentiment reflects Gandhi's philosophy of nonviolent action and self-improvement as a catalyst for societal progress.</think>\nThis reflects his belief that meaningful change starts with each person's actions and attitudes.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 216,
+    "completion_tokens": 198,
+    "total_tokens": 414
+  },
+  "finish_reason": "stop"
+}

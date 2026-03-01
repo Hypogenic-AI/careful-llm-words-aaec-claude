@@ -1,0 +1,10 @@
+{
+  "text": "<think>I should start by restating the information given in the problem to set up the equations.</think>\nRichie scored 80 goals, which is 20 more than Mark and 45 more than Anna.\n<think>Now, I need to define variables for Mark's and Anna's goals and set up equations based on the relationships described.</think>\nLet M be the number of goals Mark scored, and A be the number of goals Anna scored.\n<think>I should now express Richie's goals in terms of M and A using the information provided.</think>\nSince Richie scored 20 more than Mark, we have 80 = M + 20.\n<think>Now, I should solve for M.</think>\nSo, M = 80 - 20 = 60.\n<think>Next, I need to use the information about Anna's goals.</think>\nSince Richie scored 45 more than Anna, we have 80 = A + 45.\n<think>I should solve for A now.</think>\nSo, A = 80 - 45 = 35.\n<think>Now, I need to find the total number of goals scored by all three teenagers.</think>\nThe total is 80 (Richie) + 60 (Mark) + 35 (Anna).\n<think>I should add these numbers together to get the final answer.</think>\n80 + 60 + 35 = 175.\n<think>I should now present the final answer after the required ####.</think>\n#### 175",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 262,
+    "completion_tokens": 309,
+    "total_tokens": 571
+  },
+  "finish_reason": "stop"
+}

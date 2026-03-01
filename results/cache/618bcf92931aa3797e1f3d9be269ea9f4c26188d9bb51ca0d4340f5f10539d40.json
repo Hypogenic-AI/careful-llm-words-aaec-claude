@@ -1,0 +1,10 @@
+{
+  "text": "Jean starts with 30 lollipops and eats 2, leaving her with 30 - 2 = 28 lollipops.\n\nShe wants to package 2 lollipops in one bag.  \nNumber of bags she can fill = 28 \u00f7 2 = 14\n\n#### 14",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 82,
+    "completion_tokens": 65,
+    "total_tokens": 147
+  },
+  "finish_reason": "stop"
+}

@@ -1,0 +1,10 @@
+{
+  "text": "Let's break down the costs:\n\n**1. Miles driven per day:**  \n- To work and back: 30 miles \u00d7 2 = 60 miles per day\n\n**2. Miles driven per week:**  \n- 60 miles/day \u00d7 5 days/week = 300 miles/week\n\n**3. Miles driven per year:**  \n- 300 miles/week \u00d7 50 weeks/year = 15,000 miles/year\n\n**4. Cost per mile:**  \n- $2/mile\n\n**5. Total cost for miles per year:**  \n- 15,000 miles \u00d7 $2/mile = $30,000\n\n**6. Bonus per month:**  \n- $150/month\n\n**7. Bonus per year:**  \n- $150 \u00d7 12 = $1,800\n\n**8. Total yearly cost:**  \n- $30,000 (mileage) + $1,800 (bonus) = $31,800\n\n#### $31,800",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 115,
+    "completion_tokens": 197,
+    "total_tokens": 312
+  },
+  "finish_reason": "stop"
+}

@@ -1,0 +1,10 @@
+{
+  "text": "First, calculate how much John earns in one week:\n\n- He works 5 hours/day \u00d7 4 days/week = 20 hours/week.\n- He earns $2/hour \u00d7 20 hours/week = $40/week.\n\nNow, to save $80:\n\n- $80 \u00f7 $40/week = 2 weeks.\n\n#### 2",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 79,
+    "completion_tokens": 68,
+    "total_tokens": 147
+  },
+  "finish_reason": "stop"
+}

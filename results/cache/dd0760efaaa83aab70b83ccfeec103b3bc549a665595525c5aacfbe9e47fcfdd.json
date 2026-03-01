@@ -1,0 +1,10 @@
+{
+  "text": "<think>I need to start by calculating how many holes there were at the end of the first day.</think>\nAt the end of the first day, the pirates had dug 10 holes.\n<think>Now, I should add the holes dug on the second day to get the total at the end of the second day.</think>\nAfter the second day, they had dug 13 more holes, making a total of 10 + 13 = 23 holes.\n<think>Next, I need to account for the third day, where they dug 8 holes but filled in 2.</think>\nOn the third day, they dug 8 holes but filled in 2, so the net increase was 8 - 2 = 6 holes.\n<think>I should now add this net increase to the previous total to get the number of holes at the end of the third day.</think>\nBy the end of the third day, the total number of holes was 23 + 6 = 29.\n<think>The problem states that after the fourth day, the total number of holes was four times the number at the end of the first day, which was 10.</think>\nAt the end of the fourth day, there were 4 \u00d7 10 = 40 holes.\n<think>To find out how many holes were dug on the fourth day, I need to subtract the number of holes at the end of the third day from the number at the end of the fourth day.</think>\nSo, the pirates dug 40 - 29 = 11 holes on the fourth day before finding the treasure.\n<think>I should now present the final answer after the required ####.</think>\n#### 11",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 334,
+    "completion_tokens": 348,
+    "total_tokens": 682
+  },
+  "finish_reason": "stop"
+}

@@ -1,0 +1,10 @@
+{
+  "text": "<think>I should start by defining the criminal justice system's dual goals of punishment and rehabilitation, to set the context for the answer.</think>\nThe criminal justice system seeks to balance punishment and rehabilitation by serving both as a deterrent to crime and as a means to help offenders reintegrate into society.\n<think>Next, I need to explain what punishment aims to achieve within this system, making sure it's clear and precise.</think>\nPunishment is intended to hold individuals accountable for their actions, deter future offenses, and provide a sense of justice for victims and the community.\n<think>Now I should clarify what rehabilitation means in this context, emphasizing its purpose.</think>\nRehabilitation focuses on addressing the underlying causes of criminal behavior, such as substance abuse or lack of education, to reduce the likelihood of reoffending.\n<think>I should describe how the system tries to combine these goals, possibly mentioning examples or mechanisms used.</think>\nCourts and corrections agencies often use sentencing options that incorporate both elements, like probation with mandatory treatment programs or educational opportunities in prisons.\n<think>It is important to acknowledge that the balance between punishment and rehabilitation varies by jurisdiction and over time.</think>\nThe emphasis on punishment versus rehabilitation can change depending on local laws, public opinion, and evolving research about what reduces crime most effectively.\n<think>Finally, I should conclude by noting the ongoing debate and complexity involved in achieving this balance.</think>\nFinding the right balance remains a complex and debated issue, as policymakers strive to protect public safety while fostering opportunities for offenders to change.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 218,
+    "completion_tokens": 314,
+    "total_tokens": 532
+  },
+  "finish_reason": "stop"
+}

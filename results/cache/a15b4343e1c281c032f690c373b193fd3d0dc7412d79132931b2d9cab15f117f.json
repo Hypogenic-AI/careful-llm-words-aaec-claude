@@ -1,0 +1,10 @@
+{
+  "text": "WINNER: B\nREASON: Response B provides more detailed, nuanced, and research-backed information, clearly distinguishing between positive and negative effects without making unsupported or overconfident claims, thus increasing its factual accuracy.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 693,
+    "completion_tokens": 43,
+    "total_tokens": 736
+  },
+  "finish_reason": "stop"
+}

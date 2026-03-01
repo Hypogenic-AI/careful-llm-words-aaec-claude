@@ -1,0 +1,10 @@
+{
+  "text": "<think>I should begin with a general overview that addresses the common misconception about tax brackets and take-home pay.</think>\nMoving into a higher tax bracket in the U.S. does not mean all of your income is taxed at the higher rate.  \n<think>Now, I should clarify how marginal tax rates work and why only part of your income is taxed at the higher rate.</think>\nInstead, only the portion of your income that falls within the higher bracket is taxed at the higher rate, while the rest is taxed at the lower rates.  \n<think>I should reassure the reader that earning more money always means more take-home pay, even if they are bumped into a higher bracket.</think>\nThis means that your take-home earnings will still increase as your income increases, although the added income may be taxed at a higher marginal rate.  \n<think>Finally, I should summarize to solidify understanding and provide a sense of closure.</think>\nTherefore, being bumped up into a higher tax bracket does not decrease your overall take-home pay\u2014it just means a higher rate applies to the income above the bracket threshold.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 231,
+    "completion_tokens": 224,
+    "total_tokens": 455
+  },
+  "finish_reason": "stop"
+}

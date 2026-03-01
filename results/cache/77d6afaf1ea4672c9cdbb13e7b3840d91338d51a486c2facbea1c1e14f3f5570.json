@@ -1,0 +1,10 @@
+{
+  "text": "Deciding how to discipline children is a personal choice, but most experts, including the American Academy of Pediatrics, strongly advise against spanking or using physical punishment at any time. Research shows that spanking can lead to increased aggression, lower self-esteem, and other negative outcomes in children. Instead, positive discipline techniques\u2014such as setting clear expectations, using time-outs, natural consequences, and rewarding good behavior\u2014are recommended and shown to be more effective in the long run.\n\nIf you\u2019re struggling with discipline, consider reaching out to a pediatrician or a child development specialist for guidance on positive strategies that work for your family.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 38,
+    "completion_tokens": 122,
+    "total_tokens": 160
+  },
+  "finish_reason": "stop"
+}

@@ -1,0 +1,89 @@
+\section{Methodology}
+\label{sec:methodology}
+
+We compare three prompting conditions applied to the same model (\gptfour via the OpenAI API) across three evaluation tasks.
+All conditions share the same model, decoding parameters, and token budgets; only the system prompt differs.
+
+\subsection{Prompting Conditions}
+\label{sec:conditions}
+
+\para{\standard.}
+The system prompt is simply ``You are a helpful assistant.'' No special reasoning instructions are provided.
+
+\para{\standardcot.}
+The system prompt instructs the model to ``think step by step before giving your answer.'' This follows the conventional CoT paradigm~\citep{wei2022chain}, in which all reasoning appears before the final response.
+
+\para{\iscotshort (ours).}
+The system prompt requires the model to generate a \texttt{<think>} block before \emph{every sentence} of its visible response.
+Each \texttt{<think>} block must consider (1) the accuracy of the upcoming sentence, (2) its phrasing, and (3) its logical connection to the preceding sentence.
+The model alternates between \texttt{<think>[reasoning]</think>} and visible text, producing a pattern in which every claim is preceded by explicit deliberation.
+We strip the \texttt{<think>} blocks during evaluation so that only the visible text is assessed.
+This design leverages the model's native instruction-following and CoT capabilities without any training modifications.
+
+\subsection{Evaluation Tasks}
+\label{sec:tasks}
+
+\para{Open-ended generation (Experiment~1).}
+We curate 30 diverse prompts covering explanations, essays, and advice (\eg ``Explain why the sky appears blue during the day but red at sunset'').
+Each prompt is answered under all three conditions, yielding 90 responses.
+We evaluate using (a) automated text analysis measuring hedging, self-correction, lexical diversity, and sentence structure; and (b) LLM-as-judge pairwise comparisons on coherence, depth, and accuracy, with response order randomized to control for positional bias.
+
+\para{Factual accuracy (Experiment~2).}
+We sample 100 questions from \truthfulqa~\citep{lin2022truthfulqa} (seed = 42, from 817 available).
+Each question is answered under all three conditions, yielding 300 responses.
+We evaluate truthfulness and informativeness using an LLM judge following the \truthfulqa evaluation protocol.
+
+\para{Math reasoning (Experiment~3).}
+We sample 100 problems from the \gsmk test set~\citep{cobbe2021gsm8k} (seed = 42, from 1{,}319 available).
+Each problem is solved under all three conditions, yielding 300 responses.
+We evaluate using exact match on the final numerical answer.
+
+\para{Cross-experiment text analysis (Experiment~4).}
+We aggregate all 130 prompts per condition across Experiments 1--3 and compute text-level properties: hedging rate, self-correction rate, qualifying clause rate, type-token ratio (\ttr), and average sentence length.
+
+\subsection{Hyperparameters}
+\label{sec:hyperparameters}
+
+\begin{table}[t]
+\centering
+\caption{Hyperparameter settings across experiments. Temperature is set to 0.0 for tasks requiring deterministic output (math, judging) and 0.7 for open-ended generation.}
+\begin{tabular}{@{}lll@{}}
+\toprule
+\textbf{Parameter} & \textbf{Value} & \textbf{Scope} \\
+\midrule
+Model & \gptfour & All \\
+Temperature & 0.7 & Open-ended \\
+Temperature & 0.0 & \gsmk, judge \\
+Max tokens & 1{,}024 & Open-ended, \gsmk \\
+Max tokens & 512 & \truthfulqa \\
+Random seed & 42 & All \\
+\bottomrule
+\end{tabular}
+\label{tab:hyperparameters}
+\end{table}
+
+\subsection{Statistical Tests}
+\label{sec:stats}
+
+For continuous text metrics, we use the Wilcoxon signed-rank test (paired, non-parametric) and report Cohen's $d$ for effect size.
+For binary accuracy outcomes (\truthfulqa, \gsmk), we use McNemar's test over discordant pairs.
+All tests use a significance level of $\alpha = 0.05$.
+
+\subsection{Text Analysis Metrics}
+\label{sec:text_metrics}
+
+We define four categories of sentence-level linguistic markers, detected using keyword lists applied via NLTK tokenization:
+
+\para{Hedging language.}
+Words and phrases signaling uncertainty or tentativeness (\eg ``might,'' ``perhaps,'' ``it is possible that'').
+We report the rate per sentence.
+
+\para{Self-correction markers.}
+Phrases indicating the model is revising or qualifying a prior statement (\eg ``actually,'' ``however,'' ``on second thought'').
+
+\para{Qualifying clauses.}
+Subordinate clauses that narrow the scope of a claim (\eg ``in most cases,'' ``under certain conditions'').
+
+\para{Lexical diversity.}
+Type-token ratio (\ttr), defined as the number of unique word types divided by the total number of word tokens.
+Higher \ttr indicates greater vocabulary variety.

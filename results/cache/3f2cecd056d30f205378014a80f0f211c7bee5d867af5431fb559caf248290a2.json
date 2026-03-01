@@ -1,0 +1,10 @@
+{
+  "text": "Let's break down the problem step by step:\n\n1. **Existing plants:**  \nMary has 2 potted plants on each of the 40 window ledges.  \nSo, total existing plants = 2 \u00d7 40 = 80\n\n2. **New plants received:**  \nShe received 18 new potted plants.  \nSo, total plants now = 80 (existing) + 18 (new) = 98\n\n3. **Plants to be given away:**  \nShe will give 1 potted plant from each ledge.  \nNumber of ledges = 40  \nSo, total plants given away = 1 \u00d7 40 = 40\n\n4. **Plants remaining:**  \nTotal plants after giving away = 98 (current total) - 40 (given away) = 58\n\n#### 58",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 119,
+    "completion_tokens": 169,
+    "total_tokens": 288
+  },
+  "finish_reason": "stop"
+}

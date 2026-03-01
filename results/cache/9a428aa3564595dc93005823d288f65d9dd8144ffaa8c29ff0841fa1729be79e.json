@@ -1,0 +1,10 @@
+{
+  "text": "Let's break down the problem step by step:\n\n1. **Let\u2019s define the variables:**\n   - Cost of the computer = \\( C \\)\n   - Cost of one monitor = \\( M \\)\n   - Cost of the printer = \\( P \\)\n\n2. **Given values:**\n   - Total cost: \\( C + 2M + P = 2400 \\)\n   - Computer cost: \\( C = 1100 \\)\n   - Printer cost: \\( P = C - 400 \\)\n\n3. **Substitute the known values:**\n   - \\( P = 1100 - 400 = 700 \\)\n\n4. **Plug these into the total cost equation:**\n   - \\( 1100 + 2M + 700 = 2400 \\)\n\n5. **Combine like terms:**\n   - \\( 1100 + 700 = 1800 \\)\n   - \\( 1800 + 2M = 2400 \\)\n\n6. **Solve for \\( 2M \\):**\n   - \\( 2M = 2400 - 1800 = 600 \\)\n\n7. **Solve for \\( M \\):**\n   - \\( M = 600 / 2 = 300 \\)\n\n**Final answer:**\n\n#### 300",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 89,
+    "completion_tokens": 265,
+    "total_tokens": 354
+  },
+  "finish_reason": "stop"
+}

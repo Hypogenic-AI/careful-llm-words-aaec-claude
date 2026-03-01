@@ -1,0 +1,10 @@
+{
+  "text": "**Opportunity cost** is the value of the next best alternative that you give up when you make a choice. It represents the benefits you could have received by taking a different action.\n\n**Real-world examples:**\n\n1. **Education vs. Working:** If you decide to attend college after high school instead of taking a full-time job, your opportunity cost is the salary you would have earned during those years.\n\n2. **Spending vs. Saving:** If you spend $1,000 on a vacation, the opportunity cost is what you could have gained by investing that money instead (such as earning interest or returns).\n\n3. **Time Allocation:** If you spend two hours watching a movie, the opportunity cost is what else you could have done with that time, such as studying, exercising, or working.\n\n**In summary:** Opportunity cost is about considering what you give up whenever you make a choice, helping you make more informed decisions.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 37,
+    "completion_tokens": 187,
+    "total_tokens": 224
+  },
+  "finish_reason": "stop"
+}

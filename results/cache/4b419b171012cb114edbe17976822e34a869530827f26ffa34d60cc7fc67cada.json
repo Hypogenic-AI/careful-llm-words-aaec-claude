@@ -1,0 +1,10 @@
+{
+  "text": "Sure! Let\u2019s break down how to determine the legal age for purchasing alcohol:\n\nStep 1:  \nThe legal age for purchasing alcohol varies depending on the country and sometimes even within regions of a country.\n\nStep 2:  \nIn many countries, there are national laws setting a minimum age. For example:\n- In the United States, the minimum legal age to purchase alcohol is 21.\n- In the United Kingdom, the minimum age is 18.\n- In Canada, the minimum age is either 18 or 19, depending on the province.\n- In Australia, it is 18.\n\nStep 3:  \nSome countries may have exceptions for private consumption under parental supervision, but purchasing in stores or bars usually requires proof of age.\n\n**Answer:**  \nYou typically need to be at least 18 or 21 years old to purchase alcohol, depending on your country. For example, in the United States, the legal age is 21, while in many other countries it\u2019s 18. Always check your local laws to be sure.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 49,
+    "completion_tokens": 211,
+    "total_tokens": 260
+  },
+  "finish_reason": "stop"
+}

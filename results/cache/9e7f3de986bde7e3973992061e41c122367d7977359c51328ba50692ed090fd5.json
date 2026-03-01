@@ -1,0 +1,10 @@
+{
+  "text": "**How Vaccines Work:**\n\nVaccines are biological preparations that help protect you from certain diseases. Here\u2019s how they work, step by step:\n\n1. **Introduction of a harmless part of a germ:** Vaccines contain dead or weakened forms of microbes (like viruses or bacteria), or pieces of them (such as proteins).\n2. **Stimulation of the immune response:** When the vaccine is administered, your immune system recognizes these components as foreign invaders and responds by making antibodies.\n3. **Memory formation:** After the initial response, your immune system creates memory cells that \"remember\" how to fight off the real pathogen if you\u2019re exposed in the future.\n4. **Protection from illness:** If you encounter the actual disease later, your immune system can quickly recognize and destroy it, often preventing you from getting sick or reducing the severity of illness.\n\n**Why Herd Immunity Matters:**\n\nHerd immunity (or community immunity) happens when a large portion of a population is immune to a disease, making its spread unlikely. Here\u2019s why it\u2019s important:\n\n- **Stops outbreaks:** When enough people are immune, germs can\u2019t easily spread from person to person, so outbreaks are less likely.\n- **Protects vulnerable individuals:** Some people\u2014like newborns, the elderly, or those with weakened immune systems\u2014can\u2019t be vaccinated or might not respond well to vaccines. Herd immunity protects them by reducing their risk of exposure.\n- **Prevents disease resurgence:** High vaccination rates keep dangerous diseases from coming back even if they\u2019re rare or eliminated in a region.\n\n**In summary:**  \nVaccines train your immune system to fight diseases without making you sick. When enough people are vaccinated, herd immunity helps protect the whole community, including those who can\u2019t be vaccinated, by stopping the spread of disease.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 36,
+    "completion_tokens": 363,
+    "total_tokens": 399
+  },
+  "finish_reason": "stop"
+}

@@ -1,0 +1,10 @@
+{
+  "text": "Let's break down the problem:\n\n- Monday: Rose bought 4 cakes.\n- Tuesday: She bought three times that number: \\( 3 \\times 4 = 12 \\) cakes.\n- Wednesday: She bought five times the number she bought on Tuesday: \\( 5 \\times 12 = 60 \\) cakes.\n\nTotal cakes bought over all three days:\n\\( 4 + 12 + 60 = 76 \\)\n\n#### 76",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 94,
+    "completion_tokens": 92,
+    "total_tokens": 186
+  },
+  "finish_reason": "stop"
+}

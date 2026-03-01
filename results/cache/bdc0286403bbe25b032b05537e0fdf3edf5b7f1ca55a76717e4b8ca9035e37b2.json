@@ -1,0 +1,10 @@
+{
+  "text": "WINNER: A\nREASON: Response A provides greater depth and nuance, offering more detailed explanations, a broader range of examples, and a more comprehensive discussion of both benefits and risks, including regulatory, social, and ecological considerations.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 981,
+    "completion_tokens": 47,
+    "total_tokens": 1028
+  },
+  "finish_reason": "stop"
+}

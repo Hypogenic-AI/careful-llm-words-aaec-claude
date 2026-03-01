@@ -1,0 +1,10 @@
+{
+  "text": "Gerrymandering affects democratic representation by manipulating electoral district boundaries to favor a particular political party or group. This practice can have several negative impacts:\n\n1. **Distortion of Voter Power:** Gerrymandering can dilute the voting strength of certain groups, making their votes less effective and reducing their influence on election outcomes.\n2. **Uncompetitive Elections:** By creating \"safe\" districts for one party, gerrymandering often leads to less competitive elections, limiting voter choice and reducing accountability for elected officials.\n3. **Misrepresentation:** The makeup of legislative bodies may not reflect the actual preferences of the electorate. For example, a party receiving fewer overall votes may win a majority of seats due to strategically drawn districts.\n4. **Polarization:** Safe seats created by gerrymandering can encourage more extreme candidates, as winning the primary becomes more important than appealing to a broad range of voters.\n\nOverall, gerrymandering undermines the principle of \"one person, one vote,\" weakens the connection between representatives and constituents, and erodes trust in the democratic process.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 35,
+    "completion_tokens": 216,
+    "total_tokens": 251
+  },
+  "finish_reason": "stop"
+}

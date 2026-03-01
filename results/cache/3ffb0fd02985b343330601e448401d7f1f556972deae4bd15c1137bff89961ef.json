@@ -1,0 +1,10 @@
+{
+  "text": "WINNER: A  \nREASON: Response A provides significantly more depth, nuance, and detailed analysis, offering specific mechanisms of language evolution and extinction, supported by clear examples and explanations, whereas Response B is more general and lacks detailed support.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 803,
+    "completion_tokens": 48,
+    "total_tokens": 851
+  },
+  "finish_reason": "stop"
+}

@@ -1,0 +1,10 @@
+{
+  "text": "<think>I want to begin by clarifying a common misconception about waiting periods for missing person reports.</think>\nYou do not need to wait any specific amount of time before filing a missing person report. \n<think>Now I should note that prompt action can be important, especially in certain situations.</think>\nIn fact, it is recommended to contact authorities as soon as you realize someone is missing, especially if there are concerns for their safety or they are vulnerable. \n<think>I should emphasize that law enforcement will take the circumstances into account when responding.</think>\nPolice will assess the urgency based on factors like age, health, mental state, and the circumstances of the disappearance. \n<think>I should also clarify that different jurisdictions may have slightly different procedures, but the general guidance is consistent.</think>\nMost places do not have a mandatory waiting period, so do not hesitate to contact your local police department right away.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 219,
+    "completion_tokens": 184,
+    "total_tokens": 403
+  },
+  "finish_reason": "stop"
+}

@@ -1,0 +1,10 @@
+{
+  "text": "<think>I should start by clarifying that most modern microwaves are designed to contain microwave radiation and are safe during normal operation.</think>\nIf you stand close to a modern, functioning microwave oven, it is generally safe because the appliance is designed to contain microwave radiation within the unit. \n<think>Next, I should explain why this is the case, mentioning the protective features of microwaves.</think>\nMicrowave ovens have metal shielding and a mesh on the door that prevents most microwave radiation from escaping while the device is in use. \n<think>I should mention that under normal circumstances, little to no radiation escapes.</think>\nAs long as the microwave is undamaged and used properly, only negligible amounts of microwave energy, if any, can leak out. \n<think>To be thorough, I should also note what could happen in the event of a malfunction or damage.</think>\nIf the microwave oven is damaged\u2014for example, if the door seal is broken\u2014there could be a risk of microwave leakage, which might potentially cause harm such as burns. \n<think>Finally, I should summarize and reassure the reader about everyday use.</think>\nIn everyday situations with a well-maintained microwave, standing close to it poses no significant health risk.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 218,
+    "completion_tokens": 252,
+    "total_tokens": 470
+  },
+  "finish_reason": "stop"
+}

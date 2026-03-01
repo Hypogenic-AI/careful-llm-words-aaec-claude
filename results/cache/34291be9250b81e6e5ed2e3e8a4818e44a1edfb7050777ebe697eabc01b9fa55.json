@@ -1,0 +1,10 @@
+{
+  "text": "WINNER: B\nREASON: Response B provides slightly more depth and nuance by elaborating on each point with brief explanations, includes additional considerations such as cost savings for employees and limited access to resources, and offers a more thorough breakdown of both pros and cons for each group.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 1107,
+    "completion_tokens": 56,
+    "total_tokens": 1163
+  },
+  "finish_reason": "stop"
+}

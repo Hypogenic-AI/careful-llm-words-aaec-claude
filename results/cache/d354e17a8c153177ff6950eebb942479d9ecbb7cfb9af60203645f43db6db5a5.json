@@ -1,0 +1,10 @@
+{
+  "text": "Let's break down the problem step by step:\n\n**1. Solo song:**  \n- Total lines: 54  \n- All are his lines: 54\n\n**2. First scene:**  \n- Total lines: twice the song = 2 \u00d7 54 = 108  \n- His lines: one third of 108 = 108 \u00f7 3 = 36\n\n**3. Second scene:**  \n- Total lines: six more than the song = 54 + 6 = 60  \n- His lines: four-fifths of 60 = (4/5) \u00d7 60 = 48\n\n**Total lines Sean has to memorize:**  \n54 (song) + 36 (first scene) + 48 (second scene) = 138\n\n#### 138",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 122,
+    "completion_tokens": 160,
+    "total_tokens": 282
+  },
+  "finish_reason": "stop"
+}

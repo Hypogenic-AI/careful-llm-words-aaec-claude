@@ -1,0 +1,10 @@
+{
+  "text": "A camel's hump stores fat, not water. The primary purpose of the hump is to serve as a reserve of energy. When food is scarce, the camel's body metabolizes the fat in its hump for nourishment. This adaptation helps camels survive long periods without food in their arid desert environments. While the hump does not store water, having fat concentrated in one place also helps reduce heat insulation over the rest of the body, which aids in staying cool.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 35,
+    "completion_tokens": 93,
+    "total_tokens": 128
+  },
+  "finish_reason": "stop"
+}

@@ -1,0 +1,10 @@
+{
+  "text": "<think>I should start by restating the key information: Mr Hezekiah had 20 trucks, each carrying 20 tons of fertiliser.</think>\nMr Hezekiah dispatched 20 trucks, each loaded with 20 tons of fertiliser, for delivery to farmers.\n<think>Next, I need to determine how many trucks had mechanical failures, which is a quarter of the total trucks.</think>\nA quarter of the trucks experienced mechanical failures and could not deliver their fertiliser.\n<think>I should calculate a quarter of 20 trucks to find out how many trucks failed.</think>\nA quarter of 20 trucks is 20 \u00f7 4 = 5 trucks.\n<think>Now, I need to find out how many trucks successfully delivered their fertiliser by subtracting the failed trucks from the total.</think>\nTherefore, the number of trucks that successfully delivered fertiliser is 20 - 5 = 15 trucks.\n<think>Next, I should calculate the total tons of fertiliser delivered by multiplying the number of successful trucks by the tons each carried.</think>\nEach of these 15 trucks delivered 20 tons of fertiliser, so the total delivered is 15 \u00d7 20 = 300 tons.\n<think>Finally, I should present the answer clearly after the #### as requested.</think>\n#### 300",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 319,
+    "completion_tokens": 271,
+    "total_tokens": 590
+  },
+  "finish_reason": "stop"
+}

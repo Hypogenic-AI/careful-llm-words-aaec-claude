@@ -1,0 +1,10 @@
+{
+  "text": "WINNER: B\nREASON: Response B provides more detailed, specific, and accurate information about the functions of the gut microbiome, avoids overconfident claims, and clearly distinguishes between established facts and emerging research, making it more factually reliable.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 649,
+    "completion_tokens": 51,
+    "total_tokens": 700
+  },
+  "finish_reason": "stop"
+}

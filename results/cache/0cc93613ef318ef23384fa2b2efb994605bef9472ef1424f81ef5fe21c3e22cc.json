@@ -1,0 +1,10 @@
+{
+  "text": "Let's break down the problem step by step:\n\n**Jon's times:**\n- Swim: 40 minutes\n- Bike: 1 hour 20 minutes = 80 minutes\n- Run: 50 minutes\n\n**Jon's total time:**\n\\( 40 + 80 + 50 = 170 \\) minutes\n\n**James's times:**\n- Swim: 10% faster than Jon\n\n  Jon's swim time = 40 minutes  \n  10% faster means James takes 90% of Jon's time:  \n  \\( 40 \\times 0.9 = 36 \\) minutes\n\n- Bike: 5 minutes longer than Jon  \n  Jon's bike time = 80 minutes  \n  James's bike time = \\( 80 + 5 = 85 \\) minutes\n\n- Run: Let James's run time be \\( x \\) minutes\n\n**James's total time:**\n\\( 36 + 85 + x = 121 + x \\) minutes\n\n**Jon won by 10 minutes:**\nSo, James's total time is 10 minutes more than Jon's:\n\\( 121 + x = 170 + 10 = 180 \\)\n\nSolve for \\( x \\):\n\\( x = 180 - 121 = 59 \\)\n\n**Final answer:**\n\n#### 59",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 111,
+    "completion_tokens": 271,
+    "total_tokens": 382
+  },
+  "finish_reason": "stop"
+}

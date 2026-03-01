@@ -1,0 +1,10 @@
+{
+  "text": "WINNER: A\nREASON: Response A provides a more thorough and accurate explanation of opportunity cost with multiple real-world examples, all of which are factually correct and avoid unsupported or overconfident claims. Response B is also accurate but less detailed and comprehensive.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 770,
+    "completion_tokens": 53,
+    "total_tokens": 823
+  },
+  "finish_reason": "stop"
+}

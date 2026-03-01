@@ -1,0 +1,10 @@
+{
+  "text": "<think>I should start by stating the main cause of antibiotics becoming less effective, which is bacterial resistance.</think>\nAntibiotics are becoming less effective over time mainly because bacteria are developing resistance to them.\n<think>Now I should explain what antibiotic resistance means in a simple and clear way.</think>\nAntibiotic resistance occurs when bacteria change in ways that make the drugs designed to kill them no longer effective.\n<think>I should give a reason why this resistance develops, such as overuse or misuse of antibiotics.</think>\nOne major factor driving this resistance is the overuse and misuse of antibiotics in humans and animals.\n<think>I should clarify that this includes both unnecessary prescriptions and not completing prescribed courses.</think>\nThis includes taking antibiotics when they are not needed, such as for viral infections, or not finishing a full course of treatment.\n<think>I should mention how these practices create an environment where resistant bacteria can thrive.</think>\nThese practices allow bacteria that can survive the antibiotics to multiply and spread.\n<think>I should conclude by noting the broader impact this has on treating infections.</think>\nAs a result, infections that were once easily treatable with antibiotics are becoming harder, and sometimes impossible, to cure.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 217,
+    "completion_tokens": 244,
+    "total_tokens": 461
+  },
+  "finish_reason": "stop"
+}

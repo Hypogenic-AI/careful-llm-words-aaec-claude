@@ -1,0 +1,10 @@
+{
+  "text": "Let's break down the problem step by step:\n\n1. **First day:**  \n   - Number of containers = 2  \n   - Vehicles per container = 5  \n   - Total vehicles on first day = 2 \u00d7 5 = 10\n\n2. **After the second day:**  \n   - Total vehicles at the port = 30\n\n3. **Vehicles added on the second day:**  \n   - Vehicles added = Total after second day - Total after first day  \n   - Vehicles added = 30 - 10 = 20\n\n4. **Number of containers imported on the second day:**  \n   - Each container has 5 vehicles  \n   - Number of containers = Vehicles added \u00f7 Vehicles per container  \n   - Number of containers = 20 \u00f7 5 = 4\n\nFinal answer:\n#### 4",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 111,
+    "completion_tokens": 169,
+    "total_tokens": 280
+  },
+  "finish_reason": "stop"
+}

@@ -1,0 +1,10 @@
+{
+  "text": "WINNER: A\nREASON: Response A is more coherent, logical, and well-structured, providing a clear explanation of inflation, its causes, measurement, and detailed effects on ordinary people, with smooth transitions and organized sections that enhance understanding.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 892,
+    "completion_tokens": 50,
+    "total_tokens": 942
+  },
+  "finish_reason": "stop"
+}

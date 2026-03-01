@@ -1,0 +1,10 @@
+{
+  "text": "<think>I should start by calculating how much milk the farmer currently gets from his 3 cows each day.</think>\nThe farmer currently gets 3 cows \u00d7 5 liters per cow = 15 liters of milk per day.\n<think>Next, I need to determine how much more milk is needed to reach 25 liters per day.</think>\nTo reach 25 liters per day, the farmer needs 25 - 15 = 10 more liters of milk each day.\n<think>Now, I should calculate how many additional cows are needed to produce these 10 extra liters, given each cow produces 5 liters per day.</think>\nSince each cow produces 5 liters per day, the farmer needs 10 \u00f7 5 = 2 more cows.\n<think>Finally, I should present the answer in the required format.</think>\n#### 2",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 255,
+    "completion_tokens": 176,
+    "total_tokens": 431
+  },
+  "finish_reason": "stop"
+}

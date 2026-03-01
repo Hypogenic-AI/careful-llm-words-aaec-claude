@@ -1,0 +1,10 @@
+{
+  "text": "WINNER: B\nREASON: Response B provides a more detailed and nuanced explanation, clearly distinguishing between positive and negative consequences, and avoids overgeneralizations or unsupported claims by offering specific examples and context for each point.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 948,
+    "completion_tokens": 44,
+    "total_tokens": 992
+  },
+  "finish_reason": "stop"
+}

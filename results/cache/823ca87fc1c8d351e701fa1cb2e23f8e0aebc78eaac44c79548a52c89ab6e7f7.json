@@ -1,0 +1,10 @@
+{
+  "text": "The criminal justice system balances punishment and rehabilitation by incorporating both goals into its processes and sentencing options.\n\n**Punishment** serves to hold offenders accountable, deter crime, and provide justice for victims and society. This is often reflected in prison sentences, fines, and other forms of retribution.\n\n**Rehabilitation** aims to address the underlying causes of criminal behavior and help offenders become law-abiding citizens. This is achieved through programs such as education, counseling, substance abuse treatment, and vocational training\u2014either within prisons or as alternatives to incarceration (like probation or community service).\n\n**Balancing the two:**  \n- Judges often have discretion to consider both punishment and rehabilitation when sentencing, guided by laws and sentencing guidelines.\n- Some offenses, especially non-violent or first-time crimes, may receive lighter sentences with a greater emphasis on rehabilitation.\n- For more serious or repeat offenses, punishment tends to be prioritized, but rehabilitation may still be offered to reduce recidivism.\n- Parole and probation systems often combine supervision (punitive/control aspects) with requirements to participate in rehabilitative programs.\n\nIn summary, the criminal justice system seeks to protect society and reduce future crime by using punishment to deter and incapacitate, while also offering rehabilitation to help offenders change their behavior. The balance struck depends on the crime, the offender, and societal priorities.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 36,
+    "completion_tokens": 266,
+    "total_tokens": 302
+  },
+  "finish_reason": "stop"
+}

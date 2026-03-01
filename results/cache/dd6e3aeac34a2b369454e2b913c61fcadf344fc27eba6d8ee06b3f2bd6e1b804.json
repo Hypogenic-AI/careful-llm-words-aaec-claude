@@ -1,0 +1,10 @@
+{
+  "text": "WINNER: B\nREASON: Response B provides more detailed explanations, includes additional accurate points such as drug and toxin processing, and avoids overconfident or unsupported claims by specifying associations rather than causation, making it more factually accurate and balanced.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 954,
+    "completion_tokens": 51,
+    "total_tokens": 1005
+  },
+  "finish_reason": "stop"
+}

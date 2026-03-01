@@ -1,0 +1,10 @@
+{
+  "text": "Thea gave the craftsman four $20 bills, which totals $80 ($20 \u00d7 4 = $80).\n\nThe hat costs $70.\n\nSo, the change she should receive is $80 - $70 = $10.\n\n#### 10",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 70,
+    "completion_tokens": 50,
+    "total_tokens": 120
+  },
+  "finish_reason": "stop"
+}

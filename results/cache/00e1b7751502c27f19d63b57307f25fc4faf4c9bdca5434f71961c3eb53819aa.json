@@ -1,0 +1,10 @@
+{
+  "text": "Let's break down the problem step by step:\n\n1. **Total money Andrea had at the beginning:**  \n   $36\n\n2. **What did Andrea do with her money?**  \n   - She saved some amount (let's call this amount \\( x \\)).\n   - She spent $11 on a sweater.\n   - She gave $4 to her brother.\n\n3. **How much did she spend (excluding the saved amount)?**  \n   $11 (sweater) + $4 (brother) = $15\n\n4. **How much money was left after spending and giving away?**  \n   This leftover is the amount she saved.\n\n5. **Equation:**  \n   Total money = Amount saved + Amount spent  \n   \\( 36 = x + 15 \\)\n\n6. **Solve for \\( x \\):**  \n   \\( x = 36 - 15 \\)  \n   \\( x = 21 \\)\n\n#### 21",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 80,
+    "completion_tokens": 195,
+    "total_tokens": 275
+  },
+  "finish_reason": "stop"
+}

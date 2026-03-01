@@ -1,0 +1,10 @@
+{
+  "text": "WINNER: B\nREASON: Response B is more comprehensive, provides clearer attributions to key proponents, and consistently frames theories as perspectives rather than established facts, thus better avoiding unsupported or overconfident claims.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 1475,
+    "completion_tokens": 43,
+    "total_tokens": 1518
+  },
+  "finish_reason": "stop"
+}

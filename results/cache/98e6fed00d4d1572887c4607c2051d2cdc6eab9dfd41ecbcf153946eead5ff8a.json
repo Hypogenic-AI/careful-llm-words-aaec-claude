@@ -1,0 +1,10 @@
+{
+  "text": "Languages evolve primarily through gradual changes in pronunciation, vocabulary, and grammar over time. These changes happen due to several factors:\n\n1. **Social Interaction:** When speakers of different dialects or languages interact (through trade, migration, conquest, or cultural exchange), they borrow words and linguistic structures from each other.\n2. **Isolation:** Groups that become geographically or socially isolated develop unique linguistic features, leading to new dialects or languages.\n3. **Innovation and Simplification:** Speakers may create new words, simplify complex rules, or regularize irregularities in the language.\n4. **Cultural and Technological Change:** New inventions and ideas require new vocabulary, which can reshape a language.\n5. **Generation Transmission:** As children learn and sometimes modify the language of their parents, small changes accumulate over generations.\n\nLanguages die out (become extinct) for several main reasons:\n\n1. **Language Shift:** Speakers abandon their native language in favor of a more dominant one, often for economic, social, or political reasons.\n2. **Small Speaker Population:** If a language is spoken by only a few people, it is vulnerable if those speakers die or switch languages.\n3. **Suppression:** Sometimes, governments or dominant groups actively suppress minority languages (e.g., banning use in schools or public life).\n4. **Lack of Intergenerational Transmission:** If children stop learning the language at home, it cannot be passed on to future generations.\n\nIn summary, languages evolve naturally through social, cultural, and generational change, while they die out when they are no longer transmitted or used by communities.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 36,
+    "completion_tokens": 320,
+    "total_tokens": 356
+  },
+  "finish_reason": "stop"
+}

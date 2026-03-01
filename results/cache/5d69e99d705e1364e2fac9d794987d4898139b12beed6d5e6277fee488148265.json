@@ -1,0 +1,10 @@
+{
+  "text": "<think>I should start by explaining the basic genetic relationship between an individual and their parents.</think>\nA person inherits half of their genetic material from their mother and half from their father. \n<think>Now I should address the genetic relationship between siblings, considering they have the same parents but independent assortment can change the outcome.</think>\nFull siblings also share about half of their genetic material on average, due to inheriting different combinations of their parents' genes.\n<think>I should clarify that, on average, the proportion of shared genes is roughly equal between siblings and between parent and child.</think>\nTherefore, a person shares approximately 50% of their genes with each parent and with each full sibling.\n<think>It's helpful to note that the exact percentage can vary slightly due to the random nature of genetic inheritance, but the average is the same.</think>\nThe actual percentage can vary a little between siblings, but the average remains about 50% in both cases.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 218,
+    "completion_tokens": 195,
+    "total_tokens": 413
+  },
+  "finish_reason": "stop"
+}

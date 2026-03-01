@@ -1,0 +1,10 @@
+{
+  "text": "A tabloid made by folding sheets of paper in half will have 4 pages per sheet (2 on the front, 2 on the back).\n\nTo find the number of sheets needed for a 32-page tabloid:\n\nNumber of sheets = Total pages / Pages per sheet  \nNumber of sheets = 32 / 4  \nNumber of sheets = 8\n\n#### 8",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 118,
+    "completion_tokens": 76,
+    "total_tokens": 194
+  },
+  "finish_reason": "stop"
+}

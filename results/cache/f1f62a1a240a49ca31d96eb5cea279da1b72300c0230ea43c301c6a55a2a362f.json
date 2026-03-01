@@ -1,0 +1,10 @@
+{
+  "text": "WINNER: A\nREASON: Response A is more coherent, logical, and well-structured, providing a clear, step-by-step explanation of the various ways climate change affects ocean ecosystems, with smooth transitions and thorough coverage of key impacts.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 769,
+    "completion_tokens": 49,
+    "total_tokens": 818
+  },
+  "finish_reason": "stop"
+}

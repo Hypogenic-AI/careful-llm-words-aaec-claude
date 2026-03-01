@@ -1,0 +1,10 @@
+{
+  "text": "Let\u2019s break down the costs:\n\n- Cost of a foot-long fish sub = $40\n- Cost of a six-inch cold-cut combo sub = 3 \u00d7 $40 = $120\n\nTotal cost = $40 + $120 = $160\n\n#### $160",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 69,
+    "completion_tokens": 54,
+    "total_tokens": 123
+  },
+  "finish_reason": "stop"
+}

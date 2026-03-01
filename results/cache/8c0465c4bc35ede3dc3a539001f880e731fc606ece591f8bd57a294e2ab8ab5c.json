@@ -1,0 +1,10 @@
+{
+  "text": "Currently, **no machine can accurately and reliably tell if someone is lying**. The most well-known device is the **polygraph** (lie detector), which measures physiological responses like heart rate, blood pressure, respiration, and skin conductivity. However, polygraphs are **not scientifically proven to detect lies**\u2014they only detect stress or physiological changes, which are not exclusive to lying.\n\nOther technologies, such as **brain imaging (fMRI)** and **voice stress analysis**, are being researched, but **none have been proven to be consistently accurate or reliable for lie detection**. As of now, **no machine is considered 100% accurate for lie detection**, and such results are often inadmissible in court due to their unreliability.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 35,
+    "completion_tokens": 150,
+    "total_tokens": 185
+  },
+  "finish_reason": "stop"
+}

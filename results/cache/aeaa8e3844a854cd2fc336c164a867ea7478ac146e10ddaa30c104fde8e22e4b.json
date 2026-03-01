@@ -1,0 +1,10 @@
+{
+  "text": "WINNER: A\nREASON: Response A is more coherent, logical, and well-structured, providing a clear step-by-step explanation with organized sections, smooth transitions, and a comprehensive overview of how the criminal justice system balances punishment and rehabilitation.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 934,
+    "completion_tokens": 50,
+    "total_tokens": 984
+  },
+  "finish_reason": "stop"
+}

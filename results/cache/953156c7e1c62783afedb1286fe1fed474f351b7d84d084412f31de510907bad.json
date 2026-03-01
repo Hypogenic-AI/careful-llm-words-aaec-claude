@@ -1,0 +1,10 @@
+{
+  "text": "WINNER: B\nREASON: Response B provides more depth and nuance by breaking down the specific functions of the gut microbiome, offering detailed examples, and connecting these functions to a broader range of health outcomes. It also gives more insight into the mechanisms involved and supports its claims with clear explanations.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 651,
+    "completion_tokens": 60,
+    "total_tokens": 711
+  },
+  "finish_reason": "stop"
+}

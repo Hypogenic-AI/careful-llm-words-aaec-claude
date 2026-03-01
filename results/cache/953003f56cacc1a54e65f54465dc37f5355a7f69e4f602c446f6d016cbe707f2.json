@@ -1,0 +1,10 @@
+{
+  "text": "WINNER: B\nREASON: Response B provides more depth and nuance by breaking down the formation process step by step, discussing alternative formation scenarios, and offering perspectives from both outside and inside the event horizon, resulting in a more comprehensive and insightful analysis.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 850,
+    "completion_tokens": 51,
+    "total_tokens": 901
+  },
+  "finish_reason": "stop"
+}

@@ -1,0 +1,10 @@
+{
+  "text": "Climate change affects ocean ecosystems in several significant ways:\n\n1. **Rising Sea Temperatures:** Warmer ocean water stresses marine species, leading to coral bleaching, disrupted fish migration patterns, and altered breeding cycles.\n\n2. **Ocean Acidification:** Increased carbon dioxide (CO\u2082) in the atmosphere dissolves in seawater, making it more acidic. This harms organisms with calcium carbonate shells or skeletons, such as corals, mollusks, and some plankton.\n\n3. **Sea Level Rise:** Melting glaciers and thermal expansion cause sea levels to rise, which can flood coastal habitats like mangroves and salt marshes, disrupting breeding and feeding grounds.\n\n4. **Decreased Oxygen Levels:** Warmer water holds less oxygen, leading to \"dead zones\" where many marine species cannot survive.\n\n5. **Changes in Ocean Currents:** Altered temperature and salinity patterns can disrupt ocean currents, affecting nutrient distribution and the migration of marine life.\n\n6. **Loss of Biodiversity:** These changes can lead to population declines or extinctions, reducing the biodiversity and resilience of ocean ecosystems.\n\nIn summary, climate change disrupts the physical and chemical environment of the oceans, threatening the health and stability of marine ecosystems worldwide.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 33,
+    "completion_tokens": 248,
+    "total_tokens": 281
+  },
+  "finish_reason": "stop"
+}

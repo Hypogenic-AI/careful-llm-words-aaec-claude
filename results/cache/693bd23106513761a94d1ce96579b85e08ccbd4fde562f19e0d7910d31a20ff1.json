@@ -1,0 +1,10 @@
+{
+  "text": "The invention of the light bulb was a gradual process with contributions from several inventors. However, Thomas Edison is most famously credited with inventing the first practical and long-lasting incandescent light bulb in 1879. Earlier, inventors like Sir Humphry Davy, Warren de la Rue, and Joseph Swan developed earlier versions of electric light, but Edison's design was the first to be commercially viable. Notably, Joseph Swan independently developed a similar bulb around the same time, and he and Edison later merged their efforts.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 31,
+    "completion_tokens": 105,
+    "total_tokens": 136
+  },
+  "finish_reason": "stop"
+}

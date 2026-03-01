@@ -1,0 +1,10 @@
+{
+  "text": "First, let's find out how much energy Mel saves per day:\n\n- He reduces usage by 5 hours per day.\n- The air conditioner uses 900 watts (0.9 kilowatts).\n\nEnergy saved per day = Power \u00d7 Time  \n= 0.9 kW \u00d7 5 hours  \n= 4.5 kWh per day\n\nNow, over 30 days:\n\nTotal energy saved = 4.5 kWh/day \u00d7 30 days  \n= 135 kWh\n\n#### 135",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 96,
+    "completion_tokens": 103,
+    "total_tokens": 199
+  },
+  "finish_reason": "stop"
+}

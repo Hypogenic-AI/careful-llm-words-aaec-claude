@@ -1,0 +1,10 @@
+{
+  "text": "<think>I should start by clarifying the total distance Andy drives per week for his commute.</think>\nAndy drives from home to work and back each day, so his daily round-trip distance is 10 miles.\n<think>Now, I need to calculate the total weekly distance by multiplying the daily distance by the number of workdays.</think>\nSince he works Monday to Friday, he commutes 5 days a week, so his total weekly distance is 10 miles/day \u00d7 5 days = 50 miles.\n<think>Next, I should determine how many gallons of gas Andy uses for 50 miles, given his car's fuel efficiency.</think>\nWith a fuel efficiency of 10 MPG, Andy uses 50 miles \u00f7 10 MPG = 5 gallons per week.\n<think>Now, I need to calculate the total weekly fuel cost by multiplying the gallons used by the price per gallon.</think>\nAt $3 per gallon, Andy spends 5 gallons \u00d7 $3/gallon = $15 per week on gas.\n<think>I should now present the final answer clearly after the #### as requested.</think>\n#### $15",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 282,
+    "completion_tokens": 232,
+    "total_tokens": 514
+  },
+  "finish_reason": "stop"
+}

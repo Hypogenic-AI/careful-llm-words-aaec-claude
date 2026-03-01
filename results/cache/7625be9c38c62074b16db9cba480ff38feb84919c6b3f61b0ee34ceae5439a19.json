@@ -1,0 +1,10 @@
+{
+  "text": "Americans drink more coffee than people in many other countries, but specifically, the United States ranks among the top coffee-consuming nations by total volume. However, when looking at **per capita** (per person) coffee consumption, Americans drink more coffee than people in countries such as:\n\n- The United Kingdom\n- China\n- India\n- Japan\n- Most countries in Asia and Africa\n- Many countries in southern Europe (like Spain and Italy, though these have high coffee culture, the per capita consumption is still lower than in the U.S.)\n- Most Latin American countries except for Brazil\n\nIt\u2019s important to note that while Americans consume a lot of coffee overall, **per capita** consumption is higher in some northern European countries, such as Finland, Norway, Sweden, and the Netherlands. But compared to most countries in the world, particularly in Asia, Africa, and non-coffee-focused cultures, Americans drink more coffee.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 37,
+    "completion_tokens": 186,
+    "total_tokens": 223
+  },
+  "finish_reason": "stop"
+}

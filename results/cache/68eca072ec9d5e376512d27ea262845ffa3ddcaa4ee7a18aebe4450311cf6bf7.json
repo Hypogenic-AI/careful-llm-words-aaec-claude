@@ -1,0 +1,10 @@
+{
+  "text": "Let's break down the problem step by step:\n\n**Step 1: Initial amount of water**  \nAt one point in time, the amount of water passing through the river is **4000 gallons**.\n\n**Step 2: After a day of heavy rain**  \nThe amount of water doubles.  \nSo, after the first day:  \n\\( 4000 \\times 2 = 8000 \\) gallons\n\n**Step 3: On the third day**  \nThe volume increases by **6000 gallons**.  \nSo, after the third day:  \n\\( 8000 + 6000 = 14000 \\) gallons\n\n**Final Answer:**  \n#### 14000 gallons",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 116,
+    "completion_tokens": 141,
+    "total_tokens": 257
+  },
+  "finish_reason": "stop"
+}

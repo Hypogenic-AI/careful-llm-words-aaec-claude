@@ -1,0 +1,10 @@
+{
+  "text": "WINNER: A  \nREASON: Response A provides a more detailed and nuanced analysis by listing specific factors for both the rise and fall of empires, offering clear examples and explanations, whereas Response B remains more general and less comprehensive.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 714,
+    "completion_tokens": 47,
+    "total_tokens": 761
+  },
+  "finish_reason": "stop"
+}

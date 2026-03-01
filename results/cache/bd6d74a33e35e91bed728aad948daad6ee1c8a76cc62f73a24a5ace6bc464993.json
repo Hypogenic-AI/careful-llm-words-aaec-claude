@@ -1,0 +1,10 @@
+{
+  "text": "The tune of \"Twinkle, Twinkle, Little Star\" is based on the French melody \"Ah! vous dirai-je, maman,\" which was first published in 1761. The composer of the melody is unknown.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 40,
+    "completion_tokens": 46,
+    "total_tokens": 86
+  },
+  "finish_reason": "stop"
+}

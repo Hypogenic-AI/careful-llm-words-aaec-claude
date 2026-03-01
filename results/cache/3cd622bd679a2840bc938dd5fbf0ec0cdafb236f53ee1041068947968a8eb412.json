@@ -1,0 +1,10 @@
+{
+  "text": "Let's break down the problem step by step:\n\n### 1. **Calculate the total amount Stephen owes including interest**\n\n- Principal borrowed = $300\n- Interest rate = 2% of $300 = \\( 0.02 \\times 300 = \\$6 \\)\n- Total amount to be repaid = $300 + $6 = **$306**\n\n---\n\n### 2. **Calculate the total amount paid in the first 11 months**\n\n- Monthly payment for 11 months = $25 per month\n- Total paid in 11 months = \\( 11 \\times 25 = \\$275 \\)\n\n---\n\n### 3. **Calculate the remaining amount to be paid in the twelfth month**\n\n- Total amount owed = $306\n- Amount already paid = $275\n- Remaining amount = $306 - $275 = **$31**\n\n---\n\n### 4. **Final Answer**\n\n#### $31",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 105,
+    "completion_tokens": 185,
+    "total_tokens": 290
+  },
+  "finish_reason": "stop"
+}

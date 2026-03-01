@@ -1,0 +1,10 @@
+{
+  "text": "Let's break down the problem step by step:\n\n1. **Let the number of blue gumballs be:**  \n   \\( b = 12 \\)\n\n2. **The number of pink gumballs is described as:**  \n   \"22 more than four times the number of blue gumballs.\"\n\n   In mathematical terms:  \n   \\( \\text{pink gumballs} = 4 \\times b + 22 \\)\n\n3. **Substitute the value of \\( b \\):**  \n   \\( \\text{pink gumballs} = 4 \\times 12 + 22 \\)\n\n4. **Calculate \\( 4 \\times 12 \\):**  \n   \\( 4 \\times 12 = 48 \\)\n\n5. **Add 22 to 48:**  \n   \\( 48 + 22 = 70 \\)\n\nSo, the number of pink gumballs is\n\n#### 70",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 83,
+    "completion_tokens": 189,
+    "total_tokens": 272
+  },
+  "finish_reason": "stop"
+}

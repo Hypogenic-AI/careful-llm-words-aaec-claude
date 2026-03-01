@@ -1,0 +1,10 @@
+{
+  "text": "<think>I should start by calculating the calories from the eggs, since there are 6 eggs at 75 calories each.</think>\nThe calories from the eggs are 6 x 75 = 450 calories.\n<think>Next, I need to calculate the calories from the cheese, which is 2 ounces at 120 calories per ounce.</think>\nThe calories from the cheese are 2 x 120 = 240 calories.\n<think>Now, I should calculate the calories from the ham, which is also 2 ounces at 40 calories per ounce.</think>\nThe calories from the ham are 2 x 40 = 80 calories.\n<think>Now I need to sum the calories from eggs, cheese, and ham to get the total calories in the omelet.</think>\nThe total calories in the omelet are 450 + 240 + 80 = 770 calories.\n<think>I should now present the final answer after the #### as requested.</think>\n#### 770",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 272,
+    "completion_tokens": 203,
+    "total_tokens": 475
+  },
+  "finish_reason": "stop"
+}

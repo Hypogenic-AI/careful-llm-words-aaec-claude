@@ -1,0 +1,10 @@
+{
+  "text": "Greek and Roman statues were originally painted in bright, vivid colors\u2014a practice known as **polychromy**. The white marble appearance we often associate with these statues today is due to the paint wearing away over centuries. In their own time, statues featured a range of colors for skin, hair, clothing, and details, making them look much more lifelike and decorative than the bare stone we see now.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 39,
+    "completion_tokens": 81,
+    "total_tokens": 120
+  },
+  "finish_reason": "stop"
+}

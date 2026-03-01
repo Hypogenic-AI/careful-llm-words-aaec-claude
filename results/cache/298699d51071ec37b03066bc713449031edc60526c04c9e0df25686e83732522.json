@@ -1,0 +1,10 @@
+{
+  "text": "Let's define the variables:\n\n- Let \\( x \\) be the number of apples Joanne gathers from the average trees.\n\nFrom the problem:\n\n- Joanne gathers **30 apples from the tallest trees**.\n- Joanne gathers **half this amount from the shortest trees**: \\( 30/2 = 15 \\) apples.\n- Joanne gathers **x apples from the average trees**.\n\nHer sister:\n\n- Gathers **twice as many apples from the tallest trees**: \\( 2 \\times 30 = 60 \\) apples.\n- Gathers **3 times as many apples from the shortest trees**: \\( 3 \\times 15 = 45 \\) apples.\n- **None from the average trees**.\n\nTotal apples gathered by both:\n\n\\[\n\\text{Joanne: } 30 \\text{ (tallest)} + 15 \\text{ (shortest)} + x \\text{ (average)} = 45 + x\n\\]\n\\[\n\\text{Sister: } 60 \\text{ (tallest)} + 45 \\text{ (shortest)} + 0 = 105\n\\]\n\nCombined total:\n\n\\[\n(45 + x) + 105 = 500\n\\]\n\\[\n150 + x = 500\n\\]\n\\[\nx = 500 - 150 = 350\n\\]\n\n#### 350",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 138,
+    "completion_tokens": 283,
+    "total_tokens": 421
+  },
+  "finish_reason": "stop"
+}

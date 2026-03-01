@@ -1,0 +1,10 @@
+{
+  "text": "**Main Causes of Urbanization:**\n\n1. **Industrialization:** Growth of industries in cities creates jobs, attracting people from rural areas.\n2. **Employment Opportunities:** Urban areas typically offer more and diverse job prospects.\n3. **Better Services:** Access to improved healthcare, education, transportation, and social services draws people to cities.\n4. **Rural-Urban Migration:** People move from rural to urban areas in search of better living standards and opportunities.\n5. **Population Growth:** Natural increase (birth rate exceeding death rate) in cities also contributes to urban growth.\n6. **Modernization:** Advancement in infrastructure and lifestyle makes urban living more appealing.\n\n**Main Consequences of Urbanization:**\n\n1. **Economic Growth:** Urbanization can boost economic development and innovation.\n2. **Overcrowding:** Rapid urban growth may lead to congested cities and increased demand for housing.\n3. **Pressure on Infrastructure:** Strain on transportation, sanitation, water supply, and other public utilities.\n4. **Environmental Impact:** Increased pollution, loss of green spaces, and greater waste generation.\n5. **Social Challenges:** Rise in slums, inequality, and sometimes higher crime rates.\n6. **Cultural Changes:** Greater diversity, but also potential loss of traditional cultures and social cohesion.\n\nIn summary, urbanization is primarily driven by the search for better economic and social opportunities, but it also brings significant challenges related to infrastructure, environment, and social dynamics.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 35,
+    "completion_tokens": 293,
+    "total_tokens": 328
+  },
+  "finish_reason": "stop"
+}

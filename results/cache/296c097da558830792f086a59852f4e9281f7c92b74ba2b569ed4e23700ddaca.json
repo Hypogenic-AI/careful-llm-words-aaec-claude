@@ -1,0 +1,10 @@
+{
+  "text": "<think>I should begin by providing a general overview of the topic, indicating that social media can have a range of psychological effects on teenagers.</think>\nSocial media use can have both positive and negative psychological effects on teenagers. \n<think>Now I should mention some positive aspects, starting with how social media can foster social connections.</think>\nOn the positive side, social media can help teenagers connect with peers, find social support, and express themselves creatively. \n<think>I should now transition to potential negative effects, beginning with issues like anxiety or depression.</think>\nHowever, excessive use or negative interactions on social media have been linked to increased levels of anxiety, depression, and low self-esteem in some teenagers. \n<think>It's important to specify particular mechanisms, such as social comparison, that can contribute to these effects.</think>\nSocial comparison, cyberbullying, and the pressure to present a curated online image are common contributors to these negative outcomes. \n<think>I should also note that the impact varies depending on individual and contextual factors.</think>\nThe psychological effects of social media can vary widely depending on factors such as personality, social environment, and how the platforms are used. \n<think>Finally, I should conclude by emphasizing the importance of mindful and balanced social media use for teenagers.</think>\nEncouraging mindful and balanced social media habits may help teenagers benefit from the positive aspects while minimizing potential harms.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 218,
+    "completion_tokens": 284,
+    "total_tokens": 502
+  },
+  "finish_reason": "stop"
+}

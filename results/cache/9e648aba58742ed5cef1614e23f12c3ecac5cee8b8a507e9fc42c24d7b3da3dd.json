@@ -1,0 +1,10 @@
+{
+  "text": "Let the number of silver coins be \\( x \\).\n\nGiven:\n- Number of gold coins = \\( x + 30 \\)\n- Number of gold coins = 70\n\nSo,\n\\[\nx + 30 = 70\n\\]\n\\[\nx = 70 - 30 = 40\n\\]\n\nTotal number of coins = gold coins + silver coins = \\( 70 + 40 = 110 \\)\n\n#### 110",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 69,
+    "completion_tokens": 89,
+    "total_tokens": 158
+  },
+  "finish_reason": "stop"
+}

@@ -1,0 +1,10 @@
+{
+  "text": "Let's break down the problem step by step:\n\n**Step 1: Stories written in the first week**\n- Alani: 20 stories\n- Braylen: 40 stories\n- Margot: 60 stories\n\n**Step 2: Stories written in the second week**\nEach child doubled the number of stories they wrote in the first week.\n\n- Alani: 2 \u00d7 20 = 40 stories\n- Braylen: 2 \u00d7 40 = 80 stories\n- Margot: 2 \u00d7 60 = 120 stories\n\n**Step 3: Total stories written by each child**\n- Alani: 20 (week 1) + 40 (week 2) = 60 stories\n- Braylen: 40 (week 1) + 80 (week 2) = 120 stories\n- Margot: 60 (week 1) + 120 (week 2) = 180 stories\n\n**Step 4: Total stories written by all three children**\nTotal = 60 (Alani) + 120 (Braylen) + 180 (Margot)  \nTotal = 60 + 120 + 180  \nTotal = 360\n\n#### 360",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 135,
+    "completion_tokens": 253,
+    "total_tokens": 388
+  },
+  "finish_reason": "stop"
+}

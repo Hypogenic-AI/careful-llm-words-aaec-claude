@@ -1,0 +1,10 @@
+{
+  "text": "Yes, all women are women. The term \"woman\" refers to an adult human female, and anyone who identifies as a woman is recognized as such. This includes both cisgender women (those whose gender identity matches the sex they were assigned at birth) and transgender women (those who were assigned male at birth but identify and live as women). In short, anyone who is a woman\u2014by identity and/or biology\u2014is a woman.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 30,
+    "completion_tokens": 87,
+    "total_tokens": 117
+  },
+  "finish_reason": "stop"
+}

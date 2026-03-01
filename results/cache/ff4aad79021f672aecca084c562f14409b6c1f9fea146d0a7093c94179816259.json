@@ -1,0 +1,10 @@
+{
+  "text": "On the first day:  \n2 containers \u00d7 5 vehicles = 10 vehicles\n\nTotal vehicles after the second day = 30\n\nVehicles brought in on the second day = 30 - 10 = 20\n\nNumber of containers on the second day = 20 \u00f7 5 = 4\n\n#### 4",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 105,
+    "completion_tokens": 65,
+    "total_tokens": 170
+  },
+  "finish_reason": "stop"
+}

@@ -1,0 +1,10 @@
+{
+  "text": "Some countries are wealthier than others due to a combination of historical, geographic, institutional, and economic factors. Key reasons include:\n\n1. **Historical Factors**: Colonialism, wars, and the timing of industrialization have shaped countries\u2019 development paths, often benefiting some while disadvantaging others.\n\n2. **Geography and Resources**: Countries with favorable climates, fertile land, access to waterways, and abundant natural resources often have economic advantages.\n\n3. **Institutions and Governance**: Strong legal systems, property rights, stable governments, and effective policies support economic growth, while corruption and weak institutions hinder it.\n\n4. **Education and Human Capital**: Countries that invest in education and health tend to have more productive workforces, driving innovation and higher incomes.\n\n5. **Trade and Connectivity**: Economies that are open to trade and connected to global markets often grow faster and become wealthier.\n\n6. **Technology and Innovation**: Access to and development of technology increase productivity and economic output.\n\nThese factors interact in complex ways, leading to significant differences in wealth between countries.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 35,
+    "completion_tokens": 218,
+    "total_tokens": 253
+  },
+  "finish_reason": "stop"
+}

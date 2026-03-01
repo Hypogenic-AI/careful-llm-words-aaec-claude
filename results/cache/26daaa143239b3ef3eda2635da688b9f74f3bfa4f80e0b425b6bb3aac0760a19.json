@@ -1,0 +1,10 @@
+{
+  "text": "<think>I should start by explaining the total cost and the per-class cost relationship.</think>\nManny paid $60 for the Karate classes, regardless of how many he attends.\n<think>Now, I should define the per-class cost formula based on the number of classes attended.</think>\nIf he attends \\( n \\) classes, the cost per class is \\( \\frac{60}{n} \\).\n<think>I need to state the condition given by his parents about the per-class cost.</think>\nHis parents require that the cost per class must not exceed $10.\n<think>Now, I should set up the inequality to solve for the minimum number of classes he must attend.</think>\nSo, we need \\( \\frac{60}{n} \\leq 10 \\).\n<think>I should solve this inequality for \\( n \\).</think>\nMultiplying both sides by \\( n \\) gives \\( 60 \\leq 10n \\).\n<think>Now, I should isolate \\( n \\) to find the minimum number of classes he must attend.</think>\nDividing both sides by 10, we get \\( 6 \\leq n \\).\n<think>I should relate this back to the total number of classes and the number he can miss.</think>\nSince there are 10 classes in total, Manny must attend at least 6 classes.\n<think>Now, I should calculate how many classes he can miss.</think>\nTherefore, he can miss up to \\( 10 - 6 = 4 \\) classes.\n<think>I should present the final answer clearly as requested.</think>\n#### 4",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 273,
+    "completion_tokens": 334,
+    "total_tokens": 607
+  },
+  "finish_reason": "stop"
+}

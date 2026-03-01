@@ -1,0 +1,10 @@
+{
+  "text": "WINNER: B\nREASON: Both responses are factually accurate and avoid unsupported claims, but Response B provides more detailed explanations, clarifies why the sky is not violet, and includes a summary table, making it more thorough and precise without overconfidence.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 750,
+    "completion_tokens": 52,
+    "total_tokens": 802
+  },
+  "finish_reason": "stop"
+}

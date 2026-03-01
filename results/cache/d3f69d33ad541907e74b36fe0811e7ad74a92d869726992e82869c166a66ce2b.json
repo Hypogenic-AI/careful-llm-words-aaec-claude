@@ -1,0 +1,10 @@
+{
+  "text": "Let's break down the problem step by step:\n\n### 1. Calculate the total miles driven per day\n- Distance to work: 30 miles\n- Distance back home: 30 miles\n- Total per day: \\( 30 + 30 = 60 \\) miles\n\n### 2. Calculate the total miles driven per week\n- Days per week: 5\n- Total per week: \\( 60 \\times 5 = 300 \\) miles\n\n### 3. Calculate the total miles driven per year\n- Weeks per year: 50\n- Total per year: \\( 300 \\times 50 = 15,000 \\) miles\n\n### 4. Calculate the cost per year for mileage\n- Cost per mile: $2\n- Total mileage cost: \\( 15,000 \\times 2 = \\$30,000 \\)\n\n### 5. Calculate the total bonus per year\n- Bonus per month: $150\n- Months per year: 12\n- Total bonus: \\( 150 \\times 12 = \\$1,800 \\)\n\n### 6. Add the mileage cost and the bonus\n- Total yearly cost: \\( \\$30,000 + \\$1,800 = \\$31,800 \\)\n\n---\n\n#### Final Answer:\n#### $31,800",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 121,
+    "completion_tokens": 267,
+    "total_tokens": 388
+  },
+  "finish_reason": "stop"
+}

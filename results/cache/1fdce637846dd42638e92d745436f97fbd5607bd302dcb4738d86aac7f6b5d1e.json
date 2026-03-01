@@ -1,0 +1,10 @@
+{
+  "text": "Let's break down the problem step by step:\n\n1. **Let\u2019s define the variables:**\n   - Let Carl have \\( C \\) marbles.\n   - Let Sean have \\( S \\) marbles.\n   - Let Cal have \\( K \\) marbles.\n\n2. **Given information:**\n   - Sean has 56 marbles: \\( S = 56 \\)\n   - Carl has four times as many marbles as Sean: \\( C = 4S \\)\n   - Sean has half as many marbles as Cal: \\( S = \\frac{1}{2}K \\)\n\n3. **Find Carl's marbles:**\n   \\[\n   C = 4S = 4 \\times 56 = 224\n   \\]\n\n4. **Find Cal's marbles:**\n   \\[\n   S = \\frac{1}{2}K \\implies K = 2S = 2 \\times 56 = 112\n   \\]\n\n5. **Find the combined total for Carl and Cal:**\n   \\[\n   C + K = 224 + 112 = 336\n   \\]\n\n#### 336",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 79,
+    "completion_tokens": 239,
+    "total_tokens": 318
+  },
+  "finish_reason": "stop"
+}

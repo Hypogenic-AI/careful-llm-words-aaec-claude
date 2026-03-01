@@ -1,0 +1,10 @@
+{
+  "text": "Let's break down the problem step by step:\n\n1. **Total bread rolls made:**  \n   Mrs. Sherman made a dozen bread rolls.  \n   1 dozen = 12 rolls.\n\n2. **Bread rolls given to children:**  \n   She has 6 children, and each gets 1 roll.  \n   Rolls given to children = 6.\n\n3. **Bread rolls remaining:**  \n   Rolls remaining = Total rolls - Rolls given to children  \n   Rolls remaining = 12 - 6 = 6 rolls.\n\n4. **Each remaining roll is broken into 8 pieces:**  \n   Number of pieces per roll = 8  \n   Total pieces = Number of remaining rolls \u00d7 Pieces per roll  \n   Total pieces = 6 \u00d7 8 = 48 pieces.\n\n**Final answer:**\n\n#### 48",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 90,
+    "completion_tokens": 165,
+    "total_tokens": 255
+  },
+  "finish_reason": "stop"
+}

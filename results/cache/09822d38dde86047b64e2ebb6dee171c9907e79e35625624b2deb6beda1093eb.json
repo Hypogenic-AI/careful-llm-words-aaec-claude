@@ -1,0 +1,10 @@
+{
+  "text": "His last name is Gates. The person you're describing is Bill Gates.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 51,
+    "completion_tokens": 14,
+    "total_tokens": 65
+  },
+  "finish_reason": "stop"
+}

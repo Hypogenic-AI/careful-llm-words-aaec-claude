@@ -1,0 +1,10 @@
+{
+  "text": "In California, parents are allowed to use \"reasonable\" physical discipline, such as spanking, but only if it is not excessive or abusive. The law prohibits child abuse, which includes any physical punishment that causes injury, is cruel, or is considered excessive. Actions that leave marks, bruises, or cause harm may be considered child abuse and are illegal.\n\nIn summary:  \n**Mild, reasonable physical discipline is not illegal, but any physical punishment that is excessive, cruel, injurious, or leaves marks is against the law.** California law prioritizes the safety and well-being of children, and suspected abuse can be investigated by authorities.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 35,
+    "completion_tokens": 129,
+    "total_tokens": 164
+  },
+  "finish_reason": "stop"
+}

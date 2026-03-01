@@ -1,0 +1,10 @@
+{
+  "text": "<think>The question is asking about the primary language spoken in Australia, and I should answer directly and clearly.</think>\nIn Australia, they speak English.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 231,
+    "completion_tokens": 31,
+    "total_tokens": 262
+  },
+  "finish_reason": "stop"
+}

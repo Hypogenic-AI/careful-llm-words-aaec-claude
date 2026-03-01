@@ -1,0 +1,10 @@
+{
+  "text": "WINNER: B  \nREASON: Response B provides more specific, detailed, and accurate information about the mechanisms by which climate change affects ocean ecosystems, and avoids unsupported or overconfident claims by clearly outlining each effect with factual explanations.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 526,
+    "completion_tokens": 47,
+    "total_tokens": 573
+  },
+  "finish_reason": "stop"
+}

@@ -1,0 +1,10 @@
+{
+  "text": "WINNER: TIE\nREASON: Both responses accurately explain Rayleigh scattering and why the sky appears blue during the day and red at sunset, without making unsupported or overconfident claims. Both are factually correct and appropriately cautious in their explanations.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 793,
+    "completion_tokens": 51,
+    "total_tokens": 844
+  },
+  "finish_reason": "stop"
+}

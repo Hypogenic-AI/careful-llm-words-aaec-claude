@@ -1,0 +1,10 @@
+{
+  "text": "If your income increases and you move into a higher tax bracket in the U.S., **only the income that falls within the higher bracket is taxed at the higher rate**\u2014not all of your income. The U.S. uses a **progressive tax system** with marginal tax rates. This means:\n\n- The portion of your income within each bracket is taxed at that bracket\u2019s rate.\n- When your income increases and crosses into a new bracket, only the *additional* income above the threshold is taxed at the higher rate.\n\n**Your take-home pay will still increase** when you earn more, but the *extra* amount you earn is taxed at a higher rate.\n\n**Example:**  \nSuppose the 22% tax bracket ends at $95,375 and the 24% bracket starts at $95,376.\n\n- If you make $95,000, all your taxable income above the lower brackets up to $95,000 is taxed at 22% or lower.\n- If you get a raise to $96,000, the first $95,375 is taxed at the lower rates (10%, 12%, 22%), and only the $625 above $95,375 ($96,000 \u2013 $95,375) is taxed at 24%.\n\n**Summary:**  \nMoving into a higher tax bracket does *not* mean all your income is taxed at the higher rate\u2014only the income above the bracket's threshold is. Your take-home pay still rises as your income increases.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 49,
+    "completion_tokens": 303,
+    "total_tokens": 352
+  },
+  "finish_reason": "stop"
+}

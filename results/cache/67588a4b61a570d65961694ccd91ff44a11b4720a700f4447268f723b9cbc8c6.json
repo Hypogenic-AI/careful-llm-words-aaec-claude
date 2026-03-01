@@ -1,0 +1,10 @@
+{
+  "text": "WINNER: B\nREASON: Response B provides more depth and nuance by distinguishing between positive and negative consequences, offering more detailed explanations, and including additional causes such as social and cultural factors, as well as issues like unemployment and underemployment.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 950,
+    "completion_tokens": 49,
+    "total_tokens": 999
+  },
+  "finish_reason": "stop"
+}

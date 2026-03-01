@@ -1,0 +1,10 @@
+{
+  "text": "**How do black holes form?**  \nBlack holes form when a massive star (typically at least about 20 times the mass of our Sun) runs out of nuclear fuel. Without the outward pressure from fusion reactions, gravity causes the star\u2019s core to collapse. In some cases, this collapse is so extreme that the core is compressed into a single point of infinite density, called a singularity, surrounded by a region from which nothing\u2014not even light\u2014can escape. This is the birth of a black hole.\n\nOther ways black holes can form include:\n- **Mergers of neutron stars:** Two neutron stars can collide and collapse into a black hole.\n- **Direct collapse:** In the early universe, massive clouds of gas may collapse directly into black holes.\n\n---\n\n**What happens at the event horizon?**  \nThe event horizon is the boundary around a black hole beyond which nothing can escape, not even light. It\u2019s not a physical surface, but rather a point of no return.\n\n- **From outside:** To a distant observer, anything approaching the event horizon appears to slow down and never quite crosses it, due to the effects of extreme gravity on time (gravitational time dilation). Light from the object becomes increasingly redshifted and dimmer.\n- **From the falling object\u2019s perspective:** The object passes through the event horizon without noticing anything unusual at that exact point. Once inside, however, it cannot escape and is inevitably pulled toward the singularity.\n\nThe event horizon essentially marks the limit where escape velocity equals the speed of light. What happens inside the event horizon remains one of the greatest mysteries in physics, as our current theories break down at the singularity.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 38,
+    "completion_tokens": 337,
+    "total_tokens": 375
+  },
+  "finish_reason": "stop"
+}

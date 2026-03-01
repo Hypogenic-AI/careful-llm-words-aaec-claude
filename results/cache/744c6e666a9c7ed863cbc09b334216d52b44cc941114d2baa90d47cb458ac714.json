@@ -1,0 +1,10 @@
+{
+  "text": "Let the time it takes Tom to catch up be \\( t \\) hours.\n\nBob's head start: 75 miles  \nBob's speed: 55 mph  \nTom's speed: 70 mph  \nRelative speed (Tom catching up): \\( 70 - 55 = 15 \\) mph\n\nTime to catch up:  \n\\[\nt = \\frac{\\text{distance}}{\\text{relative speed}} = \\frac{75}{15} = 5 \\text{ hours}\n\\]\n\n#### 5",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 70,
+    "completion_tokens": 105,
+    "total_tokens": 175
+  },
+  "finish_reason": "stop"
+}

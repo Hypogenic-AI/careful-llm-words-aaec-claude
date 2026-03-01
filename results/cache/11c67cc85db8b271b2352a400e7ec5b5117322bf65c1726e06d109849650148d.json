@@ -1,0 +1,10 @@
+{
+  "text": "<think>I should begin by clarifying that, in Australia, there are very few situations where hiring a lawyer is legally mandatory, so I need to clearly state that first.</think>\nIn Australia, there are almost no situations where the law absolutely requires you to hire a lawyer. \n<think>Now, I should explain that while legal representation is often strongly recommended, it is not compulsory in most legal matters, including criminal and civil cases.</think>\nFor most court cases\u2014including criminal, civil, and family law\u2014you are generally allowed to represent yourself if you choose. \n<think>I should note, however, that in some higher courts or complex matters, self-representation may be strongly discouraged or practically difficult, but not strictly forbidden.</think>\nIn higher courts like the Supreme Court or Federal Court, the procedures can be so complex that hiring a lawyer is highly advisable, though it is still not strictly compulsory.\n<think>Next, I should mention the exception of incorporated entities, as companies usually cannot appear in court except through a lawyer.</think>\nOne important exception is that companies (as opposed to individuals) usually must be represented by a lawyer in court.\n<think>I should elaborate that this requirement is particularly relevant in higher courts and is based on court rules rather than general law.</think>\nThis requirement is especially enforced in higher jurisdictions and is determined by the rules of the specific court.\n<think>Finally, I should summarize that while legal advice is often wise, for most people and most cases, hiring a lawyer is a choice, not a legal necessity.</think>\nIn summary, for individuals, hiring a lawyer in Australia is almost always optional rather than mandatory, except in specific circumstances such as corporate representation in court.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 220,
+    "completion_tokens": 346,
+    "total_tokens": 566
+  },
+  "finish_reason": "stop"
+}

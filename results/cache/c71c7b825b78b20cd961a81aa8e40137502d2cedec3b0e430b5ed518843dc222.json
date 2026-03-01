@@ -1,0 +1,10 @@
+{
+  "text": "WINNER: TIE  \nREASON: Both responses are factually accurate, avoid unsupported or overconfident claims, and provide clear definitions and examples. While Response B is more detailed and structured, neither response makes any factual errors or overstatements.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 694,
+    "completion_tokens": 51,
+    "total_tokens": 745
+  },
+  "finish_reason": "stop"
+}

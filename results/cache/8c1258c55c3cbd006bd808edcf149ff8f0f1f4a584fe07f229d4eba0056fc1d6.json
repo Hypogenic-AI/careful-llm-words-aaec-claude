@@ -1,0 +1,10 @@
+{
+  "text": "<think>I should begin by acknowledging the public interest and speculation about what lies beneath Denver International Airport (DIA).</think>\nThere has been significant speculation and curiosity about what is located beneath Denver International Airport.  \n<think>Now I should provide a factual explanation about the airport's underground structures, focusing on known and verifiable information.</think>\nBeneath the airport, there is a network of tunnels and rooms primarily used for baggage handling, airport operations, and maintenance.  \n<think>I should clarify that while the underground facilities are large and complex, their purpose is mostly mundane and related to airport logistics.</think>\nThese underground spaces were originally designed to house an automated baggage system, which ultimately failed and is no longer in use.  \n<think>It would be helpful to mention the conspiracy theories for context, but make clear that there is no credible evidence to support them.</think>\nSome conspiracy theories claim there are secret bunkers or hidden facilities under the airport, but there is no credible evidence to support these claims.  \n<think>I should finish by emphasizing the most reliable sources of information regarding this topic.</think>\nMost of what is known about the underground areas comes from airport tours, official statements, and investigative reporting.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 214,
+    "completion_tokens": 246,
+    "total_tokens": 460
+  },
+  "finish_reason": "stop"
+}

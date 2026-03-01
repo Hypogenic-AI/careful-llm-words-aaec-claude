@@ -1,0 +1,10 @@
+{
+  "text": "Yes, every cat is a cat by definition. The statement \"every cat is a cat\" is a tautology (always true), because if something is categorized as a \"cat,\" then it is, by definition, a cat.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 31,
+    "completion_tokens": 47,
+    "total_tokens": 78
+  },
+  "finish_reason": "stop"
+}

@@ -1,0 +1,10 @@
+{
+  "text": "WINNER: A\nREASON: Response A provides a more detailed and nuanced explanation of the impacts of climate change on ocean ecosystems, with each point supported by widely accepted scientific understanding and without making unsupported or overconfident claims.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 887,
+    "completion_tokens": 46,
+    "total_tokens": 933
+  },
+  "finish_reason": "stop"
+}

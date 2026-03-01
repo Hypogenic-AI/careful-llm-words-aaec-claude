@@ -1,0 +1,10 @@
+{
+  "text": "When a nuclear reactor \"goes critical,\" it means that the nuclear fission chain reaction inside the reactor is self-sustaining. In other words, each fission event releases enough neutrons to sustain an ongoing series of reactions, so the reactor produces a constant amount of energy. This is a controlled and normal operating condition for a reactor\u2014\"critical\" does **not** mean an emergency or dangerous situation. It simply means the reactor is operating at a steady state.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 36,
+    "completion_tokens": 95,
+    "total_tokens": 131
+  },
+  "finish_reason": "stop"
+}

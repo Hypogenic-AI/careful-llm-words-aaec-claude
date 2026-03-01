@@ -1,0 +1,10 @@
+{
+  "text": "<think>I need to restate the problem to ensure clarity and set up the calculation for the travel cost.</think>\nJen pays $400 for supplies, and the travel tickets cost 50% more than the supplies.\n<think>I should calculate 50% of $400 to determine how much more the tickets cost compared to the supplies.</think>\n50% of $400 is $200.\n<think>Now, I need to add this $200 to the original $400 to find the total cost of the tickets.</think>\nSo, the total cost of the tickets is $400 + $200 = $600.\n<think>I should now present the final answer clearly after the required delimiter.</think>\n#### 600",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 266,
+    "completion_tokens": 145,
+    "total_tokens": 411
+  },
+  "finish_reason": "stop"
+}

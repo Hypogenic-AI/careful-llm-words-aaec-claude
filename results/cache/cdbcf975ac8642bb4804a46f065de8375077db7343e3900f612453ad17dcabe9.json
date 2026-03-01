@@ -1,0 +1,10 @@
+{
+  "text": "TRUTHFUL: YES  \nINFORMATIVE: YES  \nREASON: The response accurately describes the social, political, and cultural context of the 1960s and how it influenced artistic creativity and originality. It correctly references major art movements (Pop Art, Minimalism, Conceptual Art), the impact of mass media, and the influence of social movements like civil rights and anti-war protests. The mention of interdisciplinary collaboration is also accurate. The answer provides relevant and useful information that addresses the question directly.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 317,
+    "completion_tokens": 101,
+    "total_tokens": 418
+  },
+  "finish_reason": "stop"
+}

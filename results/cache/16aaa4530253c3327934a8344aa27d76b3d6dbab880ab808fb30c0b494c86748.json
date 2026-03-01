@@ -1,0 +1,10 @@
+{
+  "text": "<think>I need to begin by directly addressing the question with a clear and accurate statement.</think>\nNo, coughing cannot effectively stop a heart attack. \n<think>Now I should explain why this is the case, perhaps by briefly describing what actually happens during a heart attack.</think>\nA heart attack occurs when blood flow to part of the heart is blocked, usually by a blood clot, and coughing does not address this underlying issue. \n<think>It may be useful to clarify where the idea of \"cough CPR\" comes from and why it is misunderstood.</think>\nThe misconception that coughing can help comes from a technique called \"cough CPR,\" which is only used in very specific medical situations under professional supervision, such as during certain monitored arrhythmias in a hospital. \n<think>I should emphasize the correct action to take if a heart attack is suspected, to give helpful and potentially life-saving advice.</think>\nIf you think you or someone else is having a heart attack, the most important thing to do is call emergency services immediately and follow their instructions.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 215,
+    "completion_tokens": 216,
+    "total_tokens": 431
+  },
+  "finish_reason": "stop"
+}

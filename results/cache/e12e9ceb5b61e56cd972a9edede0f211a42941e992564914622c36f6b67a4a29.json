@@ -1,0 +1,10 @@
+{
+  "text": "Let's solve the problem step by step:\n\n**Step 1: Find the number of indoor plants.**  \nOne-fourth of the 100 plants are indoor plants:\n\\[\n\\text{Indoor plants} = \\frac{1}{4} \\times 100 = 25\n\\]\n\n**Step 2: Find the number of remaining plants after indoor plants are counted.**  \n\\[\n\\text{Remaining plants} = 100 - 25 = 75\n\\]\n\n**Step 3: Find the number of outdoor plants.**  \nTwo-thirds of the remaining plants are outdoor plants:\n\\[\n\\text{Outdoor plants} = \\frac{2}{3} \\times 75 = 50\n\\]\n\n**Step 4: Find the number of flowering plants.**  \nThe rest of the plants are flowering plants:\n\\[\n\\text{Flowering plants} = 75 - 50 = 25\n\\]\n\n**Step 5: Find the percentage of flowering plants.**  \n\\[\n\\text{Percentage of flowering plants} = \\frac{25}{100} \\times 100\\% = 25\\%\n\\]\n\n#### 25%",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 85,
+    "completion_tokens": 242,
+    "total_tokens": 327
+  },
+  "finish_reason": "stop"
+}

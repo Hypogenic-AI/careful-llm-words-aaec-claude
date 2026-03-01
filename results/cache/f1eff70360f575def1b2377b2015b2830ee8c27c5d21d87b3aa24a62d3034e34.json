@@ -1,0 +1,10 @@
+{
+  "text": "Let's break down the problem step by step:\n\n1. **Total cost of classes:** $60  \n2. **Total number of classes:** 10  \n3. **Maximum allowed cost per class:** $10  \n\nWe need to find out how many classes Manny can miss so that the cost per class does **not** exceed $10.\n\nLet \\( x \\) be the number of classes Manny attends.\n\n- The cost per class is \\( \\frac{60}{x} \\).\n- We want \\( \\frac{60}{x} \\leq 10 \\).\n\nLet's solve for \\( x \\):\n\n\\[\n\\frac{60}{x} \\leq 10\n\\]\n\n\\[\n60 \\leq 10x\n\\]\n\n\\[\n6 \\leq x\n\\]\n\nSo, Manny must attend **at least 6 classes**.\n\n- If he attends 6 classes: \\( \\frac{60}{6} = 10 \\) dollars per class (exactly at the limit).\n- If he attends fewer than 6 classes, the cost per class will be more than $10.\n\nSince there are 10 classes in total, the number of classes he can miss is:\n\n\\[\n10 - 6 = 4\n\\]\n\nSo, Manny can miss **up to 4 classes**.\n\n#### 4",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 97,
+    "completion_tokens": 272,
+    "total_tokens": 369
+  },
+  "finish_reason": "stop"
+}

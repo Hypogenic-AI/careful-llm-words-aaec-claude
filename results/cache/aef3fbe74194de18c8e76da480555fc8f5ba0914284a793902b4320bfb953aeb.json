@@ -1,0 +1,10 @@
+{
+  "text": "WINNER: A  \nREASON: Response A is more coherent and well-structured, providing clear headings, logical progression, and detailed explanations for each point, resulting in a more thorough and organized answer.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 824,
+    "completion_tokens": 41,
+    "total_tokens": 865
+  },
+  "finish_reason": "stop"
+}

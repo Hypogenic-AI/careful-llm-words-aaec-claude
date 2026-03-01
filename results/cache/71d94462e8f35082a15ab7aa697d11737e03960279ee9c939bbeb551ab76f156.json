@@ -1,0 +1,10 @@
+{
+  "text": "As of June 2024, Apple's market capitalization is approximately **$3.2 trillion USD**. Please note that market caps fluctuate with share prices, so it's best to check a reliable financial news source or stock market website for the most up-to-date figure.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 34,
+    "completion_tokens": 53,
+    "total_tokens": 87
+  },
+  "finish_reason": "stop"
+}

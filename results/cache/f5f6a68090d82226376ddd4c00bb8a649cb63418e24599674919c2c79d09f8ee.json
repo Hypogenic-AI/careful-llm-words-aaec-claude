@@ -1,0 +1,10 @@
+{
+  "text": "WINNER: B\nREASON: Both responses are factually accurate, but Response B is slightly more careful in its language, especially regarding the singularity (\"current theories break down at the singularity\") and what happens at the event horizon, thus avoiding overconfident or unsupported claims.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 1047,
+    "completion_tokens": 58,
+    "total_tokens": 1105
+  },
+  "finish_reason": "stop"
+}

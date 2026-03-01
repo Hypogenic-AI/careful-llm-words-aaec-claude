@@ -1,0 +1,10 @@
+{
+  "text": "Let's break down the problem:\n\n- Craig has spelled 20 words, each with 15 letters.\n- Total letters Craig spelled: \\( 20 \\times 15 = 300 \\)\n- Craig's brother spelled words with a total letter count 50 more than Craig: \\( 300 + 50 = 350 \\)\n- Total letters spelled by both: \\( 300 + 350 = 650 \\)\n\nFinal answer:\n\n#### 650",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 110,
+    "completion_tokens": 90,
+    "total_tokens": 200
+  },
+  "finish_reason": "stop"
+}

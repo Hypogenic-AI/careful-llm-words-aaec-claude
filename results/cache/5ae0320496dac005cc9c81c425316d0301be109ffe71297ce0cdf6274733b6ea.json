@@ -1,0 +1,10 @@
+{
+  "text": "WINNER: B\nREASON: Response B provides more depth and nuance, offering concrete examples (e.g., Latin evolving into Romance languages, creoles), discussing social prestige, stigma, and preservation efforts, and giving a more thorough analysis of both language evolution and extinction.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 1004,
+    "completion_tokens": 55,
+    "total_tokens": 1059
+  },
+  "finish_reason": "stop"
+}

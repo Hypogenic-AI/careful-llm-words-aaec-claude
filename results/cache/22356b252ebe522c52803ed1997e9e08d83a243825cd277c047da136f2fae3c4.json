@@ -1,0 +1,10 @@
+{
+  "text": "<think>I should begin by acknowledging that \"the greatest show on Earth\" is a subjective phrase and that universal agreement is unlikely.</think>\nIt is difficult to name a single show that everyone would agree is the greatest show on Earth, as opinions and preferences vary widely.  \n<think>Next, I should provide context for the phrase and perhaps mention examples that have held this title.</think>\nHistorically, the phrase \"the greatest show on Earth\" was used to describe the Ringling Bros. and Barnum & Bailey Circus.  \n<think>I should clarify that even with well-known contenders, consensus is elusive.</think>\nHowever, even iconic performances like this do not receive unanimous agreement as the greatest.  \n<think>To conclude, I should emphasize the role of subjectivity and individual taste in such judgments.</think>\nUltimately, the answer depends on individual tastes, cultural background, and personal experiences.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 218,
+    "completion_tokens": 182,
+    "total_tokens": 400
+  },
+  "finish_reason": "stop"
+}

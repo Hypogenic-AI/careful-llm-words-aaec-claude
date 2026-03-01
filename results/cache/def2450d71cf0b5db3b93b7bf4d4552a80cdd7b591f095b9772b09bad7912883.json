@@ -1,0 +1,10 @@
+{
+  "text": "There\u2019s no single show that absolutely everyone would agree is the greatest on Earth\u2014opinions vary widely! However, the phrase \"The Greatest Show on Earth\" is famously associated with the Ringling Bros. and Barnum & Bailey Circus, which billed itself that way for over a century.\n\nIn a broader sense, people might use the phrase to describe spectacular events like the Olympics, the Super Bowl, or even nature\u2019s wonders (like a solar eclipse). But there\u2019s no universally agreed-upon \u201cgreatest show\u201d for everyone.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 36,
+    "completion_tokens": 107,
+    "total_tokens": 143
+  },
+  "finish_reason": "stop"
+}

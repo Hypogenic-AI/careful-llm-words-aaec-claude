@@ -1,0 +1,10 @@
+{
+  "text": "<think>I should start by stating how many crabs Bo has, since that is given directly in the problem.</think>\nBo has 40 crabs.\n<think>Next, I need to determine how many crabs Monic has, using the information that Monic has 4 fewer crabs than Bo.</think>\nMonic has 40 - 4 = 36 crabs.\n<think>Now, I should calculate how many crabs Rani has, knowing that Rani has ten more crabs than Monic.</think>\nRani has 36 + 10 = 46 crabs.\n<think>Finally, I need to sum the number of crabs each person has to find the total.</think>\nThe total number of crabs the three have together is 40 + 36 + 46 = 122.\n<think>I should now present the final answer after the required ####.</think>\n#### 122",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 256,
+    "completion_tokens": 191,
+    "total_tokens": 447
+  },
+  "finish_reason": "stop"
+}

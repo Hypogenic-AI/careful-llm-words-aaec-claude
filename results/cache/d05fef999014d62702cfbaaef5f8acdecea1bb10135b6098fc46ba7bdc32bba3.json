@@ -1,0 +1,10 @@
+{
+  "text": "<think>I should start by briefly explaining what vaccines are and their primary function.</think>\nVaccines are medical preparations that help the immune system recognize and fight specific diseases without causing the illness itself. \n<think>Now, I should clarify how vaccines achieve this effect in the body.</think>\nThey usually contain small, harmless pieces of the disease-causing organism, such as proteins or inactivated viruses, which stimulate the immune system to create a memory of the pathogen. \n<think>Next, I need to explain the importance of this immune memory for future protection.</think>\nThis memory enables the body to respond more quickly and effectively if exposed to the actual disease in the future, often preventing illness altogether. \n<think>Now it's important to transition to the concept of herd immunity and its relationship to vaccination.</think>\nHerd immunity occurs when a large portion of a community becomes immune to a disease, making its spread from person to person unlikely. \n<think>I should explain why herd immunity is beneficial, especially for vulnerable populations.</think>\nThis protects people who cannot be vaccinated, such as those with certain medical conditions, by reducing their risk of exposure to the disease. \n<think>To conclude, I should emphasize the combined importance of individual vaccination and community protection.</think>\nTherefore, widespread vaccination not only safeguards individuals but also contributes to the health of the entire community.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 217,
+    "completion_tokens": 277,
+    "total_tokens": 494
+  },
+  "finish_reason": "stop"
+}

@@ -1,0 +1,10 @@
+{
+  "text": "In Australia, you are **not legally required** to hire a lawyer in most situations. Individuals are generally allowed to represent themselves in legal matters, including in court. However, there are a **few specific circumstances where you must have a lawyer** or qualified legal representation:\n\n1. **Corporations in Court:**  \n   - In higher courts (such as the Federal Court of Australia or the Supreme Courts of states/territories), a company (corporation) must be represented by a lawyer if it is a party to the proceedings. Companies generally **cannot represent themselves** except with special permission from the court.\n\n2. **High Court of Australia:**  \n   - In most cases before the High Court, legal representation is required, and self-representation is subject to strict rules and usually discouraged.\n\n3. **Some Family Law Matters (Child Representation):**  \n   - In rare and complex family law cases, the court may appoint an Independent Children\u2019s Lawyer. However, the parties themselves are not *required* to have their own lawyer.\n\n4. **Some Immigration/Refugee Tribunals:**  \n   - Certain tribunals may require legal representatives for procedural reasons, but this is uncommon.\n\n**In summary:**  \nFor most individuals, there is **no absolute requirement** to hire a lawyer in Australian legal matters, including criminal, civil, and family law cases. However, a **company (not an individual)** usually **must** be represented by a lawyer in higher courts.\n\n**Note:** Even when not required, hiring a lawyer is strongly recommended for complex legal matters to ensure your interests are properly protected.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 38,
+    "completion_tokens": 324,
+    "total_tokens": 362
+  },
+  "finish_reason": "stop"
+}

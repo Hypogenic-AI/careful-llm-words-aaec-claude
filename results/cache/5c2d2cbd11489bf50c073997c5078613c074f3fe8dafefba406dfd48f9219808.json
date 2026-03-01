@@ -1,0 +1,10 @@
+{
+  "text": "<think>I want to start with a general statement about language evolution to set the stage.</think>\nLanguages evolve as speakers change the way they use words, grammar, and pronunciation over time.  \n<think>Now I should explain what causes these changes, to add context to the process.</think>\nThese changes can be influenced by contact with other languages, technological advances, social shifts, and the natural tendency of language to simplify or innovate.  \n<think>Next, I want to transition into language death and why some languages disappear, connecting it to evolution.</think>\nSome languages die out when their speakers shift to using another, often more dominant, language for economic, political, or cultural reasons.  \n<think>I should clarify what happens as a result of this shift and why it leads to language death.</think>\nWhen children stop learning a language as their first language, it gradually loses its speakers and can eventually become extinct.  \n<think>To finish, I should summarize and tie both concepts together.</think>\nIn summary, languages constantly evolve, but some disappear entirely when social and historical pressures favor other languages instead.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 218,
+    "completion_tokens": 225,
+    "total_tokens": 443
+  },
+  "finish_reason": "stop"
+}

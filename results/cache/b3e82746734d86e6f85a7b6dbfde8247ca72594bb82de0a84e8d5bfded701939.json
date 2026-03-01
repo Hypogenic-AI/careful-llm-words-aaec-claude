@@ -1,0 +1,10 @@
+{
+  "text": "Let's break down the problem step by step:\n\n**Step 1: Calculate the total reading time in the first week.**\n\n- Judy reads for 15 minutes each night.\n- There are 7 days in a week.\n\nTotal reading time in the first week = 15 minutes/night \u00d7 7 nights = 105 minutes\n\n---\n\n**Step 2: Calculate how many pages Judy reads per minute.**\n\n- She reads 2 pages in 1.5 minutes.\n\nPages per minute = 2 pages / 1.5 minutes = 4/3 pages per minute \u2248 1.333 pages per minute\n\n---\n\n**Step 3: Calculate how many pages Judy read in the first week.**\n\nPages read in the first week = Total minutes \u00d7 Pages per minute  \n= 105 minutes \u00d7 (4/3) pages per minute  \n= 105 \u00d7 4 / 3  \n= 420 / 3  \n= 140 pages\n\n---\n\n**Step 4: Add the pages read in the second week.**\n\n- In the second week, she read 100 pages.\n\nTotal pages in two weeks = Pages in first week + Pages in second week  \n= 140 + 100  \n= 240\n\n---\n\n**Final Answer:**\n\n#### 240",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 95,
+    "completion_tokens": 258,
+    "total_tokens": 353
+  },
+  "finish_reason": "stop"
+}

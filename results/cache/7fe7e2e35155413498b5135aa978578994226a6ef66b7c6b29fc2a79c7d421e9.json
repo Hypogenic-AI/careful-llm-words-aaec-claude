@@ -1,0 +1,10 @@
+{
+  "text": "<think>I should begin by clarifying what PISA is and the context of the scores to ensure the reader understands the basis for comparison.</think>\nPISA, the Programme for International Student Assessment, evaluates educational systems worldwide by testing the skills and knowledge of 15-year-old students in reading, mathematics, and science every three years.\n<think>Now, I should specify which countries are considered part of Northern Europe for the purposes of this question, to avoid ambiguity.</think>\nNorthern Europe typically includes countries such as Denmark, Estonia, Finland, Iceland, Latvia, Lithuania, Norway, and Sweden.\n<think>I should now address which country among these has performed best on PISA since 2015, focusing on their average scores and international rankings.</think>\nSince 2015, Estonia has consistently achieved the highest PISA scores among Northern European countries, performing exceptionally well in all three tested subjects.\n<think>It would be useful to mention how Estonia's scores compare internationally for added context.</think>\nEstonia has ranked among the top countries globally, especially in science and reading, often surpassing not only its regional neighbors but also most OECD countries.\n<think>I should conclude by summarizing why Estonia is considered the top performer in Northern Europe based on PISA results.</think>\nTherefore, Estonia is widely recognized as having the best PISA scores in Northern Europe since 2015.",
+  "model": "gpt-4.1",
+  "usage": {
+    "prompt_tokens": 224,
+    "completion_tokens": 278,
+    "total_tokens": 502
+  },
+  "finish_reason": "stop"
+}
